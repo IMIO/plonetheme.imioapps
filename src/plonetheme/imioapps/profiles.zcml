@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plonetheme.imioapps">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="plonetheme.imioapps"
+      directory="profiles/default"
+      description="Installs the plonetheme.imioapps package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="plonemeetingskin"
+      title="plonemeetingskin"
+      directory="profiles/plonemeetingskin"
+      description="Extension profile for plonemeetingskin Product."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

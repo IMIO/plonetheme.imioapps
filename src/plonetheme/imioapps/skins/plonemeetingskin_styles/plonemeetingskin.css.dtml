@@ -11,10 +11,28 @@
 /* <dtml-with base_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-/*  #  add some space at the bottom of the contentHistory  
-.reviewHistory, .contentHistory {
-    padding-right: 1em;
-}  */
+
+/* display the category list correctly */
+#category {
+    color: ButtonText;
+    font-size: inherit;
+    margin-bottom: inherit;
+    text-align: inherit;
+}
+
+#content h1.documentFirstHeading {
+    border-bottom: 1px solid #A9C1DB
+}
+
+.portletHs {
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* remove default table margin-bottom under item number navigation on items lists */
+#content table.itemsNavigation {
+    margin-bottom: 0em;
+}
+
 #objectHistory {
     margin-bottom: 1em;
 }
@@ -40,55 +58,6 @@ li.formTab a.selected, li.formTab a:hover {
 
 ul.formTabs {
     margin: 0 0 -1.5em;
-}
-
-#portal-footer {
-color: white;
-}
-
-#portal-footer a, #portal-footer a:visited {
-color:white;
-text-decoration: underline;
-}
-
-.discreet {
-color:#686D71;
-font-size:90%;
-}
-
-/*.documentContent fieldset {
-border-color:#686D71 white white;
-border-style:solid;
-border-width:1px 0 0 !important;
-}*/
-
-.documentContent fieldset {
-border-color:#CBCED1;
-}
-
-legend {
-color:#686D71;
-font-size:90%;
-font-weight:bold;
-/*margin-left:-21px;*/
-}
-
-.state-proposed {
-color:#F98D00 !important;
-}
-
-.state-presented {
-color:#940112 !important;
-}
-
-#portal-header {
-background-image: url(&dtml-portal_url;/header-bg.gif);
-background-repeat:repeat-x;
-}
-
-#portal-logo{
-margin: 5px 0px 10px 43px;
-outline:none;
 }
 
 #portal-siteactions li a {
@@ -117,6 +86,10 @@ border: 0;
 background-color: &dtml-globalBackgroundColor;;
 }
 
+/* add some space between 'manage portlets' link and last portlet above */
+div.managePortletsLink, a.managePortletsFallback {
+margin-top: 0.5em;
+}
 
 #portlet-prefs .portletItem {
 padding: 1em 0;
@@ -134,7 +107,7 @@ padding: 0 1em;
 .portletHeader table td, .portletHeader table td a {
 background-color: &dtml-globalBackgroundColor;;
 color:white !important;
-text-align:center;
+text-align: left;
 }
 
 .portletMeetingItem {
@@ -161,26 +134,6 @@ background-color: #E6EBF0;
 
 .portletMeetingElementSelected a {
 color:#496A93;
-}
-
-#portal-globalnav{
-/*margin-bottom: -2px;*/
-}
-
-#portal-globalnav li a {
-background-color: #ffffff ;
-font-size:17px;
-padding:1px 1.25em 0em 1.25em;
-}
-
-#portal-globalnav li a:hover {
-border-color:#496A93;
-color:#ffffff;
-}
-
-#portal-globalnav li.selected a {
-border-color:#496A93;
-color:#FFFFFF;
 }
 
 #portal-personaltools li a {
@@ -223,14 +176,6 @@ background: url("&dtml-portal_url;/linkOpaque.gif") no-repeat scroll 9px 1px whi
 
 .portletMeetingItem p {
 margin: 0;
-}
-
-legend {
-color:#47494A;
-}
-
-.discreet  {
-color:#47494A;
 }
 
 /* Adapt default collapsible to correspond to the recoded same thing in PM... */

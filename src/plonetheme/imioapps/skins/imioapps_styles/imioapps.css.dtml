@@ -1,0 +1,600 @@
+/*
+ *  This is the file where you put your CSS changes. 
+ *  You should preferrably use this and override the 
+ *  relevant properties you want to change here instead 
+ *  of customizing plone.css to survive upgrades. Writing
+ *  your own plone.css only makes sense for very heavy 
+ *  customizations. Useful variables from Plone are 
+ *  documented at the bottom of this file.
+ */
+ 
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+body {
+    color: Black;
+    font: 100% "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+}
+
+div.width-full #content {
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 95.75%;
+}
+div.width-full dl {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* largeur et padding des colonnes */
+div.width-1\:4 {
+    width: 15%;
+}
+div.position-1\:4 {
+    margin-left: -83.5%
+}
+div.width-1\:2 {
+    width: 60%;
+    padding: 1%;
+}
+div.position-3\:4 {
+    margin-left: -20%;
+}
+div.width-3\:4 {
+    width: 83%;
+    padding: 1%;
+}
+
+#portal-column-content {
+    padding: 0.5em 0 0;
+}
+
+
+#form-container input{
+min-width: 8em;
+}
+
+input {
+font-size: 13px;
+letter-spacing: 1px;
+}
+
+#portal-column-one {
+padding-top: 0.75em;
+font-size: 90%;
+}
+
+#portal-column-one a {
+color: &dtml-linkColor;;
+}
+
+h1 {
+color:#3F5F7F;
+font-weight: normal;
+}
+
+.managePortletsFallback {
+color:#205C90 !important;
+}
+
+html {
+overflow-y: scroll;
+}
+
+#visual-portal-wrapper{
+background: url("header-bg.gif") repeat-x scroll 0 0 transparent;
+}
+
+/* styles du foldercontents concernant la couleur des liens pour gerer
+la selection des elements affiches */
+
+#foldercontents-show-batched, #foldercontents-selectall-completebatch,
+#foldercontents-selectall, #foldercontents-clearselection,
+#foldercontents-show-all {
+color: white;
+text-decoration: underline;
+}
+
+.documentContent dd a {
+border:0;
+}
+
+label {
+font-weight: normal !important;
+}
+
+.formQuestion {
+font-weight: bold !important;
+}
+
+ul.formTabs { 
+margin-bottom: 0 !important;
+}
+
+
+li.formTab a.selected {
+color: white;
+}
+
+li.formTab a:hover {
+color: white;
+}
+
+dl.enableFormTabbing dd {
+padding-top:0;
+}
+
+.field {
+    margin-bottom: 0.5em;
+}
+
+/* La couleur gris fonce par defaut n'est pas tres visible dans le titre
+des colonnes des tables dont la classe est listing ... */
+
+TH .discreet {
+ color: lightgrey;
+}
+
+#content .discreet {
+font-size: 90% !important;
+}
+
+#content fieldset {
+    border: 0.1em solid &dtml-globalBorderColor;;
+}
+
+legend {
+color:#686D71;
+font-size:90%;
+font-weight:bold;
+/*margin-left:-21px;*/
+}
+
+#portal-header {
+background-image: url(header-bg.gif);
+background-repeat:repeat-x;
+padding-right:0em;
+margin:0 -1.13% 0 -1.12%;
+}
+
+#portal-logo{
+margin: 5px 0px 10px 43px;
+}
+
+#portal-siteactions li a {
+border:0 solid #fff;
+}
+
+#portal-siteactions li a:hover {
+border:0 solid #fff;
+background-color: #00284c;
+color:#fff;
+}
+
+/*** portal-personaltoolbar ***/
+
+#portal-personaltools {
+background-color:#496a93;
+border-top: 1px solid #0a375c;
+border-bottom:0px;
+}
+
+#portal-personaltools a:link {
+color: #fff;
+}
+
+#portal-personaltools li a {
+color:#fff;
+}
+
+#portal-personaltools dd {
+border-top-left-radius: 0.5em;
+background: none repeat scroll 0 0 #496a93;
+padding-bottom: 0.5em;
+padding-top: 0.5em;
+right: 0;
+border-width:0px;
+}
+
+dl.actionMenu.activated dd {
+border-width:0px 1px 0px 1px;
+border-style:solid;
+border-color:#fff;
+-moz-border-radius-bottomleft: 0.5em;
+-moz-border-radius-bottomright: 0.5em;
+-op-border-radius-bottomleft: 0.5em;
+-op-border-radius-bottomright: 0.5em;
+-webkit-border-radius-bottomleft: 0.5em;
+-webkit-border-radius-bottomright: 0.5em;
+min-width: 100%;
+position: absolute;
+width: auto;
+}
+
+/*** portal globalnav ***/
+
+#portal-globalnav {
+background: none repeat scroll 0 0 #F5F8F9;
+border-bottom: 6px solid &dtml-globalBackgroundColor;;
+clear: both;
+font-size: 80%;
+margin: 0;
+padding-left: 1.5em
+}
+
+#portal-globalnav li a {
+background: none repeat scroll 0 0 #DDDDDD;
+color:#213C68;
+font-size:17px;
+padding:0.1em 1em 0.1em;
+border-radius: 5px 5px 0px 0px;
+}
+
+#portal-globalnav li a:hover {
+background-color:&dtml-globalBackgroundColor;;
+border-color:#fff;
+color:#fff;
+}
+
+#portal-globalnav li.selected a {
+background-color: &dtml-globalBackgroundColor;;
+border-color:#fff;
+color:#fff;
+}
+
+#portal-globalnav li.selected a:hover {
+background-color: &dtml-globalBackgroundColor;;
+border-color:#fff;
+color:#fff;
+}
+
+.portletHeader {
+border-bottom: 1px solid #496A93;
+color:#fff;
+font-size:14px;
+text-align:center;
+}
+
+dl.portlet dt, div.portletAssignments div.portletHeader {
+background: none repeat scroll 0 0 #496A93;
+line-height: normal;
+padding: 0.42em 1em;
+}
+
+dl.portlet {
+border-width:1px;
+border-style:solid;
+border-color:&dtml-globalBackgroundColor;;
+-moz-border-radius : 0.5em;
+-op-border-radius : 0.5em;
+-webkit-border-radius : 0.5em;
+font-size: 80%;
+margin: 0 0 1em;
+}
+
+dl.portlet a {
+display:block;
+}
+
+dl.portlet a:hover {
+background-color:#E6EBF0;
+color:#1F4065;
+}
+
+div.position-1:4 {
+margin-left: -82.875%;
+}
+
+.portletMeetingItem {
+border-left:1px solid #f00;
+border-right:1px solid #f00;
+padding:1px 0 0 0 ;
+}
+
+.portletMeetingItem a {
+padding-left:5px;
+}
+
+.portletMeetingElementSelected {
+background-color: #E6EBF0;
+}
+
+.portletMeetingElementSelected a {
+color:#496A93;
+}
+
+.listing th, .stx table th {
+background-color:#E6EBF0;
+color: white;
+font-size:14px;
+}
+
+.listing a {
+font-size:14px;
+}
+
+.standalone, .documentEditable * .standalone {
+    -moz-border-radius: 0.3em;
+    background-color: orange;
+    background-image: url("exclamation.png");
+    background-position: -1px 2px;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    padding: 1px 1px 1px 9px;
+    text-shadow: black 1px 1px;
+}
+
+.portletHeader a {
+color: white;
+}
+
+.ptButton {
+color: #000;
+margin-right:5px !important;
+}
+
+/* color of the selected tab while editing an element (enableFormTabbing) */
+li.formTab a.selected {
+color: white;
+}
+
+li.formTab a:hover {
+color: white;
+}
+
+.listingBar a {
+color: white;
+}
+
+.listingBar .current {
+color: black;
+}
+
+.discreet {
+color:#686D71;
+font-size:90%;
+}
+
+#portal-footer {
+    background: none repeat scroll 0 0 #E3E3E3;
+    font-size: 75%;
+    line-height: 2em;
+    margin: 0.5em -1.13% 0.5em -1.12%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* links in the portal footer need to be visible... */
+#portal-footer a {
+ color:#165182;
+}
+
+#content {
+    margin-top: 0;
+}
+
+#content p {
+    margin-bottom: 0em;
+}
+
+#content a:visited, dl.portlet a:visited {
+    color: #205C90;
+    font-size: 100%;
+}
+
+#content a:hover, dl.portlet a:hover {
+    color: #14982B !important;
+}
+
+dl.portlet a:hover {
+    color: #395370 !important;
+}
+
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
+    padding: 0;
+}
+
+dl.portlet a:link {
+    border-bottom: 0.1em solid #CCCCCC;
+    color: #205C90;
+    font-size: 14px;
+    padding: 6px;
+}
+
+#portal-breadcrumbs {
+    margin-top: 0.5em;
+}
+
+#portal-breadcrumbs a {
+    color: &dtml-globalBackgroundColor;;
+}
+
+/*#content*/
+
+.urbanEditWithTabbing {
+    border-color: #DDDDDD !important;
+    border-style: none solid solid !important;
+    border-width: 4px !important;
+    clear: none;
+    margin: -1em 0 0;
+    padding: 1.5em 1em;
+    -moz-border-radius-bottomleft: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+}
+
+#content dl{
+margin-bottom:1px;
+}
+
+/*#content ul.formTabs*/
+
+#edit-bar{
+    margin-bottom: 0.5em;
+}
+
+/*#content .formTabs a{
+    -moz-border-radius-bottomleft: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+}*/
+
+#urbanViewWithTabbing .enableFormTabbing{
+    border-color: #DDDDDD;
+    border-style: none solid solid !important;
+    border-width: 4px !important;
+    margin-top:-1em;
+    -moz-border-radius-bottomleft: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+}
+
+/* special class used for fieldset displayed in the edit form to surround MasterBooleanWidget's fields */
+.urban-fieldset-masterbooleanwidget {
+-moz-border-radius-topleft: 0.5em;
+-moz-border-radius-topright: 0.5em;
+border-style: solid !important;
+padding-top: 0em;
+padding-bottom: 1em;
+}
+
+#content dd {
+    margin: 1em;
+    padding-top:1em;
+}
+
+#portal-searchbox {
+    margin: 0 9em 0 0;
+}
+
+/* table styles */
+.no-style-table {
+border: 0;
+padding: 0;
+margin: 0;
+}
+
+.no-style-table tr {
+border-bottom: 1px solid #EFEFEF;
+}
+
+table.listing td {
+padding-top: 0.25em;
+padding-bottom: 0.25em;
+}
+
+table.listing tbody tr.odd td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-right: 1px solid #DDDDDD;
+    padding-left: 1em;
+}
+table.listing tbody tr.even td {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-right: 1px solid #DDDDDD;
+    padding-left: 1em;
+}
+
+/* cache la derniere ligne */
+.no-style-table tr:last-child {
+    border-bottom: 0;
+}
+
+.no-style-table td {
+border: 0 !important;
+padding-left: 0 !important;
+margin: 0 !important;
+}
+
+/* override Sunburst */
+img {
+    vertical-align: baseline;
+}
+
+#content legend {
+    font-size: 100%;
+}
+
+dl.portalMessage {
+    margin: 0;
+}
+
+h1, h2 {
+    letter-spacing: 0em;
+}
+
+/* </dtml-with> */
+
+/* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
+
+ /* You can insert colors and other variables from Plone's 
+    base_properties by doing:
+    
+    & dtml-variableName ; (without the spaces, excluded here to not make it render)
+    
+    Example:
+    
+    myLink {
+        color: & dtml-fontColor ;   (again, without the spaces)
+    }
+ 
+   This means you can generate your own elements that use Plone's defaults,
+   and respect any customizations people have done. See base_properties for
+   the default values.
+ 
+   These are the available properties:
+   
+   logoName - the file name of the portal logo
+   
+   fontFamily - the font family used for all text that is not headers
+   
+   fontBaseSize - the base font size that everything is calculated from
+   
+   fontColor - the main font color
+   
+   fontSmallSize - used for various elements like buttons and discreet text
+   
+   discreetColor - the font color of discreet text
+
+   backgroundColor - the background color 
+   
+   linkColor - the color used on normal links
+
+   linkActiveColor - color used on active links
+
+   linkVisitedColor - color used on visited links
+   
+   borderWidth - the width of most borders in Plone
+   
+   borderStyle - the style of the border lines, normally solid
+   
+   borderStyleAnnotations - style of border lines on comments etc
+   
+   globalBorderColor - the border color used on the main tabs, the portlets etc
+   
+   globalBackgroundColor - background color for the selected tabs, portlet headings etc
+   
+   globalFontColor - the color of the font in the tabs and in portlet headings
+   
+   headingFontFamily - font family for h1/h2/h3/h4/h5/h6 headlines
+   
+   contentViewBorderColor - the content view tabs border color
+   
+   contentViewBackgroundColor - the content view tabs background color
+   
+   contentViewFontColor - the font color used in the content view tabs
+   
+   inputFontColor - the font color used for input elements
+   
+   textTransform - whether to lowercase text in portlets, tabs etc.
+   
+   evenRowBackgroundColor - the background color of even rows in listings
+   
+   oddRowBackgroundColor - the background color of even rows in listings
+   
+   notifyBorderColor - border color of notification elements like the status message, the calendar focus
+   
+   notifyBackgroundColor - background color of notification elements like the status message, the calendar focus
+   
+   helpBackgroundColor - background color of information pop-ups (currently not used)
+          
+ */
+
+

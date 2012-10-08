@@ -7,13 +7,8 @@
 
   <five:registerPackage package="." initialize=".initialize" />
 
-  <genericsetup:registerProfile
-      name="default"
-      title="plonetheme.imioapps"
-      directory="profiles/default"
-      description="Installs the plonetheme.imioapps package"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-  <!-- -*- extra stuff goes here -*- -->
+  <include file="skins.zcml" />
+
+  <include file="profiles.zcml" />
   
 </configure>
