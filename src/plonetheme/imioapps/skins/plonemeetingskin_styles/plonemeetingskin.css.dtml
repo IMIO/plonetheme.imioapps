@@ -1,0 +1,343 @@
+/*
+ *  This is the file where you put your CSS changes. 
+ *  You should preferrably use this and override the 
+ *  relevant properties you want to change here instead 
+ *  of customizing plone.css to survive upgrades. Writing
+ *  your own plone.css only makes sense for very heavy 
+ *  customizations. Useful variables from Plone are 
+ *  documented at the bottom of this file.
+ */
+ 
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/*  #  add some space at the bottom of the contentHistory  
+.reviewHistory, .contentHistory {
+    padding-right: 1em;
+}  */
+#objectHistory {
+    margin-bottom: 1em;
+}
+
+/* do not fix height or title of topics can not be displyed on 2 lines */
+.portletSection {
+    height: auto;
+}
+
+#portletplonemeeting .portletHeader td {
+color: white !important;
+}
+
+.portletHs .portletHeader td{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* configuration des tabs apparaissant sur les formulaires d'édition   */
+li.formTab a.selected, li.formTab a:hover {
+ color: white !important;
+}   
+
+ul.formTabs {
+    margin: 0 0 -1.5em;
+}
+
+#portal-footer {
+color: white;
+}
+
+#portal-footer a, #portal-footer a:visited {
+color:white;
+text-decoration: underline;
+}
+
+.discreet {
+color:#686D71;
+font-size:90%;
+}
+
+/*.documentContent fieldset {
+border-color:#686D71 white white;
+border-style:solid;
+border-width:1px 0 0 !important;
+}*/
+
+.documentContent fieldset {
+border-color:#CBCED1;
+}
+
+legend {
+color:#686D71;
+font-size:90%;
+font-weight:bold;
+/*margin-left:-21px;*/
+}
+
+.state-proposed {
+color:#F98D00 !important;
+}
+
+.state-presented {
+color:#940112 !important;
+}
+
+#portal-header {
+background-image: url(&dtml-portal_url;/header-bg.gif);
+background-repeat:repeat-x;
+}
+
+#portal-logo{
+margin: 5px 0px 10px 43px;
+outline:none;
+}
+
+#portal-siteactions li a {
+border:0 solid White;
+}
+
+#portal-siteactions li a:hover {
+border:0 solid White;
+background-color: #859FBD ;
+color:#ffffff;
+}
+
+#portal-personaltools {
+border-top:0px solid &dtml-globalBackgroundColor;;
+border-bottom:0px;
+}
+
+#portal-column-one .visualPadding {
+padding-left: 1em;
+}
+
+#portal-column-one .portletHeader, .portletHeader a, .managedPortlet .portletHeader, .managedPortlet .portletHeader a {
+color:white !important;
+font-weight: bold;
+border: 0;
+background-color: &dtml-globalBackgroundColor;;
+}
+
+
+#portlet-prefs .portletItem {
+padding: 1em 0;
+}
+
+.portletTodo {
+border: &dtml-borderStyle; &dtml-borderWidth; &dtml-globalBorderColor;;
+}
+
+#portlet-prefs dd li a {
+display: block;
+padding: 0 1em;
+}
+
+.portletHeader table td, .portletHeader table td a {
+background-color: &dtml-globalBackgroundColor;;
+color:white !important;
+text-align:center;
+}
+
+.portletMeetingItem {
+border-left:1px solid &dtml-globalBorderColor;;
+border-right:1px solid &dtml-globalBorderColor;;
+padding:1px 0 0 0 ;
+}
+
+.portletMeetingItem a {
+padding-left:5px;
+}
+
+dl.portlet a {
+display: block;
+}
+
+dl.portlet li a {
+display: inline;
+}
+
+.portletMeetingElementSelected {
+background-color: #E6EBF0;
+}
+
+.portletMeetingElementSelected a {
+color:#496A93;
+}
+
+#portal-globalnav{
+/*margin-bottom: -2px;*/
+}
+
+#portal-globalnav li a {
+background-color: #ffffff ;
+font-size:17px;
+padding:1px 1.25em 0em 1.25em;
+}
+
+#portal-globalnav li a:hover {
+border-color:#496A93;
+color:#ffffff;
+}
+
+#portal-globalnav li.selected a {
+border-color:#496A93;
+color:#FFFFFF;
+}
+
+#portal-personaltools li a {
+color:#ffffff;
+}
+
+.listing th, .stx table th {
+background-color:#E6EBF0;
+color:white;
+}
+
+.contentViews li a:hover{
+color: #1D4064 !important;
+}
+
+.pmButton {
+background-position: 5px 4px;
+color: white;
+}
+
+.pmLinks a:hover{
+color:#436976 !important;
+}
+
+.standalone, .documentEditable * .standalone {
+background: url("&dtml-portal_url;/linkOpaque.gif") no-repeat scroll 9px 1px white;
+}
+
+.listingBar {
+ color: white;
+}
+
+.listingBar a {
+ color: white;
+}
+
+.listingBar .current {
+ font-weight: bold;
+}
+
+.portletMeetingItem p {
+margin: 0;
+}
+
+legend {
+color:#47494A;
+}
+
+.discreet  {
+color:#47494A;
+}
+
+/* Adapt default collapsible to correspond to the recoded same thing in PM... */
+dl.collapsedInlineCollapsible, dt.collapsibleHeader {
+background-position: 0px !important;
+font-weight: normal;
+font-style: italic;
+font-size: 100% !important;
+}
+
+dl.collapsible {
+border: 0 !important;
+
+}
+
+dl.collapsible dt.collapsibleHeader {
+margin-left: 0px;
+}
+
+dd.collapsibleContent {
+padding: 0 !important;
+}
+
+.ploneMeetingSelectItemUnselected {
+  color: white;
+}
+
+/* this avoid space between the field title and the FCKeditor widget */
+.fckSaveField {
+height: 0;
+}
+
+/* </dtml-with> */
+
+/* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
+
+ /* You can insert colors and other variables from Plone's 
+    base_properties by doing:
+    
+    & dtml-variableName ; (without the spaces, excluded here to not make it render)
+    
+    Example:
+    
+    myLink {
+        color: & dtml-fontColor ;   (again, without the spaces)
+    }
+ 
+   This means you can generate your own elements that use Plone's defaults,
+   and respect any customizations people have done. See base_properties for
+   the default values.
+ 
+   These are the available properties:
+   
+   logoName - the file name of the portal logo
+   
+   fontFamily - the font family used for all text that is not headers
+   
+   fontBaseSize - the base font size that everything is calculated from
+   
+   fontColor - the main font color
+   
+   fontSmallSize - used for various elements like buttons and discreet text
+   
+   discreetColor - the font color of discreet text
+
+   backgroundColor - the background color 
+   
+   linkColor - the color used on normal links
+
+   linkActiveColor - color used on active links
+
+   linkVisitedColor - color used on visited links
+   
+   borderWidth - the width of most borders in Plone
+   
+   borderStyle - the style of the border lines, normally solid
+   
+   borderStyleAnnotations - style of border lines on comments etc
+   
+   globalBorderColor - the border color used on the main tabs, the portlets etc
+   
+   globalBackgroundColor - background color for the selected tabs, portlet headings etc
+   
+   globalFontColor - the color of the font in the tabs and in portlet headings
+   
+   headingFontFamily - font family for h1/h2/h3/h4/h5/h6 headlines
+   
+   contentViewBorderColor - the content view tabs border color
+   
+   contentViewBackgroundColor - the content view tabs background color
+   
+   contentViewFontColor - the font color used in the content view tabs
+   
+   inputFontColor - the font color used for input elements
+   
+   textTransform - whether to lowercase text in portlets, tabs etc.
+   
+   evenRowBackgroundColor - the background color of even rows in listings
+   
+   oddRowBackgroundColor - the background color of even rows in listings
+   
+   notifyBorderColor - border color of notification elements like the status message, the calendar focus
+   
+   notifyBackgroundColor - background color of notification elements like the status message, the calendar focus
+   
+   helpBackgroundColor - background color of information pop-ups (currently not used)
+          
+ */
+
+

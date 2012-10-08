@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="plonemeetingskin">
+
+ <object name="plonemeetingskin_images"
+    meta_type="Filesystem Directory View"
+    directory="plonemeetingskin/skins/plonemeetingskin_images"/>
+ <object name="plonemeetingskin_templates"
+    meta_type="Filesystem Directory View"
+    directory="plonemeetingskin/skins/plonemeetingskin_templates"/>
+ <object name="plonemeetingskin_styles"
+    meta_type="Filesystem Directory View"
+    directory="plonemeetingskin/skins/plonemeetingskin_styles"/>
+
+ <skin-path name="plonemeetingskin" based-on="Sunburst Theme">
+   <layer name="plonemeetingskin_images"
+          insert-after="custom"/>
+   <layer name="plonemeetingskin_templates"
+          insert-after="plonemeetingskin_images"/>
+   <layer name="plonemeetingskin_styles"
+          insert-after="plonemeetingskin_templates"/>
+ </skin-path>
+
+</object>
