@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False">
+
+ <object name="imioapps_images"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.imioapps:skins/imioapps_images"/>
+ <object name="imioapps_templates"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.imioapps:skins/imioapps_templates"/>
+ <object name="imioapps_styles"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.imioapps:skins/imioapps_styles"/>
+
+ <skin-path name="*" based-on="Sunburst Theme">
+   <layer name="imioapps_images"
+          insert-after="custom"/>
+   <layer name="imioapps_templates"
+          insert-after="imioapps_images"/>
+   <layer name="imioapps_styles"
+          insert-after="imioapps_templates"/>
+ </skin-path>
+
+</object>
