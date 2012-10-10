@@ -20,8 +20,11 @@
     text-align: inherit;
 }
 
+/* souligner le titre H1 */
 #content h1.documentFirstHeading {
-    border-bottom: 1px solid #A9C1DB
+    border-bottom: 1px solid &dtml-contentViewBorderColor;;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .portletHs {
@@ -65,25 +68,9 @@ border:0 solid White;
 }
 
 #portal-siteactions li a:hover {
-border:0 solid White;
-background-color: #859FBD ;
+border:0 solid white;
+background-color: #859FBD;
 color:#ffffff;
-}
-
-#portal-personaltools {
-border-top:0px solid &dtml-globalBackgroundColor;;
-border-bottom:0px;
-}
-
-#portal-column-one .visualPadding {
-padding-left: 1em;
-}
-
-#portal-column-one .portletHeader, .portletHeader a, .managedPortlet .portletHeader, .managedPortlet .portletHeader a {
-color:white !important;
-font-weight: bold;
-border: 0;
-background-color: &dtml-globalBackgroundColor;;
 }
 
 /* add some space between 'manage portlets' link and last portlet above */
@@ -136,10 +123,6 @@ background-color: #E6EBF0;
 color:#496A93;
 }
 
-#portal-personaltools li a {
-color:#ffffff;
-}
-
 .listing th, .stx table th {
 background-color:#E6EBF0;
 color:white;
@@ -160,6 +143,25 @@ color:#436976 !important;
 
 .standalone, .documentEditable * .standalone {
 background: url("&dtml-portal_url;/linkOpaque.gif") no-repeat scroll 9px 1px white;
+}
+
+.hsButton {
+    border-radius: 5px;
+    color: white;
+    background-repeat: no-repeat;
+    border: 1px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: black 1px 1px;
+}
+
+.hsButtonWF {
+    background-color: &dtml-globalBackgroundColor;;
+}
+
+.hsButtonAction {
+    background-color: &dtml-contentViewBorderColor;;
+    background-position: -1px 2px;
 }
 
 .listingBar {
