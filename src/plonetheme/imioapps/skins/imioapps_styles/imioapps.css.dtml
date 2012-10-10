@@ -63,11 +63,6 @@ padding-right: 0.5em;
 min-width: 8em;
 }
 
-input {
-font-size: 13px;
-letter-spacing: 1px;
-}
-
 #portal-column-one {
 padding-top: 0.75em;
 }
@@ -148,13 +143,20 @@ TH .discreet {
  color: lightgrey;
 }
 
+#content .discreet {
+font-size: 90% !important;
+}
+
 #content fieldset {
     border: 0.1em solid &dtml-globalBorderColor;;
+    border-radius: 5px;
 }
 
 legend {
-    color:#4A494A;
-    font-weight:bold;
+color:#4A494A;
+font-size:90%;
+font-weight:bold;
+/*margin-left:-21px;*/
 }
 
 #portal-header {
@@ -182,6 +184,7 @@ color:#fff;
     background-color:#496a93;
     border-top: 1px solid #0a375c;
     border-bottom:0px;
+    font-size: 90%;
 }
 
 #portal-personaltools a:link {
@@ -216,9 +219,11 @@ position: absolute;
 width: auto;
 }
 
+/*** portal globalnav ***/
+
 #portal-globalnav {
 background: none repeat scroll 0 0 transparent;
-border-bottom: 6px solid &dtml-globalBackgroundColor;;
+border-bottom: 6px solid #496A93;
 clear: both;
 font-size: 80%;
 margin: 0;
@@ -230,35 +235,35 @@ text-align: center;
 }
 
 #portal-globalnav li a {
-background: none repeat scroll 0 0 #DDDDDD;
-color:#213C68;
+background: none repeat scroll 0 0 &dtml-buttonBackgroundColor;;
+color:&dtml-buttonTextColor;;
 font-size:17px;
 padding:0.1em 1em 0.1em;
 border-radius: 5px 5px 0px 0px;
 }
 
 #portal-globalnav li a:hover {
-background-color:&dtml-globalBackgroundColor;;
+background-color:#496A93;
 border-color:#fff;
 color:#fff;
 }
 
 #portal-globalnav li.selected a {
-background-color: &dtml-globalBackgroundColor;;
+background-color: #496A93;
 border-color:#fff;
 color:#fff;
 }
 
 #portal-globalnav li.selected a:hover {
-background-color: &dtml-globalBackgroundColor;;
+background-color: #496A93;
 border-color:#fff;
 color:#fff;
 }
 
 .portletHeader {
-border-bottom: 1px solid #496A93;
-color:#fff;
+border-bottom: 1px solid &dtml-globalBackgroundColor;;
 text-align:center;
+background-color: &dtml-globalBackgroundColor;;
 }
 
 dl.portlet dt, div.portletAssignments div.portletHeader {
@@ -270,7 +275,7 @@ padding: 0.42em 1em;
 dl.portlet {
 border-width:1px;
 border-style:solid;
-border-color:&dtml-globalBackgroundColor;;
+border-color:#496A93;
 -moz-border-radius : 0.5em;
 -op-border-radius : 0.5em;
 -webkit-border-radius : 0.5em;
@@ -292,10 +297,14 @@ padding-left: 1em;
 }
 
 #portal-column-one .portletHeader, .portletHeader a, .managedPortlet .portletHeader, .managedPortlet .portletHeader a {
-color:white !important;
 font-weight: bold;
 border: 0;
-background-color: &dtml-globalBackgroundColor;;
+}
+
+/* add some space between 'manage portlets' link and last portlet above */
+div.managePortletsLink, a.managePortletsFallback {
+margin-top: 0.5em;
+background-color: &dtml-buttonBackgroundColor;;
 }
 
 div.position-1:4 {
@@ -362,13 +371,14 @@ color: white;
 color: black;
 }
 
-#content .discreet {
-    color:#47494A;
+.discreet {
+color:#47494A;
+font-size:90%;
 }
 
 #portal-footer {
-    background: none repeat scroll 0 0 #E3E3E3;
-    font-size: 75%;
+    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
+    font-size: 85%;
     line-height: 2em;
     margin: 2em -1.13% 0em -1.12%;
     padding: 1.5em;
@@ -386,6 +396,10 @@ color: black;
 
 #content p {
     margin-bottom: 0em;
+}
+
+#content a:link {
+     border: 0;
 }
 
 #content a:visited, dl.portlet a:visited {
@@ -416,12 +430,10 @@ dl.portlet a:link {
 }
 
 #portal-breadcrumbs a {
-    color: &dtml-globalBackgroundColor;;
+    color: #496A93;
 }
 
-#breadcrumbs-you-are-here {
-    font-weight: bold;
-}
+/*#content*/
 
 .urbanEditWithTabbing {
     border-color: #DDDDDD !important;
@@ -440,9 +452,15 @@ margin-bottom:1px;
 
 /*#content ul.formTabs*/
 
-#edit-bar {
+#edit-bar{
     margin-bottom: 0.5em;
+    font-size: 90%;
 }
+
+/*#content .formTabs a{
+    -moz-border-radius-bottomleft: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+}*/
 
 #urbanViewWithTabbing .enableFormTabbing{
     border-color: #DDDDDD;
@@ -455,8 +473,6 @@ margin-bottom:1px;
 
 /* special class used for fieldset displayed in the edit form to surround MasterBooleanWidget's fields */
 .urban-fieldset-masterbooleanwidget {
--moz-border-radius-topleft: 0.5em;
--moz-border-radius-topright: 0.5em;
 border-style: solid !important;
 padding-top: 0em;
 padding-bottom: 1em;
@@ -468,11 +484,25 @@ padding-bottom: 1em;
 }
 
 #portal-searchbox {
-    margin-right: 9em;
+    margin: 0.5em 9em 0 0;
 }
 
 #portal-searchbox label {
     vertical-align: top;
+}
+
+.searchButton {
+    border: 1px solid &dtml-globalBackgroundColor;;
+    border-radius: 5px;
+    padding-left: 18px;
+    padding-right: 5px;
+    font-size: 90%;
+    color: &dtml-buttonTextColor;;
+    background-color: &dtml-buttonBackgroundColor;;
+    background-position: 2px 2px;
+    background-image: url('&dtml-portal_url;/search.gif');
+    background-repeat: no-repeat;
+    font-size: 14px;
 }
 
 /* table styles */
@@ -486,6 +516,11 @@ margin: 0;
 border-bottom: 1px solid #EFEFEF;
 }
 
+table.listing th, .stx table th {
+background-color:&dtml-buttonBackgroundColor;;;
+vertical-align: middle;
+}
+
 table.listing td {
 padding-top: 0.25em;
 padding-bottom: 0.25em;
@@ -496,6 +531,11 @@ table.listing tbody tr.odd td {
     border-right: 1px solid #DDDDDD;
     padding-left: 1em;
 }
+
+.even {
+    background-color: &dtml-evenRowBackgroundColor;;
+}
+
 table.listing tbody tr.even td {
     background: none repeat scroll 0 0 #EFEFEF;
     border-right: 1px solid #DDDDDD;
@@ -522,11 +562,6 @@ img {
 #content legend, #content, #portal-breadcrumbs {
     font-size: 100%;
 }
-
-#content .discreet, legend, #portal-personaltools, #edit-bar {
-    font-size: 90%;
-}
-
 
 dl.portalMessage {
     margin: 0;

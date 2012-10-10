@@ -36,6 +36,10 @@
     margin-bottom: 0em;
 }
 
+#content a.state-itemcreated, #content .label-state-itemcreated, #content a.label-state-itemcreated {
+    color: red;
+}
+
 #objectHistory {
     margin-bottom: 1em;
 }
@@ -71,11 +75,6 @@ border:0 solid White;
 border:0 solid white;
 background-color: #859FBD;
 color:#ffffff;
-}
-
-/* add some space between 'manage portlets' link and last portlet above */
-div.managePortletsLink, a.managePortletsFallback {
-margin-top: 0.5em;
 }
 
 #portlet-prefs .portletItem {
@@ -123,11 +122,6 @@ background-color: #E6EBF0;
 color:#496A93;
 }
 
-.listing th, .stx table th {
-background-color:#E6EBF0;
-color:white;
-}
-
 .contentViews li a:hover{
 color: #1D4064 !important;
 }
@@ -147,21 +141,39 @@ background: url("&dtml-portal_url;/linkOpaque.gif") no-repeat scroll 9px 1px whi
 
 .hsButton {
     border-radius: 5px;
-    color: white;
     background-repeat: no-repeat;
-    border: 1px solid grey;
+    border: 1px solid &dtml-globalBackgroundColor;;
     padding-left: 5px;
     padding-right: 5px;
-    text-shadow: black 1px 1px;
+    padding-bottom: 1px;
+     font-size: 90%;
 }
 
+.hsButton.fakeButton {
+    
+}
 .hsButtonWF {
+    color: white;
     background-color: &dtml-globalBackgroundColor;;
 }
 
 .hsButtonAction {
-    background-color: &dtml-contentViewBorderColor;;
-    background-position: -1px 2px;
+    color: &dtml-buttonTextColor;;
+    background-color: &dtml-buttonBackgroundColor;;
+    background-position: 2px 2px;
+    padding-left: 18px;
+}
+
+.hsButtonAction_delete {
+    background-image: url('&dtml-portal_url;/delete_icon.gif');
+}
+
+.hsButtonAction_duplicate {
+    background-image: url('&dtml-portal_url;/copy_icon.gif');
+}
+
+.hsButtonAction_duplicate_and_keep_link {
+    background-image: url('&dtml-portal_url;/duplicate_and_keep_link.gif');
 }
 
 .listingBar {

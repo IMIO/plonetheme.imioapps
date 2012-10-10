@@ -19,6 +19,9 @@
     <viewlet name="plone.footer" />
   </hidden>
   <hidden manager="plone.portalfooter" skinname="plonemeetingskin">
+    <viewlet name="plone.site_actions" />
+  </hidden>
+  <hidden manager="plone.portalfooter" skinname="plonemeetingskin">
     <viewlet name="plone.colophon" />
   </hidden>
   <hidden manager="plone.contentviews" skinname="plonemeetingskin">
