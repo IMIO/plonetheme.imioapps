@@ -528,6 +528,7 @@ img {
 
 dl.portalMessage {
     border-radius: 5px;
+    font-size: 90%;
 }
 
 h1, h2 {
