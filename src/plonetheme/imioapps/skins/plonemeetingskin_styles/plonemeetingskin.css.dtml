@@ -31,18 +31,18 @@
     border-radius: 5px 5px 5px 5px;
 }
 
-/* remove default table margin-bottom under item number navigation on items lists */
-#content table.itemsNavigation {
-    margin-bottom: 0em;
-}
-
 /* wf states specific colors */
 #content a.state-itemcreated, #content .label-state-itemcreated, #content a.label-state-itemcreated {
     color: red;
 }
 
 #objectHistory {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#objectHistory_img {
+  margin-top: 0px;
 }
 
 /* do not fix height or title of topics can not be displyed on 2 lines */
@@ -105,6 +105,14 @@ color:#436976 !important;
     padding-right: 5px;
     padding-bottom: 2px;
     font-size: 90%;
+    height: 1.8em;
+}
+
+.fakeButton {
+    background: url("&dtml-portal_url;/fakeTransition.gif") no-repeat scroll 3px 2px #FFD5C0;
+    cursor: help;
+    font-style: italic;
+    padding-left: 8px;
 }
 
 .hsButtonWF {

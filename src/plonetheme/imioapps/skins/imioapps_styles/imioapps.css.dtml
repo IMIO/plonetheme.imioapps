@@ -307,6 +307,7 @@ border: 0;
 div.managePortletsLink, a.managePortletsFallback {
 margin-top: 0.5em;
 background-color: &dtml-buttonBackgroundColor;;
+font-weight: bold;
 }
 
 div.position-1:4 {
@@ -480,8 +481,10 @@ border-bottom: 1px solid #EFEFEF;
 }
 
 table.listing th, .stx table th {
-background-color:&dtml-buttonBackgroundColor;;;
+background-color:&dtml-tableLightColor;;
+color:&dtml-tableDarkColor;;
 vertical-align: middle;
+text-align: center;
 }
 
 table.listing td {
@@ -512,7 +515,7 @@ table.listing tbody tr.even td {
 
 .no-style-table td {
 border: 0 !important;
-padding-left: 0 !important;
+#padding-left: 0 !important;
 margin: 0 !important;
 }
 
