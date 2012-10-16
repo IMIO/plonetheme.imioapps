@@ -558,6 +558,10 @@ h1, h2 {
     letter-spacing: 0em;
 }
 
+.iconifiedDocumentActions {
+margin-top: 0.6em;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
