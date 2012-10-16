@@ -397,7 +397,7 @@ div.listingBar a {
 }
 
 #portal-footer {
-    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
+    background: none repeat scroll 0 0 &dtml-tableHeaderBackgroundColor;;
     font-size: 85%;
     line-height: 2em;
     margin: 2em -1.13% 0em -1.12%;
@@ -501,8 +501,8 @@ border-bottom: 1px solid #EFEFEF;
 }
 
 table.listing th, .stx table th {
-background-color:&dtml-tableLightColor;;
-color:&dtml-tableDarkColor;;
+background-color:&dtml-tableHeaderBackgroundColor;;
+color:&dtml-tableHeaderTextColor;;
 vertical-align: middle;
 text-align: center;
 }
@@ -513,19 +513,20 @@ padding-bottom: 0.25em;
 }
 
 table.listing tbody tr.odd td {
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 white;
     border-right: 1px solid #DDDDDD;
     padding-left: 1em;
-}
-
-.even {
-    background-color: &dtml-evenRowBackgroundColor;;
 }
 
 table.listing tbody tr.even td {
-    background: none repeat scroll 0 0 #EFEFEF;
+    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
     border-right: 1px solid #DDDDDD;
     padding-left: 1em;
+}
+
+/* special handling of table showing advices */
+dd.actionMenuContentAX even {
+    background-color: transparent;
 }
 
 /* cache la derniere ligne */

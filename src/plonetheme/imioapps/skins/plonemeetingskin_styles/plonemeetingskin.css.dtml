@@ -176,6 +176,15 @@ padding: 0 !important;
 height: 0;
 }
 
+.contentActionsAX {
+    font-size: 80%;
+}
+
+#content dd.actionMenuContentAX {
+    padding: 0;
+    margin: 0;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
