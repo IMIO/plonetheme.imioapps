@@ -9,6 +9,7 @@
       directory="profiles/default"
       description="Installs the plonetheme.imioapps package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       />
 
   <genericsetup:registerProfile

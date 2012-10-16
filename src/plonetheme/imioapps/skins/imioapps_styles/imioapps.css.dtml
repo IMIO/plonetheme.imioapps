@@ -14,7 +14,7 @@
 
 body {
     color: Black;
-    font: 85% "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+    font: 100% Arial,FreeSans,sans-serif;
 }
 
 #content {
@@ -50,6 +50,10 @@ div.width-3\:4 {
     padding: 1%;
 }
 
+#portal-columns {
+    font-size: 90%;
+}
+
 #portal-column-content {
     padding: 0.5em 0 0;
 }
@@ -81,6 +85,10 @@ h1 {
     color:#205C90 !important;
 }
 
+.plone-jscalendar-popup img {
+    margin-top: 4px;
+}
+
 html {
     overflow-y: scroll;
 }
@@ -90,7 +98,7 @@ html {
 }
 
 #visual-portal-wrapper{
-    background: url("header-bg.gif") repeat-x scroll 0 0 transparent;
+    background: url("&dtml-portal_url;/header-bg.gif") repeat-x scroll 0 0 transparent;
 }
 
 /* styles du foldercontents concernant la couleur des liens pour gerer
@@ -189,7 +197,7 @@ legend {
     background-color: &dtml-globalBackgroundColor;;
     border-top: 1px solid #0a375c;
     border-bottom:0px;
-    font-size: 90%;
+    font-size: 80%;
 }
 
 #portal-personaltools a:link {
@@ -213,12 +221,7 @@ dl.actionMenu.activated dd {
 border-width:0px 1px 0px 1px;
 border-style:solid;
 border-color:#fff;
--moz-border-radius-bottomleft: 0.5em;
--moz-border-radius-bottomright: 0.5em;
--op-border-radius-bottomleft: 0.5em;
--op-border-radius-bottomright: 0.5em;
--webkit-border-radius-bottomleft: 0.5em;
--webkit-border-radius-bottomright: 0.5em;
+border-radius: 5px;
 min-width: 100%;
 position: absolute;
 width: auto;
@@ -310,9 +313,9 @@ background-color: &dtml-buttonBackgroundColor;;
 font-weight: bold;
 }
 
-div.position-1:4 {
+/* div.position-1:4 {
 margin-left: -82.875%;
-}
+} */
 
 .portletMeetingItem {
 border-left:1px solid #f00;
@@ -338,14 +341,31 @@ color: white;
 }
 
 .standalone, .documentEditable * .standalone {
-    -moz-border-radius: 0.3em;
-    background-color: orange;
-    background-image: url("exclamation.png");
-    background-position: -1px 2px;
+    border-radius: 5px;
     background-repeat: no-repeat;
+    background-color: orange;
+    background-image: url("&dtml-portal_url;/exclamation.gif");
+    background-position: 4px 4px;
     border: 1px solid grey;
-    padding: 1px 1px 1px 9px;
-    text-shadow: black 1px 1px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    font-size: 90%;
+    height: 2em;
+    color: &dtml-buttonTextColor;;
+}
+
+.context {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-color: &dtml-buttonBackgroundColor;;
+    border: 1px solid &dtml-globalBackgroundColor;;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    font-size: 90%;
+    height: 2em;
+    color: &dtml-buttonTextColor;;
 }
 
 .ptButton {
@@ -515,7 +535,6 @@ table.listing tbody tr.even td {
 
 .no-style-table td {
 border: 0 !important;
-#padding-left: 0 !important;
 margin: 0 !important;
 }
 

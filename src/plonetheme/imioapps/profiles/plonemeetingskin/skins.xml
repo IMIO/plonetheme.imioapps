@@ -11,7 +11,7 @@
  <object name="plonemeetingskin_styles"
     meta_type="Filesystem Directory View"
     directory="plonetheme.imioapps:skins/plonemeetingskin_styles"/>
-
+    
  <skin-path name="plonemeetingskin" based-on="Sunburst Theme">
    <layer name="plonemeetingskin_images"
           insert-after="custom"/>
@@ -19,6 +19,12 @@
           insert-after="plonemeetingskin_images"/>
    <layer name="plonemeetingskin_styles"
           insert-after="plonemeetingskin_templates"/>
+   <layer name="imioapps_images"
+          insert-after="custom"/>
+   <layer name="imioapps_templates"
+          insert-after="imioapps_images"/>
+   <layer name="imioapps_styles"
+          insert-after="imioapps_templates"/>
  </skin-path>
 
 </object>

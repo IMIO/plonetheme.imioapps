@@ -24,7 +24,4 @@
   <hidden manager="plone.portalfooter" skinname="plonemeetingskin">
     <viewlet name="plone.colophon" />
   </hidden>
-  <hidden manager="plone.contentviews" skinname="plonemeetingskin">
-    <viewlet name="plone.contentactions" />
-  </hidden>
 </object>

@@ -11,13 +11,4 @@
     meta_type="Filesystem Directory View"
     directory="plonetheme.imioapps:skins/imioapps_styles"/>
 
- <skin-path name="*" based-on="Sunburst Theme">
-   <layer name="imioapps_images"
-          insert-after="custom"/>
-   <layer name="imioapps_templates"
-          insert-after="imioapps_images"/>
-   <layer name="imioapps_styles"
-          insert-after="imioapps_templates"/>
- </skin-path>
-
 </object>

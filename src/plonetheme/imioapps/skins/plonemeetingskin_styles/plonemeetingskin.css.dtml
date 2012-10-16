@@ -105,11 +105,12 @@ color:#436976 !important;
     padding-right: 5px;
     padding-bottom: 2px;
     font-size: 90%;
-    height: 1.8em;
+    height: 2em;
+    color: &dtml-buttonTextColor;;
 }
 
 .fakeButton {
-    background: url("&dtml-portal_url;/fakeTransition.gif") no-repeat scroll 3px 2px #FFD5C0;
+    background: url("&dtml-portal_url;/fakeTransition.gif") no-repeat scroll 3px 4px #FFD5C0;
     cursor: help;
     font-style: italic;
     padding-left: 8px;
@@ -122,7 +123,7 @@ color:#436976 !important;
 
 .hsButtonAction {
     color: &dtml-buttonTextColor;;
-    background-position: 2px 2px;
+    background-position: 3px 4px;
     padding-left: 18px;
 }
 
@@ -156,7 +157,6 @@ font-size: 100% !important;
 
 dl.collapsible {
 border: 0 !important;
-
 }
 
 dl.collapsible dt.collapsibleHeader {
