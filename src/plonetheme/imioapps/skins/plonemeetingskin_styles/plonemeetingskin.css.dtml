@@ -27,6 +27,8 @@
     margin-top: 0.5em;
 }
 
+.ploneMeetingRef{ vertical-align: middle; }
+
 .portletHs {
     border-radius: 5px 5px 5px 5px;
 }

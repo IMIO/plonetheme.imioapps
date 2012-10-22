@@ -24,11 +24,7 @@ body {
 div.width-full #content {
     padding-left: 0%;
     padding-right: 0%;
-    width: 95.75%;
-}
-div.width-full dl {
-    margin-left: 1%;
-    margin-right: 1%;
+    width: 100%;
 }
 
 /* largeur et padding des colonnes */
@@ -209,108 +205,112 @@ legend {
 }
 
 #portal-personaltools dd {
-border-top-left-radius: 0.5em;
-background: none repeat scroll 0 0 #496a93;
-padding-bottom: 0.5em;
-padding-top: 0.5em;
-right: 0;
-border-width:0px;
+    border-top-left-radius: 0.5em;
+    background: none repeat scroll 0 0 #496a93;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    right: 0;
+    border-width:0px;
+}
+
+#anon-personalbar a {
+    color: white;
 }
 
 dl.actionMenu.activated dd {
-border-width:0px 1px 0px 1px;
-border-style:solid;
-border-color:#fff;
-border-radius: 5px;
-min-width: 100%;
-position: absolute;
-width: auto;
+    border-width:0px 1px 0px 1px;
+    border-style:solid;
+    border-color:#fff;
+    border-radius: 5px;
+    min-width: 100%;
+    position: absolute;
+    width: auto;
 }
 
 #portal-globalnav {
-background: none repeat scroll 0 0 transparent;
-border-bottom: 6px solid &dtml-globalBackgroundColor;;
-clear: both;
-font-size: 80%;
-margin: 0;
-padding-left: 1.5em
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 6px solid &dtml-globalBackgroundColor;;
+    clear: both;
+    font-size: 80%;
+    margin: 0;
+    padding-left: 1.5em
 }
 
 #portal-globalnav li {
-text-align: center;
+    text-align: center;
 }
 
 #portal-globalnav li a {
-background: none repeat scroll 0 0 &dtml-buttonBackgroundColor;;
-color:&dtml-buttonTextColor;;
-font-size:17px;
-padding:0.1em 1em 0.1em;
-border-radius: 5px 5px 0px 0px;
+    background: none repeat scroll 0 0 &dtml-buttonBackgroundColor;;
+    color:&dtml-buttonTextColor;;
+    font-size:17px;
+    padding:0.1em 1em 0.1em;
+    border-radius: 5px 5px 0px 0px;
 }
 
 #portal-globalnav li a:hover {
-background-color: &dtml-globalBackgroundColor;;
-border-color:#fff;
-color:#fff;
+    background-color: &dtml-globalBackgroundColor;;
+    border-color:#fff;
+    color:#fff;
 }
 
 #portal-globalnav li.selected a {
-background-color: &dtml-globalBackgroundColor;;
-border-color:#fff;
-color:#fff;
+    background-color: &dtml-globalBackgroundColor;;
+    border-color:#fff;
+    color:#fff;
 }
 
 #portal-globalnav li.selected a:hover {
-background-color: &dtml-globalBackgroundColor;;
-border-color:#fff;
-color:#fff;
+    background-color: &dtml-globalBackgroundColor;;
+    border-color:#fff;
+    color:#fff;
 }
 
 .portletHeader {
-border-bottom: 1px solid &dtml-globalBackgroundColor;;
-text-align:center;
-background-color: &dtml-globalBackgroundColor;;
-color: white;
+    border-bottom: 1px solid &dtml-globalBackgroundColor;;
+    text-align:center;
+    background-color: &dtml-globalBackgroundColor;;
+    color: white;
 }
 
 dl.portlet dt, div.portletAssignments div.portletHeader {
-background: none repeat scroll 0 0 &dtml-globalBackgroundColor;;
-line-height: normal;
-padding: 0.42em 1em;
+    background: none repeat scroll 0 0 &dtml-globalBackgroundColor;;
+    line-height: normal;
+    padding: 0.42em 1em;
 }
 
 dl.portlet {
-border-width:1px;
-border-style:solid;
-border-color: &dtml-globalBackgroundColor;;
-border-radius : 5px;
-font-size: 80%;
-margin: 0 0 1em;
+    border-width:1px;
+    border-style:solid;
+    border-color: &dtml-globalBackgroundColor;;
+    border-radius : 5px;
+    font-size: 80%;
+    margin: 0 0 1em;
 }
 
 dl.portlet a {
-display:block;
+    display:block;
 }
 
 dl.portlet a:hover {
-background-color: &dtml-contentViewBackgroundColor;;
-color:#1F4065;
+    background-color: &dtml-contentViewBackgroundColor;;
+    color:#1F4065;
 }
 
 #portal-column-one .visualPadding {
-padding-left: 1em;
+    padding-left: 1em;
 }
 
 #portal-column-one .portletHeader, .portletHeader a, .managedPortlet .portletHeader, .managedPortlet .portletHeader a {
-font-weight: bold;
-border: 0;
+    font-weight: bold;
+    border: 0;
 }
 
 /* add some space between 'manage portlets' link and last portlet above */
 div.managePortletsLink, a.managePortletsFallback {
-margin-top: 0.5em;
-background-color: &dtml-buttonBackgroundColor;;
-font-weight: bold;
+    margin-top: 0.5em;
+    background-color: &dtml-buttonBackgroundColor;;
+    font-weight: bold;
 }
 
 /* div.position-1:4 {
@@ -318,29 +318,29 @@ margin-left: -82.875%;
 } */
 
 .portletMeetingItem {
-border-left:1px solid #f00;
-border-right:1px solid #f00;
-padding:1px 0 0 0 ;
+    border-left:1px solid #f00;
+    border-right:1px solid #f00;
+    padding:1px 0 0 0 ;
 }
 
 .portletMeetingItem a {
-padding-left:5px;
+    padding-left:5px;
 }
 
 .portletMeetingElementSelected {
-background-color: &dtml-contentViewBackgroundColor;;
+    background-color: &dtml-contentViewBackgroundColor;;
 }
 
 .portletMeetingElementSelected a {
-color: &dtml-globalBackgroundColor;;
+    color: &dtml-globalBackgroundColor;;
 }
 
 .listing th, .stx table th {
-background-color:#E6EBF0;
-color: white;
+    background-color:#E6EBF0;
+    color: white;
 }
 
-.standalone, .documentEditable * .standalone {
+.standalone, .documentEditable * .standalone, .destructive {
     border-radius: 5px;
     background-repeat: no-repeat;
     background-color: orange;
@@ -505,6 +505,7 @@ background-color:&dtml-tableHeaderBackgroundColor;;
 color:&dtml-tableHeaderTextColor;;
 vertical-align: middle;
 text-align: center;
+padding: 0.3em;
 }
 
 table.listing td {
@@ -552,6 +553,10 @@ img {
 dl.portalMessage {
     border-radius: 5px;
     font-size: 90%;
+}
+
+dl.portalMessage dd {
+    border-radius: 5px;
 }
 
 h1, h2 {
