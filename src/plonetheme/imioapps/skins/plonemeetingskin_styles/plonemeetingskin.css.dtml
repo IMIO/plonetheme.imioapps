@@ -22,7 +22,7 @@
 
 /* souligner le titre H1 */
 #content h1.documentFirstHeading {
-    border-bottom: 1px solid &dtml-contentViewBorderColor;;
+    border-bottom: 1px solid &dtml-globalBorderColor;;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
@@ -33,9 +33,20 @@
     border-radius: 5px 5px 5px 5px;
 }
 
-/* wf states specific colors */
-#content a.state-itemcreated, #content .label-state-itemcreated, #content a.label-state-itemcreated {
-    color: red;
+/* wf states specific colors, based on wf from MeetingCommunes */
+#content a.state-itemcreated, #content .state-itemcreated, #content a.label-state-itemcreated {
+    color: red !important;
+}
+#plone-contentmenu-workflow .state-itemcreated {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: red;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 2px solid red;
+}
+
+#editAdviceForm > select {
+    vertical-align: baseline;
 }
 
 #objectHistory {
@@ -47,7 +58,7 @@
   margin-top: 0px;
 }
 
-/* do not fix height or title of topics can not be displyed on 2 lines */
+/* do not fix height or title of topics can not be displayed on 2 lines */
 .portletSection {
     height: auto;
 }
@@ -144,6 +155,11 @@ color:#436976 !important;
 .hsButtonAction_deleteWholeMeeting {
     background-image: url('&dtml-portal_url;/delete_many.gif');
 }
+
+.hsButtonAction_rename {
+    background-image: url('&dtml-portal_url;/rename_icon.gif');
+}
+
 
 .portletMeetingItem p {
 margin: 0;

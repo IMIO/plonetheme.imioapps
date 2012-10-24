@@ -89,6 +89,11 @@ html {
     overflow-y: scroll;
 }
 
+/* need to add !important because there is an !important in public.css... */
+#content a.link-overlay {
+    border-bottom: 0 !important;
+}
+
 #content table {
     margin-bottom: 0.5em;
 }
@@ -301,9 +306,18 @@ dl.portlet a:hover {
     padding-left: 1em;
 }
 
-#portal-column-one .portletHeader, .portletHeader a, .managedPortlet .portletHeader, .managedPortlet .portletHeader a {
+#portal-column-one .portletHeader,
+#portal-column-one .portletHeader a,
+#portal-column-one .managedPortlet .portletHeader,
+#portal-column-one .managedPortlet .portletHeader a,
+#portal-column-two .portletHeader,
+#portal-column-two .portletHeader a,
+#portal-column-two .managedPortlet .portletHeader,
+#portal-column-two .managedPortlet .portletHeader a
+{
     font-weight: bold;
     border: 0;
+    color: white;
 }
 
 /* add some space between 'manage portlets' link and last portlet above */
@@ -402,6 +416,7 @@ div.listingBar a {
     line-height: 2em;
     margin: 2em -1.13% 0em -1.12%;
     padding: 1.5em;
+    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -564,7 +579,17 @@ h1, h2 {
 }
 
 .iconifiedDocumentActions {
-margin-top: 0.6em;
+    margin-top: 0.6em;
+}
+
+/* color of the background when a popup is opened in an overlay */
+#exposeMask {
+    background-color: black !important;
+}
+
+/* increase the overlays having a content, not the others... */
+div.overlay div#content {
+    font-size: 120%;
 }
 
 /* </dtml-with> */
