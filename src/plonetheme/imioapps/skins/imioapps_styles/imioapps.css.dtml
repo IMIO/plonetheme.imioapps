@@ -71,7 +71,7 @@ div.width-3\:4 {
     color: &dtml-linkColor;;
 }
 
-/* title H1 and elements H2 in popup overlays */
+/* title H1 and elements H2 in popup overlays (used for history popup) */
 h1, .pb-ajax h2 {
     color: &dtml-linkColor;;
     font-weight: normal;
@@ -593,6 +593,15 @@ div.overlay div#content {
     font-size: 120%;
 }
 
+/* force displaying a scroll if popup is heighter than 600 px */
+.pb-ajax, .pb-image, .overlay iframe {
+    max-height: 600px;
+}
+
+/* increase width of displayed overlay popups */
+div.overlay-iframe, div.overlay-ajax {
+    width: 80em;
+}
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
