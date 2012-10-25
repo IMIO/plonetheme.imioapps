@@ -384,17 +384,17 @@ margin-left: -82.875%;
 }
 
 .ptButton {
-color: #000;
-margin-right:5px !important;
+    color: #000;
+    margin-right:5px !important;
 }
 
 /* color of the selected tab while editing an element (enableFormTabbing) */
 li.formTab a.selected {
-color: white;
+    color: white;
 }
 
 li.formTab a:hover {
-color: white;
+    color: white;
 }
 
 div.listingBar a {
@@ -423,7 +423,7 @@ div.listingBar a {
 
 /* links in the portal footer need to be visible... */
 #portal-footer a {
- color:#165182;
+    color:#165182;
 }
 
 #content {
@@ -470,7 +470,7 @@ dl.portlet a:link {
 }
 
 #content dl{
-margin-bottom:1px;
+    margin-bottom:1px;
 }
 
 #content dd {
@@ -507,26 +507,26 @@ margin-bottom:1px;
 
 /* table styles */
 .no-style-table {
-border: 0;
-padding: 0;
-margin: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .no-style-table tr {
-border-bottom: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
 }
 
 table.listing th, .stx table th {
-background-color:&dtml-tableHeaderBackgroundColor;;
-color:&dtml-tableHeaderTextColor;;
-vertical-align: middle;
-text-align: center;
-padding: 0.3em;
+    background-color:&dtml-tableHeaderBackgroundColor;;
+    color:&dtml-tableHeaderTextColor;;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.3em;
 }
 
 table.listing td {
-padding-top: 0.25em;
-padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
 }
 
 table.listing tbody tr.odd td {
@@ -552,8 +552,8 @@ dd.actionMenuContentAX even {
 }
 
 .no-style-table td {
-border: 0 !important;
-margin: 0 !important;
+    border: 0 !important;
+    margin: 0 !important;
 }
 
 /* override Sunburst */
