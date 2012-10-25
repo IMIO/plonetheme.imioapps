@@ -20,8 +20,8 @@
     text-align: inherit;
 }
 
-/* souligner le titre H1 */
-#content h1.documentFirstHeading {
+/* souligner le titre H1 et les H2 dans les popups overlay */
+#content h1.documentFirstHeading, .pb-ajax h2 {
     border-bottom: 1px solid &dtml-globalBorderColor;;
     margin-bottom: 0.5em;
     margin-top: 0.5em;

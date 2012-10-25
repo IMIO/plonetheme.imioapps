@@ -71,8 +71,9 @@ div.width-3\:4 {
     color: &dtml-linkColor;;
 }
 
-h1 {
-    color:#3F5F7F;
+/* title H1 and elements H2 in popup overlays */
+h1, .pb-ajax h2 {
+    color: &dtml-linkColor;;
     font-weight: normal;
     line-height: 1em;
 }
