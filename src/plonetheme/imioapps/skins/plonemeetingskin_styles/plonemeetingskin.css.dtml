@@ -24,7 +24,7 @@
 #content h1.documentFirstHeading, .pb-ajax h2 {
     border-bottom: 1px solid &dtml-globalBorderColor;;
     margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    margin-top: 0em;
 }
 
 .ploneMeetingRef{ vertical-align: middle; }
@@ -201,6 +201,11 @@ height: 0;
 #content dd.actionMenuContentAX {
     padding: 0;
     margin: 0;
+}
+
+.pageNameDescr {
+    color: &dtml-discreetColor;;
+    font-style: italic;
 }
 
 /* </dtml-with> */

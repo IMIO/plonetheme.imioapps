@@ -569,6 +569,8 @@ img {
 dl.portalMessage {
     border-radius: 5px;
     font-size: 90%;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
 }
 
 dl.portalMessage dd {
