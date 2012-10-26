@@ -138,6 +138,10 @@ dl.enableFormTabbing dd {
     padding-top:0;
 }
 
+ul.configlets img {
+    vertical-align: text-top;
+}
+
 .field {
     margin-bottom: 0.5em;
 }
@@ -571,6 +575,11 @@ dl.portalMessage {
     font-size: 90%;
     margin-top: 0.7em;
     margin-bottom: 0.5em;
+}
+
+dl.portalMessage a, #content dl.portalMessage a {
+    border-bottom: 0;
+    color: &dtml-linkColor;;
 }
 
 dl.portalMessage dd {
