@@ -23,7 +23,7 @@
 /* souligner le titre H1 et les H2 dans les popups overlay */
 #content h1.documentFirstHeading, .pb-ajax h2 {
     border-bottom: 1px solid &dtml-globalBorderColor;;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
     margin-top: 0em;
 }
 

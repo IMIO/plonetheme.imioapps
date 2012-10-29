@@ -286,7 +286,7 @@ dl.actionMenu.activated dd {
 dl.portlet dt, div.portletAssignments div.portletHeader {
     background: none repeat scroll 0 0 &dtml-globalBackgroundColor;;
     line-height: normal;
-    padding: 0.42em 1em;
+    padding: 0;
 }
 
 dl.portlet {
@@ -294,7 +294,6 @@ dl.portlet {
     border-style:solid;
     border-color: &dtml-globalBackgroundColor;;
     border-radius : 5px;
-    font-size: 80%;
     margin: 0 0 1em;
 }
 
@@ -566,7 +565,7 @@ img {
 }
 
 /* back to 100% for most elements */
-#content legend, #content, #portal-breadcrumbs {
+#content legend, #content, #portal-breadcrumbs, dl.portlet {
     font-size: 100%;
 }
 
@@ -584,6 +583,10 @@ dl.portalMessage a, #content dl.portalMessage a {
 
 dl.portalMessage dd {
     border-radius: 5px;
+}
+
+.historyByLine {
+    border-radius: 0;
 }
 
 h1, h2 {
