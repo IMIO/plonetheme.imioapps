@@ -11,7 +11,6 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-
 /* display the category list correctly */
 #category {
     color: ButtonText;
@@ -33,10 +32,6 @@
     border-radius: 5px 5px 5px 5px;
 }
 
-/* wf states specific colors, based on wf from MeetingCommunes */
-#content a.state-itemcreated, #content .state-itemcreated, #content a.label-state-itemcreated {
-    color: red !important;
-}
 #plone-contentmenu-workflow .state-itemcreated {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     background-color: red;
