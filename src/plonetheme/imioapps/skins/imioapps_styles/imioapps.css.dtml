@@ -88,7 +88,7 @@ h1, .pb-ajax h2 {
 html {
     overflow-y: scroll;
 }
-
+form
 /* need to add !important because there is an !important in public.css... */
 #content a.link-overlay {
     border-bottom: 0 !important;
@@ -116,12 +116,13 @@ la selection des elements affiches */
     border:0;
 }
 
-label {
-    font-weight: normal !important;
+.label {
+    font-weight: normal;
+    display: block;
 }
 
 .formQuestion {
-    font-weight: bold !important;
+    font-weight: bold;
 }
 
 ul.formTabs { 
@@ -558,11 +559,6 @@ dd.actionMenuContentAX even {
     margin: 0 !important;
 }
 
-/* override Sunburst */
-img {
-    vertical-align: baseline;
-}
-
 /* back to 100% for most elements */
 #content legend, #content, #portal-breadcrumbs, dl.portlet {
     font-size: 100%;
@@ -615,6 +611,18 @@ div.overlay div#content {
 div.overlay-iframe, div.overlay-ajax {
     width: 80em;
 }
+
+SPAN.formHelp {
+    display: block;
+    color: &dtml-discreetColor;;
+    font-weight: normal;
+}
+
+/* enlève padding dans la zone d'édition de CKeditor */
+.CSS1Compat BODY#content {
+    margin: 0;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
