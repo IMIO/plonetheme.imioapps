@@ -508,6 +508,15 @@ dl.portlet a:link {
     font-size: 14px;
 }
 
+/* the 'add reference' button while using referencebrowserwidget */
+.searchButton.addreference {
+    font-size: 90%;
+    height: 2em;
+    vertical-align: top;
+    background-position: 3px 4px;
+    padding-bottom: 3px;
+}
+
 /* table styles */
 .no-style-table {
     border: 0;
