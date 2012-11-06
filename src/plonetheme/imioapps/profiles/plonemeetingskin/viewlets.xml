@@ -15,13 +15,13 @@
   <hidden manager="plone.portaltop" skinname="Plone Default">
     <viewlet name="plone.app.i18n.locales.languageselector" />
   </hidden>
-  <hidden manager="plone.portalfooter" skinname="plonemeetingskin">
-    <viewlet name="plone.footer" />
-  </hidden>
   <!--hidden manager="plone.portalfooter" skinname="plonemeetingskin">
+    <viewlet name="plone.footer" />
+  </hidden-->
+  <hidden manager="plone.portalfooter" skinname="plonemeetingskin">
     <viewlet name="plone.site_actions" />
   </hidden>
-  <hidden manager="plone.portalfooter" skinname="plonemeetingskin">
-    <viewlet name="plone.colophon" /-->
-  </hidden>
+  <!--hidden manager="plone.portalfooter" skinname="plonemeetingskin">
+    <viewlet name="plone.colophon" />
+  </hidden-->
 </object>
