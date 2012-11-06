@@ -46,7 +46,7 @@ div.width-3\:4 {
 }
 
 #portal-columns {
-    font-size: 90%;
+    font-size: &dtml-fontBaseSize;;
 }
 
 #portal-column-content {
