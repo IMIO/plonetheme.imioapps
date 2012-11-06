@@ -51,7 +51,8 @@
     border: 2px solid red;
 }
 
-#editAdviceForm > select {
+/* realign some images */
+#editAdviceForm > select, .itemsNavigation td img {
     vertical-align: baseline;
 }
 
