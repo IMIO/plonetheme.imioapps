@@ -207,6 +207,11 @@ padding: 0 !important;
 height: 0;
 }
 
+/* special handling of table showing advices */
+dd.actionMenuContentAX even {
+    background-color: transparent;
+}
+
 .contentActionsAX {
     font-size: 80%;
 }

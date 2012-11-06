@@ -544,11 +544,6 @@ table.listing tbody tr.even td {
     padding-left: 1em;
 }
 
-/* special handling of table showing advices */
-dd.actionMenuContentAX even {
-    background-color: transparent;
-}
-
 /* cache la derniere ligne */
 .no-style-table tr:last-child {
     border-bottom: 0;
@@ -558,6 +553,13 @@ dd.actionMenuContentAX even {
     border: 0 !important;
     margin: 0 !important;
 }
+
+/* the table listing elements in folder_contents */
+#content #listing-table {
+    margin-bottom: 1em !important;
+    margin-top: 1em !important;
+}
+
 
 /* back to 100% for most elements */
 #content legend, #content, #portal-breadcrumbs, dl.portlet {
