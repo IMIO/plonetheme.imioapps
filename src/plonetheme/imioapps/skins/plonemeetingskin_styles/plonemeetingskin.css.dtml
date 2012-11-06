@@ -52,8 +52,8 @@
 }
 
 /* realign some images */
-#editAdviceForm > select, .itemsNavigation td img {
-    vertical-align: baseline;
+#editAdviceForm > select, .itemsNavigation td img, table.nosort th img {
+    vertical-align: inherit;
 }
 
 #objectHistory {
