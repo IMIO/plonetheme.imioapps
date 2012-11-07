@@ -16,10 +16,6 @@ body {
     font: 100% Arial,FreeSans,sans-serif;
 }
 
-#content {
-    line-height: 1em;
-}
-
 div.width-full #content {
     padding-left: 0%;
     padding-right: 0%;
@@ -45,8 +41,10 @@ div.width-3\:4 {
     padding: 1%;
 }
 
-#portal-columns {
+/* fontBaseSize for portal-columns (every 3 default columns) and portlet manager */
+#content, #portal-columns, div.portletAssignments {
     font-size: &dtml-fontBaseSize;;
+    line-height: 1em;
 }
 
 #portal-column-content {
@@ -146,14 +144,7 @@ ul.configlets img {
     margin-bottom: 0.5em;
 }
 
-/* La couleur gris fonce par defaut n'est pas tres visible dans le titre
-des colonnes des tables dont la classe est listing ... */
-
-TH .discreet {
-    color: &dtml-discreetColor;;
-}
-
-#content .discreet {
+#portal-columns .discreet {
     color: &dtml-discreetColor;;
     font-size: 90%;
 }
@@ -276,17 +267,16 @@ dl.actionMenu.activated dd {
     color:#fff;
 }
 
-.portletHeader {
+#content dt.portletHeader {
     border-bottom: 1px solid &dtml-globalBackgroundColor;;
-    text-align:center;
-    background-color: &dtml-globalBackgroundColor;;
     color: white;
 }
 
 dl.portlet dt, div.portletAssignments div.portletHeader {
     background: none repeat scroll 0 0 &dtml-globalBackgroundColor;;
     line-height: normal;
-    padding: 0;
+    padding: 0.2em;
+    padding-left: 0.5em;
 }
 
 dl.portlet {
@@ -295,15 +285,6 @@ dl.portlet {
     border-color: &dtml-globalBackgroundColor;;
     border-radius : 5px;
     margin: 0 0 1em;
-}
-
-dl.portlet a {
-    display:block;
-}
-
-dl.portlet a:hover {
-    background-color: &dtml-contentViewBackgroundColor;;
-    color:#1F4065;
 }
 
 #portal-column-one .visualPadding {
@@ -322,6 +303,7 @@ dl.portlet a:hover {
     font-weight: bold;
     border: 0;
     color: white;
+    background-color: &dtml-globalBackgroundColor;;
 }
 
 /* add some space between 'manage portlets' link and last portlet above */
@@ -437,30 +419,27 @@ div.listingBar a {
     margin-bottom: 0em;
 }
 
-#content a:link {
-     border: 0;
+dl.portlet a:link {
+    padding: 3px;
+    display:block;
+}
+
+#content a:link, dl.portlet a:link {
+    color: &dtml-linkColor;;
+    border: 0;
 }
 
 #content a:visited, dl.portlet a:visited {
-    color: #205C90;
+    color: &dtml-linkColor;;
 }
 
 #content a:hover, dl.portlet a:hover {
-    color: #14982B;
-}
-
-dl.portlet a:hover {
-    color: #395370;
+    color: &dtml-linkHoverColor;;
+    text-decoration: none;
 }
 
 dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     padding: 0;
-}
-
-dl.portlet a:link {
-    border-bottom: 0.1em solid #CCCCCC;
-    color: #205C90;
-    padding: 6px;
 }
 
 #portal-breadcrumbs {

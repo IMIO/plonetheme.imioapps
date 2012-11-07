@@ -52,7 +52,7 @@
 }
 
 /* realign some images */
-#editAdviceForm > select, .itemsNavigation td img, table.nosort th img {
+#editAdviceForm > select, .itemsNavigation td img, table.nosort th img, H1 img {
     vertical-align: inherit;
 }
 
@@ -105,6 +105,10 @@ background-color: #E6EBF0;
 
 .portletMeetingElementSelected a {
 color:#496A93;
+}
+
+.todoSeeAll {
+    font-size: 95%;
 }
 
 .pmButton {

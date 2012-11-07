@@ -26,6 +26,7 @@ headingFontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, san
 helpBackgroundColor:string=#FFFFE1
 inputFontColor:string=Black
 linkActiveColor:string=Red
+linkHoverColor:string=#1F4065
 linkColor:string=#436976
 linkVisitedColor:string=Purple
 logoName:string=logo.jpg
