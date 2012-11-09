@@ -41,6 +41,7 @@
 
 .portletHs {
     border-radius: 5px 5px 5px 5px;
+    border: 1px solid &dtml-globalBorderColor;;
 }
 
 #plone-contentmenu-workflow .state-itemcreated {
@@ -68,6 +69,7 @@
 /* do not fix height or title of topics can not be displayed on 2 lines */
 .portletSection {
     height: auto;
+    padding-left: 0.3em;
 }
 
 #portletplonemeeting .portletHeader td {
@@ -81,6 +83,10 @@ color: white !important;
 
 .portletTodo {
 border: &dtml-borderStyle; &dtml-borderWidth; &dtml-globalBorderColor;;
+}
+
+.portletTodo .portletCell {
+    padding-left: 0.5em;
 }
 
 .portletHeader table td, .portletHeader table td a {
@@ -105,10 +111,6 @@ background-color: #E6EBF0;
 
 .portletMeetingElementSelected a {
 color:#496A93;
-}
-
-.todoSeeAll {
-    font-size: 95%;
 }
 
 .pmButton {

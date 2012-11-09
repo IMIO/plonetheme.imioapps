@@ -22,23 +22,30 @@ div.width-full #content {
     width: 100%;
 }
 
-/* largeur et padding des colonnes */
+/* column-one */
 div.width-1\:4 {
-    width: 15%;
+    margin-left: -99.5% !important;
+    width: 15.2%;
 }
 div.position-1\:4 {
-    margin-left: -83.5%
+    margin-left: -83.875%;
 }
 div.width-1\:2 {
-    width: 60%;
-    padding: 1%;
+    width: 68%;
 }
+
+/* column-two */
 div.position-3\:4 {
-    margin-left: -20%;
+    margin-left: -15.6% !important;
+    padding-top: 1em;
+    width: 15.2%;
 }
 div.width-3\:4 {
-    width: 83%;
+    width: 83.5%;
     padding: 1%;
+}
+div.position-0 {
+    margin-left: -98.875%;
 }
 
 /* fontBaseSize for portal-columns (every 3 default columns) and portlet manager */
@@ -523,13 +530,15 @@ table.listing td {
 table.listing tbody tr.odd td {
     background: none repeat scroll 0 0 white;
     border-right: 1px solid #DDDDDD;
-    padding-left: 1em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
 }
 
 table.listing tbody tr.even td {
     background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
     border-right: 1px solid #DDDDDD;
-    padding-left: 1em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
 }
 
 /* cache la derniere ligne */
