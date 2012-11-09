@@ -89,6 +89,11 @@ border: &dtml-borderStyle; &dtml-borderWidth; &dtml-globalBorderColor;;
     padding-left: 0.5em;
 }
 
+.portletCell.lastRow {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .portletHeader table td, .portletHeader table td a {
 background-color: &dtml-globalBackgroundColor;;
 color:white !important;
