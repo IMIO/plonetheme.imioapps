@@ -162,7 +162,7 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/delete_icon.gif');
 }
 
-.hsButtonAction_duplicate {
+.hsButtonAction_duplicate, .hsButtonAction_copyitem {
     background-image: url('&dtml-portal_url;/copy_icon.gif');
 }
 
@@ -210,8 +210,45 @@ dd.collapsibleContent {
 padding: 0 !important;
 }
 
+/* use important for it to work on the meetingfolder_view */
 .ploneMeetingSelectItemUnselected {
-  color: white;
+  color: white !important;
+  background-color: &dtml-globalBackgroundColor; !important;
+}
+
+/* icons displayed in the dropdown list used for selecting an Annex type for example
+   dropdown list where the an image is displayed before the label */
+.icons-imaged-dropdown {
+    line-height: 1.2em !important;
+}
+.icons-imaged-dropdown.contenttype-file {
+    background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -432px transparent;
+}
+.icons-imaged-dropdown.contenttype-folder {
+    background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -648px transparent;
+}
+
+/* as we generate the portal_type, skin every elements containings xxx */
+[class*="contenttype-meeting"] {
+    background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 0px transparent;
+    display: inline-block;
+    line-height: 1.2em;
+    padding-left: 20px !important;
+}
+.contenttype-externalapplication,
+[class*="contenttype-meetingitem"],
+.contenttype-meetingcategory,
+.contenttype-meetingconfig,
+.contenttype-meetingfile,
+.contenttype-meetingfiletype,
+.contenttype-meetinggroup,
+.contenttype-meetinguser,
+.contenttype-podtemplate,
+.contenttype-toolplonemeeting {
+    background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 -216px transparent;
+    display: inline-block;
+    line-height: 1.2em;
+    padding-left: 20px !important;
 }
 
 /* this avoid space between the field title and the FCKeditor widget */

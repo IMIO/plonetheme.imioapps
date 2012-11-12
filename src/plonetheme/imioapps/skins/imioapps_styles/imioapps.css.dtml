@@ -135,19 +135,6 @@ la selection des elements affiches */
     font-weight: bold;
 }
 
-ul.formTabs { 
-    margin: 0 0 -1.5em;
-}
-
-/* configuration des tabs apparaissant sur les formulaires d'édition   */
-li.formTab a.selected, li.formTab a:hover {
-    color: white !important;
-}
-
-dl.enableFormTabbing dd {
-    padding-top:0;
-}
-
 ul.configlets img {
     vertical-align: text-top;
 }
@@ -385,15 +372,6 @@ margin-left: -82.875%;
     margin-right:5px !important;
 }
 
-/* color of the selected tab while editing an element (enableFormTabbing) */
-li.formTab a.selected {
-    color: white;
-}
-
-li.formTab a:hover {
-    color: white;
-}
-
 div.listingBar a {
     border: 1px solid #CCCCCC !important;
 }
@@ -625,6 +603,17 @@ SPAN.formHelp {
 /* enlève padding dans la zone d'édition de CKeditor */
 .CSS1Compat BODY#content {
     margin: 0;
+}
+/* manage trailing icons not managed by Sunburst : some default Plone contenttype (Image, File) and PM contenttypes */
+.icons-on .contenttype-file {
+    background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -428px transparent;
+}
+
+.icons-on .contenttype-file,
+.icons-on .contenttype-image {
+    display: inline-block;
+    line-height: 2em;
+    padding-left: 20px !important;
 }
 
 /* </dtml-with> */
