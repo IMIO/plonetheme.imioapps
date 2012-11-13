@@ -29,7 +29,6 @@ linkActiveColor:string=Red
 linkHoverColor:string=#1F4065
 linkColor:string=#436976
 linkVisitedColor:string=Purple
-logoName:string=logo.jpg
 notifyBackgroundColor:string=#FFCE7B
 notifyBorderColor:string=#FFA500
 plone_skin:string=Plone Default
