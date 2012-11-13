@@ -98,7 +98,11 @@ h1, .pb-ajax h2 {
 html {
     overflow-y: scroll;
 }
-form
+
+div.formControls {
+    margin-left: 0;
+}
+
 /* need to add !important because there is an !important in public.css... */
 #content a.link-overlay {
     border-bottom: 0 !important;
@@ -179,6 +183,16 @@ legend {
     padding: 0 1em;
 }
 
+.portletLogin dd.even {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.portletLogin .portletItem.odd > form {
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+
 #portal-siteactions li a {
     border:0 solid white;
 }
@@ -202,6 +216,12 @@ legend {
 
 #portal-personaltools li a {
     color:white;
+}
+
+#portal-personaltools dd a:hover {
+    background: none repeat scroll 0 0 transparent;
+    color: white;
+    text-decoration: underline;
 }
 
 #portal-personaltools dd {
