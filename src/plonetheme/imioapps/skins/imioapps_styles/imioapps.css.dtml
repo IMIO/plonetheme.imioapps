@@ -329,12 +329,14 @@ dl.portlet {
     background-color: &dtml-globalBackgroundColor;;
 }
 
+/* @@manage-portlets */
 div.portletAssignments .managedPortlet .portletHeader,
 div.portletAssignments .managedPortlet .portletHeader a {
     color: &dtml-linkColor;;
     background-color: &dtml-buttonBackgroundColor;;
 }
 
+/* @@manage-portlets, blocked portlets */
 div.portletAssignments .managedPortlet.blockedPortlet .portletHeader a {
     background-color: transparent;
 }
@@ -344,28 +346,6 @@ div.managePortletsLink, a.managePortletsFallback {
     margin-top: 0.5em;
     background-color: &dtml-buttonBackgroundColor;;
     font-weight: bold;
-}
-
-/* div.position-1:4 {
-margin-left: -82.875%;
-} */
-
-.portletMeetingItem {
-    border-left:1px solid #f00;
-    border-right:1px solid #f00;
-    padding:1px 0 0 0 ;
-}
-
-.portletMeetingItem a {
-    padding-left:5px;
-}
-
-.portletMeetingElementSelected {
-    background-color: &dtml-contentViewBackgroundColor;;
-}
-
-.portletMeetingElementSelected a {
-    color: &dtml-globalBackgroundColor;;
 }
 
 .listing th, .stx table th {
@@ -602,10 +582,6 @@ dl.portalMessage dd {
 
 h1, h2 {
     letter-spacing: 0em;
-}
-
-.iconifiedDocumentActions {
-    margin-top: 0.6em;
 }
 
 /* color of the background when a popup is opened in an overlay */
