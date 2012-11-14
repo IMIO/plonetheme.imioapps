@@ -48,6 +48,12 @@ div.position-0 {
     margin-left: -98.875%;
 }
 
+/* no portlets */
+#portal-column-content.cell.width-full.position-0 {
+    margin-left: -99.5%;
+    width: 99%;
+}
+
 /* only portlets on the right column */
 #portal-column-content.position-0 {
     margin-left: -99.275%;
@@ -124,6 +130,10 @@ la selection des elements affiches */
 #foldercontents-show-all {
     color: white;
     text-decoration: underline;
+}
+
+#contentActionMenus {
+    right: 0;
 }
 
 .documentContent dd a {
@@ -213,6 +223,7 @@ legend {
 #portal-personaltools a:link {
     color: white;
 }
+
 
 #portal-personaltools li a {
     color:white;
@@ -310,19 +321,22 @@ dl.portlet {
     padding-left: 1em;
 }
 
-#portal-column-one .portletHeader,
-#portal-column-one .portletHeader a,
-#portal-column-one .managedPortlet .portletHeader,
-#portal-column-one .managedPortlet .portletHeader a,
-#portal-column-two .portletHeader,
-#portal-column-two .portletHeader a,
-#portal-column-two .managedPortlet .portletHeader,
-#portal-column-two .managedPortlet .portletHeader a
-{
+.portletHeader,
+.portletHeader a {
     font-weight: bold;
     border: 0;
     color: white;
     background-color: &dtml-globalBackgroundColor;;
+}
+
+div.portletAssignments .managedPortlet .portletHeader,
+div.portletAssignments .managedPortlet .portletHeader a {
+    color: &dtml-linkColor;;
+    background-color: &dtml-buttonBackgroundColor;;
+}
+
+div.portletAssignments .managedPortlet.blockedPortlet .portletHeader a {
+    background-color: transparent;
 }
 
 /* add some space between 'manage portlets' link and last portlet above */
