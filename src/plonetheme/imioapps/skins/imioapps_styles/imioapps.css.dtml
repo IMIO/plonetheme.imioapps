@@ -144,13 +144,12 @@ la selection des elements affiches */
     border:0;
 }
 
-.label {
-    font-weight: normal;
-    display: block;
-}
-
 .formQuestion {
     font-weight: bold;
+}
+
+.formQuestion.label {
+    display: block;
 }
 
 ul.configlets img {
