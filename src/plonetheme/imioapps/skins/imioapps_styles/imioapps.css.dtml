@@ -86,6 +86,10 @@ div.position-0 {
     color: &dtml-linkColor;;
 }
 
+#portal-column-one .portlet .portletHeader a {
+    color: white;
+}
+
 /* title H1 and elements H2 in popup overlays (used for history popup) */
 h1, .pb-ajax h2 {
     color: &dtml-linkColor;;
