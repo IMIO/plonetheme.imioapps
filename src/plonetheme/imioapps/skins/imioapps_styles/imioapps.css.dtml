@@ -170,12 +170,6 @@ ul.configlets img {
     border-radius: 5px;
 }
 
-legend {
-    color:#4A494A;
-    font-size:90%;
-    font-weight:bold;
-}
-
 #portal-header {
     background-image: url(header-bg.gif);
     background-repeat:repeat-x;
@@ -557,10 +551,15 @@ table.listing tbody tr.even td {
     margin-top: 1em !important;
 }
 
-
 /* back to 100% for most elements */
 #content legend, #content, #portal-breadcrumbs, dl.portlet {
     font-size: 100%;
+}
+
+legend {
+    color:#4A494A;
+    font-size:90%;
+    font-weight:bold;
 }
 
 dl.portalMessage {
