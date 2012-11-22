@@ -136,10 +136,7 @@ la selection des elements affiches */
     text-decoration: underline;
 }
 
-#contentActionMenus {
-    right: 0;
-}
-
+/* remove space at the right of the wf dropdown box */ 
 .documentContent dd a {
     border:0;
 }
@@ -243,16 +240,6 @@ ul.configlets img {
 
 #anon-personalbar a {
     color: white;
-}
-
-dl.actionMenu.activated dd {
-    border-width:0px 1px 0px 1px;
-    border-style:solid;
-    border-color:#fff;
-    border-radius: 5px;
-    min-width: 100%;
-    position: absolute;
-    width: auto;
 }
 
 #portal-globalnav {
