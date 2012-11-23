@@ -39,11 +39,6 @@
     padding-bottom: 0.75em; 
 }
 
-.portletHs {
-    border-radius: 5px 5px 5px 5px;
-    border: 1px solid &dtml-globalBorderColor;;
-}
-
 #plone-contentmenu-workflow .state-itemcreated {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     background-color: red;
@@ -70,11 +65,6 @@
 .portletSection {
     height: auto;
     padding-left: 0.3em;
-}
-
-.portletHs .portletHeader td{
-    padding-top: 1px;
-    padding-bottom: 1px;
 }
 
 .portletTodo {

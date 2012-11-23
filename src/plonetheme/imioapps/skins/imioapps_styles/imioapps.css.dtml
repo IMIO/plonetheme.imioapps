@@ -82,14 +82,6 @@ div.position-0 {
     padding-top: 0.75em;
 }
 
-#portal-column-one a {
-    color: &dtml-linkColor;;
-}
-
-#portal-column-one .portlet .portletHeader a {
-    color: white;
-}
-
 /* title H1 and elements H2 in popup overlays (used for history popup) */
 h1, .pb-ajax h2 {
     color: &dtml-linkColor;;
@@ -281,11 +273,6 @@ ul.configlets img {
     color:#fff;
 }
 
-#content dt.portletHeader {
-    border-bottom: 1px solid &dtml-globalBackgroundColor;;
-    color: white;
-}
-
 dl.portlet dt, div.portletAssignments div.portletHeader {
     background: none repeat scroll 0 0 &dtml-globalBackgroundColor;;
     line-height: normal;
@@ -298,15 +285,16 @@ dl.portlet {
     border-style:solid;
     border-color: &dtml-globalBackgroundColor;;
     border-radius : 5px;
-    margin: 0 0 1em;
+    margin: 0 0 0.75em;
 }
 
 #portal-column-one .visualPadding {
     padding-left: 1em;
 }
 
-.portletHeader,
-.portletHeader a {
+dl.portlet .portletHeader,
+dl.portlet .portletHeader a:link,
+dl.portlet .portletHeader a:visited {
     font-weight: bold;
     border: 0;
     color: white;
