@@ -170,6 +170,12 @@ ul.configlets img {
     margin: 5px 0px 10px 43px;
 }
 
+#portlet-prefs STRONG {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
 #portlet-prefs .portletItem {
     padding: 1em 0;
 }
