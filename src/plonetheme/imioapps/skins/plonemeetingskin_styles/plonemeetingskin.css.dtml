@@ -160,6 +160,12 @@ input[class*="hsButtonWF_backTo"] {
     padding-left: 18px;
     background-image: url('&dtml-portal_url;/backTo.png');
 }
+/* special case for the backToValidated that removes the item from a meeting */
+input.hsButtonWF_backToValidated {
+    background-position: 3px 3px;
+    padding-left: 18px;
+    background-image: url('&dtml-portal_url;/backToValidatedForInput.png');
+}
 
 /* Adapt default collapsible to correspond to the recoded same thing in PM... */
 dl.collapsedInlineCollapsible, dt.collapsibleHeader {
