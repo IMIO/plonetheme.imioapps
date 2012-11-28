@@ -122,7 +122,7 @@ color:#436976 !important;
 
 .hsButtonAction {
     color: &dtml-buttonTextColor;;
-    background-position: 3px 4px;
+    background-position: 3px 3px;
     padding-left: 18px;
 }
 
@@ -152,6 +152,13 @@ color:#436976 !important;
 
 .hsButtonAction_clone_to_other_mc_plonegov-assembly_from_plonemeeting-assembly {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_plonegov-assembly_from_plonemeeting-assembly.png');
+}
+
+/* add a icon to every wf actions corresponding to a 'backTo' */
+input[class*="hsButtonWF_backTo"] {
+    background-position: 3px 3px;
+    padding-left: 18px;
+    background-image: url('&dtml-portal_url;/backTo.png');
 }
 
 /* Adapt default collapsible to correspond to the recoded same thing in PM... */
