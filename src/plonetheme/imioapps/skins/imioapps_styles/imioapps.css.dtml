@@ -110,6 +110,10 @@ div.formControls {
     border-bottom: 0 !important;
 }
 
+#content label {
+    vertical-align: top;
+}
+
 #content table {
     margin-bottom: 0.5em;
 }
@@ -557,6 +561,13 @@ dl.portalMessage a, #content dl.portalMessage a {
 
 dl.portalMessage dd {
     border-radius: 5px;
+}
+
+#content dl.portalMessage dd {
+    padding-top: 0.5em;
+}
+#content dl.portalMessage {
+    font-size: 90%;
 }
 
 .historyByLine {
