@@ -598,6 +598,12 @@ div.overlay-iframe, div.overlay-ajax {
     width: 80em;
 }
 
+/* display the 'close' icon on the right, not on the left of the overlay */
+div.overlaybg div.close, div.overlay div.close {
+    right: -14px;
+    left: auto;
+}
+
 SPAN.formHelp {
     display: block;
     color: &dtml-discreetColor;;
@@ -608,6 +614,11 @@ SPAN.formHelp {
 .CSS1Compat BODY#content {
     margin: 0;
 }
+/* affiche CKeditor en 100% de large */
+span.cke_skin_kama {
+    width: 100%;
+}
+
 /* manage trailing icons not managed by Sunburst : some default Plone contenttype (Image, File) and PM contenttypes */
 .icons-on .contenttype-file {
     background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -428px transparent;
