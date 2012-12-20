@@ -39,14 +39,6 @@
     padding-bottom: 0.75em; 
 }
 
-#plone-contentmenu-workflow .state-itemcreated {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
-    background-color: red;
-    padding: 0 0.5em;
-    color: white !important;
-    border: 2px solid red;
-}
-
 /* realign some images */
 #editAdviceForm > select, .itemsNavigation td img, table.nosort th img, H1 img {
     vertical-align: inherit;

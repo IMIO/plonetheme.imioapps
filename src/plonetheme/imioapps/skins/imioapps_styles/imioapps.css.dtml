@@ -591,11 +591,16 @@ div.overlay div#content {
 /* force displaying a scroll if popup is heighter than 600 px */
 .pb-ajax, .pb-image, .overlay iframe {
     max-height: 600px;
+    max-width: 800px;
 }
 
 /* increase width of displayed overlay popups */
 div.overlay-iframe, div.overlay-ajax {
-    width: 80em;
+    max-width: 800px;
+}
+/* center content */
+.pb-ajax #portal-column-content {
+    margin-left: -90%;
 }
 
 /* display the 'close' icon on the right, not on the left of the overlay */
