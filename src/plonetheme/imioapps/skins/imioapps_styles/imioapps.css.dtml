@@ -592,6 +592,7 @@ div.overlay div#content {
 .pb-ajax, .pb-image, .overlay iframe {
     max-height: 600px;
     max-width: 800px;
+    border-radius: 5px;
 }
 
 /* increase width of displayed overlay popups */
