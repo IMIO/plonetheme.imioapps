@@ -637,6 +637,11 @@ span.cke_skin_kama {
     padding-left: 20px !important;
 }
 
+/* misbehaviour in Sunburst, see https://dev.plone.org/ticket/13420 */
+.icons-on table.listing td {
+    line-height: 1em;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

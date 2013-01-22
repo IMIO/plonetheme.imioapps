@@ -198,22 +198,22 @@ padding: 0 !important;
 }
 
 /* as we generate the portal_type, skin every elements containings xxx */
-[class*="contenttype-meeting"] {
+.icons-on [class*="contenttype-meeting"] {
     background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 0px transparent;
     display: inline-block;
     line-height: 1.2em;
     padding-left: 20px !important;
 }
-.contenttype-externalapplication,
-[class*="contenttype-meetingitem"],
-.contenttype-meetingcategory,
-.contenttype-meetingconfig,
-.contenttype-meetingfile,
-.contenttype-meetingfiletype,
-.contenttype-meetinggroup,
-.contenttype-meetinguser,
-.contenttype-podtemplate,
-.contenttype-toolplonemeeting {
+.icons-on .contenttype-externalapplication,
+.icons-on [class*="contenttype-meetingitem"],
+.icons-on .contenttype-meetingcategory,
+.icons-on .contenttype-meetingconfig,
+.icons-on .contenttype-meetingfile,
+.icons-on .contenttype-meetingfiletype,
+.icons-on .contenttype-meetinggroup,
+.icons-on .contenttype-meetinguser,
+.icons-on .contenttype-podtemplate,
+.icons-on .contenttype-toolplonemeeting {
     background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 -216px transparent;
     display: inline-block;
     line-height: 1.2em;
