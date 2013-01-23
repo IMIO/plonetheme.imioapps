@@ -441,11 +441,6 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     margin-bottom:1px;
 }
 
-#content dd {
-    margin: 1em;
-    padding-top:1em;
-}
-
 #edit-bar{
     margin-bottom: 0.5em;
     font-size: 90%;
