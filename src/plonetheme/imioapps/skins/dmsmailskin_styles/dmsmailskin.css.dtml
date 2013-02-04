@@ -47,12 +47,12 @@ position:absolute;
 }
 
 #portal-globalnav {
-    padding-left: 5em;
-    height:25px;
+    margin-left: -2em;
+    padding-left: 0;
 }
 
 #portaltab-index_html{
-display:none;
+visibility:hidden;
 }
 
 #portal-personaltools-wrapper {
