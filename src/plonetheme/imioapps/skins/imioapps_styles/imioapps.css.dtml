@@ -16,6 +16,7 @@ body {
     font: 100% Arial,FreeSans,sans-serif;
 }
 
+
 div.width-full #content {
     padding-left: 0%;
     padding-right: 0%;
@@ -66,7 +67,7 @@ div.position-0 {
 }
 
 #portal-column-content {
-    padding: 0.5em 0 0;
+    padding: 0.25em 0 0;
 }
 
 #content-views a, #content li.formTab a {
@@ -254,32 +255,35 @@ ul.configlets img {
 }
 
 #portal-globalnav li {
+    margin-right:2px;
     text-align: center;
 }
 
 #portal-globalnav li a {
     background: none repeat scroll 0 0 &dtml-buttonBackgroundColor;;
+    border: 1px solid lightgray;
     color:&dtml-buttonTextColor;;
     font-size:17px;
     padding:0.1em 1em 0.1em;
     border-radius: 5px 5px 0px 0px;
+    min-width:0;
 }
 
 #portal-globalnav li a:hover {
     background-color: &dtml-globalBackgroundColor;;
-    border-color:#fff;
+    border:1px solid &dtml-globalBackgroundColor;;
     color:#fff;
 }
 
 #portal-globalnav li.selected a {
     background-color: &dtml-globalBackgroundColor;;
-    border-color:#fff;
+    border:1px solid &dtml-globalBackgroundColor;;
     color:#fff;
 }
 
 #portal-globalnav li.selected a:hover {
     background-color: &dtml-globalBackgroundColor;;
-    border-color:#fff;
+    border:1px solid &dtml-globalBackgroundColor;;
     color:#fff;
 }
 
@@ -429,8 +433,8 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 }
 
 #portal-breadcrumbs {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
 }
 
 #portal-breadcrumbs a {

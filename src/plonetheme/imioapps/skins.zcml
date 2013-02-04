@@ -16,5 +16,10 @@
        name="plonemeetingskin_styles"/>
    <cmf:registerDirectory
        name="plonemeetingskin_templates"/>
+   <cmf:registerDirectory
+       name="dmsmailskin_images"/>
+   <cmf:registerDirectory
+       name="dmsmailskin_styles"/>
+       
 
 </configure>

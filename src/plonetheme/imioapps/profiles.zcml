@@ -19,5 +19,14 @@
       description="Extension profile for plonemeetingskin Product."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+      
+  <genericsetup:registerProfile
+      name="dmsmailskin"
+      title="dmsmailskin"
+      directory="profiles/dmsmailskin"
+      description="Extension profile for dmsmailskin Product."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      />
 
 </configure>
