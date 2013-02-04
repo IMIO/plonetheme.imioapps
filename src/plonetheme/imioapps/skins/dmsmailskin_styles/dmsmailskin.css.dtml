@@ -12,6 +12,9 @@
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 
+.template-view #content li.formTab a.required span:after, .template-view #content-core li.formTab a.required span:after, .template-view div.field span.required:after {
+    display: None;
+}
 
 #portal-logo {
     float: left;
