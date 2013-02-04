@@ -18,5 +18,5 @@ msgstr ""
 #. Default: "only in current section"
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:42
 msgid "label_searchbox_currentfolder_only"
-msgstr "localement"
+msgstr "Localement"
 
