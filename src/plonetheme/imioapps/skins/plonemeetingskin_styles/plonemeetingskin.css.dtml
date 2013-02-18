@@ -11,6 +11,10 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
+#portal-logo {
+    margin: 0.3em 0 -1.8em 1em;
+}
+
 /* display the category list correctly */
 #category {
     color: ButtonText;
