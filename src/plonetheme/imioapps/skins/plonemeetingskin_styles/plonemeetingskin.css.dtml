@@ -251,10 +251,6 @@ dd.actionMenuContentAX even {
     font-style: italic;
 }
 
-p {
-    line-height: 1.25em;
-}
-
 .state-inactive, .label-state-inactive {
     color: red !important;
 }
