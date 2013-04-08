@@ -468,7 +468,8 @@ div.managePortletsLink, a.managePortletsFallback {
     color: white;
 }
 
-.standalone, .documentEditable * .standalone, .destructive {
+/* the submit-widget comes from z3c.form forms */
+input.standalone, .documentEditable * input.standalone, input.destructive, input.submit-widget.standalone {
     border-radius: 5px;
     background-repeat: no-repeat;
     background-color: orange;
@@ -483,7 +484,8 @@ div.managePortletsLink, a.managePortletsFallback {
     color: &dtml-buttonTextColor;;
 }
 
-.context {
+/* the submit-widget comes from z3c.form forms */
+input.context, input.submit-widget {
     border-radius: 5px;
     background-repeat: no-repeat;
     background-color: &dtml-buttonBackgroundColor;;
