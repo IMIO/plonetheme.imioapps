@@ -697,6 +697,7 @@ div.overlay div#content {
 /* increase width of displayed overlay popups */
 div.overlay-iframe, div.overlay-ajax {
     max-width: 900px;
+    width: 100%;
 }
 /* center content */
 .pb-ajax #portal-column-content {

@@ -19,7 +19,7 @@
       description="Extension profile for plonemeetingskin Product."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-      
+
   <genericsetup:registerProfile
       name="dmsmailskin"
       title="dmsmailskin"
@@ -27,6 +27,15 @@
       description="Extension profile for dmsmailskin Product."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="plonetheme.imioapps uninstallation"
+      directory="profiles/uninstall"
+      description='Uninstallation profile for the "plonetheme.imioapps" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFCore.interfaces.ISiteRoot"
       />
 
 </configure>

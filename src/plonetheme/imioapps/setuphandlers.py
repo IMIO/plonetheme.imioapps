@@ -1,10 +1,11 @@
-
 def isNotplonemeetingskinProfile(context):
     return context.readDataFile("plonemeetingskin_marker.txt") is None
 
+
 def plonemeetingskinSetupVarious(context):
 
-    if isNotplonemeetingskinProfile(context): return
+    if isNotplonemeetingskinProfile(context):
+        return
 
     #site = context.getSite()
 
