@@ -230,10 +230,6 @@ div.position-0 {
     min-width: 8em;
 }
 
-#portal-column-one {
-    padding-top: 0.75em;
-}
-
 /* title H1 and elements H2 in popup overlays (used for history popup) */
 h1, .pb-ajax h2 {
     color: &dtml-linkColor;;
