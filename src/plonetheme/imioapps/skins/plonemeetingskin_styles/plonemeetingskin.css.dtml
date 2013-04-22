@@ -150,12 +150,36 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/rename_icon.gif');
 }
 
+/* icon displayed on the 'send to other mc' button displayed on the item view */
 .hsButtonAction_clone_to_other_mc_plonemeeting-assembly_from_plonegov-assembly {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_plonemeeting-assembly_from_plonegov-assembly.png');
 }
-
 .hsButtonAction_clone_to_other_mc_plonegov-assembly_from_plonemeeting-assembly {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_plonegov-assembly_from_plonemeeting-assembly.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-council_from_meeting-config-college {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-council_from_meeting-config-college.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-college_from_meeting-config-council {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-college_from_meeting-config-council.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-bp_from_meeting-config-cas {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-bp_from_meeting-config-cas.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-bp_from_meeting-config-comitee {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-bp_from_meeting-config-comitee.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-cas_from_meeting-config-bp {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-cas_from_meeting-config-bp.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-cas_from_meeting-config-comitee {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-cas_from_meeting-config-comitee.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-comitee_from_meeting-config-bp {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-comitee_from_meeting-config-bp.png');
+}
+.hsButtonAction_clone_to_other_mc_meeting-config-comitee_from_meeting-config-cas {
+    background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-comitee_from_meeting-config-cas.png');
 }
 
 /* add a icon to every wf actions corresponding to a 'backTo' */
