@@ -5,4 +5,6 @@
     enabled="1" expression="" id="imioapps.css" media="screen"
     rel="stylesheet" rendering="import" insert-before="ploneCustom.css"/>
 
+ <stylesheet id="imioapps_IEFixes.css" conditionalcomment="IE" insert-before="ploneCustom.css" />
+
 </object>
