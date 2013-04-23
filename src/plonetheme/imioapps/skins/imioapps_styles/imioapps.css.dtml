@@ -537,7 +537,6 @@ div.listingBar a {
 }
 
 dl.portlet a:link, dl.portlet a:visited {
-    padding: 3px;
     display:block;
 }
 
