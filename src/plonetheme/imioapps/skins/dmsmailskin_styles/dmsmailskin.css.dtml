@@ -30,7 +30,9 @@
     width: 50%;
 }
 
-
+#plone-contentmenu-add-to-default-page {
+    display: none !important;
+}
 
 
 
