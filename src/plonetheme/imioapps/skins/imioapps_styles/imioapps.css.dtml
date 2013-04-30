@@ -17,7 +17,9 @@ body {
 }
 
 #portal-searchbox {
-    margin: 0.5em 18em 0 0;
+    margin: 0.5em 10em 0 0;
+    clear: none;
+    position: relative;
 }
 
 #portal-searchbox label {
@@ -111,12 +113,6 @@ position:absolute;
 
 #portaltab-index_html{
 visibility:hidden;
-}
-
-#portal-personaltools-wrapper {
-    float: right;
-    position: absolute;
-    right: 5px;
 }
 
 /*#portal-personaltools {
