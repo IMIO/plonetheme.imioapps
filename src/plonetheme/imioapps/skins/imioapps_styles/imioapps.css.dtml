@@ -690,9 +690,12 @@ div.overlay-iframe, div.overlay-ajax {
     max-width: 900px;
     width: 100%;
 }
-/* center content */
+/* center content in overlays and take as much place as possible */
 .pb-ajax #portal-column-content {
-    margin-left: -90%;
+    margin-left: -100%;
+}
+.pb-ajax div.width-3\:4 {
+    width: 105%;
 }
 
 /* display the 'close' icon on the right, not on the left of the overlay */
