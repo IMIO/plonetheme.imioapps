@@ -150,6 +150,11 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/rename_icon.gif');
 }
 
+.hsButtonAction_documentviewer_convert {
+    background-image: url('&dtml-portal_url;/documentviewer_convert.png');
+}
+
+
 /* icon displayed on the 'send to other mc' button displayed on the item view */
 .hsButtonAction_clone_to_other_mc_plonemeeting-assembly_from_plonegov-assembly {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_plonemeeting-assembly_from_plonegov-assembly.png');
