@@ -75,9 +75,13 @@ border: &dtml-borderStyle; &dtml-borderWidth; &dtml-globalBorderColor;;
     padding-left: 0.5em;
 }
 
-.portletCell.lastRow {
+/* make bottom of portlet and annex type select box rounded */
+.portletCell.lastRow, .ploneMeetingSelectBox {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.ploneMeetingSelectDropdownIcon{
+    border-radius: 5px;
 }
 
 .portletHeader table td, .portletHeader table td a {
