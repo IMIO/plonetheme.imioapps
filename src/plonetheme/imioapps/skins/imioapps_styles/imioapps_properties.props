@@ -28,6 +28,7 @@ inputFontColor:string=Black
 linkActiveColor:string=Red
 linkHoverColor:string=#1F4065
 linkColor:string=#436976
+darkLinkColor:string=#205C90
 linkVisitedColor:string=Purple
 notifyBackgroundColor:string=#FFCE7B
 notifyBorderColor:string=#FFA500

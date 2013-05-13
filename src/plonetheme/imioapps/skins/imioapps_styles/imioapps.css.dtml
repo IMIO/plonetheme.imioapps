@@ -63,7 +63,7 @@ position:absolute;
     background-image: url(&dtml-portal_url;/search_button_icon.png);
     background-repeat: no-repeat;
     background-position: left top;
-    border: 0 solid #496A93;
+    border: 0 solid &dtml-globalBorderColor;;
     color: transparent;
     font-size: 15px;
     padding-left: 18px;
@@ -140,13 +140,13 @@ visibility:hidden;
 }
 
 #portal-personaltools a:link {
-    color: #205C90;
+    color: &dtml-darkLinkColor;;
     padding:3px;
 }
 
 #portal-personaltools .actionMenuContent{
     border-top-left-radius: 0.5em;
-    background: none repeat scroll 0 0 #496a93;
+    background: none repeat scroll 0 0 &dtml-globalBorderColor;;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
     right: 0;
@@ -158,7 +158,7 @@ visibility:hidden;
 }
 
 h1 {
-    border-bottom: 1px solid #436976;
+    border-bottom: 1px solid &dtml-globalFontColor;;
     font-size: 1.75em;
     margin-bottom: 0.5em;
 }
@@ -234,7 +234,7 @@ h1, .pb-ajax h2 {
 }
 
 .managePortletsFallback {
-    color:#205C90 !important;
+    color: &dtml-linkColor; !important;
 }
 
 .plone-jscalendar-popup img {
@@ -449,14 +449,15 @@ div.portletAssignments .managedPortlet.blockedPortlet .portletHeader a {
 }
 
 /* add some space between 'manage portlets' link and last portlet above */
-div.managePortletsLink, a.managePortletsFallback {
+div.managePortletsLink, div.managePortletsLink a, a.managePortletsFallback {
     margin-top: 0.5em;
-    background-color: &dtml-buttonBackgroundColor;;
+    background-color: &dtml-evenRowBackgroundColor;;
     font-weight: bold;
+    color: &dtml-darkLinkColor;;
 }
 
 .listing th, .stx table th {
-    background-color:#E6EBF0;
+    background-color: &dtml-contentViewBackgroundColor;;
     color: white;
 }
 
@@ -491,7 +492,7 @@ input.context, input.submit-widget {
 }
 
 .ptButton {
-    color: #000;
+    color: black;
     margin-right:5px !important;
 }
 
@@ -521,7 +522,7 @@ div.listingBar a {
 
 /* links in the portal footer need to be visible... */
 #portal-footer a {
-    color:#165182;
+    color: &dtml-darkLinkColor;;
 }
 
 #content {
@@ -598,14 +599,14 @@ table.listing td {
 
 table.listing tbody tr.odd td {
     background: none repeat scroll 0 0 white;
-    border-right: 1px solid #DDDDDD;
+    border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
     padding-left: 0.7em;
     padding-right: 0.7em;
 }
 
 table.listing tbody tr.even td {
     background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
-    border-right: 1px solid #DDDDDD;
+    border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
     padding-left: 0.7em;
     padding-right: 0.7em;
 }
