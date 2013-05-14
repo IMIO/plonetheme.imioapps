@@ -344,10 +344,16 @@ p {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 .portletLogin .portletItem.odd > form {
     padding-left: 1em;
     padding-top: 0.5em;
+}
+/* some more space for the portlet bottom containing the 'Forget password?' link */
+.portletLogin dd a.tile {
+    padding: 0.5em;
+}
+.portletLogin .portletHeader {
+    padding: 0.3em;
 }
 
 #portal-siteactions li a {
