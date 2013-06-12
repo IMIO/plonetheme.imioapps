@@ -218,6 +218,11 @@ div.position-0 {
     line-height: 1em;
 }
 
+/* some space under the history */
+#content #viewlet-below-content-title {
+    padding-bottom: 0.5em;
+}
+
 /* set a higher line-height for content-core */
 #content-core {
     line-height: 1.5em;
@@ -613,6 +618,14 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
    certaines bordures ne sont pas affichées, les afficher... */
 .no-style-table table.listing tr td {
     border: 1px solid &dtml-tableHeaderBackgroundColor;;
+}
+
+/* classes used while displaying widgets on a view */
+.table_widget_label {
+    width: 250px;
+}
+.table_widget_value {
+    width: auto;
 }
 
 table.listing th, .stx table th {
