@@ -235,6 +235,8 @@ div.position-0 {
 #content-views a, #content li.formTab a {
     padding-left: 0.5em;
     padding-right: 0.5em;
+    /* to be removed when we will use plonetheme.sunburst 1.4.4 */
+    line-height: 26px;
 }
 
 #form-container input{
