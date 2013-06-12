@@ -600,9 +600,24 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     border-bottom: 1px solid #EFEFEF;
 }
 
+.no-style-table td {
+    vertical-align: top;
+}
+
+/* cache la derniere ligne */
+.no-style-table tr:last-child {
+    border-bottom: 0;
+}
+
+/* si on affiche une table avec la classe 'listing' dans une table avec 'no-style-table',
+   certaines bordures ne sont pas affichées, les afficher... */
+.no-style-table table.listing tr td {
+    border: 1px solid &dtml-tableHeaderBackgroundColor;;
+}
+
 table.listing th, .stx table th {
-    background-color:&dtml-tableHeaderBackgroundColor;;
-    color:&dtml-tableHeaderTextColor;;
+    background-color: &dtml-tableHeaderBackgroundColor;;
+    color: &dtml-tableHeaderTextColor;;
     vertical-align: middle;
     text-align: center;
     padding: 0.3em;
@@ -625,16 +640,6 @@ table.listing tbody tr.even td {
     border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
     padding-left: 0.7em;
     padding-right: 0.7em;
-}
-
-/* cache la derniere ligne */
-.no-style-table tr:last-child {
-    border-bottom: 0;
-}
-
-.no-style-table td {
-    border: 0 !important;
-    margin: 0 !important;
 }
 
 /* the table listing elements in folder_contents */
