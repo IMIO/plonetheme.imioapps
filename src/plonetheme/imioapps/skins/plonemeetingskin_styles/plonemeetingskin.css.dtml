@@ -27,6 +27,11 @@
     text-align: inherit;
 }
 
+/* reduce content-core line-height */
+#content-core {
+    line-height: 1em;
+}
+
 /* souligner le titre H1 et les H2 dans les popups overlay */
 #content h1.documentFirstHeading, .pb-ajax h2 {
     border-bottom: 1px solid &dtml-globalBorderColor;;

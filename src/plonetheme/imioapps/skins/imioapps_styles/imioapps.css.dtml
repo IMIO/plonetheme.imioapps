@@ -207,10 +207,20 @@ div.position-0 {
     margin-left: -99.275%;
 }
 
+/* add some space above the description */
+#content .documentDescription, #content #description {
+    padding-bottom: 1em;
+}
+
 /* fontBaseSize for portal-columns (every 3 default columns) and portlet manager */
 #content, #portal-columns, div.portletAssignments {
     font-size: &dtml-fontBaseSize;;
     line-height: 1em;
+}
+
+/* set a higher line-height for content-core */
+#content-core {
+    line-height: 1.5em;
 }
 
 #portal-column-content {
