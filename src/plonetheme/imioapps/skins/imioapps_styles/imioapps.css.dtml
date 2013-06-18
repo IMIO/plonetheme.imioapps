@@ -624,7 +624,7 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 
 /* classes used while displaying widgets on a view */
 .table_widget_label {
-    width: 200px;
+    width: 250px;
 }
 .table_widget_value {
     width: auto;
