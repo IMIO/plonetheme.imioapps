@@ -28,6 +28,15 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       />
+  
+  <genericsetup:registerProfile
+      name="pstskin"
+      title="pstskin"
+      directory="profiles/pstskin"
+      description="Extension profile for pstskin Product."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      />
 
   <genericsetup:registerProfile
       name="uninstall"
