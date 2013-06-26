@@ -558,10 +558,6 @@ div.listingBar a {
     margin-top: 0;
 }
 
-#content p {
-    margin-bottom: 0em;
-}
-
 dl.portlet a:link, dl.portlet a:visited {
     display:block;
 }
