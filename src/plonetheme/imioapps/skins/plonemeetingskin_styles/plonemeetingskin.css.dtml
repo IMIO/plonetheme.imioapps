@@ -250,7 +250,7 @@ padding: 0 !important;
 /* as we generate the portal_type, skin every elements containings xxx */
 .icons-on [class*="contenttype-meeting"] {
     background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 0px transparent;
-    display: inline-block;
+    display: inline;
     line-height: 1.2em;
     padding-left: 20px !important;
 }
@@ -265,9 +265,14 @@ padding: 0 !important;
 .icons-on .contenttype-podtemplate,
 .icons-on .contenttype-toolplonemeeting {
     background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 -216px transparent;
-    display: inline-block;
+    display: inline;
     line-height: 1.2em;
     padding-left: 20px !important;
+}
+
+/* display allowed types with icon in drop down list (meetingfolder_view) one by one */
+#content .ploneMeetingSelectContainer p {
+    display: inline-block;
 }
 
 /* special handling of table showing advices */
