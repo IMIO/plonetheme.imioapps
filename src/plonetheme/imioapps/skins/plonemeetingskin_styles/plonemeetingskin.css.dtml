@@ -96,7 +96,11 @@ text-align: left;
 }
 
 .portletPloneMeetingHeaderIcons {
-background-color: &dtml-globalBorderColor;;
+    background-color: &dtml-globalBorderColor;;
+}
+/* display sub-elements of the plonemeeting portlet lowercase */
+.portletPloneMeeting .portletCell {
+    text-transform: lowercase;
 }
 
 .pmButton {
