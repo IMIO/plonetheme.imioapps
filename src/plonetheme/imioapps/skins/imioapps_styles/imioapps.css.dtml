@@ -762,6 +762,7 @@ span.cke_skin_kama {
 .icons-on .contenttype-file {
     background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -428px transparent;
 }
+
 .icons-on .contenttype-folder {
     background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -649px transparent;
 }
@@ -771,7 +772,15 @@ span.cke_skin_kama {
 .icons-on .contenttype-image {
     display: inline-block;
     line-height: 1.2em;
-    padding-left: 20px !important;
+    padding-left: 20px;
+}
+
+/* specifically do not display the file type icon in folder-listing because another icon representing the file mimetype is already displayed */
+#folder-listing .contenttype-file,
+.portletNavigationTree .contenttype-file,
+#content .contenttype-file {
+    background: none;
+    padding-left: 0px;
 }
 
 /* misbehaviour in Sunburst, see https://dev.plone.org/ticket/13420 */
