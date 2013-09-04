@@ -98,8 +98,8 @@ text-align: left;
 .portletPloneMeetingHeaderIcons {
     background-color: &dtml-globalBorderColor;;
 }
-/* display sub-elements of the plonemeeting portlet lowercase */
-.portletPloneMeeting .portletCell {
+/* display sub-elements of the plonemeeting portlet lowercase, same when it is appearing in the portlet_todo */
+.portletPloneMeeting .portletCell, .portletTodo dd.portletSection {
     text-transform: lowercase;
 }
 
