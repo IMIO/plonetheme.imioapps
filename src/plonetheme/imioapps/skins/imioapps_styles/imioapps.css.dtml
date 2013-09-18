@@ -638,6 +638,8 @@ table.listing th, .stx table th {
     vertical-align: middle;
     text-align: center;
     padding: 0.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
 }
 
 table.listing td {
@@ -645,7 +647,8 @@ table.listing td {
     padding-bottom: 0.25em;
 }
 
-table.listing tbody tr.odd td {
+table.listing tbody tr.odd td,
+table.listing tfoot tr td {
     background: none repeat scroll 0 0 white;
     border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
     padding-left: 0.7em;
