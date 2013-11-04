@@ -144,11 +144,11 @@ color:#436976 !important;
 }
 
 .hsButtonAction_delete {
-    background-image: url('&dtml-portal_url;/delete_icon.gif');
+    background-image: url('&dtml-portal_url;/delete_icon.png');
 }
 
 .hsButtonAction_duplicate, .hsButtonAction_copyitem {
-    background-image: url('&dtml-portal_url;/copy_icon.gif');
+    background-image: url('&dtml-portal_url;/copy_icon.png');
 }
 
 .hsButtonAction_duplicate_and_keep_link {
