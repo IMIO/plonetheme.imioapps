@@ -722,7 +722,7 @@ div.overlay div#content {
 
 /* force displaying a scroll if popup is heighter than 600 px */
 .pb-ajax, .pb-image, .overlay iframe {
-    max-height: 700px;
+    max-height: 800px;
     max-width: 900px;
     border-radius: 5px;
 }
