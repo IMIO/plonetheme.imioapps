@@ -112,102 +112,62 @@ color: white;
 color:#436976 !important;
 }
 
-.hsButton {
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    background-color: &dtml-buttonBackgroundColor;;
-    border: 1px solid &dtml-globalBackgroundColor;;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 2px;
-    font-size: 90%;
-    height: 2em;
-    color: &dtml-buttonTextColor;;
-}
-
-.fakeButton {
-    background: url("&dtml-portal_url;/fakeTransition.gif") no-repeat scroll 3px 4px #FFD5C0;
-    cursor: help;
-    font-style: italic;
-    padding-left: 8px;
-}
-
-.hsButtonWF {
-    color: white;
-    background-color: &dtml-globalBackgroundColor;;
-}
-
-.hsButtonAction {
-    color: &dtml-buttonTextColor;;
-    background-position: 3px 3px;
-    padding-left: 18px;
-}
-
-.hsButtonAction_delete {
-    background-image: url('&dtml-portal_url;/delete_icon.png');
-}
-
-.hsButtonAction_duplicate, .hsButtonAction_copyitem {
+.apButtonAction_duplicate, .apButtonAction_copyitem {
     background-image: url('&dtml-portal_url;/copy_icon.png');
 }
 
-.hsButtonAction_duplicate_and_keep_link {
+.apButtonAction_duplicate_and_keep_link {
     background-image: url('&dtml-portal_url;/duplicate_and_keep_link.gif');
 }
 
-.hsButtonAction_deleteWholeMeeting {
+.apButtonAction_deleteWholeMeeting {
     background-image: url('&dtml-portal_url;/delete_many.gif');
 }
 
-.hsButtonAction_rename {
-    background-image: url('&dtml-portal_url;/rename_icon.gif');
-}
-
-.hsButtonAction_documentviewer_convert {
+.apButtonAction_documentviewer_convert {
     background-image: url('&dtml-portal_url;/documentviewer_convert.png');
 }
 
-
 /* icon displayed on the 'send to other mc' button displayed on the item view */
-.hsButtonAction_clone_to_other_mc_plonemeeting-assembly_from_plonegov-assembly {
+.apButtonAction_clone_to_other_mc_plonemeeting-assembly_from_plonegov-assembly {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_plonemeeting-assembly_from_plonegov-assembly.png');
 }
-.hsButtonAction_clone_to_other_mc_plonegov-assembly_from_plonemeeting-assembly {
+.apButtonAction_clone_to_other_mc_plonegov-assembly_from_plonemeeting-assembly {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_plonegov-assembly_from_plonemeeting-assembly.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-council_from_meeting-config-college {
+.apButtonAction_clone_to_other_mc_meeting-config-council_from_meeting-config-college {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-council_from_meeting-config-college.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-college_from_meeting-config-council {
+.apButtonAction_clone_to_other_mc_meeting-config-college_from_meeting-config-council {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-college_from_meeting-config-council.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-bp_from_meeting-config-cas {
+.apButtonAction_clone_to_other_mc_meeting-config-bp_from_meeting-config-cas {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-bp_from_meeting-config-cas.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-bp_from_meeting-config-comitee {
+.apButtonAction_clone_to_other_mc_meeting-config-bp_from_meeting-config-comitee {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-bp_from_meeting-config-comitee.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-cas_from_meeting-config-bp {
+.apButtonAction_clone_to_other_mc_meeting-config-cas_from_meeting-config-bp {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-cas_from_meeting-config-bp.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-cas_from_meeting-config-comitee {
+.apButtonAction_clone_to_other_mc_meeting-config-cas_from_meeting-config-comitee {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-cas_from_meeting-config-comitee.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-comitee_from_meeting-config-bp {
+.apButtonAction_clone_to_other_mc_meeting-config-comitee_from_meeting-config-bp {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-comitee_from_meeting-config-bp.png');
 }
-.hsButtonAction_clone_to_other_mc_meeting-config-comitee_from_meeting-config-cas {
+.apButtonAction_clone_to_other_mc_meeting-config-comitee_from_meeting-config-cas {
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-comitee_from_meeting-config-cas.png');
 }
 
 /* add a icon to every wf actions corresponding to a 'backTo' */
-input[class*="hsButtonWF_backTo"] {
+input[class*="apButtonWF_backTo"] {
     background-position: 3px 3px;
     padding-left: 18px;
     background-image: url('&dtml-portal_url;/backTo.png');
 }
 /* special case for the backToValidated that removes the item from a meeting */
-input.hsButtonWF_backToValidated {
+input.apButtonWF_backToValidated {
     background-position: 3px 3px;
     padding-left: 18px;
     background-image: url('&dtml-portal_url;/backToValidatedForInput.png');

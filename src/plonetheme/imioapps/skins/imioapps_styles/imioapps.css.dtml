@@ -791,6 +791,48 @@ span.cke_skin_kama {
     line-height: 1em;
 }
 
+/* buttons coming from imio.actionspanel */
+.apButton {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-color: &dtml-buttonBackgroundColor;;
+    border: 1px solid &dtml-globalBackgroundColor;;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    font-size: 90%;
+    height: 2em;
+    color: &dtml-buttonTextColor;;
+    margin: 0 2px 0 0;
+    cursor: pointer;
+}
+
+.fakeButton {
+    background: url("&dtml-portal_url;/fakeTransition.gif") no-repeat scroll 3px 4px #FFD5C0;
+    cursor: help;
+    font-style: italic;
+    padding-left: 8px;
+}
+
+.apButtonWF {
+    color: white;
+    background-color: &dtml-globalBackgroundColor;;
+}
+
+.apButtonAction {
+    color: &dtml-buttonTextColor;;
+    background-position: 3px 3px;
+    padding-left: 18px;
+}
+
+.apButtonAction_delete {
+    background-image: url('&dtml-portal_url;/delete_icon.png');
+}
+
+.apButtonAction_rename {
+    background-image: url('&dtml-portal_url;/rename_icon.gif');
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
