@@ -160,6 +160,11 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/clone_to_other_mc_meeting-config-comitee_from_meeting-config-cas.png');
 }
 
+/* icon added to the button while using imio.pm.wsclient */
+.apButtonAction_plonemeeting_wsclient_action_1 {
+    background-image: url('&dtml-portal_url;/++resource++imio.pm.wsclient.images/send_to_plonemeeting.png');
+}
+
 /* add a icon to every wf actions corresponding to a 'backTo' */
 input[class*="apButtonWF_backTo"] {
     background-position: 3px 3px;
