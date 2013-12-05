@@ -805,7 +805,7 @@ span.cke_skin_kama {
     color: &dtml-buttonTextColor;;
     margin: 0 2px 0 0;
     cursor: pointer;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .fakeButton {
