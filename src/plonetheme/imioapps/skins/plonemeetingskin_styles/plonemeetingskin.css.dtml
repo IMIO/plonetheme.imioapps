@@ -238,6 +238,14 @@ padding: 0 !important;
     line-height: 1.2em;
     padding-left: 20px !important;
 }
+.icons-on .contenttype-meetingadvice {
+    background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 -432px transparent;
+    display: inline;
+    line-height: 1.2em;
+    padding-left: 20px !important;
+}
+
+
 
 /* display allowed types with icon in drop down list (meetingfolder_view) one by one */
 #content .ploneMeetingSelectContainer p {
