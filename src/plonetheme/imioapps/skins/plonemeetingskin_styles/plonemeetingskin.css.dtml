@@ -39,13 +39,16 @@
     margin-top: 0em;
 }
 
+/* taille plus grande que 80% dans les overlays */
+div.overlay {
+    font-size: 90%;
+}
+
 /* Cacher la border-bottom thin-dotted par défaut des liens overlays
    On utilise !important car public.css utilise aussi !important par défaut... */
 #content a.link-overlay-pm {
     border-bottom: 0 !important;
 }
-
-.ploneMeetingRef{ vertical-align: middle; }
 
 /* liste de schematas affichés en mode 'edit' sur une MeetingConfig */
 #archetypes-schemata-links {
@@ -258,12 +261,12 @@ dd.actionMenuContentAX even {
 }
 
 .contentActionsAX {
-    font-size: 80%;
+    font-size: 90%;
 }
-
-#content dd.actionMenuContentAX {
-    padding: 0;
-    margin: 0;
+/* avoid annexes displayed in the advices contentActionsAX menu to be too small because 90% then 90%... */
+.advice_annexes {
+    font-size: 110%;
+    margin-bottom: 5em;
 }
 
 .pageNameDescr {

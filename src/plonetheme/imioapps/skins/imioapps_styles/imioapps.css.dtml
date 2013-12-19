@@ -831,6 +831,24 @@ span.cke_skin_kama {
     background-image: url('&dtml-portal_url;/rename_icon.gif');
 }
 
+/* manage styles of formTabbing, display border and avoid too large margin when displayed on a view */
+.template-view #content .enableFormTabbing,
+.template-base_view #content .enableFormTabbing {
+    border-color: #DDDDDD;
+    border-style: none solid solid !important;
+    border-width: 4px !important;
+    margin-top: -1em;
+}
+#content dd.formPanel {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+/* in overlays, the not selected tabs will appear as normal, just show selected tab as bold */
+div.overlay .formTab {
+    font-weight: normal;
+}
+
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
