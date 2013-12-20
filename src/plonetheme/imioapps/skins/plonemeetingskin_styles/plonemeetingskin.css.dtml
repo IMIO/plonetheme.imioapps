@@ -296,7 +296,8 @@ dd.actionMenuContentAX even {
     border: 2px solid green;
 }
 
-.template-plonemeeting_topic_view #content .enableFormTabbing {
+body.template-plonemeeting_topic_view #content .enableFormTabbing,
+body.template-meetingitem_view #content .enableFormTabbing {
     border-color: #DDDDDD;
     border-style: none solid solid !important;
     border-width: 4px !important;
