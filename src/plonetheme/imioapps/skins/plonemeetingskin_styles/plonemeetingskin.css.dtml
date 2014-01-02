@@ -39,6 +39,11 @@
     margin-top: 0em;
 }
 
+/* make line-height of displayed table higher when used in an overlay, this is usefull when displaying advice details */
+div.overlay #content-core table td.table_widget_label {
+    line-height: 1.5em;
+}
+
 /* taille plus grande que 80% dans les overlays */
 div.overlay {
     font-size: 90%;
@@ -248,8 +253,6 @@ padding: 0 !important;
     padding-left: 20px !important;
 }
 
-
-
 /* display allowed types with icon in drop down list (meetingfolder_view) one by one */
 #content .ploneMeetingSelectContainer p {
     display: inline-block;
@@ -297,7 +300,8 @@ dd.actionMenuContentAX even {
 }
 
 body.template-plonemeeting_topic_view #content .enableFormTabbing,
-body.template-meetingitem_view #content .enableFormTabbing {
+body.template-meetingitem_view #content .enableFormTabbing,
+body.template-meeting_view #content .enableFormTabbing {
     border-color: #DDDDDD;
     border-style: none solid solid !important;
     border-width: 4px !important;
