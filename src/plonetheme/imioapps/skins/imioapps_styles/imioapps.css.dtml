@@ -848,6 +848,23 @@ div.overlay .formTab {
     font-weight: normal;
 }
 
+/* make empty datagrid fields more viewable */
+table[id^="datagridwidget-table"] {
+    background-color: &dtml-tableHeaderBackgroundColor;;
+    border: 1px solid #808080;
+    margin-bottom: 0.5em !important;
+}
+/* make datagrid fields add button bigger and displayed on the left */
+#datagridwidget-add-button {
+    float: left;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+    font-size: 90%;
+    text-transform: none;
+    background-position: 5px 5px;
+    background-color: &dtml-buttonBackgroundColor;;
+}
+
 
 /* </dtml-with> */
 
