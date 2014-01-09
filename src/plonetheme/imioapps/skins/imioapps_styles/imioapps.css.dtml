@@ -864,6 +864,14 @@ table[id^="datagridwidget-table"] {
     background-position: 5px 5px;
     background-color: &dtml-buttonBackgroundColor;;
 }
+/* manage datagridfield TH when in edit mode, hightlight title and italic description */
+.datagridwidget-table-edit TH span {
+    font-weight: bold;
+}
+.datagridwidget-table-edit TH span.formHelp {
+    font-weight: normal;
+    font-style: italic;
+}
 
 
 /* </dtml-with> */
