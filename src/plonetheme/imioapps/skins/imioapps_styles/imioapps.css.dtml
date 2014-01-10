@@ -863,6 +863,8 @@ table[id^="datagridwidget-table"] {
     text-transform: none;
     background-position: 5px 5px;
     background-color: &dtml-buttonBackgroundColor;;
+    border: 1px solid #808080;
+    border-radius: 5px;
 }
 /* manage datagridfield TH when in edit mode, hightlight title and italic description, avoid title/description to be too close from each other */
 .datagridwidget-table-edit TH span {
