@@ -229,6 +229,10 @@ div.position-0 {
     padding-bottom: 0.5em;
 }
 
+#content-history table {
+    font-size: 90%;
+}
+
 /* set a higher line-height for content-core */
 #content-core {
     line-height: 1.5em;
