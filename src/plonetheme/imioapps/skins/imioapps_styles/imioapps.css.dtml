@@ -859,15 +859,15 @@ table[id^="datagridwidget-table"] {
     margin-bottom: 0.5em !important;
 }
 /* make datagrid fields add button bigger and displayed on the left */
-#datagridwidget-add-button {
+div[id^="archetypes-fieldname-"] a#datagridwidget-add-button {
+    color: &dtml-buttonTextColor;;
     float: left;
     margin-bottom: 1.5em;
-    line-height: 1.5em;
-    font-size: 90%;
+    line-height: 2em;
     text-transform: none;
-    background-position: 5px 5px;
+    background-position: 5px 6px;
     background-color: &dtml-buttonBackgroundColor;;
-    border: 1px solid #808080;
+    border: 1px solid &dtml-globalBorderColor;;
     border-radius: 5px;
 }
 /* manage datagridfield TH when in edit mode, hightlight title and italic description, avoid title/description to be too close from each other */
