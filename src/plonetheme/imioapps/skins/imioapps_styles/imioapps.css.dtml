@@ -678,9 +678,9 @@ table.listing tbody tr.even td {
 }
 
 legend {
-    color:#4A494A;
-    font-size:90%;
-    font-weight:bold;
+    color: &dtml-discreetColor;;
+    font-size: 90%;
+    font-weight: bold;
 }
 
 dl.portalMessage {
@@ -882,6 +882,11 @@ div[id^="archetypes-fieldname-"] a#datagridwidget-add-button {
 }
 .datagridwidget-table-edit TH  {
     vertical-align: top;
+}
+
+acronym {
+    cursor: help;
+    border-bottom: 1px dotted;
 }
 
 /* </dtml-with> */
