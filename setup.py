@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.1dev'
 
 long_description = (
     open('README.txt').read()
@@ -31,7 +31,7 @@ setup(name='plonetheme.imioapps',
       keywords='',
       author='',
       author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      url='http://svn.communesplone.org/svn/communesplone/plonetheme.imioapps/',
       license='gpl',
       packages=find_packages('src'),
       package_dir={'': 'src'},

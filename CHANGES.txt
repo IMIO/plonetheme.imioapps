@@ -1,8 +1,11 @@
 Changelog
 =========
 
-1.0-dev (unreleased)
---------------------
+1.1 (unreleased)
+----------------
+- Nothing yet
 
-- Package created using templer
-  []
+1.0 (2014-02-12)
+----------------
+- First release, added 4 skins : dmsmailskin, imioapps, plonemeetingskin, pstskin
+
