@@ -285,7 +285,11 @@ div.formControls {
     vertical-align: top;
 }
 
-#content table {
+#content p,
+#content table,
+#content dl,
+dl.portlet p,
+dl.portlet {
     margin-bottom: 0.5em;
 }
 
