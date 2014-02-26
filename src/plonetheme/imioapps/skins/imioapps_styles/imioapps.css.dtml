@@ -873,6 +873,7 @@ div[id^="archetypes-fieldname-"] a#datagridwidget-add-button {
     background-color: &dtml-buttonBackgroundColor;;
     border: 1px solid &dtml-globalBorderColor;;
     border-radius: 5px;
+    padding-left: 5px;
 }
 /* manage datagridfield TH when in edit mode, hightlight title and italic description, avoid title/description to be too close from each other */
 .datagridwidget-table-edit TH span {
