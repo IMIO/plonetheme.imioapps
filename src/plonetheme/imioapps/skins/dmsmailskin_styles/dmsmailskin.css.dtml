@@ -34,7 +34,14 @@
     display: none !important;
 }
 
+#portal-logo img {
+    margin-bottom: -6px;
+    margin-top: 16px;
+}
 
+#portal-globalnav {
+padding-left: 1.4em;
+}
 
 /* </dtml-with> */
 
