@@ -871,6 +871,7 @@ div[id^="archetypes-fieldname-"] a#datagridwidget-add-button {
     text-transform: none;
     background-position: 5px 6px;
     background-color: &dtml-buttonBackgroundColor;;
+    background-image: none;
     border: 1px solid &dtml-globalBorderColor;;
     border-radius: 5px;
     padding-left: 5px;
