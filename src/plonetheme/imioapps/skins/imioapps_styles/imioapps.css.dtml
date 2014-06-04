@@ -579,8 +579,9 @@ dl.portlet a:link, dl.portlet a:visited {
     color: &dtml-linkColor;;
 }
 
+/* need to use !important here under because used in public.css... */
 #content a:hover, dl.portlet a:hover {
-    color: &dtml-linkHoverColor;;
+    color: &dtml-linkHoverColor; !important;
     text-decoration: none;
 }
 
