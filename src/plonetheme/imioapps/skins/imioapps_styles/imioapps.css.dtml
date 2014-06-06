@@ -345,7 +345,7 @@ p {
 }
 
 #portal-header {
-    background-image: url(header-bg.gif);
+    background-image: url("&dtml-portal_url;/header-bg.gif");
     background-repeat:repeat-x;
     padding-right:0em;
     margin:0 -1.13% 0 -1.12%;
@@ -605,6 +605,19 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 #edit-bar{
     margin-bottom: 0.5em;
     font-size: 90%;
+    background-color: &dtml-editBarColor;;
+    border-color: &dtml-editBarColor;;
+}
+
+/* manage editBar color */
+#content-views {
+    background-color: &dtml-editBarColor;;
+}
+#contentActionMenus {
+    background-color: &dtml-editBarColor;;
+}
+#contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd {
+    background-color: &dtml-editBarColor;;
 }
 
 /* table styles */

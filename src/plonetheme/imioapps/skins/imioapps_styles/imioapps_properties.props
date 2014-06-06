@@ -9,6 +9,7 @@ contentViewBackgroundColor:string=#E6EBF0
 contentViewBorderColor:string=#A9C1DB
 contentViewFontColor:string=#1D4064
 discreetColor:string=#4A494F
+editBarColor:string=#75AD0A
 tableHeaderBackgroundColor:string=#DDDDDD
 tableHeaderTextColor:string=#4A494F
 evenRowBackgroundColor:string=#F7F7F7
