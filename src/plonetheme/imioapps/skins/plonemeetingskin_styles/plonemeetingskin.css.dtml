@@ -286,7 +286,29 @@ body.template-search_results #content .enableFormTabbing {
     border-width: 4px !important;
     margin-top: -1em;
 }
-
+.budgetRelatedEditable,
+.toDiscussEditable,
+.itemIsSignedEditable,
+.annexToPrintEditable,
+.annexIsConfidentialEditable,
+.itemAssemblyEditable i,
+.itemSignaturesEditable i {
+    border-bottom-color: &dtml-linkColor;;
+}
+.item_completeness_incomplete.Editable,
+.item_completeness_complete.Editable,
+.item_completeness_not_yet_evaluated.Editable,
+.item_completeness_evaluation_asked_again.Editable,
+.item_no_emergency.Editable,
+.item_emergency_asked.Editable,
+.item_emergency_accepted.Editable,
+.item_emergency_refused.Editable,
+.advice_change_delay.Editable {
+    border-bottom-color: &dtml-linkColor;;
+}
+.advice_change_delay.Editable span {
+    color: &dtml-linkColor;;
+}
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
