@@ -570,7 +570,7 @@ dl.portlet a:link, dl.portlet a:visited {
     display:block;
 }
 
-#content a:link, dl.portlet a:link {
+#content a:link, dl.portlet a:link, a:link, a:visited {
     color: &dtml-linkColor;;
     border: 0;
 }
@@ -908,6 +908,9 @@ acronym {
     cursor: help;
     border-bottom: 1px dotted;
 }
+
+dl.collapsible {
+    border-color: &dtml-globalBorderColor;;
 
 /* </dtml-with> */
 

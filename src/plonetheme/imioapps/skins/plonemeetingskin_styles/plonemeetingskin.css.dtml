@@ -186,30 +186,10 @@ input.apButtonWF_backToValidated {
     background-image: url('&dtml-portal_url;/backToValidatedForInput.png');
 }
 
-/* Adapt default collapsible to correspond to the recoded same thing in PM... */
-dl.collapsedInlineCollapsible, dt.collapsibleHeader {
-background-position: 0px !important;
-font-weight: normal;
-font-style: italic;
-font-size: 100% !important;
-}
-
-dl.collapsible {
-border: 0 !important;
-}
-
-dl.collapsible dt.collapsibleHeader {
-margin-left: 0px;
-}
-
-dd.collapsibleContent {
-padding: 0 !important;
-}
-
 /* use important for it to work on the meetingfolder_view */
 .ploneMeetingSelectItemUnselected {
-  color: white !important;
-  background-color: &dtml-globalBackgroundColor; !important;
+    color: white !important;
+    background-color: &dtml-globalBackgroundColor; !important;
 }
 
 /* icons displayed in the dropdown list used for selecting an Annex type for example
