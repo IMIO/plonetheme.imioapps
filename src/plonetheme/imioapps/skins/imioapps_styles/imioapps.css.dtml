@@ -913,6 +913,11 @@ dl.collapsible {
     border-color: &dtml-globalBorderColor;;
     border-radius: 5px;
 }
+#content dd.collapsibleContent {
+    margin-left: 1em;
+    text-align: left;
+}
+
 
 /* </dtml-with> */
 
