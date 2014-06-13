@@ -909,9 +909,10 @@ acronym {
     border-bottom: 1px dotted;
 }
 
-dl.collapsible {
+#content dl.collapsible {
     border-color: &dtml-globalBorderColor;;
     border-radius: 5px;
+    margin-bottom: 1em;
 }
 #content dd.collapsibleContent {
     margin-left: 1em;
