@@ -289,6 +289,18 @@ body.template-search_results #content .enableFormTabbing {
 .advice_change_delay.Editable span {
     color: &dtml-linkColor;;
 }
+
+
+/* skin navigation portlet displayed for itemtemplates */
+body[class*="itemtemplates"] .navTreeItem.navTreeTopNode {
+    font-size: 125%;
+    background-color: &dtml-tableHeaderBackgroundColor;;
+    border-radius: 5px 5px 0px 0px;
+}
+body[class*="itemtemplates"] .navTreeItem.navTreeTopNode a {
+    background-image: none;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
