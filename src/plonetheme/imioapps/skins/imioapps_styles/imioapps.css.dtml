@@ -585,6 +585,10 @@ dl.portlet a:link, dl.portlet a:visited {
     text-decoration: none;
 }
 
+dl.portlet dt.portletHeader a:hover {
+    color: white !important;
+}
+
 dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     padding: 0;
 }
