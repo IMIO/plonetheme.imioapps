@@ -622,6 +622,7 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 }
 #contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd {
     background-color: &dtml-editBarColor;;
+    border-color: &dtml-editBarColor;;
 }
 
 /* table styles */
