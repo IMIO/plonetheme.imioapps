@@ -832,13 +832,6 @@ span.cke_skin_kama {
     cursor: pointer;
 }
 
-.fakeButton {
-    background: url("&dtml-portal_url;/fakeTransition.gif") no-repeat scroll 3px 4px #FFD5C0;
-    cursor: help;
-    font-style: italic;
-    padding-left: 8px;
-}
-
 .apButtonWF {
     color: white;
     background-color: &dtml-globalBackgroundColor;;
