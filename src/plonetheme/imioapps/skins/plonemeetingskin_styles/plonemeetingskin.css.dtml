@@ -233,11 +233,6 @@ input.apButtonWF_backToValidated {
     padding-left: 20px !important;
 }
 
-/* display allowed types with icon in drop down list (meetingfolder_view) one by one */
-#content .ploneMeetingSelectContainer p {
-    display: inline-block;
-}
-
 /* special handling of table showing advices */
 dd.actionMenuContentAX even {
     background-color: transparent;
