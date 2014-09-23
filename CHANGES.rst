@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.3 (unreleased)
+1.2.3 (2014-09-23)
 ------------------
 - Added back skins.zcml that register File System Directory Views
 - Added profile to go to version 1.2.3 that removes old _templates File System Directory Views
