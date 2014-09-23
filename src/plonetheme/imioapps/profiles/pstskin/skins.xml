@@ -5,9 +5,6 @@
  <object name="pstskin_images"
     meta_type="Filesystem Directory View"
     directory="plonetheme.imioapps:skins/pstskin_images"/>
- <object name="pstskin_templates"
-    meta_type="Filesystem Directory View"
-    directory="plonetheme.imioapps:skins/pstskin_templates"/>
  <object name="pstskin_styles"
     meta_type="Filesystem Directory View"
     directory="plonetheme.imioapps:skins/pstskin_styles"/>
@@ -15,16 +12,12 @@
  <skin-path name="pstskin" based-on="Sunburst Theme">
    <layer name="pstskin_images"
           insert-after="custom"/>
-   <layer name="pstskin_templates"
-          insert-after="pstskin_images"/>
    <layer name="pstskin_styles"
-          insert-after="pstskin_templates"/>
+          insert-after="pstskin_images"/>
    <layer name="imioapps_images"
           insert-after="custom"/>
-   <layer name="imioapps_templates"
-          insert-after="imioapps_images"/>
    <layer name="imioapps_styles"
-          insert-after="imioapps_templates"/>
+          insert-after="imioapps_images"/>
  </skin-path>
 
 </object>

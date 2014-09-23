@@ -5,15 +5,11 @@
  <!-- imioapps related elements -->
  <object name="imioapps_images"
          remove="True"/>
- <object name="imioapps_templates"
-         remove="True"/>
  <object name="imioapps_styles"
          remove="True"/>
 
  <skin-path name="imioapps" based-on="Sunburst Theme" remove="True">
    <layer name="imioapps_images"
-          remove="True"/>
-   <layer name="imioapps_templates"
           remove="True"/>
    <layer name="imioapps_styles"
           remove="True"/>
@@ -22,21 +18,15 @@
  <!-- plonemeetingskin related elements -->
  <object name="plonemeetingskin_images"
          remove="True"/>
- <object name="plonemeetingskin_templates"
-         remove="True"/>
  <object name="plonemeetingskin_styles"
          remove="True"/>
 
  <skin-path name="plonemeetingskin" based-on="Sunburst Theme" remove="True">
    <layer name="plonemeetingskin_images"
           remove="True"/>
-   <layer name="plonemeetingskin_templates"
-          remove="True"/>
    <layer name="plonemeetingskin_styles"
           remove="True"/>
    <layer name="imioapps_images"
-          remove="True"/>
-   <layer name="imioapps_templates"
           remove="True"/>
    <layer name="imioapps_styles"
           remove="True"/>
@@ -54,8 +44,6 @@
    <layer name="dmsmailskin_styles"
           remove="True"/>
    <layer name="imioapps_images"
-          remove="True"/>
-   <layer name="imioapps_templates"
           remove="True"/>
    <layer name="imioapps_styles"
           remove="True"/>

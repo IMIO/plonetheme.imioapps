@@ -28,7 +28,7 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       />
-  
+
   <genericsetup:registerProfile
       name="pstskin"
       title="pstskin"
@@ -46,5 +46,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       for="Products.CMFCore.interfaces.ISiteRoot"
       />
+
+  <genericsetup:registerProfile
+      name="to_123"
+      title="Upgrade plonetheme.imioapps to 1.2.3"
+      description=""
+      directory="profiles/to_123"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFCore.interfaces.ISiteRoot"
+    />
 
 </configure>

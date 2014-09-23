@@ -3,21 +3,16 @@ Changelog
 
 1.2.3 (unreleased)
 ------------------
-
-- Nothing changed yet.
-
+- Added back skins.zcml that register File System Directory Views
+- Added profile to go to version 1.2.3 that removes old _templates File System Directory Views
 
 1.2.2 (2014-09-23)
 ------------------
-
 - Nothing changed yet.
-
 
 1.2.1 (2014-09-23)
 ------------------
-
 - Nothing changed yet.
-
 
 1.2 (2014-09-22)
 ----------------
@@ -30,4 +25,3 @@ Changelog
 1.0 (2014-02-12)
 ----------------
 - First release, added 4 skins : dmsmailskin, imioapps, plonemeetingskin, pstskin
-
