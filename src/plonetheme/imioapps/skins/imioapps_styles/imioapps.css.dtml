@@ -541,7 +541,8 @@ div.listingBar a {
     display: inline-block;
     padding: 0.25em 0.5em;
 }
-#content div.listingBar a:hover {
+#content div.listingBar a:hover,
+div.listingBar a:hover {
     background-color: #8FB228;
     border-color: #CCCCCC;
     color: white !important;
