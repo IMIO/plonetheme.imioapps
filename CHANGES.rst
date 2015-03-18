@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.4 (unreleased)
+1.2.4 (2015-03-18)
 ------------------
 - plonemeetingskin : do not display a contenttype-x icon for type 'MeetingFile' and 'MeetingItem'
 - imioapps : skin also listingBar displayed in referencebrowserwidget
