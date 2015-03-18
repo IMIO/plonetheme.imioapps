@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.2.5 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 1.2.4 (2015-03-18)
 ------------------
 - plonemeetingskin : do not display a contenttype-x icon for type 'MeetingFile' and 'MeetingItem'
