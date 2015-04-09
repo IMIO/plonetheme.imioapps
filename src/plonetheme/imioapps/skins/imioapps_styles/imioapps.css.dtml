@@ -406,8 +406,7 @@ p {
     border-bottom: 6px solid &dtml-globalBackgroundColor;;
     clear: both;
     font-size: 80%;
-    margin-left: -2em;
-    padding-left: 0;
+    padding-left: 12em;
 }
 
 #portal-globalnav li {
