@@ -254,10 +254,13 @@ div.position-0 {
 }
 
 /* title H1 and elements H2 in popup overlays (used for history popup) */
-h1, .pb-ajax h2 {
+#content h1.documentFirstHeading, .pb-ajax h2 {
+    border-bottom: 1px solid &dtml-globalBorderColor;;
     color: &dtml-linkColor;;
     font-weight: normal;
     line-height: 1em;
+    margin-bottom: 0.3em;
+    margin-top: 0em;
 }
 
 .managePortletsFallback {
@@ -743,7 +746,11 @@ h1, h2 {
     background-color: black !important;
 }
 
-/* increase the overlays having a content, not the others... */
+/* increase size of text in overlays (80% by default) */
+div.overlay {
+    font-size: 90%;
+}
+/* increase the content of overlays */
 div.overlay div#content {
     font-size: 120%;
 }

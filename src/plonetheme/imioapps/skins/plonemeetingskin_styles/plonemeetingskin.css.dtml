@@ -32,21 +32,9 @@
     line-height: 1em;
 }
 
-/* souligner le titre H1 et les H2 dans les popups overlay */
-#content h1.documentFirstHeading, .pb-ajax h2 {
-    border-bottom: 1px solid &dtml-globalBorderColor;;
-    margin-bottom: 0.3em;
-    margin-top: 0em;
-}
-
 /* make line-height of displayed table higher when used in an overlay, this is usefull when displaying advice details */
 div.overlay #content-core table td.table_widget_label {
     line-height: 1.5em;
-}
-
-/* taille plus grande que 80% dans les overlays */
-div.overlay {
-    font-size: 90%;
 }
 
 /* Cacher la border-bottom thin-dotted par défaut des liens overlays
