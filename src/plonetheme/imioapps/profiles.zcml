@@ -47,6 +47,15 @@
       for="Products.CMFCore.interfaces.ISiteRoot"
       />
 
+  <genericsetup:upgradeStep
+      title="Clean unused skins directories"
+      description=""
+      source="*"
+      destination="1.2.5"
+      handler="plonetheme.imioapps.upgrades.cleanSkins"
+      profile="plonetheme.imioapps:to_123">
+  </genericsetup:upgradeStep>
+
   <genericsetup:registerProfile
       name="to_123"
       title="Upgrade plonetheme.imioapps to 1.2.3"
