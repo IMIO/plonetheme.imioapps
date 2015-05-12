@@ -279,7 +279,6 @@ body.template-search_results #content .enableFormTabbing {
     color: &dtml-linkColor;;
 }
 
-
 /* skin navigation portlet displayed for itemtemplates */
 body[class*="itemtemplates"] .navTreeItem.navTreeTopNode {
     font-size: 125%;
@@ -288,6 +287,11 @@ body[class*="itemtemplates"] .navTreeItem.navTreeTopNode {
 }
 body[class*="itemtemplates"] .navTreeItem.navTreeTopNode a {
     background-image: none;
+}
+
+/* remove padding between title of the collection and default search criteria on the meetingFolder */
+body.template-facetednavigation_view.portaltype-folder #content div#viewlet-below-content-title {
+    padding-bottom: 0em;
 }
 
 /* </dtml-with> */
