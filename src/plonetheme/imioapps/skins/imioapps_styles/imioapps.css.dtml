@@ -926,6 +926,11 @@ acronym {
     text-align: left;
 }
 
+/* a bit upper */
+#ajax-spinner {
+    position: absolute;
+    top: 20em;
+}
 
 /* </dtml-with> */
 
