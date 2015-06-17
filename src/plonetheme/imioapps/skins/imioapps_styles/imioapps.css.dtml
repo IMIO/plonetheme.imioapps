@@ -169,10 +169,10 @@ h1 {
     margin-bottom: 0.5em;
 }
 
-
 div.width-full #content {
     padding-left: 0%;
     padding-right: 0%;
+    margin-bottom: 0;
     width: 100%;
 }
 
@@ -928,8 +928,8 @@ acronym {
 
 /* a bit upper */
 #ajax-spinner {
-    position: absolute;
-    top: 20em;
+    position: fixed;
+    top: 40%;
 }
 
 /* </dtml-with> */
