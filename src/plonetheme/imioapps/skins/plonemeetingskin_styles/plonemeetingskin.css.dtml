@@ -246,10 +246,9 @@ dd.actionMenuContentAX even {
     font-style: italic;
 }
 
-body.template-plonemeeting_topic_view #content .enableFormTabbing,
+body.template-facetednavigation_view #content .enableFormTabbing,
 body.template-meetingitem_view #content .enableFormTabbing,
-body.template-meeting_view #content .enableFormTabbing,
-body.template-search_results #content .enableFormTabbing {
+body.template-meeting_view #content .enableFormTabbing {
     border-color: #DDDDDD;
     border-style: none solid solid !important;
     border-width: 4px !important;
