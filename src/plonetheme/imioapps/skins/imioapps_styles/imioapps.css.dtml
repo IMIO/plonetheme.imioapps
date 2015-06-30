@@ -546,7 +546,7 @@ div.listingBar a {
 }
 #content div.listingBar a:hover,
 div.listingBar a:hover {
-    background-color: #8FB228;
+    background-color: &dtml-editBarColor;;
     border-color: #CCCCCC;
     color: white !important;
 }
