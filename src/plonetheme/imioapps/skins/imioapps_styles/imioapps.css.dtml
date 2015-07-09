@@ -914,6 +914,7 @@ div[id^="archetypes-fieldname-"] a#datagridwidget-add-button {
 acronym {
     cursor: help;
     border-bottom: 1px dotted;
+    padding-bottom: 2px;
 }
 
 #content dl.collapsible {
