@@ -4,8 +4,7 @@ Changelog
 1.2.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Several adaptations regarding imio.dashboard integration
 
 1.2.4 (2015-03-18)
 ------------------
