@@ -509,7 +509,7 @@ input.standalone, .documentEditable * input.standalone, input.destructive, input
     background-image: url("&dtml-portal_url;/exclamation.gif");
     background-position: 4px 4px;
     border: 1px solid grey;
-    padding-left: 10px;
+    padding-left: 12px;
     padding-right: 5px;
     padding-bottom: 2px;
     font-size: 90%;
