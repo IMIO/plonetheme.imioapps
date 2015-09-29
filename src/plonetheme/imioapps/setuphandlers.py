@@ -7,6 +7,6 @@ def plonemeetingskinSetupVarious(context):
     if isNotplonemeetingskinProfile(context):
         return
 
-    #site = context.getSite()
+    # site = context.getSite()
 
-    #maybe one day we will have to add some lines here above...
+    # maybe one day we will have to add some lines here above...
