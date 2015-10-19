@@ -849,7 +849,7 @@ span.cke_skin_kama {
 .apButtonAction {
     color: &dtml-buttonTextColor;;
     background-position: 3px 3px;
-    padding-left: 18px;
+    padding-left: 20px;
 }
 
 .apButtonAction_delete {
