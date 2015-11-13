@@ -193,12 +193,12 @@ input.apButtonWF_backToValidated {
 }
 
 /* as we generate the portal_type, skin every elements containings xxx */
-.icons-on [class*="contenttype-meeting"] {
+/*.icons-on [class*="contenttype-meeting"] {
     background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 0px transparent;
     display: inline;
     line-height: 1.2em;
     padding-left: 20px !important;
-}
+} */
 .icons-on .contenttype-externalapplication,
 .icons-on .contenttype-meetingcategory,
 .icons-on .contenttype-meetingconfig,
