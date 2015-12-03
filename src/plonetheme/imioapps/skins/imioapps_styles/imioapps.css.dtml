@@ -64,6 +64,10 @@ margin-top:2px;
 position:absolute;
 }
 
+.faceted-lock-overlay {
+  background: grey;
+}
+
 .LSBox .searchButton, div#faceted-form input.searchButton {
     background-color: transparent;
     background-image: url(&dtml-portal_url;/search_button_icon.png);
