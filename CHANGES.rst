@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.6 (unreleased)
+1.2.6 (2015-12-03)
 ------------------
 
 - imioapps : use a bigger spinner.gif and grey page when faceted is locked
