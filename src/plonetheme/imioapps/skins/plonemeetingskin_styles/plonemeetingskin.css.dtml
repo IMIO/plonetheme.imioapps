@@ -220,13 +220,6 @@ input.apButtonWF_backToValidated {
     padding-left: 5px !important;
 }
 
-.icons-on .contenttype-meetingadvice {
-    background: url("&dtml-portal_url;/pm-contenttypes-sprite.png") no-repeat scroll 0 -432px transparent;
-    display: inline;
-    line-height: 1.2em;
-    padding-left: 20px !important;
-}
-
 /* special handling of table showing advices */
 dd.actionMenuContentAX even {
     background-color: transparent;
