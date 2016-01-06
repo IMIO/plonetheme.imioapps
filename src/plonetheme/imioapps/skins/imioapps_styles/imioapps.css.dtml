@@ -78,6 +78,7 @@ position:absolute;
     font-size: 15px;
     padding-left: 18px;
     padding-right: 5px;
+    height: 20px;
     width: 10px;
     cursor: pointer;
     margin-right: 2px;
