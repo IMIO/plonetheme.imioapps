@@ -738,6 +738,12 @@ dl.portalMessage dd {
     font-size: 90%;
 }
 
+/* some left and right padding for collective.messagesviewlet */
+#portal-header > div#messagesviewlet {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
 .historyByLine {
     border-radius: 0;
 }
