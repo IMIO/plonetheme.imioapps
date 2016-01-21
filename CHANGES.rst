@@ -4,7 +4,10 @@ Changelog
 1.2.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Removed 'meetingadvice' icon relevant CSS as it uses a real icon now.
+- Define 'height' for search button so it is displayed correctly in Chrome.
+- Added left/right padding to collective.messagesviewlet message.
+- Limit padding in z3ctable header cells.
 
 
 1.2.6 (2015-12-03)
