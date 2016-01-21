@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.7 (unreleased)
+1.2.7 (2016-01-21)
 ------------------
 
 - Removed 'meetingadvice' icon relevant CSS as it uses a real icon now.
