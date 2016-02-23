@@ -11,13 +11,17 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
+/*#portal-globalnav li.selected a:hover {
+    background-color: &dtml-globalBackgroundColor;;*/
+    
+ 
 body {
     color: Black;
     font: 100% Arial,FreeSans,sans-serif;
 }
 
 #portal-searchbox {
-    margin: 0.5em 10em 0 0;
+    margin:0.7em 0 0;
     clear: none;
     position: relative;
 }
@@ -183,7 +187,6 @@ div.width-full #content {
 
 /* column-one */
 div.width-1\:4 {
-    margin-left: -99.5% !important;
     width: 15.2%;
 }
 div.position-1\:4 {
@@ -191,6 +194,10 @@ div.position-1\:4 {
 }
 div.width-1\:2 {
     width: 68%;
+}
+
+#portal-column-one {
+    background-color: #f2f2f2;
 }
 
 /* column-two */
@@ -204,7 +211,7 @@ div.width-3\:4 {
     padding: 1%;
 }
 div.position-0 {
-    margin-left: -98.875%;
+    margin-left: -100%;
 }
 
 /* no portlets */
@@ -342,8 +349,8 @@ ul.configlets img {
 }
 
 #content fieldset {
-    border: 0.1em solid &dtml-globalBorderColor;;
-    border-radius: 5px;
+    background-color: #f2f2f2;
+    border:none;
     line-height: 1.25em;
     margin: 0.5em 0;
 }
@@ -352,14 +359,14 @@ p {
     line-height: 1.25em;
 }
 
+/*====Header====*/
+
 #portal-header {
-    background-image: url("&dtml-portal_url;/header-bg.gif");
-    background-repeat:repeat-x;
-    padding-right:0em;
-    margin:0 -1.13% 0 -1.12%;
+    background-color: &dtml-navBackgroundColor;;
+    width:102.29%;
 }
 
-#portal-logo {
+#portal-header #portal-logo {
     float: left;
     margin: 0 0 -1.5em 1em;
 }
@@ -409,46 +416,34 @@ p {
     color: white;
 }
 
+/*====Navigation====*/
+
 #portal-globalnav {
     background: none repeat scroll 0 0 transparent;
-    border-bottom: 6px solid &dtml-globalBackgroundColor;;
-    clear: both;
-    font-size: 80%;
-    margin-left: -2em;
-    padding-left: 0;
+    clear:none;
 }
 
-#portal-globalnav li {
-    margin-right:2px;
-    text-align: center;
-}
 
 #portal-globalnav li a {
-    background: none repeat scroll 0 0 &dtml-buttonBackgroundColor;;
-    border: 1px solid lightgray;
-    color:&dtml-buttonTextColor;;
-    font-size:17px;
-    padding:0.1em 1em 0.1em;
-    border-radius: 5px 5px 0px 0px;
-    min-width:0;
+    background: transparent none repeat scroll 0 0;
+    border-right: 0.1em solid &dtml-navBorderColor;;
+    color: #ffffff;
+    padding: 2em 1em;
+    text-transform: uppercase;
 }
 
-#portal-globalnav li a:hover {
-    background-color: &dtml-globalBackgroundColor;;
-    border:1px solid &dtml-globalBackgroundColor;;
-    color:#fff;
+
+#portal-header #portal-globalnav .selected a, #portal-globalnav a:hover {
+    background: #ffffff;
 }
 
-#portal-globalnav li.selected a {
-    background-color: &dtml-globalBackgroundColor;;
-    border:1px solid &dtml-globalBackgroundColor;;
-    color:#fff;
+#portal-globalnav a:hover,
+#portal-header #portal-globalnav .selected a {
+    color: #000000;
 }
 
-#portal-globalnav li.selected a:hover {
-    background-color: &dtml-globalBackgroundColor;;
-    border:1px solid &dtml-globalBackgroundColor;;
-    color:#fff;
+#portal-header #portal-globalnav .selected a:hover {
+    color: #205c90;
 }
 
 /* padding-right is to display portlet_calendar correctly */
@@ -461,10 +456,7 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 }
 
 dl.portlet {
-    border-width:1px;
-    border-style:solid;
-    border-color: &dtml-globalBackgroundColor;;
-    border-radius : 5px;
+    border:none;
     margin: 0 0 0.75em;
 }
 
@@ -477,8 +469,10 @@ dl.portlet .portletHeader a:link,
 dl.portlet .portletHeader a:visited {
     font-weight: bold;
     border: 0;
-    color: white;
-    background-color: &dtml-globalBackgroundColor;;
+    color: #ffffff;
+    background-color:#0f5b9e;
+    text-transform: uppercase;
+    padding:0.4em 0.5em 0.2em;
 }
 
 /* @@manage-portlets */
@@ -735,11 +729,11 @@ dl.portalMessage dd {
 }
 
 /* some left and right padding for collective.messagesviewlet */
-#portal-header > div#messagesviewlet {
+/*#portal-header > div#messagesviewlet {
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
-
+*/
 .historyByLine {
     border-radius: 0;
 }
@@ -925,8 +919,6 @@ acronym {
 }
 
 #content dl.collapsible {
-    border-color: &dtml-globalBorderColor;;
-    border-radius: 5px;
     margin-bottom: 1em;
 }
 #content dd.collapsibleContent {
@@ -938,6 +930,71 @@ acronym {
 #ajax-spinner {
     position: fixed;
     top: 40%;
+}
+
+/*Fieldest*/
+
+dl.collapsible{
+	border:none;
+}
+
+/*tilte*/
+
+.available-items,.presented-items {
+    font-size: 1em;
+}
+
+.available-items{
+    padding-top: 0.7em;
+}
+
+.available-items:after,.presented-items::before,
+.no-style-table.discreet legend::before {
+    content: "➜";
+    padding-right: 0.4em;
+}
+
+#content .no-style-table.discreet legend {
+    padding-left: 0;
+}
+
+.collapsibleHeader.discreet > b{
+	display: inline-block;
+    padding: 0.75em 0;
+}
+
+.portletHeader .portletPloneMeetingHeaderIcons {
+    background-color: transparent;
+}
+
+/*Content */
+
+#content legend {
+    background-color: white;
+    border-color: #f2f2f2;
+    border-radius: 0 0 9px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    margin-left: -1em;
+    margin-top: 2em;
+    padding: 0 0.7em 0.7em 0;
+}
+
+#content legend + p{
+    margin-top: 0.5em;
+}
+#content fieldset label {
+    display:inline-block
+    margin-top: 0.5em;
+}
+
+/*widget search*/
+
+#content .widget-fieldset legend {
+    background-color: #f2f2f2;
+    border:none;
+    margin-left: 0em;
+    padding:0;
 }
 
 /* </dtml-with> */
