@@ -21,9 +21,18 @@ body {
 }
 
 #portal-searchbox {
-    margin:0.7em 0 0;
+    margin:1.4em 1em 0;
     clear: none;
     position: relative;
+}
+
+#searchGadget {
+    height: 24px;
+    padding-left: 0.4em;
+}
+
+input.searchField {
+    -moz-appearance: statusbarpanel;
 }
 
 /* line-height from 2em to 1.5em in elements displayed in the navtree portlet */
@@ -352,7 +361,7 @@ ul.configlets img {
     background-color: #f2f2f2;
     border:none;
     line-height: 1.25em;
-    margin: 0.5em 0;
+    margin: -1.5em 0.2em 0.5em;
 }
 
 p {
@@ -430,6 +439,7 @@ p {
     color: #ffffff;
     padding: 2em 1em;
     text-transform: uppercase;
+    letter-spacing: 0.01em;
 }
 
 
@@ -470,9 +480,17 @@ dl.portlet .portletHeader a:visited {
     font-weight: bold;
     border: 0;
     color: #ffffff;
-    background-color:#0f5b9e;
+    background-color:#485c70;
     text-transform: uppercase;
-    padding:0.4em 0.5em 0.2em;
+    padding:0.4em 0.5em ;
+}
+
+#visual-portal-wrapper .portletWidgetCollection dt{
+	padding:0.4em 0.5em 0.3em;
+}
+
+#visual-portal-wrapper .portletPloneMeetingHeaderIcons > a {
+    padding: 0 0 0 0.5em;
 }
 
 /* @@manage-portlets */
@@ -948,14 +966,21 @@ dl.collapsible{
     padding-top: 0.7em;
 }
 
-.available-items:after,.presented-items::before,
-.no-style-table.discreet legend::before {
+.available-items:before,.presented-items::before {
+    background-color: &dtml-tableHeaderTextColor;;
+    border-radius: 14px;
+    color: white;
     content: "➜";
-    padding-right: 0.4em;
+    float: left;
+    font-size: 110%;
+    margin-right: 0.3em;
+    padding: 0 0.3em 0.05em;
 }
 
 #content .no-style-table.discreet legend {
-    padding-left: 0;
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+    padding-top: 0;
 }
 
 .collapsibleHeader.discreet > b{
@@ -971,22 +996,28 @@ dl.collapsible{
 
 #content legend {
     background-color: white;
-    border-color: #f2f2f2;
+    border-color: #e2e2e2;
     border-radius: 0 0 9px;
     border-style: solid;
     border-width: 0 1px 1px 0;
+    margin-bottom:0.5em;
     margin-left: -1em;
-    margin-top: 2em;
-    padding: 0 0.7em 0.7em 0;
+    margin-top: 2.2em;
+    padding: 0.1em 0.7em 0.3em 0.5em;
 }
 
-#content legend + p{
-    margin-top: 0.5em;
+#portal-columns #content .widget-fieldset legend {
+    background-color: white;
+    border-color: #e2e2e2;
+    border-radius: 0 0 9px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    margin-bottom:0.5em;
+    margin-left: -1em;
+    margin-top: 2.3em;
+    padding: 0.2em 0.7em 0.3em 0.3em;
 }
-#content fieldset label {
-    display:inline-block
-    margin-top: 0.5em;
-}
+
 
 /*widget search*/
 
@@ -995,6 +1026,31 @@ dl.collapsible{
     border:none;
     margin-left: 0em;
     padding:0;
+}
+
+#portal-columns .portletTodo .portletCell,
+portal-columns .portletTodo .portletSection,
+portal-columns dl.portlet.portletWidgetCollection div.widget-portlet div.title {
+    padding-left: 1em;
+}
+
+div#top---advanced---widgets {
+    background-color: transparent;
+}
+
+#faceted-form fieldset.widget-fieldset{
+	padding-left:1em;
+	margin-top:-2.3em;
+}
+
+iframe{
+	padding-bottom:1em;
+}
+
+
+.table_faceted_results_number, .table_faceted_no_results {
+    font-style: italic;
+    font-weight: normal;
 }
 
 /* </dtml-with> */
