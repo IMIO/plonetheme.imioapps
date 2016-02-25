@@ -21,7 +21,7 @@ body {
 }
 
 #portal-searchbox {
-    margin:1.4em 1em 0;
+    margin:0.6em 1em 0;
     clear: none;
     position: relative;
 }
@@ -81,6 +81,31 @@ position:absolute;
   background: grey;
 }
 
+body #visual-portal-wrapper #content .faceted-sections-buttons-more,
+body #visual-portal-wrapper #content .faceted-sections-buttons-less{
+	background-repeat: no-repeat;;
+	color:transparent;
+	position:absolute;
+}
+
+body #visual-portal-wrapper #content .faceted-sections-buttons-more{
+	background-image: url(&dtml-portal_url;/filtre_add.png);
+}
+
+body #visual-portal-wrapper #content .faceted-sections-buttons-less{
+	background-image: url(&dtml-portal_url;/filtre_sous.png);
+}
+
+
+div#faceted-form {
+    position: relative;
+}
+
+body #visual-portal-wrapper #content .faceted-sections-buttons-more:hover,
+body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
+	color:transparent !important;
+}
+
 .LSBox .searchButton, div#faceted-form input.searchButton {
     background-color: transparent;
     background-image: url(&dtml-portal_url;/search_button_icon.png);
@@ -136,7 +161,7 @@ position:absolute;
 }
 
 #portaltab-index_html{
-visibility:hidden;
+	display:none;
 }
 
 /*#portal-personaltools {
@@ -199,14 +224,10 @@ div.width-1\:4 {
     width: 15.2%;
 }
 div.position-1\:4 {
-    margin-left: -83.875%;
+    margin-left: -84.35%;
 }
 div.width-1\:2 {
     width: 68%;
-}
-
-#portal-column-one {
-    background-color: #f2f2f2;
 }
 
 /* column-two */
@@ -216,7 +237,7 @@ div.position-3\:4 {
     width: 15.2%;
 }
 div.width-3\:4 {
-    width: 83.5%;
+    width: 84%;
     padding: 1%;
 }
 div.position-0 {
@@ -276,12 +297,16 @@ div.position-0 {
 
 /* title H1 and elements H2 in popup overlays (used for history popup) */
 #content h1.documentFirstHeading, .pb-ajax h2 {
-    border-bottom: 1px solid &dtml-globalBorderColor;;
+	border:none;
     color: &dtml-linkColor;;
     font-weight: normal;
     line-height: 1em;
     margin-bottom: 0.3em;
     margin-top: 0em;
+}
+
+.pb-ajax h2 {
+    border-bottom: 1px solid &dtml-globalBorderColor;;
 }
 
 .managePortletsFallback {
@@ -358,10 +383,11 @@ ul.configlets img {
 }
 
 #content fieldset {
-    background-color: #f2f2f2;
-    border:none;
+    background-color: &dtml-evenRowBackgroundColor;;
+    border:1px solid #e7e7e7;
     line-height: 1.25em;
-    margin: -1.5em 0.2em 0.5em;
+    margin: 0em 0.2em 0.5em;
+    padding-top: 0.03em;
 }
 
 p {
@@ -377,7 +403,7 @@ p {
 
 #portal-header #portal-logo {
     float: left;
-    margin: 0 0 -1.5em 1em;
+    margin: 0 1em 0em;
 }
 
 #portlet-prefs STRONG {
@@ -429,6 +455,7 @@ p {
 
 #portal-globalnav {
     background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 0 5px gray;
     clear:none;
 }
 
@@ -436,29 +463,42 @@ p {
 #portal-globalnav li a {
     background: transparent none repeat scroll 0 0;
     border-right: 0.1em solid &dtml-navBorderColor;;
-    color: #ffffff;
-    padding: 2em 1em;
+    color: #d2d2d2;
+    padding: 1.2em 1em;
     text-transform: uppercase;
     letter-spacing: 0.01em;
 }
 
 
 #portal-header #portal-globalnav .selected a, #portal-globalnav a:hover {
-    background: #ffffff;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+#portal-header #portal-globalnav .selected a{
+	font-weight:bold;
 }
 
 #portal-globalnav a:hover,
 #portal-header #portal-globalnav .selected a {
-    color: #000000;
+    color: white;
 }
 
 #portal-header #portal-globalnav .selected a:hover {
-    color: #205c90;
+    color: white;
+}
+
+#portal-header #portal-globalnav .selected a::before {
+    content: "\203A";
+    float: left;
+    font-weight:bold;
+    font-size: 161%;
+    margin-top: -0.3em;
+    padding-right: 0.2em;
 }
 
 /* padding-right is to display portlet_calendar correctly */
 dl.portlet dt, div.portletAssignments div.portletHeader {
-    background: none repeat scroll 0 0 &dtml-globalBackgroundColor;;
+    background: #42576c;
     line-height: normal;
     padding: 0.2em;
     padding-right: 0.5em;
@@ -467,31 +507,48 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 
 dl.portlet {
     border:none;
-    margin: 0 0 0.75em;
+    margin: 0 0 0 0.75em;
+    padding-bottom: 0.75em;
 }
 
 #portal-column-one .visualPadding {
     padding-left: 1em;
 }
 
+#portal-column-one{
+    background-color: #f9f9f9;
+    border-bottom:1px solid #e7e7e7;
+    border-right:1px solid #e7e7e7;
+    margin-top: -1em;
+    padding-top: 1.25em;
+}
+
 dl.portlet .portletHeader,
 dl.portlet .portletHeader a:link,
 dl.portlet .portletHeader a:visited {
+    border: 0 none;
+    border-radius: 3px;
+    color: white;
+    font-size: 85%;
     font-weight: bold;
-    border: 0;
-    color: #ffffff;
-    background-color:#485c70;
-    text-transform: uppercase;
-    padding:0.4em 0.5em ;
+    letter-spacing: 0.05em;
+    margin-right: 1em;
+    padding: 0.7em 0.85em;
+    text-transform: uppercase;;
 }
 
 #visual-portal-wrapper .portletWidgetCollection dt{
-	padding:0.4em 0.5em 0.3em;
+	padding:0.77em 0.85em;
 }
 
-#visual-portal-wrapper .portletPloneMeetingHeaderIcons > a {
-    padding: 0 0 0 0.5em;
+#visual-portal-wrapper .portletPloneMeetingHeaderIcons{
+	padding-right:0;
 }
+#visual-portal-wrapper .portletPloneMeetingHeaderIcons > a {
+     margin-right: 0;
+    padding: 0.25em;
+}
+
 
 /* @@manage-portlets */
 div.portletAssignments .managedPortlet .portletHeader,
@@ -672,6 +729,7 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     border: 1px solid &dtml-tableHeaderBackgroundColor;;
 }
 
+
 /* classes used while displaying widgets on a view */
 .table_widget_label {
     width: 250px;
@@ -680,12 +738,18 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     width: auto;
 }
 
+table.listing{
+	border-left:0px solid white;
+}
+
 table.listing th, .stx table th {
     background-color: &dtml-tableHeaderBackgroundColor;;
     color: &dtml-tableHeaderTextColor;;
+    font-size: 83%;
     vertical-align: middle;
-    text-align: center;
-    padding: 0.3em;
+    text-align: left;
+    padding: 0.3em 0.3em 0.3em 0.6em;
+    text-transform: uppercase;
 }
 
 table.listing td {
@@ -703,7 +767,13 @@ table.listing tfoot tr td {
 
 table.listing tbody tr.even td {
     background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
-    border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #e7e7e7;
+    border-top: 1px solid #f2f2f2;
+}
+
+#visual-portal-wrapper .select_item_checkbox {
+    border-right: 0 solid white;
 }
 
 /* the table listing elements in folder_contents */
@@ -960,21 +1030,21 @@ dl.collapsible{
 
 .available-items,.presented-items {
     font-size: 1em;
+    text-transform: uppercase;
 }
 
 .available-items{
     padding-top: 0.7em;
 }
 
-.available-items:before,.presented-items::before {
-    background-color: &dtml-tableHeaderTextColor;;
-    border-radius: 14px;
-    color: white;
-    content: "➜";
-    float: left;
-    font-size: 110%;
-    margin-right: 0.3em;
-    padding: 0 0.3em 0.05em;
+.available-items::after,
+.presented-items:after{
+	content: "▾";
+    display: inline-block;
+    font-size: 131%;
+    opacity: 0.9;
+    padding-left: 0.4em;
+    position: relative;
 }
 
 #content .no-style-table.discreet legend {
@@ -994,27 +1064,24 @@ dl.collapsible{
 
 /*Content */
 
-#content legend {
+#content legend,
+#portal-columns #content .widget-fieldset legend {
     background-color: white;
-    border-color: #e2e2e2;
+    border-color: #f2f2f2;
     border-radius: 0 0 9px;
     border-style: solid;
     border-width: 0 1px 1px 0;
     margin-bottom:0.5em;
-    margin-left: -1em;
-    margin-top: 2.2em;
+    margin-left: -1.1em;
+    margin-top:-2px;
+    float:left;
+}
+
+#content legend{
     padding: 0.1em 0.7em 0.3em 0.5em;
 }
 
 #portal-columns #content .widget-fieldset legend {
-    background-color: white;
-    border-color: #e2e2e2;
-    border-radius: 0 0 9px;
-    border-style: solid;
-    border-width: 0 1px 1px 0;
-    margin-bottom:0.5em;
-    margin-left: -1em;
-    margin-top: 2.3em;
     padding: 0.2em 0.7em 0.3em 0.3em;
 }
 
@@ -1026,6 +1093,7 @@ dl.collapsible{
     border:none;
     margin-left: 0em;
     padding:0;
+    float:left;
 }
 
 #portal-columns .portletTodo .portletCell,
@@ -1040,7 +1108,7 @@ div#top---advanced---widgets {
 
 #faceted-form fieldset.widget-fieldset{
 	padding-left:1em;
-	margin-top:-2.3em;
+	padding-top:0em;
 }
 
 iframe{
@@ -1051,6 +1119,10 @@ iframe{
 .table_faceted_results_number, .table_faceted_no_results {
     font-style: italic;
     font-weight: normal;
+}
+
+#content legend + p {
+    clear: both;
 }
 
 /* </dtml-with> */
