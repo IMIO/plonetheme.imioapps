@@ -18,7 +18,7 @@ fontBaseSize:string=90%
 fontColor:string=Black
 fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
 fontSmallSize:string=85%
-globalBackgroundColor:string=#496A93
+globalBackgroundColor:string=#375b7e
 globalBorderColor:string=#496A93
 globalFontColor:string=#436976
 buttonBackgroundColor:string=#EDEDED
@@ -39,5 +39,6 @@ textTransform:string=none
 navBackgroundColor:string=#34495e
 navBorderColor:string=#576A7C
 portletHeaderBackgroundColor:string=#42576c
+backgroundFieldset:string=#f2f2f2
 title:string=Plone's color, font, logo and border defaults
 
