@@ -11,15 +11,25 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
+ 
 body {
     color: Black;
     font: 100% Arial,FreeSans,sans-serif;
 }
 
 #portal-searchbox {
-    margin: 0.5em 10em 0 0;
+    margin:0.6em 1em 0;
     clear: none;
     position: relative;
+}
+
+#searchGadget {
+    height: 24px;
+    padding-left: 0.4em;
+}
+
+input.searchField {
+    -moz-appearance: statusbarpanel;
 }
 
 /* line-height from 2em to 1.5em in elements displayed in the navtree portlet */
@@ -66,6 +76,35 @@ position:absolute;
 
 .faceted-lock-overlay {
   background: grey;
+}
+
+body #visual-portal-wrapper #content .faceted-sections-buttons-more,
+body #visual-portal-wrapper #content .faceted-sections-buttons-less{
+	background-repeat: no-repeat;;
+	color:transparent;
+	position:absolute;
+}
+
+body #visual-portal-wrapper #content .faceted-sections-buttons-more{
+	background-image: url(&dtml-portal_url;/filtre_add.png);
+}
+
+body #visual-portal-wrapper #content .faceted-sections-buttons-less{
+	background-image: url(&dtml-portal_url;/filtre_sous.png);
+}
+
+
+div#faceted-form {
+    position: relative;
+}
+
+body #visual-portal-wrapper #content .faceted-sections-buttons-more:hover,
+body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
+	color:transparent !important;
+}
+
+.LSBox {
+    background-color: #f2f1f0;
 }
 
 .LSBox .searchButton, div#faceted-form input.searchButton {
@@ -123,10 +162,10 @@ position:absolute;
 }
 
 #portaltab-index_html{
-visibility:hidden;
+	display:none;
 }
 
-/*#portal-personaltools {
+#portal-personaltools {
     background-color: &dtml-globalBackgroundColor;;
     border-top: 1px solid #0a375c;
     border-bottom:0px;
@@ -136,7 +175,6 @@ visibility:hidden;
 #portal-personaltools a:link {
     color: white;
 }
-*/
 
 #portal-personaltools dd a:hover {
     background: none repeat scroll 0 0 transparent;
@@ -183,11 +221,10 @@ div.width-full #content {
 
 /* column-one */
 div.width-1\:4 {
-    margin-left: -99.5% !important;
     width: 15.2%;
 }
 div.position-1\:4 {
-    margin-left: -83.875%;
+    margin-left: -84.35%;
 }
 div.width-1\:2 {
     width: 68%;
@@ -200,11 +237,11 @@ div.position-3\:4 {
     width: 15.2%;
 }
 div.width-3\:4 {
-    width: 83.5%;
+    width: 84%;
     padding: 1%;
 }
 div.position-0 {
-    margin-left: -98.875%;
+    margin-left: -100%;
 }
 
 /* no portlets */
@@ -260,12 +297,16 @@ div.position-0 {
 
 /* title H1 and elements H2 in popup overlays (used for history popup) */
 #content h1.documentFirstHeading, .pb-ajax h2 {
-    border-bottom: 1px solid &dtml-globalBorderColor;;
+	border:none;
     color: &dtml-linkColor;;
     font-weight: normal;
     line-height: 1em;
     margin-bottom: 0.3em;
     margin-top: 0em;
+}
+
+.pb-ajax h2 {
+    border-bottom: 1px solid &dtml-globalBorderColor;;
 }
 
 .managePortletsFallback {
@@ -342,26 +383,27 @@ ul.configlets img {
 }
 
 #content fieldset {
-    border: 0.1em solid &dtml-globalBorderColor;;
-    border-radius: 5px;
+    background-color: &dtml-evenRowBackgroundColor;;
+    border:1px solid &dtml-tableHeaderBackgroundColor;;
     line-height: 1.25em;
-    margin: 0.5em 0;
+    margin: 0em 0.2em 0.5em;
+    padding-top: 0.03em;
 }
 
 p {
     line-height: 1.25em;
 }
 
+/*====Header====*/
+
 #portal-header {
-    background-image: url("&dtml-portal_url;/header-bg.gif");
-    background-repeat:repeat-x;
-    padding-right:0em;
-    margin:0 -1.13% 0 -1.12%;
+    background-color: &dtml-navBackgroundColor;;
+    width:102.29%;
 }
 
-#portal-logo {
+#portal-header #portal-logo {
     float: left;
-    margin: 0 0 -1.5em 1em;
+    margin: 0 1em 0em;
 }
 
 #portlet-prefs STRONG {
@@ -409,51 +451,54 @@ p {
     color: white;
 }
 
+/*====Navigation====*/
+
 #portal-globalnav {
     background: none repeat scroll 0 0 transparent;
-    border-bottom: 6px solid &dtml-globalBackgroundColor;;
-    clear: both;
-    font-size: 80%;
-    margin-left: -2em;
-    padding-left: 0;
+    box-shadow: 0 0 5px gray;
+    clear:none;
 }
 
-#portal-globalnav li {
-    margin-right:2px;
-    text-align: center;
-}
 
 #portal-globalnav li a {
-    background: none repeat scroll 0 0 &dtml-buttonBackgroundColor;;
-    border: 1px solid lightgray;
-    color:&dtml-buttonTextColor;;
-    font-size:17px;
-    padding:0.1em 1em 0.1em;
-    border-radius: 5px 5px 0px 0px;
-    min-width:0;
+    background: transparent none repeat scroll 0 0;
+    border-right: 0.1em solid &dtml-navBorderColor;;
+    color: #d2d2d2;
+    padding: 1.2em 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
 }
 
-#portal-globalnav li a:hover {
-    background-color: &dtml-globalBackgroundColor;;
-    border:1px solid &dtml-globalBackgroundColor;;
-    color:#fff;
+
+#portal-header #portal-globalnav .selected a, #portal-globalnav a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 
-#portal-globalnav li.selected a {
-    background-color: &dtml-globalBackgroundColor;;
-    border:1px solid &dtml-globalBackgroundColor;;
-    color:#fff;
+#portal-header #portal-globalnav .selected a{
+	font-weight:bold;
 }
 
-#portal-globalnav li.selected a:hover {
-    background-color: &dtml-globalBackgroundColor;;
-    border:1px solid &dtml-globalBackgroundColor;;
-    color:#fff;
+#portal-globalnav a:hover,
+#portal-header #portal-globalnav .selected a {
+    color: white;
+}
+
+#portal-header #portal-globalnav .selected a:hover {
+    color: white;
+}
+
+#portal-header #portal-globalnav .selected a::before {
+    content: "\203A";
+    float: left;
+    font-weight:bold;
+    font-size: 161%;
+    margin-top: -0.3em;
+    padding-right: 0.2em;
 }
 
 /* padding-right is to display portlet_calendar correctly */
 dl.portlet dt, div.portletAssignments div.portletHeader {
-    background: none repeat scroll 0 0 &dtml-globalBackgroundColor;;
+    background: &dtml-portletHeaderBackgroundColor;;
     line-height: normal;
     padding: 0.2em;
     padding-right: 0.5em;
@@ -461,25 +506,49 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 }
 
 dl.portlet {
-    border-width:1px;
-    border-style:solid;
-    border-color: &dtml-globalBackgroundColor;;
-    border-radius : 5px;
-    margin: 0 0 0.75em;
+    border:none;
+    margin: 0 0 0 0.75em;
+    padding-bottom: 0.75em;
 }
 
 #portal-column-one .visualPadding {
     padding-left: 1em;
 }
 
+#portal-column-one{
+    background-color: &dtml-evenRowBackgroundColor;;
+    border-bottom:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
+    border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
+    margin-top: -1em;
+    padding-top: 1.25em;
+}
+
 dl.portlet .portletHeader,
 dl.portlet .portletHeader a:link,
 dl.portlet .portletHeader a:visited {
-    font-weight: bold;
-    border: 0;
+    border: 0 none;
+    border-radius: 3px;
     color: white;
-    background-color: &dtml-globalBackgroundColor;;
+    font-size: 85%;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-right: 1em;
+    padding: 0.7em 0.85em;
+    text-transform: uppercase;;
 }
+
+#visual-portal-wrapper .portletWidgetCollection dt{
+	padding:0.77em 0.85em;
+}
+
+#visual-portal-wrapper .portletPloneMeetingHeaderIcons{
+	padding-right:0;
+}
+#visual-portal-wrapper .portletPloneMeetingHeaderIcons > a {
+     margin-right: 0;
+    padding: 0.25em;
+}
+
 
 /* @@manage-portlets */
 div.portletAssignments .managedPortlet .portletHeader,
@@ -660,6 +729,7 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     border: 1px solid &dtml-tableHeaderBackgroundColor;;
 }
 
+
 /* classes used while displaying widgets on a view */
 .table_widget_label {
     width: 250px;
@@ -668,12 +738,18 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     width: auto;
 }
 
+table.listing{
+	border-left:0px solid white;
+}
+
 table.listing th, .stx table th {
     background-color: &dtml-tableHeaderBackgroundColor;;
     color: &dtml-tableHeaderTextColor;;
+    font-size: 83%;
     vertical-align: middle;
-    text-align: center;
-    padding: 0.3em;
+    text-align: left;
+    padding: 0.3em 0.3em 0.3em 0.6em;
+    text-transform: uppercase;
 }
 
 table.listing td {
@@ -691,7 +767,13 @@ table.listing tfoot tr td {
 
 table.listing tbody tr.even td {
     background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
-    border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
+    border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor; &dtml-backgroundFieldset;;
+    border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
+    border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-backgroundFieldset;;
+}
+
+#visual-portal-wrapper .select_item_checkbox {
+    border-right: 0 solid white;
 }
 
 /* the table listing elements in folder_contents */
@@ -735,11 +817,11 @@ dl.portalMessage dd {
 }
 
 /* some left and right padding for collective.messagesviewlet */
-#portal-header > div#messagesviewlet {
+/*#portal-header > div#messagesviewlet {
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
-
+*/
 .historyByLine {
     border-radius: 0;
 }
@@ -925,8 +1007,6 @@ acronym {
 }
 
 #content dl.collapsible {
-    border-color: &dtml-globalBorderColor;;
-    border-radius: 5px;
     margin-bottom: 1em;
 }
 #content dd.collapsibleContent {
@@ -939,6 +1019,138 @@ acronym {
     position: fixed;
     top: 40%;
 }
+
+/*tilte*/
+
+.available-items,.presented-items {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.available-items{
+    padding-top: 0.7em;
+}
+
+.available-items::after,
+.presented-items:after{
+	content: "▾";
+    display: inline-block;
+    font-size: 131%;
+    opacity: 0.9;
+    padding-left: 0.4em;
+    position: relative;
+}
+
+#content .no-style-table.discreet legend {
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+    padding-top: 0;
+}
+
+.collapsibleHeader.discreet > b{
+	display: inline-block;
+    padding: 0.75em 0;
+}
+
+.portletHeader .portletPloneMeetingHeaderIcons {
+    background-color: transparent;
+}
+
+/*legend and fieldest */
+
+dl.collapsible{
+	border:none;
+}
+
+#content legend,
+#portal-columns #content .widget-fieldset legend {
+    background-color: white;
+    border-color: &dtml-backgroundFieldset;;
+    border-radius: 0 0 9px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    margin-bottom:0.5em;
+    margin-left: -1.1em;
+    margin-top:-2px;
+    float:left;
+}
+
+#content legend{
+    padding: 0.1em 0.7em 0.3em 0.5em;
+}
+
+#portal-columns #content .widget-fieldset legend {
+    padding: 0.2em 0.7em 0.3em 0.3em;
+}
+
+#faceted-form fieldset.widget-fieldset{
+	padding-left:1em;
+	padding-top:0em;
+}
+
+#content legend + p,
+#content fieldset.widget-fieldset ul  {
+    clear: both;
+}
+
+#content .widget-fieldset legend {
+    background-color: &dtml-backgroundFieldset;;
+    border:none;
+    margin-left: 0em;
+    padding:0;
+    float:left;
+}
+
+/*portal-column-one*/
+
+#portal-columns .portletTodo .portletCell,
+portal-columns .portletTodo .portletSection,
+portal-columns dl.portlet.portletWidgetCollection div.widget-portlet div.title {
+    padding-left: 1em;
+}
+
+#portal-columns .portletTodo .portletSection,
+.portletItem.odd .widget-portlet .faceted-widget .title:first-child{
+    padding-top: 0.3em;
+}
+
+div#top---advanced---widgets {
+    background-color: transparent;
+}
+
+iframe{
+	padding-bottom:1em;
+}
+
+.table_faceted_results_number, .table_faceted_no_results {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.itemAnnexesCell fieldset, .itemAdvicesCell fieldset {
+    min-height: 60px;
+}
+
+/*Arrow for next and preview */
+
+#querynextprev-navigation {
+    float: right;
+}
+#query-nextprev-prev{
+    padding-right: 1em;
+}
+#query-nextprev-next{
+    padding-right: 1em;
+}
+#query-nextprev-prev::before {
+    content: "<<";
+    padding-right: 0.5em;
+}
+#query-nextprev-next::after {
+    content: ">>";
+    padding-left: 0.5em;
+}
+
 
 /* </dtml-with> */
 
