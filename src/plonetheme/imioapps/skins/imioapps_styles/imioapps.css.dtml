@@ -1118,6 +1118,10 @@ div#top---advanced---widgets {
     background-color: transparent;
 }
 
+#content div#top---advanced---widgets .widget-fieldset > form {
+    margin-top: 2.2em;
+}
+
 iframe{
 	padding-bottom:1em;
 }

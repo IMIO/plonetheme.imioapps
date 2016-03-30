@@ -225,6 +225,10 @@ dd.actionMenuContentAX even {
     background-color: transparent;
 }
 
+td.itemAdvicesCell div.contentActionsAX {
+    margin-top: 2.4em;
+}
+
 .contentActionsAX {
     font-size: 90%;
 }
