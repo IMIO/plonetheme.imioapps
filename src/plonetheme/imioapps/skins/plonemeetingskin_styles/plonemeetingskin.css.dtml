@@ -228,6 +228,9 @@ dd.actionMenuContentAX even {
 td.itemAdvicesCell div.contentActionsAX {
     margin-top: 2.4em;
 }
+#content div#faceted-results td.td_cell_advices legend {
+    margin-left: -0.6em;
+}
 
 .contentActionsAX {
     font-size: 90%;
