@@ -231,6 +231,10 @@ div.width-1\:2 {
     width: 68%;
 }
 
+dl.portlet.portletWidgetCollection div.widget-portlet{
+	padding-left:0;
+}
+
 /* column-two */
 div.position-3\:4 {
     margin-left: -15.6% !important;
@@ -516,7 +520,7 @@ dl.portlet dt, div.portletAssignments div.portletHeader {
 
 dl.portlet {
     border:none;
-    margin: 0 0 0 0.75em;
+    margin: 0 0 0 0.5em;
     padding-bottom: 0.75em;
 }
 
@@ -541,7 +545,7 @@ dl.portlet .portletHeader a:visited {
     font-size: 85%;
     font-weight: bold;
     letter-spacing: 0.05em;
-    margin-right: 1em;
+    margin-right: 0.5em;
     padding: 0.7em 0.85em;
     text-transform: uppercase;;
 }
@@ -677,7 +681,8 @@ dl.portlet dt.portletHeader a:hover {
 }
 
 dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
-    padding: 0;
+    margin-right:0.5em;
+	padding: 0;
 }
 
 #portal-breadcrumbs {
@@ -748,7 +753,7 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 }
 
 table.listing{
-	border-left:0px solid white;
+	border-right:1px solid #ddd;
 }
 
 table.listing th, .stx table th {
@@ -779,10 +784,6 @@ table.listing tbody tr.even td {
     border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor; &dtml-backgroundFieldset;;
     border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
     border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-backgroundFieldset;;
-}
-
-#visual-portal-wrapper .select_item_checkbox {
-    border-right: 0 solid white;
 }
 
 /* the table listing elements in folder_contents */
@@ -1073,7 +1074,7 @@ dl.collapsible{
 
 #content legend,
 #portal-columns #content .widget-fieldset legend {
-    background-color: white;
+    background-color: #e7e7e7;
     border-color: &dtml-backgroundFieldset;;
     border-radius: 0 0 9px;
     border-style: solid;
@@ -1086,6 +1087,10 @@ dl.collapsible{
 
 #content legend{
     padding: 0.1em 0.7em 0.3em 0.5em;
+}
+
+.section-incoming-mail #content h1.documentFirstHeading, .pb-ajax h2 {
+    margin-top: 0.5em;
 }
 
 #portal-columns #content .widget-fieldset legend {
