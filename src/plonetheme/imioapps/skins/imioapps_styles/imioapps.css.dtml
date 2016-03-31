@@ -1030,27 +1030,6 @@ acronym {
     top: 40%;
 }
 
-/*tilte*/
-
-.available-items,.presented-items {
-    font-size: 1em;
-    text-transform: uppercase;
-}
-
-.available-items{
-    padding-top: 0.7em;
-}
-
-.available-items::after,
-.presented-items:after{
-	content: "▾";
-    display: inline-block;
-    font-size: 131%;
-    opacity: 0.9;
-    padding-left: 0.4em;
-    position: relative;
-}
-
 #content .no-style-table.discreet legend {
     padding-bottom: 0.3em;
     padding-left: 0.3em;

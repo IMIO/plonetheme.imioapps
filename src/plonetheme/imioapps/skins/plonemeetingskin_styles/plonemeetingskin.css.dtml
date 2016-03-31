@@ -290,6 +290,21 @@ body.template-facetednavigation_view.portaltype-folder #content div#viewlet-belo
     padding-bottom: 0em;
 }
 
+.available-items,.presented-items {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.available-items::after,
+.presented-items:after{
+    content: "▾";
+    display: inline-block;
+    font-size: 131%;
+    opacity: 0.9;
+    padding-left: 0.4em;
+    position: relative;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
