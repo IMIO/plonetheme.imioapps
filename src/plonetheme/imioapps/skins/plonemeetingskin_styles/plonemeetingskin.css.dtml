@@ -15,9 +15,6 @@
     margin: 0.3em 0 -1.8em 1em;
 }
 
-#portal-globalnav {
-    padding-left: 1.5em;
-}
 
 /* display the category list correctly */
 #category {

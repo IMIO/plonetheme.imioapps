@@ -188,6 +188,7 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
     color: blue;
 }
 
+[id="portal-header"] #portal-personaltools a,
 #portal-personaltools a:link {
     color: &dtml-darkLinkColor;;
     padding:3px;
@@ -396,13 +397,20 @@ p {
 
 /*====Header====*/
 
+.userrole-anonymous #portal-header #portal-logo {
+    position:relative;
+	padding-bottom:0.5em;
+}
+
 #portal-header {
     background-color: &dtml-navBackgroundColor;;
     width:102.29%;
+	margin-bottom:1em;
+	box-shadow: 0 0 5px gray;
 }
 
 #portal-header #portal-logo {
-    float: left;
+    position:absolute;
     margin: 0 1em 0em;
 }
 
@@ -455,8 +463,9 @@ p {
 
 #portal-globalnav {
     background: none repeat scroll 0 0 transparent;
-    box-shadow: 0 0 5px gray;
     clear:none;
+	margin:0;
+	padding-left:5em;
 }
 
 
