@@ -12,7 +12,8 @@
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 
-.template-view #content li.formTab a.required span:after, .template-view #content-core li.formTab a.required span:after, .template-view div.field span.required:after {
+.template-view #content li.formTab a.required span:after, .template-view #content-core li.formTab a.required span:after,
+.template-view div.field span.required:after,#fieldset-versions legend {
     display: None;
 }
 
@@ -35,12 +36,7 @@
 }
 
 #portal-logo img {
-    margin-bottom: -6px;
-    margin-top: 16px;
-}
-
-#portal-globalnav {
-padding-left: 1.4em;
+    margin-top: 0.5em;
 }
 
 /* </dtml-with> */

@@ -943,6 +943,7 @@ span.cke_skin_kama {
 .apButtonWF {
     color: white;
     background-color: &dtml-globalBackgroundColor;;
+	margin: 0.5em 0;
 }
 
 .apButtonAction {
