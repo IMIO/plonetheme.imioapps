@@ -11,7 +11,7 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
- 
+
 body {
     color: Black;
     font: 100% Arial,FreeSans,sans-serif;
@@ -78,6 +78,11 @@ position:absolute;
   background: grey;
 }
 
+#faceted-form .faceted-sections-buttons {
+    right: 20px;
+    padding-top: 0;
+}
+
 body #visual-portal-wrapper #content .faceted-sections-buttons-more,
 body #visual-portal-wrapper #content .faceted-sections-buttons-less{
 	background-repeat: no-repeat;;
@@ -101,6 +106,10 @@ div#faceted-form {
 body #visual-portal-wrapper #content .faceted-sections-buttons-more:hover,
 body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
 	color:transparent !important;
+}
+
+#faceted-top-column {
+    padding-right: 22px;
 }
 
 .LSBox {
@@ -759,7 +768,7 @@ table.listing{
 table.listing th, .stx table th {
     background-color: &dtml-tableHeaderBackgroundColor;;
     color: &dtml-tableHeaderTextColor;;
-    font-size: 83%;
+    font-size: 92%;
     vertical-align: middle;
     text-align: left;
     padding: 0.3em 0.3em 0.3em 0.6em;
@@ -1069,10 +1078,6 @@ dl.collapsible{
     padding: 0.1em 0.7em 0.3em 0.5em;
 }
 
-.section-incoming-mail #content h1.documentFirstHeading, .pb-ajax h2 {
-    margin-top: 0.5em;
-}
-
 #portal-columns #content .widget-fieldset legend {
     padding: 0.2em 0.7em 0.3em 0.3em;
 }
@@ -1110,10 +1115,16 @@ portal-columns dl.portlet.portletWidgetCollection div.widget-portlet div.title {
 
 div#top---advanced---widgets {
     background-color: transparent;
+    padding-left: 0;
+    padding-top: 0;
 }
 
 #content div#top---advanced---widgets .widget-fieldset > form {
     margin-top: 2.3em;
+}
+
+.widget-fieldset {
+    margin-left: 0 !important;
 }
 
 iframe{
@@ -1149,6 +1160,10 @@ iframe{
     padding-left: 0.5em;
 }
 
+/* Correction of collective.contact.factednav */
+.template-facetednavigation_view #faceted-results {
+    padding-left: 0;
+}
 
 /* </dtml-with> */
 
