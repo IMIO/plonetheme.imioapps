@@ -18,7 +18,7 @@ body {
 }
 
 #portal-searchbox {
-    margin:0.6em 1em 0;
+    margin:0.6em 3em 0;
     clear: none;
     position: relative;
 }
@@ -40,7 +40,7 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 
 #portal-searchbox label {
     vertical-align: top;
-    padding-left: 16px;
+    padding-left: 6px;
     padding-top: 2px;
     position: absolute;
 }
@@ -1163,6 +1163,21 @@ iframe{
 /* Correction of collective.contact.factednav */
 .template-facetednavigation_view #faceted-results {
     padding-left: 0;
+}
+
+/*Ckeckbox with icon buton*/
+
+[id="searchbox_currentfolder_only"] {
+    display: none;
+}
+
+[id="searchbox_currentfolder_only"] + label::before {
+    content:url(&dtml-portal_url;/search_local.png);
+    display:inline-block;
+}
+
+[id="searchbox_currentfolder_only"]:checked + label::before {
+    content:url(&dtml-portal_url;/search_local_check.png);
 }
 
 /* </dtml-with> */
