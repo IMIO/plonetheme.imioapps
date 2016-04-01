@@ -83,6 +83,17 @@ position:absolute;
     padding-top: 0;
 }
 
+/* when faceted operator AND/OR is shown on a faceted widget */
+div.faceted-operator {
+    margin-top: 0px;
+    float: right;
+}
+/* hide label 'correspondance' */
+div.faceted-operator label {
+    display: none;
+}
+
+
 body #visual-portal-wrapper #content .faceted-sections-buttons-more,
 body #visual-portal-wrapper #content .faceted-sections-buttons-less{
 	background-repeat: no-repeat;;
