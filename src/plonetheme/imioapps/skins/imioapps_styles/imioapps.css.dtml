@@ -1038,6 +1038,7 @@ acronym {
 
 #content dl.collapsible {
     margin-bottom: 1em;
+    border-color: #496A93;
 }
 #content dd.collapsibleContent {
     margin-left: 0.5em;
