@@ -411,7 +411,7 @@ ul.configlets img {
     background-color: &dtml-evenRowBackgroundColor;;
     border:1px solid &dtml-tableHeaderBackgroundColor;;
     line-height: 1.25em;
-    margin: 0em 0.2em 0.5em;
+    margin: 0em 0em 0.5em;
     padding-top: 0.03em;
 }
 
@@ -963,7 +963,6 @@ span.cke_skin_kama {
 .apButtonWF {
     color: white;
     background-color: &dtml-globalBackgroundColor;;
-	margin: 0.5em 0;
 }
 
 .apButtonAction {
@@ -1058,7 +1057,7 @@ acronym {
 }
 
 .collapsibleHeader.discreet > b{
-	display: inline-block;
+    display: inline-block;
     padding: 0.75em 0;
 }
 
@@ -1067,11 +1066,6 @@ acronym {
 }
 
 /*legend and fieldest */
-
-dl.collapsible{
-	border:none;
-}
-
 #content legend,
 #portal-columns #content .widget-fieldset legend {
     background-color: #e7e7e7;
@@ -1139,7 +1133,7 @@ div#top---advanced---widgets {
 }
 
 iframe{
-	padding-bottom:1em;
+    padding-bottom:1em;
 }
 
 .table_faceted_results_number, .table_faceted_no_results {
