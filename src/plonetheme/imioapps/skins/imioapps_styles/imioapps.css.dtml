@@ -1137,11 +1137,6 @@ iframe{
     padding-bottom:1em;
 }
 
-.table_faceted_results_number, .table_faceted_no_results {
-    font-style: italic;
-    font-weight: normal;
-}
-
 .itemAnnexesCell fieldset, .itemAdvicesCell fieldset {
     min-height: 60px;
 }
