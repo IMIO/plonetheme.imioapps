@@ -662,10 +662,11 @@ div.listingBar a:hover {
     background: none repeat scroll 0 0 &dtml-tableHeaderBackgroundColor;;
     font-size: 85%;
     line-height: 2em;
-    margin: 2em -1.13% 0em -1.12%;
+    margin: 2em 0 0em 0;
     padding: 1.5em;
     margin-bottom: 1em;
     text-align: center;
+    width: 100%;
 }
 
 /* links in the portal footer need to be visible... */
