@@ -1183,6 +1183,13 @@ iframe{
     content:url(&dtml-portal_url;/search_local_check.png);
 }
 
+/* doc displayed in a fieldset using the '?' js click image */
+#content-core div#groupDoc,
+#content-core div#customAdvisersDoc,
+#content-core div#usersDoc {
+    margin-top: 2.3em;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
