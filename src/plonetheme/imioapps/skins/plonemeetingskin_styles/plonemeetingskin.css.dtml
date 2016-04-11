@@ -295,6 +295,10 @@ body.template-facetednavigation_view.portaltype-folder #content div#viewlet-belo
     text-transform: uppercase;
 }
 
+#content-core table.item-infos {
+    margin-bottom: 1em;
+}
+
 .available-items::after,
 .presented-items:after{
     content: "▾";

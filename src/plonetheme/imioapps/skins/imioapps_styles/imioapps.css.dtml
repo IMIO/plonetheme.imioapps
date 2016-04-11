@@ -364,7 +364,7 @@ div.formControls {
 #content dl,
 dl.portlet p,
 dl.portlet {
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
 }
 
 #visual-portal-wrapper{
@@ -662,10 +662,13 @@ div.listingBar a:hover {
     background: none repeat scroll 0 0 &dtml-tableHeaderBackgroundColor;;
     font-size: 85%;
     line-height: 2em;
-    margin: 2em 0 0em 0;
-    padding: 1.5em;
-    margin-bottom: 1em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
     text-align: center;
+    width: 100%;
+}
+
+#portal-footer-wrapper .cell.width-full.position-0 {
     width: 100%;
 }
 
@@ -1129,10 +1132,16 @@ div#top---advanced---widgets {
 
 #content div#top---advanced---widgets .widget-fieldset > form {
     margin-top: 2.3em;
+    margin-left: -0.8em;
 }
 
 .widget-fieldset {
     margin-left: 0 !important;
+}
+
+/* limit space between checkbox and label in a faceted widget */
+.widget-fieldset ul li label {
+    padding-left: 0.3em;
 }
 
 iframe{
