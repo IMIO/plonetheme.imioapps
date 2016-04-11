@@ -79,7 +79,7 @@ position:absolute;
 }
 
 #faceted-form .faceted-sections-buttons {
-    right: 20px;
+    right: 25px;
     padding-top: 0;
 }
 
