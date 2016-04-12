@@ -291,7 +291,7 @@ body.template-facetednavigation_view.portaltype-folder #content div#viewlet-belo
 }
 
 .available-items,.presented-items {
-    font-size: 1em;
+    font-size: 1.25em;
     text-transform: uppercase;
 }
 
