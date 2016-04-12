@@ -303,6 +303,12 @@ dd.portletCell.pmLink.even {
     background-color: #f4f4f4;
 }
 
+/* displayed in a fieldset */
+fieldset table.meeting-premeeting-fields,
+fieldset table.meeting-manager-fields {
+    margin-top: 2.3em;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
