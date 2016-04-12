@@ -1104,9 +1104,16 @@ acronym {
     padding: 0.2em 0.7em 0.3em 0.3em;
 }
 
+/* display results in a 100% width table so passing from one page of the batch to another is pretty,
+   add also margin-bottom to not stick with bottom listingBar*/
+#content table.faceted-table-results {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
 #faceted-form fieldset.widget-fieldset{
-	padding-left:1em;
-	padding-top:0em;
+    padding-left:1em;
+    padding-top:0em;
 }
 
 #content legend + p,
