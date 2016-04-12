@@ -39,10 +39,23 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 #portal-searchbox label {
-    vertical-align: top;
-    padding-left: 6px;
-    padding-top: 2px;
+    background: #ababab none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 6px 4px 4px 1px #e8e8e8;
+    color: white;
+    margin-top: 12px;
+    padding: 6px;
     position: absolute;
+    vertical-align: top;
+    visibility: hidden;
+}
+
+#portal-searchbox label:hover{
+	visibility:visible;
+}
+
+#portal-searchbox [id="searchbox_currentfolder_only"]:checked + label:hover{
+	visibility: hidden;
 }
 
 .searchButton {
@@ -1177,6 +1190,12 @@ iframe{
 
 /*Ckeckbox with icon buton*/
 
+.LSBox .searchSection {
+    bottom: 0;
+    left: 2em;
+    position: absolute;
+}
+
 [id="searchbox_currentfolder_only"] {
     display: none;
 }
@@ -1184,6 +1203,10 @@ iframe{
 [id="searchbox_currentfolder_only"] + label::before {
     content:url(&dtml-portal_url;/search_local.png);
     display:inline-block;
+	float: right;
+    margin-right: -2em;
+    margin-top: -3em;
+	visibility:visible;
 }
 
 [id="searchbox_currentfolder_only"]:checked + label::before {
