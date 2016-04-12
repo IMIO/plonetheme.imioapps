@@ -78,7 +78,7 @@ position:absolute;
   background: grey;
 }
 
-#faceted-form .faceted-sections-buttons {
+#content-core #faceted-form .faceted-sections-buttons {
     right: 25px;
     padding-top: 0;
 }
@@ -120,7 +120,7 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
 }
 
 #faceted-top-column {
-    padding-right: 22px;
+    padding-right: 27px;
 }
 
 .LSBox {
@@ -556,9 +556,11 @@ dl.portlet {
     padding-top: 1.25em;
 }
 
-dl.portlet .portletHeader,
-dl.portlet .portletHeader a:link,
-dl.portlet .portletHeader a:visited {
+dl.portlet .portletHeader a:visited, dl.portlet .portletHeader a:link {
+    color: white;
+}
+
+dl.portlet .portletHeader {
     border: 0 none;
     border-radius: 3px;
     color: white;
@@ -568,10 +570,6 @@ dl.portlet .portletHeader a:visited {
     margin-right: 0.5em;
     padding: 0.7em 0.85em;
     text-transform: uppercase;;
-}
-
-#visual-portal-wrapper .portletWidgetCollection dt{
-	padding:0.77em 0.85em;
 }
 
 #visual-portal-wrapper .portletPloneMeetingHeaderIcons{
@@ -1173,7 +1171,7 @@ iframe{
 }
 
 /* Correction of collective.contact.factednav */
-.template-facetednavigation_view #faceted-results {
+.template-facetednavigation_view #content-core #faceted-results {
     padding-left: 0;
 }
 
