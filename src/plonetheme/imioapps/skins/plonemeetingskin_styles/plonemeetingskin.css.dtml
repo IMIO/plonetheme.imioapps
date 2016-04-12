@@ -299,14 +299,8 @@ body.template-facetednavigation_view.portaltype-folder #content div#viewlet-belo
     margin-bottom: 1em;
 }
 
-.available-items::after,
-.presented-items:after{
-    content: "▾";
-    display: inline-block;
-    font-size: 131%;
-    opacity: 0.9;
-    padding-left: 0.4em;
-    position: relative;
+dd.portletCell.pmLink.even {
+    background-color: #f4f4f4;
 }
 
 /* </dtml-with> */

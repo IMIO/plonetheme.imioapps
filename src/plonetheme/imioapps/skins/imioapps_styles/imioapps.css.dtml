@@ -424,7 +424,7 @@ ul.configlets img {
     background-color: &dtml-evenRowBackgroundColor;;
     border:1px solid &dtml-tableHeaderBackgroundColor;;
     line-height: 1.25em;
-    margin: 0em 0em 0.5em;
+    margin: 0em 0em 0.75em;
     padding-top: 0.03em;
 }
 
@@ -794,11 +794,9 @@ table.listing{
 table.listing th, .stx table th {
     background-color: &dtml-tableHeaderBackgroundColor;;
     color: &dtml-tableHeaderTextColor;;
-    font-size: 92%;
     vertical-align: middle;
     text-align: left;
     padding: 0.3em 0.3em 0.3em 0.6em;
-    text-transform: uppercase;
 }
 
 table.listing td {
@@ -810,12 +808,12 @@ table.listing td {
 
 table.listing tbody tr.odd td,
 table.listing tfoot tr td {
-    background: none repeat scroll 0 0 white;
+    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
     border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
 }
 
 table.listing tbody tr.even td {
-    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
+    background: none repeat scroll 0 0 #f4f4f4;
     border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor; &dtml-backgroundFieldset;;
     border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
     border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-backgroundFieldset;;
@@ -1087,9 +1085,10 @@ acronym {
 #portal-columns #content .widget-fieldset legend {
     background-color: #e7e7e7;
     border-color: &dtml-backgroundFieldset;;
-    border-radius: 0 0 9px;
+    border-radius: 0 0 6px;
     border-style: solid;
     border-width: 0 1px 1px 0;
+	color:#222222;
     margin-bottom:0.5em;
     margin-left: -15px;
     margin-top:-1px;
@@ -1097,7 +1096,7 @@ acronym {
 }
 
 #content legend{
-    padding: 0.1em 0.7em 0.3em 0.5em;
+    padding: 0.1em 0.5em 0.3em 0.5em;
 }
 
 #portal-columns #content .widget-fieldset legend {
@@ -1226,6 +1225,13 @@ iframe{
 #content-core div#usersDoc {
     margin-top: 2.3em;
 }
+
+/*title portelt column-one*/
+
+.portletTodo dd.portletSection a:link, .portletTodo dd.portletSection a:visited {
+    color: #222222;
+}
+
 
 /* </dtml-with> */
 
