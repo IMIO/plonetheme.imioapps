@@ -1099,7 +1099,7 @@ acronym {
 }
 
 #portal-columns #content .widget-fieldset legend {
-    padding: 0.2em 0.7em 0.3em 0.3em;
+    padding: 0.2em 0.3em;
 }
 
 /* display results in a 100% width table so passing from one page of the batch to another is pretty,
