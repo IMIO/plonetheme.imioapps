@@ -1050,7 +1050,7 @@ acronym {
 
 #content dl.collapsible {
     margin-bottom: 1em;
-    border-color: #496A93;
+    border-color: &dtml-globalBorderColor;;
     border-radius: 3px;
 }
 #content dd.collapsibleContent {
