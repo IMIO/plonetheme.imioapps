@@ -4,7 +4,7 @@ Changelog
 1.2.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- New layout.
 
 
 1.2.7 (2016-01-21)
