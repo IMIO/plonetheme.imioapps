@@ -51,7 +51,7 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 #portal-searchbox label:hover{
-	visibility:visible;
+    visibility:visible;
 }
 
 .searchButton {
@@ -105,17 +105,17 @@ div.faceted-operator label {
 
 body #visual-portal-wrapper #content .faceted-sections-buttons-more,
 body #visual-portal-wrapper #content .faceted-sections-buttons-less{
-	background-repeat: no-repeat;;
-	color:transparent;
-	position:absolute;
+    background-repeat: no-repeat;;
+    color:transparent;
+    position:absolute;
 }
 
 body #visual-portal-wrapper #content .faceted-sections-buttons-more{
-	background-image: url(&dtml-portal_url;/filtre_add.png);
+    background-image: url(&dtml-portal_url;/filtre_add.png);
 }
 
 body #visual-portal-wrapper #content .faceted-sections-buttons-less{
-	background-image: url(&dtml-portal_url;/filtre_sous.png);
+    background-image: url(&dtml-portal_url;/filtre_sous.png);
 }
 
 
@@ -125,7 +125,7 @@ div#faceted-form {
 
 body #visual-portal-wrapper #content .faceted-sections-buttons-more:hover,
 body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
-	color:transparent !important;
+    color:transparent !important;
 }
 
 #faceted-top-column {
@@ -191,7 +191,7 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
 }
 
 #portaltab-index_html{
-	display:none;
+    display:none;
 }
 
 #portal-personaltools {
@@ -261,7 +261,7 @@ div.width-1\:2 {
 }
 
 dl.portlet.portletWidgetCollection div.widget-portlet{
-	padding-left:0;
+    padding-left:0;
 }
 
 /* column-two */
@@ -331,7 +331,7 @@ div.position-0 {
 
 /* title H1 and elements H2 in popup overlays (used for history popup) */
 #content h1.documentFirstHeading, .pb-ajax h2 {
-	border:none;
+    border:none;
     color: &dtml-linkColor;;
     font-weight: normal;
     line-height: 1em;
@@ -497,8 +497,8 @@ p {
 #portal-globalnav {
     background: none repeat scroll 0 0 transparent;
     clear:none;
-	margin:0;
-	padding-left:5em;
+    margin:0;
+    padding-left:5em;
 }
 
 
@@ -509,7 +509,7 @@ p {
     padding: 1.2em 1em;
     text-transform: uppercase;
     letter-spacing: 0.01em;
-	position:relative;
+    position:relative;
 }
 
 
@@ -518,8 +518,8 @@ p {
 }
 
 #portal-header #portal-globalnav .selected a{
-	font-weight:bold;
-	margin-left: 0.6em;
+    font-weight:bold;
+    margin-left: 0.6em;
 }
 
 #portal-globalnav a:hover,
@@ -537,8 +537,8 @@ p {
     font-size: 161%;
     margin-top: -0.34em;
     padding-right: 0.2em;
-	position:absolute;
-	left:0.1em;
+    position:absolute;
+    left:0.1em;
 }
 
 /* padding-right is to display portlet_calendar correctly */
@@ -585,7 +585,7 @@ dl.portlet .portletHeader {
 }
 
 #visual-portal-wrapper .portletPloneMeetingHeaderIcons{
-	padding-right:0;
+    padding-right:0;
 }
 #visual-portal-wrapper .portletPloneMeetingHeaderIcons > a {
      margin-right: 0;
@@ -716,7 +716,7 @@ dl.portlet dt.portletHeader a:hover {
 
 dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
     margin-right:0.5em;
-	padding: 0;
+    padding: 0;
 }
 
 #portal-breadcrumbs {
@@ -787,7 +787,7 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 }
 
 table.listing{
-	border-right:1px solid #ddd;
+    border-right:1px solid #ddd;
 }
 
 table.listing th, .stx table th {
@@ -1087,7 +1087,7 @@ acronym {
     border-radius: 0 0 6px;
     border-style: solid;
     border-width: 0 1px 1px 0;
-	color:#222222;
+    color:#222222;
     margin-bottom:0.5em;
     margin-left: -15px;
     margin-top:-1px;
@@ -1208,10 +1208,10 @@ iframe{
 [id="searchbox_currentfolder_only"] + label::before {
     content:url(&dtml-portal_url;/search_local.png);
     display:inline-block;
-	float: right;
+    float: right;
     margin-right: -2em;
     margin-top: -3em;
-	visibility:visible;
+    visibility:visible;
 }
 
 [id="searchbox_currentfolder_only"]:checked + label::before {
