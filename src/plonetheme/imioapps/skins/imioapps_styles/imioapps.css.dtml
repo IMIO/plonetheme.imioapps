@@ -432,14 +432,14 @@ p {
 
 .userrole-anonymous #portal-header #portal-logo {
     position:relative;
-	padding-bottom:0.5em;
+    padding-bottom:0.5em;
 }
 
 #portal-header {
     background-color: &dtml-navBackgroundColor;;
     width:102.29%;
-	margin-bottom:1em;
-	box-shadow: 0 0 5px gray;
+    margin-bottom:1em;
+    box-shadow: 0 0 5px gray;
 }
 
 #portal-header #portal-logo {
@@ -663,7 +663,7 @@ div.listingBar a {
 }
 #content div.listingBar a:hover,
 div.listingBar a:hover {
-    background-color: &dtml-editBarColor;;
+    background-color: &dtml-navBackgroundColor;;
     border-color: #CCCCCC;
     color: white !important;
 }
