@@ -1230,7 +1230,10 @@ iframe{
 .portletTodo dd.portletSection a:link, .portletTodo dd.portletSection a:visited {
     color: #222222;
 }
-
+/* make sure broken images are shown in FF */
+img {
+    -moz-force-broken-image-icon: 1;
+}
 
 /* </dtml-with> */
 
