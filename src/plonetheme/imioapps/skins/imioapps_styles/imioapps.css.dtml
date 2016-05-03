@@ -11,7 +11,6 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-
 body {
     color: Black;
     font: 100% Arial,FreeSans,sans-serif;
@@ -102,7 +101,6 @@ div.faceted-operator label {
     display: none;
 }
 
-
 body #visual-portal-wrapper #content .faceted-sections-buttons-more,
 body #visual-portal-wrapper #content .faceted-sections-buttons-less{
     background-repeat: no-repeat;;
@@ -190,7 +188,7 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
     margin-top: -26px;
 }
 
-#portaltab-index_html{
+#portaltab-index_html {
     display:none;
 }
 
@@ -223,7 +221,7 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
     padding:3px;
 }
 
-#portal-personaltools .actionMenuContent{
+#portal-personaltools .actionMenuContent {
     border-top-left-radius: 0.5em;
     background: none repeat scroll 0 0 &dtml-globalBorderColor;;
     padding-bottom: 0.5em;
@@ -232,7 +230,7 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
     border-width:0px;
 }
 
-#portal-personaltools .actionMenuContent ul li a{
+#portal-personaltools .actionMenuContent ul li a {
     color: white;
 }
 
@@ -429,7 +427,6 @@ p {
 }
 
 /*====Header====*/
-
 .userrole-anonymous #portal-header #portal-logo {
     position:relative;
     padding-bottom:0.5em;
@@ -493,15 +490,12 @@ p {
 }
 
 /*====Navigation====*/
-
 #portal-globalnav {
     background: none repeat scroll 0 0 transparent;
     clear:none;
     margin:0;
     padding-left:5em;
 }
-
-
 #portal-globalnav li a {
     background: transparent none repeat scroll 0 0;
     border-right: 0.1em solid &dtml-navBorderColor;;
@@ -511,7 +505,6 @@ p {
     letter-spacing: 0.01em;
     position:relative;
 }
-
 
 #portal-header #portal-globalnav .selected a, #portal-globalnav a:hover {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -1079,7 +1072,7 @@ acronym {
     background-color: transparent;
 }
 
-/*legend and fieldest */
+/* legend and fieldest */
 #content legend,
 #portal-columns #content .widget-fieldset legend {
     background-color: #e7e7e7;
@@ -1103,7 +1096,7 @@ acronym {
 }
 
 /* display results in a 100% width table so passing from one page of the batch to another is pretty,
-   add also margin-bottom to not stick with bottom listingBar*/
+   add also margin-bottom to not stick with bottom listingBar */
 #content table.faceted-table-results {
     width: 100%;
     margin-bottom: 0.5em;
@@ -1127,8 +1120,7 @@ acronym {
     float:left;
 }
 
-/*portal-column-one*/
-
+/* portal-column-one */
 #portal-columns .portletTodo .portletCell,
 portal-columns .portletTodo .portletSection,
 portal-columns dl.portlet.portletWidgetCollection div.widget-portlet div.title {
@@ -1168,8 +1160,7 @@ iframe{
     min-height: 60px;
 }
 
-/*Arrow for next and preview */
-
+/* Arrow for next and preview */
 #querynextprev-navigation {
     float: right;
 }
@@ -1193,8 +1184,7 @@ iframe{
     padding-left: 0;
 }
 
-/*Ckeckbox with icon buton*/
-
+/* Ckeckbox with icon buton */
 .LSBox .searchSection {
     bottom: 0;
     left: 2em;
@@ -1225,8 +1215,7 @@ iframe{
     margin-top: 2.3em;
 }
 
-/*title portelt column-one*/
-
+/* title portelt column-one */
 .portletTodo dd.portletSection a:link, .portletTodo dd.portletSection a:visited {
     color: #222222;
 }
