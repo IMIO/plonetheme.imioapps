@@ -1235,6 +1235,11 @@ img {
     -moz-force-broken-image-icon: 1;
 }
 
+/* display default faceted widgets (not advanced) the same height */
+#center-top-area fieldset {
+    min-height: 62px;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
