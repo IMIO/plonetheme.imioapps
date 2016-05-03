@@ -772,8 +772,9 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 
 
 /* classes used while displaying widgets on a view */
-.table_widget_label {
+#content td.table_widget_label {
     width: 250px;
+    padding-bottom: 0.5em;
 }
 .table_widget_value {
     width: auto;
