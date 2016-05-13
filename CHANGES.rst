@@ -4,7 +4,9 @@ Changelog
 2.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Use navBackgroundColor for listingBar hover and select color.
+- Make sure broken images are shown in FF.
+- Display default faceted widgets (not advanced) the same height.
 
 
 2.0 (2016-04-19)
