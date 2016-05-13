@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.1 (unreleased)
+2.0.1 (2016-05-13)
 ------------------
 
 - Use navBackgroundColor for listingBar hover and select color.
