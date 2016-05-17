@@ -4,7 +4,9 @@ Changelog
 2.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Display header correctly for anonymous when portal_tabs are displayed.
+- Removed padding-left added by Firefox to input.
+- Skin portlet News.
 
 
 2.0.1 (2016-05-13)

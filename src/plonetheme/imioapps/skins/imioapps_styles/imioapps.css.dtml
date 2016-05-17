@@ -426,22 +426,23 @@ p {
     line-height: 1.25em;
 }
 
-/*====Header====*/
-.userrole-anonymous #portal-header #portal-logo {
-    position:relative;
-    padding-bottom:0.5em;
-}
-
 #portal-header {
     background-color: &dtml-navBackgroundColor;;
     width:102.29%;
     margin-bottom:1em;
     box-shadow: 0 0 5px gray;
+    display: inline-block;
+}
+
+/* do tabs displayed next to the logo */
+#portal-logo {
+    float: left;
 }
 
 #portal-header #portal-logo {
-    position:absolute;
+    position:relative;
     margin: 0 1em 0em;
+    padding-bottom: 0.3em;
 }
 
 #portlet-prefs STRONG {
@@ -463,10 +464,12 @@ p {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.portletLogin .portletItem.odd > form {
+.portletLogin .portletItem.odd > form,
+dl.portlet.portletNews dd.portletItem {
     padding-left: 1em;
     padding-top: 0.5em;
 }
+
 /* some more space for the portlet bottom containing the 'Forget password?' link */
 .portletLogin dd a.tile {
     padding: 0.5em;
@@ -707,7 +710,9 @@ dl.portlet dt.portletHeader a:hover {
     color: white !important;
 }
 
-dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
+dl.portlet dd.portletItem,
+dl.portlet dd.portletFooter,
+dl.portletError dd {
     margin-right:0.5em;
     padding: 0;
 }
@@ -775,9 +780,12 @@ dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
 #content td.table_widget_label {
     width: 250px;
     padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
-.table_widget_value {
+#content td.table_widget_value {
     width: auto;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
 
 table.listing{
@@ -950,6 +958,12 @@ span.cke_skin_kama {
     line-height: 1em;
 }
 
+/* remove extra padding-left added by Firefox to the input text */
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+    padding-left: 0;
+}
+
 /* buttons coming from imio.actionspanel */
 .apButton {
     border-radius: 5px;
@@ -973,8 +987,8 @@ span.cke_skin_kama {
 
 .apButtonAction {
     color: &dtml-buttonTextColor;;
-    background-position: 3px 3px;
-    padding-left: 20px;
+    background-position: 5px 5px;
+    padding-left: 24px;
 }
 
 .apButtonAction_delete {
@@ -1157,10 +1171,6 @@ iframe{
     padding-bottom:1em;
 }
 
-.itemAnnexesCell fieldset, .itemAdvicesCell fieldset {
-    min-height: 60px;
-}
-
 /* Arrow for next and preview */
 #querynextprev-navigation {
     float: right;
@@ -1228,6 +1238,11 @@ img {
 /* display default faceted widgets (not advanced) the same height */
 #center-top-area fieldset {
     min-height: 62px;
+}
+
+/* add minimal margin-top to viewlet containing especially actionspanel buttons */
+#content > div#viewlet-below-content-body {
+    margin-top: 0.5em;
 }
 
 /* </dtml-with> */
