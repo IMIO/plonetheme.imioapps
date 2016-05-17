@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.2 (unreleased)
+2.0.2 (2016-05-17)
 ------------------
 
 - Display header correctly for anonymous when portal_tabs are displayed.
