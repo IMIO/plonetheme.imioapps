@@ -86,10 +86,6 @@ position:absolute;
   background: grey;
 }
 
-#content-core #faceted-form .faceted-sections-buttons {
-    right: 25px;
-    padding-top: 0;
-}
 
 /* when faceted operator AND/OR is shown on a faceted widget */
 div.faceted-operator {
@@ -116,11 +112,6 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less{
     background-image: url(&dtml-portal_url;/filtre_sous.png);
 }
 
-
-div#faceted-form {
-    position: relative;
-}
-
 body #visual-portal-wrapper #content .faceted-sections-buttons-more:hover,
 body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
     color:transparent !important;
@@ -134,7 +125,8 @@ body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
     background-color: #f2f1f0;
 }
 
-.LSBox .searchButton, div#faceted-form input.searchButton {
+.LSBox .searchButton,
+div#faceted-form input.searchButton {
     background-color: transparent;
     background-image: url(&dtml-portal_url;/search_button_icon.png);
     background-repeat: no-repeat;
@@ -1117,9 +1109,23 @@ acronym {
     margin-bottom: 0.5em;
 }
 
+/* width of advanced faceted filters */
+#faceted-form div#top-area fieldset.widget-fieldset {
+    width: 175px;
+}
+
 #faceted-form fieldset.widget-fieldset{
     padding-left:1em;
     padding-top:0em;
+}
+
+#content-core #faceted-form .faceted-sections-buttons {
+    right: 25px;
+    padding-top: 0;
+}
+
+div#faceted-form {
+    position: relative;
 }
 
 #content legend + p,
