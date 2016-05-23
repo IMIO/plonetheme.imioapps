@@ -987,7 +987,7 @@ input::-moz-focus-outer {
 
 .apButtonAction {
     color: &dtml-buttonTextColor;;
-    background-position: 5px 5px;
+    background-position: 5px 3px;
     padding-left: 24px;
 }
 
