@@ -50,7 +50,7 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 #portal-searchbox label:hover{
-    visibility:visible;
+    visibility: visible;
 }
 
 .searchButton {
@@ -78,8 +78,8 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 .searchSection input{
-margin-top:2px;
-position:absolute;
+    margin-top: 2px;
+    position: absolute;
 }
 
 .faceted-lock-overlay {
@@ -355,7 +355,7 @@ div.formControls {
 }
 
 #content label {
-    vertical-align: top;
+    vertical-align: text-top;
 }
 
 #content p,
