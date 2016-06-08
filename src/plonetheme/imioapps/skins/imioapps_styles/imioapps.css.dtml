@@ -181,7 +181,7 @@ div#faceted-form input.searchButton {
 }
 
 #portaltab-index_html {
-    display:none;
+    visibility: hidden;
 }
 
 #portal-personaltools {
@@ -420,8 +420,8 @@ p {
 
 #portal-header {
     background-color: &dtml-navBackgroundColor;;
-    width:102.29%;
-    margin-bottom:1em;
+    width: 102.29%;
+    margin-bottom: 0.5em;
     box-shadow: 0 0 5px gray;
     display: inline-block;
 }
@@ -432,7 +432,7 @@ p {
 }
 
 #portal-header #portal-logo {
-    position:relative;
+    position: relative;
     margin: 0 1em 0em;
     padding-bottom: 0.3em;
 }
