@@ -182,6 +182,8 @@ div#faceted-form input.searchButton {
 
 #portaltab-index_html {
     visibility: hidden;
+    display: inline-block;
+    width: 0px;
 }
 
 #portal-personaltools {
