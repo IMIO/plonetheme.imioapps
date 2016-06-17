@@ -4,7 +4,9 @@ Changelog
 2.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Removed styling for tags <acronym> and <abbr>.
+- Optimized icon position on buttons.
+- Small fixes for Chrome.
 
 
 2.0.2 (2016-05-17)
