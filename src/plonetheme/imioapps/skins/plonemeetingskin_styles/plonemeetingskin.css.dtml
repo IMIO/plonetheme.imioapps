@@ -134,7 +134,7 @@ input[class*="apButtonAction_clone_to_other_mc_"] {
 /* add a icon to every wf actions corresponding to a 'backTo' */
 input[class*="apButtonWF_backTo"] {
     background-position: 3px 3px;
-    padding-left: 18px;
+    padding-left: 20px;
     background-image: url('&dtml-portal_url;/backTo.png');
 }
 /* special case for the backToValidated that removes the item from a meeting */
