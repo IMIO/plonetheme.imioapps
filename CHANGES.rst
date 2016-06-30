@@ -4,7 +4,8 @@ Changelog
 2.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added margin-left for listingBar 'next elements' button or it sticks 
+  to previous one. This appears until Plone 4.3.8.
 
 
 2.0.3 (2016-06-17)

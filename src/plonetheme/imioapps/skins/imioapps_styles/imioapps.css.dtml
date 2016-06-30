@@ -651,6 +651,10 @@ div.listingBar a {
     display: inline-block;
     padding: 0.25em 0.5em;
 }
+div.listingBar a.next {
+    margin-left: 0.3em;
+}
+
 #content div.listingBar a:hover,
 div.listingBar a:hover {
     background-color: &dtml-navBackgroundColor;;
