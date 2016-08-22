@@ -1067,6 +1067,7 @@ acronym, abbr {
 #ajax-spinner {
     position: fixed;
     top: 40%;
+    z-index: 25;
 }
 
 #content .no-style-table.discreet legend {
