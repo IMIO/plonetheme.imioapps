@@ -926,23 +926,6 @@ span.cke_skin_kama {
     width: 100%;
 }
 
-/* manage trailing icons not managed by Sunburst : some default Plone contenttype (Image, File) and PM contenttypes */
-.icons-on .contenttype-file {
-    background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -428px transparent;
-}
-
-.icons-on .contenttype-folder {
-    background: url("&dtml-portal_url;/contenttypes-sprite.png") no-repeat scroll 0 -649px transparent;
-}
-
-.icons-on .contenttype-file,
-.icons-on .contenttype-folder,
-.icons-on .contenttype-image {
-    display: inline-block;
-    line-height: 1.2em;
-    padding-left: 20px;
-}
-
 /* specifically do not display the file type icon in folder-listing because another icon representing the file mimetype is already displayed */
 #folder-listing .contenttype-file,
 .portletNavigationTree .contenttype-file,
@@ -1170,6 +1153,12 @@ div#top---advanced---widgets {
     margin-left: -0.8em;
 }
 
+/* collective.iconifiedcategory when nothing to display in table */
+span.iconified_category_no_element {
+    padding-top: 2.5em;
+    display: block;
+}
+
 .widget-fieldset {
     margin-left: 0 !important;
 }
@@ -1229,13 +1218,6 @@ iframe{
 
 [id="searchbox_currentfolder_only"]:checked + label::before {
     content:url(&dtml-portal_url;/search_local_check.png);
-}
-
-/* doc displayed in a fieldset using the '?' js click image */
-#content-core div#groupDoc,
-#content-core div#customAdvisersDoc,
-#content-core div#usersDoc {
-    margin-top: 2.3em;
 }
 
 /* title portelt column-one */
