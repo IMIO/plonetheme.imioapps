@@ -773,6 +773,10 @@ dl.portletError dd {
     border: 1px solid &dtml-tableHeaderBackgroundColor;;
 }
 
+div#imio-helpers-folder-listing,
+fieldset#folder-listing dl {
+    margin-top: 2.3em;
+}
 
 /* classes used while displaying widgets on a view */
 #content td.table_widget_label {
