@@ -1243,6 +1243,11 @@ img {
     margin-top: 0.5em;
 }
 
+/* override tooltipster-light to fit with our other tooltips */
+.tooltipster-shadow {
+    box-shadow: 5px 5px 5px grey;
+    border: 1px solid #cccccc;
+}
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
