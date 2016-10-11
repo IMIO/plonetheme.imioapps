@@ -12,12 +12,9 @@
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 /* manage logo position */
-#portal-globalnav {
-    padding-left: 2em;
-}
-#portal-logo {
-    float: left;
-    margin: 0.3em 0 -1.8em 1em;
+
+#portal-logo img {
+    margin-top: 0.5em;
 }
 
 /* </dtml-with> */

@@ -6,6 +6,7 @@ Changelog
 
 - Added margin-left for listingBar 'next elements' button or it sticks 
   to previous one. This appears until Plone 4.3.8.
+- Update pstskin profile (reduce logo, change css)
 
 
 2.0.3 (2016-06-17)
