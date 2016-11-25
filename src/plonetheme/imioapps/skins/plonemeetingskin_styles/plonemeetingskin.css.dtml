@@ -15,7 +15,6 @@
     margin: 0.3em 0 -1.8em 1em;
 }
 
-
 /* display the category list correctly */
 #category {
     color: ButtonText;
@@ -204,11 +203,6 @@ td.itemAdvicesCell div.contentActionsAX {
 
 .contentActionsAX {
     font-size: 90%;
-}
-/* avoid annexes displayed in the advices contentActionsAX menu to be too small because 90% then 90%... */
-.advice_annexes {
-    font-size: 110%;
-    margin-bottom: 5em;
 }
 
 .pageNameDescr {
