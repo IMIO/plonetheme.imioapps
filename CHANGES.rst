@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.4 (unreleased)
+2.0.4 (2016-12-05)
 ------------------
 
 - Added margin-left for listingBar 'next elements' button or it sticks 
