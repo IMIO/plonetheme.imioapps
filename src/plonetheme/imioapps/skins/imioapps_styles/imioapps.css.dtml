@@ -89,7 +89,7 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 
 /* when faceted operator AND/OR is shown on a faceted widget */
 div.faceted-operator {
-    margin-top: 0px;
+    margin-top: -2.3em;
     float: right;
 }
 /* hide label 'correspondance' */
@@ -413,7 +413,8 @@ ul.configlets img {
     border:1px solid &dtml-tableHeaderBackgroundColor;;
     line-height: 1.25em;
     margin: 0em 0em 0.75em;
-    padding-top: 0.03em;
+/* décallage <legend>, voir "#content legend" */
+    padding-top: 2.3em;
 }
 
 p {
@@ -773,11 +774,6 @@ dl.portletError dd {
     border: 1px solid &dtml-tableHeaderBackgroundColor;;
 }
 
-div#imio-helpers-folder-listing,
-fieldset#folder-listing dl {
-    margin-top: 2.3em;
-}
-
 /* classes used while displaying widgets on a view */
 #content td.table_widget_label {
     width: 250px;
@@ -1084,7 +1080,9 @@ acronym, abbr {
     margin-bottom:0.5em;
     margin-left: -15px;
     margin-top:-1px;
-    float:left;
+/* décallage <legend> */
+    position: absolute;
+    margin-top: -2.3em;
 }
 
 #content legend{
@@ -1108,8 +1106,10 @@ acronym, abbr {
 }
 
 #faceted-form fieldset.widget-fieldset{
-    padding-left:1em;
-    padding-top:0em;
+    padding-left: 1em;
+/* décallage <legend>, voir "#content legend" */
+    padding-top: 2.3em;
+    
 }
 
 #content-core #faceted-form .faceted-sections-buttons {
@@ -1153,7 +1153,6 @@ div#top---advanced---widgets {
 }
 
 #content div#top---advanced---widgets .widget-fieldset > form {
-    margin-top: 2.3em;
     margin-left: -0.8em;
 }
 
@@ -1235,7 +1234,7 @@ img {
 
 /* display default faceted widgets (not advanced) the same height */
 #center-top-area fieldset {
-    min-height: 62px;
+    min-height: 32px;
 }
 
 /* add minimal margin-top to viewlet containing especially actionspanel buttons */

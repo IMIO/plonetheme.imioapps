@@ -4,7 +4,9 @@ Changelog
 2.0.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Do not use 'float: left;' to move the <legend> tag, it is not working
+  anymore with recent versions of Chrome.  Instead use 'position: absolute;'.
+  This works in both FF and Chrome and simplify overal CSS.
 
 
 2.0.4 (2016-12-05)
