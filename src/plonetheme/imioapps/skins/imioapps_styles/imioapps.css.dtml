@@ -1159,12 +1159,6 @@ div#top---advanced---widgets {
     margin-left: -0.8em;
 }
 
-/* collective.iconifiedcategory when nothing to display in table */
-span.iconified_category_no_element {
-    padding-top: 2.5em;
-    display: block;
-}
-
 .widget-fieldset {
     margin-left: 0 !important;
 }
