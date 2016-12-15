@@ -780,6 +780,9 @@ dl.portletError dd {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
+#content td.table_widget_label label {
+    font-weight: bold;
+}
 #content td.table_widget_value {
     width: auto;
     padding-bottom: 0.5em;
@@ -1247,6 +1250,18 @@ img {
     box-shadow: 5px 5px 5px grey;
     border: 1px solid #cccccc;
 }
+
+/* make sure multiselect fields are displayed with title bold and values normal in both AT and DX */
+#content label,
+#content span.label {
+    font-weight: normal;
+}
+#content label.horizontal,
+#content label.formQuestion {
+    font-weight: bold; 
+}
+
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

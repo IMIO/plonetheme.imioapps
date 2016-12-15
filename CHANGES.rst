@@ -7,7 +7,8 @@ Changelog
 - Do not use 'float: left;' to move the <legend> tag, it is not working
   anymore with recent versions of Chrome.  Instead use 'position: absolute;'.
   This works in both FF and Chrome and simplify overal CSS.
-
+- Display AT and DX field title bold but selectable contents as normal.
+  This is the case for radio buttons, multiple checkboxes, ...
 
 2.0.4 (2016-12-05)
 ------------------
