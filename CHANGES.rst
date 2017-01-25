@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.5 (unreleased)
+2.0.5 (2017-01-25)
 ------------------
 
 - Do not use 'float: left;' to move the <legend> tag, it is not working
