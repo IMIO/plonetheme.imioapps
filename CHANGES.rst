@@ -5,7 +5,7 @@ Changelog
 ------------------
 
 - Highlight the 'lost password?' link in the login_form.
-
+- Style actionspanel select button
 
 2.0.5 (2017-01-25)
 ------------------
@@ -19,7 +19,7 @@ Changelog
 2.0.4 (2016-12-05)
 ------------------
 
-- Added margin-left for listingBar 'next elements' button or it sticks 
+- Added margin-left for listingBar 'next elements' button or it sticks
   to previous one. This appears until Plone 4.3.8.
 - Update pstskin profile (reduce logo, change css)
 

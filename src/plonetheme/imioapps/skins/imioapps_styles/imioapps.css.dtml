@@ -976,6 +976,19 @@ input::-moz-focus-outer {
     cursor: pointer;
 }
 
+form.apFormButton select{
+    border-radius: 5px;
+    border: 1px solid #375b7e;
+    background-color: #EDEDED;
+    color: #213C68;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    margin-right: 2px;
+    margin-top: -1px;
+    height: 2em;
+    font-size: 90%;
+}
+
 .apButtonWF {
     color: white;
     background-color: &dtml-globalBackgroundColor;;
@@ -1124,7 +1137,6 @@ acronym, abbr {
     padding-left: 1em;
 /* décallage <legend>, voir "#content legend" */
     padding-top: 2.3em;
-    
 }
 
 #content-core #faceted-form .faceted-sections-buttons {
@@ -1264,7 +1276,7 @@ img {
 }
 #content label.horizontal,
 #content label.formQuestion {
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 
