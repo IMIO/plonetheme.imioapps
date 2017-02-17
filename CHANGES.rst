@@ -6,6 +6,7 @@ Changelog
 
 - Highlight the 'lost password?' link in the login_form.
 - Style actionspanel select button
+- Adapted styles so font-size and line-height are the same while using CKeditor
 
 2.0.5 (2017-01-25)
 ------------------

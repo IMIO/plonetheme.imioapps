@@ -423,13 +423,13 @@ ul.configlets img {
 #content fieldset {
     background-color: &dtml-evenRowBackgroundColor;;
     border:1px solid &dtml-tableHeaderBackgroundColor;;
-    line-height: 1.25em;
     margin: 0em 0em 0.75em;
 /* décallage <legend>, voir "#content legend" */
     padding-top: 2.3em;
 }
 
-p {
+#content fieldset,
+body#content.cke_editable {
     line-height: 1.25em;
 }
 
@@ -842,6 +842,11 @@ table.listing tbody tr.even td {
 /* back to 100% for most elements */
 #content legend, #content, #portal-breadcrumbs, dl.portlet {
     font-size: 100%;
+}
+/* we need to adapt CKeditor content depending on font-size applied on body
+ * because as CKeditor is displayed in an iframe, percent font-size is applied twice */
+body#content.cke_editable {
+   font-size: &dtml-fontBaseSize;;
 }
 
 legend {
