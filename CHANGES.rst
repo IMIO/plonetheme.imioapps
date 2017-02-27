@@ -7,6 +7,9 @@ Changelog
 - Highlight the 'lost password?' link in the login_form.
 - Style actionspanel select button
 - Adapted styles so font-size and line-height are the same while using CKeditor
+- Added file imioapps_ckeditor_moonolisa.css.dtml that is enabled when the
+  Moono-Lisa skin is selected in CKEditor properties.  This makes it work
+  correctly in Chrome and greyed a bit more the selected buttons
 
 2.0.5 (2017-01-25)
 ------------------
