@@ -18,7 +18,7 @@
              compression="safe"
              cookable="True"
              enabled="1"
-             expression="python: here.portal_properties.ckeditor_properties.get('skin') == 'moono-lisa'"
+             expression="python: here.portal_properties.ckeditor_properties.skin == 'moono-lisa'"
              id="imioapps_ckeditor_moonolisa.css"
              media="screen"
              rel="stylesheet"
