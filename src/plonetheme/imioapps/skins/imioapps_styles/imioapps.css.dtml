@@ -1013,6 +1013,13 @@ form.apFormButton select{
     background-image: url('&dtml-portal_url;/rename_icon.gif');
 }
 
+.apButtonAction_update_categorized_elements {
+    background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
+}
+.apButtonAction_update_and_sort_categorized_elements {
+    background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
+}
+
 /* manage styles of formTabbing, display border and avoid too large margin when displayed on a view */
 .template-view #content .enableFormTabbing,
 .template-base_view #content .enableFormTabbing {
