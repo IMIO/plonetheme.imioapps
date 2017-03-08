@@ -116,6 +116,10 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/delete_many.gif');
 }
 
+.apButtonAction_update_item_references {
+    background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
+}
+
 .apButtonAction_documentviewer_convert {
     background-image: url('&dtml-portal_url;/documentviewer_convert.png');
 }
