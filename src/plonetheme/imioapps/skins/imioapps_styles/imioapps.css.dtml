@@ -1181,7 +1181,7 @@ portal-columns dl.portlet.portletWidgetCollection div.widget-portlet div.title {
 }
 
 #portal-columns .portletTodo .portletSection,
-.portletItem.odd .widget-portlet .faceted-widget .title:first-child{
+#portal-columns dl.portletWidgetCollection div.title {
     padding-top: 0.3em;
 }
 
