@@ -428,6 +428,11 @@ ul.configlets img {
     padding-top: 2.3em;
 }
 
+#content form.enableFormTabbing fieldset {
+    padding-top: 0.5em;
+}
+
+
 #content fieldset,
 body#content.cke_editable {
     line-height: 1.25em;

@@ -10,6 +10,7 @@ Changelog
 - Added file imioapps_ckeditor_moonolisa.css.dtml that is enabled when the
   Moono-Lisa skin is selected in CKEditor properties.  This makes it work
   correctly in Chrome and greyed a bit more the selected buttons
+- Reduce fieldset padding in form fieldset tabbing
 
 2.0.5 (2017-01-25)
 ------------------
