@@ -372,14 +372,6 @@ div.formControls {
     vertical-align: text-top;
 }
 
-#content p,
-#content table,
-#content dl,
-dl.portlet p,
-dl.portlet {
-    margin-bottom: 0em;
-}
-
 #visual-portal-wrapper{
     background: url("&dtml-portal_url;/header-bg.gif") repeat-x scroll 0 0 transparent;
 }
