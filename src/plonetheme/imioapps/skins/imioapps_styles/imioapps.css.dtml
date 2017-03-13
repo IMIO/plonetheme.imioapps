@@ -28,6 +28,11 @@ body {
     font: 100% Arial,FreeSans,sans-serif;
 }
 
+/* reduce space under paragraphs to 0.5em, default is 1em, rule taken as it from public.css */
+#content p, #content table, #content dl, dl.portlet p, dl.portlet {
+    margin-bottom: 0.5em;
+}
+
 #portal-searchbox {
     margin:0.6em 3em 0;
     clear: none;
