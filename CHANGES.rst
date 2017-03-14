@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.6 (unreleased)
+2.0.6 (2017-03-14)
 ------------------
 
 - Highlight the 'lost password?' link in the login_form.
