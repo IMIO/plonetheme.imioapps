@@ -228,7 +228,7 @@ div#faceted-form input.searchButton {
 
 [id="portal-header"] #portal-personaltools a,
 #portal-personaltools a:link {
-    color: &dtml-darkLinkColor;;
+    color: &dtml-linkColor;;
     padding:3px;
 }
 
@@ -615,7 +615,7 @@ div.managePortletsLink, div.managePortletsLink a, a.managePortletsFallback {
     margin-top: 0.5em;
     background-color: &dtml-evenRowBackgroundColor;;
     font-weight: bold;
-    color: &dtml-darkLinkColor;;
+    color: &dtml-linkColor;;
 }
 
 .listing th, .stx table th {
@@ -693,7 +693,7 @@ div.listingBar a:hover {
 
 /* links in the portal footer need to be visible... */
 #portal-footer a {
-    color: &dtml-darkLinkColor;;
+    color: &dtml-linkColor;;
 }
 
 #content {
@@ -736,7 +736,7 @@ dl.portletError dd {
 }
 
 #portal-breadcrumbs a {
-    color: &dtml-globalBackgroundColor;;
+    color: &dtml-linkColor;;
 }
 
 #content dl{
