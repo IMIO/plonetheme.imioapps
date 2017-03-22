@@ -4,8 +4,8 @@ Changelog
 2.0.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Use a brighter blue color for links.
+  [gbastien]
 
 2.0.6 (2017-03-14)
 ------------------
