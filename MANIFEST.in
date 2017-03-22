@@ -2,6 +2,7 @@ graft src/plonetheme
 graft docs
 include *.cfg *.rst *.in
 include *.py
+recursive-exclude src *.pyc
 recursive-include src *.dtml
 recursive-include src *.gif
 recursive-include src *.ignore
