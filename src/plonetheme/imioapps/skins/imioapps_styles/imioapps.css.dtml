@@ -1073,9 +1073,11 @@ div[id^="archetypes-fieldname-"] a#datagridwidget-add-button {
     vertical-align: top;
 }
 
+/* remove text-decoration that adds a dotted border by default in Firefox and set it for every browers */
 acronym, abbr {
     cursor: help;
-    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 1px dotted;
 }
 
 #content dl.collapsible {

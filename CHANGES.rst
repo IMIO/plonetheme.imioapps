@@ -4,8 +4,8 @@ Changelog
 2.0.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Make <abbr> and <acronym> dotted underline work for every browsers.
+  [gbastien]
 
 2.0.7 (2017-03-22)
 ------------------
