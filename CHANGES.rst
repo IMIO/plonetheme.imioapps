@@ -6,6 +6,8 @@ Changelog
 
 - Make <abbr> and <acronym> dotted underline work for every browsers.
   [gbastien]
+- Removed useless code about MeetingFile in plonemeetingskin.
+  [gbastien]
 
 2.0.7 (2017-03-22)
 ------------------
