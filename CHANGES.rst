@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.8 (unreleased)
+2.0.8 (2017-06-09)
 ------------------
 
 - Make <abbr> and <acronym> dotted underline work for every browsers.
