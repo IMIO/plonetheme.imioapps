@@ -8,6 +8,9 @@ Changelog
   [gbastien]
 - Removed useless code about MeetingFile in plonemeetingskin.
   [gbastien]
+- Display <th> of table the same way as it is rendered by appy.pod, namely text
+  black and grey background.
+  [gbastien]
 
 2.0.7 (2017-03-22)
 ------------------

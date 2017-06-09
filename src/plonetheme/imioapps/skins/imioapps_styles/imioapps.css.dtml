@@ -803,11 +803,16 @@ dl.portletError dd {
     padding-top: 1em;
 }
 
-table.listing{
-    border-right:1px solid #ddd;
+table.listing {
+    border-right: 1px solid #ddd;
+}
+
+table tr th {
+    background-color: &dtml-tableHeaderBackgroundColor;;
 }
 
 table.listing th, .stx table th {
+    color: &dtml-tableHeaderTextColor;;
     background-color: &dtml-tableHeaderBackgroundColor;;
     color: &dtml-tableHeaderTextColor;;
     vertical-align: middle;
