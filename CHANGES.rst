@@ -4,8 +4,9 @@ Changelog
 2.0.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Added icon for the store_every_items_decision_as_annex action
+  in the plonemeetingskin.
+  [gbastien]
 
 2.0.8 (2017-06-09)
 ------------------

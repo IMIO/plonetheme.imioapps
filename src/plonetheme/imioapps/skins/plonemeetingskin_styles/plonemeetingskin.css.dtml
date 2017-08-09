@@ -120,6 +120,10 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
+.apButtonAction_store_every_items_decision_as_annex {
+    background-image: url("&dtml-portal_url;/store_as_annex.png");
+}
+
 .apButtonAction_documentviewer_convert {
     background-image: url('&dtml-portal_url;/documentviewer_convert.png');
 }
