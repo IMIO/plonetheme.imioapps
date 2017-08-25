@@ -425,7 +425,8 @@ ul.configlets img {
     padding-top: 2.3em;
 }
 
-#content form.enableFormTabbing fieldset {
+/* remove padding-top: 2.3em; for fieldset used for form tabbing */
+#content form.enableFormTabbing fieldset.formPanel {
     padding-top: 0.5em;
 }
 
