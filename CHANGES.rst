@@ -7,6 +7,7 @@ Changelog
 - Added icon for the store_every_items_decision_as_annex action
   in the plonemeetingskin.
   [gbastien]
+- Fixed fieldset/legend pod padding.
 
 2.0.8 (2017-06-09)
 ------------------
