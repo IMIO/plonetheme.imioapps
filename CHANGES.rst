@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.9 (unreleased)
+2.0.9 (2017-08-28)
 ------------------
 
 - Added icon for the store_every_items_decision_as_annex action
