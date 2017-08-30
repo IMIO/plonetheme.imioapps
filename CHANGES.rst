@@ -4,8 +4,10 @@ Changelog
 2.0.10 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Removed styling for class `form.apFormButton` as it was removed from
+  imio.actionspanel 1.29+, the add content select now uses the standard
+  `apButton` CSS class like other buttons.
+  [gbastien]
 
 2.0.9 (2017-08-28)
 ------------------
