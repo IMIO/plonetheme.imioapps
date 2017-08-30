@@ -731,6 +731,11 @@ dl.portletError dd {
     padding: 0;
 }
 
+/* align right elements displayed in portlet footer like 'more news' */
+dl.portlet dd.portletFooter a {
+   float: right;
+}
+
 #portal-breadcrumbs {
     margin-top: 0em;
     margin-bottom: 1em;

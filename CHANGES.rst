@@ -8,6 +8,8 @@ Changelog
   imio.actionspanel 1.29+, the add content select now uses the standard
   `apButton` CSS class like other buttons.
   [gbastien]
+- Skin portletFooter to align it right.
+  [gbastien]
 
 2.0.9 (2017-08-28)
 ------------------
