@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.10 (unreleased)
+2.0.10 (2017-08-30)
 -------------------
 
 - Removed styling for class `form.apFormButton` as it was removed from
