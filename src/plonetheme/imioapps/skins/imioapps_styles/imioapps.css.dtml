@@ -51,7 +51,7 @@ input.searchField {
 /* line-height from 2em to 1.5em in elements displayed in the navtree portlet */
 dl.portlet ul.navTreeLevel0 > .navTreeItem,
 dl.portlet ul.navTreeLevel1 .navTreeItem {
-    line-height: 1.5em;
+    line-height: 1em;
 }
 
 #portal-searchbox label {
@@ -548,10 +548,12 @@ dl.portlet.portletNews dd.portletItem {
 }
 
 /* padding-right is to display portlet_calendar correctly */
-dl.portlet dt, div.portletAssignments div.portletHeader {
-    background: &dtml-portletHeaderBackgroundColor;;
+dl.portlet dt,
+div.portletAssignments div.portletHeader,
+dl.portlet .navTreeItem.navTreeTopNode,
+dl.portlet .navTreeItem.navTreeTopNode a {
+    background-color: &dtml-portletHeaderBackgroundColor;;
     line-height: normal;
-    padding: 0.2em;
     padding-right: 0.5em;
     padding-left: 0.5em;
 }
@@ -566,7 +568,7 @@ dl.portlet {
     padding-left: 1em;
 }
 
-#portal-column-one{
+#portal-column-one {
     background-color: &dtml-evenRowBackgroundColor;;
     border-bottom:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
     border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
@@ -574,12 +576,20 @@ dl.portlet {
     padding-top: 1.25em;
 }
 
-dl.portlet .portletHeader a:visited, dl.portlet .portletHeader a:link {
-    color: white;
+dl.portlet .portletHeader a:visited,
+dl.portlet .portletHeader a:link,
+#portal-columns dl.portlet .navTreeItem.navTreeTopNode a,
+#portal-columns dl.portlet .navTreeItem.navTreeTopNode a:hover {
+    color: white !important;
 }
 
-dl.portlet .portletHeader {
-    border: 0 none;
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+   border: none;
+}
+
+dl.portlet .portletHeader,
+div#portal-columns dl.portlet .navTreeItem.navTreeTopNode {
+    border: none;
     border-radius: 3px;
     color: white;
     font-size: 85%;

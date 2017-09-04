@@ -4,8 +4,8 @@ Changelog
 2.0.11 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Display navigation portlet same way as other portlets.
+  [gbastien]
 
 2.0.10 (2017-08-30)
 -------------------

@@ -238,14 +238,15 @@ body.template-meeting_view #content .enableFormTabbing {
     color: &dtml-linkColor;;
 }
 
-/* skin navigation portlet displayed for itemtemplates */
-body[class*="itemtemplates"] .navTreeItem.navTreeTopNode {
-    font-size: 125%;
-    background-color: &dtml-tableHeaderBackgroundColor;;
-    border-radius: 5px 5px 0px 0px;
-}
 body[class*="itemtemplates"] .navTreeItem.navTreeTopNode a {
     background-image: none;
+    border: none;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+    background-color: transparent;
+    border-left-color: transparent;
+    font-weight: bold;
 }
 
 /* remove padding between title of the collection and default search criteria on the meetingFolder */
