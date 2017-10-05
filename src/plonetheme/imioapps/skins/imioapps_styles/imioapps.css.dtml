@@ -1303,6 +1303,10 @@ img {
     font-weight: bold;
 }
 
+/* display the scayt popup correctly */
+#scayt_banner li {
+    display: block;
+}
 
 /* </dtml-with> */
 

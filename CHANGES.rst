@@ -6,6 +6,8 @@ Changelog
 
 - Display navigation portlet same way as other portlets.
   [gbastien]
+- Display the infos in the CKeditor SCAYT WebSpellChecker popup correctly.
+  [gbastien]
 
 2.0.10 (2017-08-30)
 -------------------
