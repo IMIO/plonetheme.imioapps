@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.11 (unreleased)
+2.0.11 (2017-10-05)
 -------------------
 
 - Display navigation portlet same way as other portlets.
