@@ -1015,6 +1015,18 @@ input::-moz-focus-outer {
     padding-left: 24px;
 }
 
+.apButtonAction_cut {
+    background-image: url('&dtml-portal_url;/cut_icon.png');
+}
+
+.apButtonAction_copy {
+    background-image: url('&dtml-portal_url;/copy_icon.png');
+}
+
+.apButtonAction_paste {
+    background-image: url('&dtml-portal_url;/paste_icon.png');
+}
+
 .apButtonAction_delete {
     background-image: url('&dtml-portal_url;/delete_icon.png');
 }
