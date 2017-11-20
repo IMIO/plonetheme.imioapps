@@ -6,6 +6,8 @@ Changelog
 
 - Added favicon.
   [sgeulette]
+- Skin `input#form-buttons-cancel` the same way `input.standalone`.
+  [gbastien]
 
 2.0.11 (2017-10-05)
 -------------------

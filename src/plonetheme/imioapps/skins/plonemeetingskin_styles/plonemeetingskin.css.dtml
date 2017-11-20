@@ -147,7 +147,6 @@ input[class*="apButtonWF_backTo"] {
 /* special case for the backToValidated that removes the item from a meeting */
 input.apButtonWF_backToValidated {
     background-position: 3px 3px;
-    padding-left: 18px;
     background-image: url('&dtml-portal_url;/backToValidatedForInput.png');
 }
 

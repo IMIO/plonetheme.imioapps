@@ -635,7 +635,11 @@ div.managePortletsLink, div.managePortletsLink a, a.managePortletsFallback {
 }
 
 /* the submit-widget comes from z3c.form forms */
-input.standalone, .documentEditable * input.standalone, input.destructive, input.submit-widget.standalone {
+input.standalone,
+.documentEditable * input.standalone,
+input.destructive,
+input.submit-widget.standalone,
+input#form-buttons-cancel {
     border-radius: 5px;
     background-repeat: no-repeat;
     background-color: orange;
