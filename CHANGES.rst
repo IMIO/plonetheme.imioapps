@@ -4,8 +4,8 @@ Changelog
 2.0.12 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Added favicon.
+  [sgeulette]
 
 2.0.11 (2017-10-05)
 -------------------
