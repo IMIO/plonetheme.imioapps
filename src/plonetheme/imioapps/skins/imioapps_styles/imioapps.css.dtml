@@ -992,8 +992,8 @@ input::-moz-focus-outer {
     padding-left: 0;
 }
 
-/* buttons coming from imio.actionspanel */
-.apButton {
+/* buttons coming from imio.actionspanel or collective.eeafaceted.batchactions */
+.apButton, input.button.batch-action-but {
     border-radius: 5px;
     background-repeat: no-repeat;
     background-color: &dtml-buttonBackgroundColor;;

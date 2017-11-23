@@ -6,7 +6,9 @@ Changelog
 
 - Added favicon.
   [sgeulette]
-- Skin `input#form-buttons-cancel` the same way `input.standalone`.
+- Skin `input#form-buttons-cancel` the same way `input.standalone` and skin 
+  `collective.eeafaceted.batchactions` buttons the same way `imio.actionspanel`
+  buttons.
   [gbastien]
 
 2.0.11 (2017-10-05)
