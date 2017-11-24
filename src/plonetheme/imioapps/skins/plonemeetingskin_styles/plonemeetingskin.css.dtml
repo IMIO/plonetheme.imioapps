@@ -120,7 +120,11 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
-.apButtonAction_store_every_items_decision_as_annex {
+div#batch-actions {
+  text-align: right;
+  margin-bottom: 0.5em;
+}
+div#batch-actions input#store-items-template-as-annex-batch-action-but.batch-action-icon-but {
     background-image: url("&dtml-portal_url;/store_as_annex.png");
 }
 
