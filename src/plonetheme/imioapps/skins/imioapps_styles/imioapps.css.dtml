@@ -373,8 +373,8 @@ div.formControls {
     border-bottom: 0 !important;
 }
 
-#content label {
-    vertical-align: text-top;
+#content input {
+    vertical-align: bottom;
 }
 
 #visual-portal-wrapper{

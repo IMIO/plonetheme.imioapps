@@ -4,8 +4,9 @@ Changelog
 2.0.13 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Set `vertical-align: bottom` for `input` instead `vertical-align: text-top`
+  for `label` to align `input` and `label` correctly.
+  [gbastien]
 
 2.0.12 (2017-11-24)
 -------------------
