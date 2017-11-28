@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.13 (unreleased)
+2.0.13 (2017-11-28)
 -------------------
 
 - Set `vertical-align: bottom` for `input` instead `vertical-align: text-top`
