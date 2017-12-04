@@ -4,8 +4,8 @@ Changelog
 2.0.14 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Only display the `scan` tab on annexes to roles `Manager/MeetingManager`.
+  [gbastien]
 
 2.0.13 (2017-11-28)
 -------------------

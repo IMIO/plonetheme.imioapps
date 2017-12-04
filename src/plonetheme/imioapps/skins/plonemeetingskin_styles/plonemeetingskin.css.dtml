@@ -270,6 +270,11 @@ dd.portletCell.pmLink.even {
     background-color: #f4f4f4;
 }
 
+/* hide the 'scan' tab on annex to every roles but Manager and MeetingManager */
+body:not(.userrole-manager):not(.userrole-meetingmanager) a#fieldsetlegend-scan {
+    display: none;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
