@@ -275,7 +275,7 @@ dl.portlet.portletWidgetCollection div.widget-portlet{
 
 /* column-two */
 div.position-3\:4 {
-    margin-left: -15.6% !important;
+    margin-left: -15.2% !important;
     padding-top: 1em;
     width: 15.2%;
 }
@@ -295,7 +295,7 @@ div.position-0 {
 
 /* only portlets on the right column */
 #portal-column-content.position-0 {
-    margin-left: -99.275%;
+    margin-left: -99.5%;
 }
 
 /* add some space above the description */
@@ -568,13 +568,19 @@ dl.portlet {
     padding-left: 1em;
 }
 
-#portal-column-one {
+#portal-column-one, #portal-column-two {
     background-color: &dtml-evenRowBackgroundColor;;
     border-bottom:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
-    border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
     margin-top: -1em;
     padding-top: 1.25em;
 }
+#portal-column-one {
+    border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
+}
+#portal-column-two {
+    border-left:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
+}
+
 
 dl.portlet .portletHeader a:visited,
 dl.portlet .portletHeader a:link,
@@ -1201,7 +1207,6 @@ div#faceted-form {
     float:left;
 }
 
-/* portal-column-one */
 #portal-columns .portletTodo .portletCell,
 portal-columns .portletTodo .portletSection,
 portal-columns dl.portlet.portletWidgetCollection div.widget-portlet div.title {
