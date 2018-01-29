@@ -581,7 +581,6 @@ dl.portlet {
     border-left:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
 }
 
-
 dl.portlet .portletHeader a:visited,
 dl.portlet .portletHeader a:link,
 #portal-columns dl.portlet .navTreeItem.navTreeTopNode a,
@@ -799,8 +798,9 @@ dl.portlet dd.portletFooter a {
     border-bottom: 1px solid #EFEFEF;
 }
 
-.no-style-table td {
+#content table.no-style-table td {
     vertical-align: top;
+    border: 0px;
 }
 
 /* cache la derniere ligne */

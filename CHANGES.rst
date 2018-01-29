@@ -7,6 +7,8 @@ Changelog
 - Skin column-two the same way as column-one.  This makes portlets displayed
   on the left or on the right look similar.
   [gbastien]
+- Hide borders of tables using class `no-style-table`.
+  [gbastien]
 
 2.0.14 (2017-12-07)
 -------------------
