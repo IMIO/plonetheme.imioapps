@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.15 (unreleased)
+2.0.15 (2018-01-30)
 -------------------
 
 - Skin column-two the same way as column-one.  This makes portlets displayed
