@@ -4,8 +4,8 @@ Changelog
 2.0.16 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Adapted to new styles of tooltipster 4.2.6.
+  [gbastien]
 
 2.0.15 (2018-01-30)
 -------------------
