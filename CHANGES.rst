@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.16 (unreleased)
+2.0.16 (2018-02-23)
 -------------------
 
 - Adapted to new styles of tooltipster 4.2.6.
