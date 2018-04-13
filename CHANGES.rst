@@ -4,8 +4,8 @@ Changelog
 2.0.17 (unreleased)
 -------------------
 
-- Nothing changed yet.
-
+- Limit padding for tooltipstered content.
+  [gbastien]
 
 2.0.16 (2018-02-23)
 -------------------
