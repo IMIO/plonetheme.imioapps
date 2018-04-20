@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0.17 (unreleased)
+2.0.17 (2018-04-20)
 -------------------
 
 - Limit padding for tooltipstered content.
