@@ -1,11 +1,13 @@
 Changelog
 =========
 
-2.0.18 (unreleased)
--------------------
+2.1 (unreleased)
+----------------
 
-- Nothing changed yet.
-
+- Fix header so it is always visible.
+  [gbastien]
+- Depends on `collective.messagesviewlet` as we override the viewlet to move it
+  from `IPortalHeader` to `IPortalTop` viewletmanager.
 
 2.0.17 (2018-04-20)
 -------------------

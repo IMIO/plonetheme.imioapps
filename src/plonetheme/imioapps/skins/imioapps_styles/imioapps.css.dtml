@@ -251,6 +251,10 @@ h1 {
     margin-bottom: 0.5em;
 }
 
+div.width-full {
+    width: 100%;
+}
+
 div.width-full #content {
     padding-left: 0%;
     padding-right: 0%;
@@ -324,7 +328,7 @@ div.position-0 {
 }
 
 #portal-column-content {
-    padding: 0.25em 0 0;
+    padding: 1em 0 0;
 }
 
 #content-views a, #content li.formTab a {
@@ -438,7 +442,7 @@ body#content.cke_editable {
 
 #portal-header {
     background-color: &dtml-navBackgroundColor;;
-    width: 102.29%;
+    width: 100%;
     margin-bottom: 0.5em;
     box-shadow: 0 0 5px gray;
     display: inline-block;
@@ -572,11 +576,10 @@ dl.portlet {
 #portal-column-one, #portal-column-two {
     background-color: &dtml-evenRowBackgroundColor;;
     border-bottom:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
-    margin-top: -1em;
-    padding-top: 1.25em;
 }
 #portal-column-one {
     border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
+    padding-top: 1em;
 }
 #portal-column-two {
     border-left:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
@@ -1343,6 +1346,16 @@ img {
 /* display the scayt popup correctly */
 #scayt_banner li {
     display: block;
+}
+
+/* fixed header, the 2 CSS definitions here are responsible for fixed header */
+div#portal-header {
+   position: fixed;
+   z-index: 50;
+}
+/* fixed header insert padding at top of emptyviewlet inserted as second element in portal-top */
+#portal-top div#emptyviewlet {
+    padding-top: 3em;
 }
 
 /* </dtml-with> */
