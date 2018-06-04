@@ -443,7 +443,6 @@ body#content.cke_editable {
 #portal-header {
     background-color: &dtml-navBackgroundColor;;
     width: 100%;
-    margin-bottom: 0.5em;
     box-shadow: 0 0 5px gray;
     display: inline-block;
 }
@@ -1355,7 +1354,7 @@ div#portal-header {
 }
 /* fixed header insert padding at top of emptyviewlet inserted as second element in portal-top */
 #portal-top div#emptyviewlet {
-    padding-top: 3em;
+    padding-top: 47px;
 }
 
 /* </dtml-with> */
