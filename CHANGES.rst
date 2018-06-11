@@ -8,6 +8,9 @@ Changelog
   [gbastien]
 - Depends on `collective.messagesviewlet` as we override the viewlet to move it
   from `IPortalHeader` to `IPortalTop` viewletmanager.
+  [gbastien]
+- Updated spinner.gif image to fit with skin default colors.
+  [gbastien]
 
 2.0.17 (2018-04-20)
 -------------------
