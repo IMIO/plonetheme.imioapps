@@ -11,6 +11,8 @@ Changelog
   [gbastien]
 - Updated spinner.gif image to fit with skin default colors.
   [gbastien]
+- Removed left-padding for #portal-globalnav.
+  [gbastien]
 
 2.0.17 (2018-04-20)
 -------------------

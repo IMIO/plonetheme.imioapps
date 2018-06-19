@@ -510,7 +510,6 @@ dl.portlet.portletNews dd.portletItem {
     background: none repeat scroll 0 0 transparent;
     clear:none;
     margin:0;
-    padding-left:5em;
 }
 
 #portal-globalnav li a {
