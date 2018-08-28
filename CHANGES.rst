@@ -7,6 +7,10 @@ Changelog
 - Do not use `"` in dtml `fontFamily` property from `imioapps_properties.props`
   or it can not be used in `dtml`, used `'` instead.
   [gbastien]
+- Skin `Add contact` link at bottom of `collective.contact.core` organization
+  view so it is isolated from linked contacts and displayed correctly when
+  using an actions panel viewlet at the bottom of the page.
+  [gbastien]
 
 2.1 (2018-07-23)
 ----------------

@@ -733,7 +733,6 @@ dl.portlet a:link, dl.portlet a:visited {
 }
 
 #content a:visited, dl.portlet a:visited {
-    color: &dtml-linkColor;;
 }
 
 /* need to use !important here under because used in public.css... */
@@ -785,10 +784,6 @@ dl.portlet dd.portletFooter a {
 
 #portal-breadcrumbs a {
     color: &dtml-linkColor;;
-}
-
-#content dl{
-    margin-bottom:1px;
 }
 
 #edit-bar{
@@ -914,7 +909,7 @@ legend {
 dl.portalMessage {
     border-radius: 5px;
     font-size: 90%;
-    margin-top: 0.7em;
+    margin-top: 0em;
     margin-bottom: 0.5em;
 }
 
@@ -1354,6 +1349,20 @@ div#portal-header {
 /* fixed header insert padding at top of emptyviewlet inserted as second element in portal-top */
 #portal-top div#emptyviewlet {
     padding-top: 47px;
+}
+
+/* add contact link at bottom of organization view */
+a.addnewcontactfromorganization.link-overlay {
+    display:block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* z3c.form validation error message */
+div.error div.error {
+    padding: 0.25em;
+    margin: 0;
+    font-size: 110%;
 }
 
 /* </dtml-with> */
