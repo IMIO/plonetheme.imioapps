@@ -11,6 +11,8 @@ Changelog
   view so it is isolated from linked contacts and displayed correctly when
   using an actions panel viewlet at the bottom of the page.
   [gbastien]
+- Set relative position on header in manage-viewlets view
+  [sgeulette]
 
 2.1 (2018-07-23)
 ----------------
@@ -64,7 +66,7 @@ Changelog
 
 - Added favicon.
   [sgeulette]
-- Skin `input#form-buttons-cancel` the same way `input.standalone` and skin 
+- Skin `input#form-buttons-cancel` the same way `input.standalone` and skin
   `collective.eeafaceted.batchactions` buttons the same way `imio.actionspanel`
   buttons.
   [gbastien]

@@ -1346,6 +1346,11 @@ div#portal-header {
    position: fixed;
    z-index: 50;
 }
+
+body.template-manage-viewlets div#portal-header {
+   position: relative;
+
+}
 /* fixed header insert padding at top of emptyviewlet inserted as second element in portal-top */
 #portal-top div#emptyviewlet {
     padding-top: 47px;
