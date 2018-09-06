@@ -1278,7 +1278,7 @@ iframe{
     padding-left: 0.5em;
 }
 
-/* Correction of collective.contact.factednav */
+/* Correction of collective.contact.facetednav */
 .template-facetednavigation_view #content-core #faceted-results {
     padding-left: 0;
 }
@@ -1354,6 +1354,18 @@ body.template-manage-viewlets div#portal-header {
 /* fixed header insert padding at top of emptyviewlet inserted as second element in portal-top */
 #portal-top div#emptyviewlet {
     padding-top: 47px;
+}
+
+/* tooltip for collective.contact.core */
+.tooltip.pb-ajax {
+    margin-top: 1em;
+    padding: 1em;
+    /* fix width */
+    width: 600px;
+    /* less shadow */
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    /* too much content in tooltip */
+    overflow: auto;
 }
 
 /* add contact link at bottom of organization view */

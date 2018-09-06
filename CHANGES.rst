@@ -1,6 +1,7 @@
 Changelog
 =========
 
+
 2.2 (unreleased)
 ----------------
 
@@ -13,6 +14,9 @@ Changelog
   [gbastien]
 - Set relative position on header in manage-viewlets view
   [sgeulette]
+- Skin `collective.contact.core` `tooltip` to manage fixed width and correct
+  display when `tooltip` content is too long.
+  [gbastien]
 
 2.1 (2018-07-23)
 ----------------
