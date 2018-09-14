@@ -17,6 +17,8 @@ Changelog
 - Skin `collective.contact.core` `tooltip` to manage fixed width and correct
   display when `tooltip` content is too long.
   [gbastien]
+- Added css to style as list li tag in overlay link integrity delete confirmation
+  [sgeulette]
 
 2.1 (2018-07-23)
 ----------------

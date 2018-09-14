@@ -1382,6 +1382,17 @@ div.error div.error {
     font-size: 110%;
 }
 
+/* link integrity confirmation in overlay */
+div.overlay ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+/* link integrity confirmation in overlay */
+div.overlay li {
+   display: list-item;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
