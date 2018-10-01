@@ -19,6 +19,8 @@ Changelog
   [gbastien]
 - Skin z3c.form datagridfield to indentify row content.
   [gbastien]
+- Added css to style as list li tag in overlay link integrity delete confirmation
+  [sgeulette]
 
 2.1 (2018-07-23)
 ----------------
