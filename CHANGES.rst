@@ -17,6 +17,8 @@ Changelog
 - Skin `collective.contact.core` `tooltip` to manage fixed width and correct
   display when `tooltip` content is too long.
   [gbastien]
+- Skin z3c.form datagridfield to indentify row content.
+  [gbastien]
 
 2.1 (2018-07-23)
 ----------------

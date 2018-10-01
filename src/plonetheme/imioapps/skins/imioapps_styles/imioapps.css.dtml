@@ -1121,6 +1121,16 @@ div[id^="archetypes-fieldname-"] a#datagridwidget-add-button {
     vertical-align: top;
 }
 
+/* align z3cform datagridfield TD to top */
+td.datagridwidget-cell,
+td.datagridwidget-manipulator {
+    vertical-align: top;
+}
+/* add separation under z3cform datagrid field rows because it does not use oddeven... */
+tr.datagridwidget-row {
+    border-bottom: 1px solid #DDD;
+}
+
 /* remove text-decoration that adds a dotted border by default in Firefox and set it for every browers */
 acronym, abbr {
     cursor: help;
