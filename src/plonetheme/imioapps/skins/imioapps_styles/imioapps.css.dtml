@@ -1403,6 +1403,11 @@ div.overlay li {
    display: list-item;
 }
 
+/* increase height of dropdown list of querystring dropdown widget */
+.widgetPulldownMenu {
+    height: 25em;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

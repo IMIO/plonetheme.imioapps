@@ -21,6 +21,9 @@ Changelog
   [gbastien]
 - Added css to style as list li tag in overlay link integrity delete confirmation
   [sgeulette]
+- Increase height of dropdown list of querystring dropdown widget
+  (Collection query field widget).
+  [gbastien]
 
 2.1 (2018-07-23)
 ----------------
