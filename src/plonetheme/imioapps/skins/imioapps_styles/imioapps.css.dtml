@@ -1336,9 +1336,9 @@ img {
     margin-top: 0.5em;
 }
 
-/* make sure multiselect fields are displayed with title bold and values normal in both AT and DX */
-#content label,
-#content span.label {
+/* remove bold on label used in AT/DX multiselection lists */
+#content div.ArchetypesMultiSelectionValue label,
+#content span.option label span {
     font-weight: normal;
 }
 #content label.horizontal,

@@ -24,6 +24,9 @@ Changelog
 - Increase height of dropdown list of querystring dropdown widget
   (Collection query field widget).
   [gbastien]
+- Be more precise about label for which bold is removed, only apply to
+  multiselection lists of DX and AT.
+  [gbastien]
 
 2.1 (2018-07-23)
 ----------------
