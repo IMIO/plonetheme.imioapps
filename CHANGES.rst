@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.2 (unreleased)
+2.2 (2018-11-20)
 ----------------
 
 - Do not use `"` in dtml `fontFamily` property from `imioapps_properties.props`
