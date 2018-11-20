@@ -27,6 +27,8 @@ Changelog
 - Be more precise about label for which bold is removed, only apply to
   multiselection lists of DX and AT.
   [gbastien]
+- Adapted to not use position:absolute for fieldset legend.
+  [gbastien]
 
 2.1 (2018-07-23)
 ----------------
