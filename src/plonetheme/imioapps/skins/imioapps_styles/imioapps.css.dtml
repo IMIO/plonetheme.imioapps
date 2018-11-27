@@ -1365,6 +1365,11 @@ body.template-manage-viewlets div#portal-header {
     /* too much content in tooltip */
     overflow: auto;
 }
+/* make sure link-tooltip have border-bottom in dashboard table.listing
+   because base.css use a border-bottom: 0 !important... */
+table.listing a.link-tooltip .pretty_link_content {
+  border-bottom: 1px dotted;
+}
 
 /* add contact link at bottom of organization view */
 a.addnewcontactfromorganization.link-overlay {

@@ -5,8 +5,10 @@ Changelog
 2.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Make sure dotted bottom border is displayed when using class 'link-tooltip'
+  and element is used in a table.listing because base.css removes border-bottom
+  using a !important...
+  [gbastien]
 
 2.2 (2018-11-20)
 ----------------
