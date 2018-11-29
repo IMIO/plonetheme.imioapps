@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.3 (unreleased)
+2.3 (2018-11-29)
 ----------------
 
 - Make sure dotted bottom border is displayed when using class 'link-tooltip'
