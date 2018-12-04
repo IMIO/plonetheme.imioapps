@@ -209,7 +209,6 @@ dd.actionMenuContentAX even {
     font-style: italic;
 }
 
-body.template-facetednavigation_view #content .enableFormTabbing,
 body.template-meetingitem_view #content .enableFormTabbing,
 body.template-meeting_view #content .enableFormTabbing {
     border-color: #DDDDDD;
