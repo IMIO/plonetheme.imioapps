@@ -425,6 +425,7 @@ ul.configlets img {
     border:1px solid &dtml-tableHeaderBackgroundColor;;
     margin: 0em 0em 0em;
     padding-top: 1.3em;
+    padding-bottom: 0.5em;
 }
 
 #content fieldset,

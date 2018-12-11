@@ -261,10 +261,6 @@ body.template-facetednavigation_view.portaltype-folder #content div#viewlet-belo
     text-transform: uppercase;
 }
 
-#content-core table.item-infos {
-    margin-bottom: 1em;
-}
-
 dd.portletCell.pmLink.even {
     background-color: #f4f4f4;
 }

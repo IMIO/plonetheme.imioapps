@@ -5,8 +5,11 @@ Changelog
 2.5 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- imioapps : limit margin-bottom under fieldset.
+  [gbastien]
+- plonemeetingskin : remove margin under table displaying item infos
+  on the item view.
+  [gbastien]
 
 2.4 (2018-12-04)
 ----------------
