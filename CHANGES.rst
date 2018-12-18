@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.5 (unreleased)
+2.5 (2018-12-18)
 ----------------
 
 - imioapps : limit margin-bottom under fieldset.
