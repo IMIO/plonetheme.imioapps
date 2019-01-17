@@ -17,6 +17,9 @@
     margin-top: 0.5em;
 }
 
+#content h1.documentFirstHeading {
+    clear: both;
+}
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
