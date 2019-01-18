@@ -5,8 +5,10 @@ Changelog
 2.6 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- imioapps : fixed fieldset legend height to 18px.
+  [gbastien]
+- plonemeetingskin : added icon for 'reorder items' action panel button.
+  [gbastien]
 
 2.5 (2018-12-18)
 ----------------

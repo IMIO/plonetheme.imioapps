@@ -120,6 +120,10 @@ color:#436976 !important;
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
+.apButtonAction_reorder_items {
+    background-image: url('&dtml-portal_url;/reorder.png');
+}
+
 div#batch-actions {
   text-align: right;
   margin-bottom: 0.5em;
