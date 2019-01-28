@@ -17,7 +17,7 @@
     margin-top: 0.5em;
 }
 
-#content h1.documentFirstHeading {
+#content h1.documentFirstHeading, #content h1.org {
     clear: both;
 }
 /* </dtml-with> */
