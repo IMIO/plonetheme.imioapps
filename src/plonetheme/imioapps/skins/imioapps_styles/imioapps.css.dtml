@@ -1403,6 +1403,10 @@ div.overlay li {
     height: 25em;
 }
 
+/* spinner when displaying actionspanel asynch */
+div#async_actions_panel {
+  display: inline-block;
+}
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

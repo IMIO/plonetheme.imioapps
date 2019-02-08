@@ -5,8 +5,8 @@ Changelog
 2.8 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Added spinner_small.gif image and use it in the async_actions_panel div.
+  [gbastien]
 
 2.7 (2019-01-28)
 ----------------
