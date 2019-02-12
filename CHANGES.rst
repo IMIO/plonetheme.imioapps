@@ -7,6 +7,9 @@ Changelog
 
 - Added spinner_small.gif image and use it in the async_actions_panel div.
   [gbastien]
+- Purge and redefine bundles used by resources registries
+  (portal_css/portal_javascripts).
+  [gbastien]
 
 2.7 (2019-01-28)
 ----------------

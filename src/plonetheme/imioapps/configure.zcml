@@ -33,26 +33,6 @@
         name="pstskin"
         />
 
-    <genericsetup:upgradeSteps
-        source="*"
-        destination="2060"
-        profile="plonetheme.imioapps:default">
-        <genericsetup:upgradeDepends
-            title="Add new CSS imioapps_ckeditor_moonolisa.css to portal_css"
-            description="This will override the Moono-Lisa CSS included in collective.ckeditor 4.5.0 and +"
-            import_steps="cssregistry" />
-    </genericsetup:upgradeSteps>
-
-    <genericsetup:upgradeSteps
-        source="*"
-        destination="2100"
-        profile="plonetheme.imioapps:default">
-        <genericsetup:upgradeDepends
-            title="Hide default messagesviewlet viewlet in plone.portalheader"
-            description="This will hide the messagesviewlet viewlet as it is now displayed in plone.portaltop viewletmanager"
-            import_steps="viewlets" />
-    </genericsetup:upgradeSteps>
-
     <browser:viewlet
         for="*"
         layer="plonetheme.imioapps.interfaces.IThemeSpecific"
