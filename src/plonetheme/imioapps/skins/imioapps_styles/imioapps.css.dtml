@@ -720,7 +720,8 @@ dl.portlet a:link, dl.portlet a:visited {
     display:block;
 }
 
-#content a:link, dl.portlet a:link, a:link, a:visited {
+#content a:link, dl.portlet a:link, a:link,
+#content a:visited, dl.portlet a:visited, a:visited {
     color: &dtml-linkColor;;
     border: 0;
 }

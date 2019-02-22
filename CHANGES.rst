@@ -10,6 +10,8 @@ Changelog
 - Purge and redefine bundles used by resources registries
   (portal_css/portal_javascripts).
   [gbastien]
+- Make sure a:visited links in portlets have same color as a:link.
+  [gbastien]
 
 2.7 (2019-01-28)
 ----------------
