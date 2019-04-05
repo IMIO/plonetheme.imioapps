@@ -12,6 +12,10 @@ Changelog
   [gbastien]
 - Make sure a:visited links in portlets have same color as a:link.
   [gbastien]
+- As header's height is `position:fixed`, compute the `#emptyviewlet`'s height
+  dynamically using JS.  Viewlet's height is computed by calling the JS method
+  directly in `empty.pt` so we do not see viewlet size changing.
+  [gbastien]
 
 2.7 (2019-01-28)
 ----------------

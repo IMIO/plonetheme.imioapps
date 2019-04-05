@@ -1,2 +1,5 @@
 <div id="emptyviewlet">
+    <script>
+        resizeHeader();
+    </script>
 </div>

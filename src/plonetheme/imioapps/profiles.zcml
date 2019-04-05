@@ -95,4 +95,14 @@
            import_steps="plone.app.registry" />
     </genericsetup:upgradeSteps>
 
+    <genericsetup:upgradeSteps
+       source="2200"
+       destination="2300"
+       profile="plonetheme.imioapps:default">
+       <genericsetup:upgradeDepends
+           title="Apply jsregistry.xml that adds JS that compute fixed header height"
+           description=""
+           import_steps="jsregistry" />
+    </genericsetup:upgradeSteps>
+
 </configure>
