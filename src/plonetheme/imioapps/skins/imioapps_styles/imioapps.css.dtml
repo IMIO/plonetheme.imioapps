@@ -1352,10 +1352,6 @@ body.template-manage-viewlets div#portal-header {
    position: relative;
 
 }
-/* fixed header insert padding at top of emptyviewlet inserted as second element in portal-top */
-#portal-top div#emptyviewlet {
-    padding-top: 47px;
-}
 
 /* tooltip for collective.contact.core */
 .tooltip.pb-ajax {
