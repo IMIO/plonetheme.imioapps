@@ -1404,6 +1404,15 @@ div.overlay li {
 div#async_actions_panel {
   display: inline-block;
 }
+
+/* quickupload with collective.iconifiedcategory, copy content category button */
+a#copy_categories {
+  background-color: &dtml-globalBackgroundColor;;
+}
+/* quickupload with collective.iconifiedcategory, browse button */
+div.qq-upload-button {
+  background-color: &dtml-globalBackgroundColor;;
+}
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
