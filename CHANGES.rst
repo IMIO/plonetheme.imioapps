@@ -16,6 +16,12 @@ Changelog
   dynamically using JS.  Viewlet's height is computed by calling the JS method
   directly in `empty.pt` so we do not see viewlet size changing.
   [gbastien]
+- If current URL contains `imio-test`, highlight `portal-header` (turn it red).
+  [gbastien]
+- Override the `plone_layout` view to redefine `renderBase` to not return `URL`
+  containing `portal_factory` as the `base href` is used to call asynchronous
+  JS functions.
+  [gbastien]
 
 2.7 (2019-01-28)
 ----------------

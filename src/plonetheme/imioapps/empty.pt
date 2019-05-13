@@ -1,5 +1,5 @@
 <div id="emptyviewlet">
     <script>
-        resizeHeader();
+        init_plonetheme_imioapps();
     </script>
 </div>
