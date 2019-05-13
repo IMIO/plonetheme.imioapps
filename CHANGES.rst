@@ -18,9 +18,9 @@ Changelog
   [gbastien]
 - If current URL contains `imio-test`, highlight `portal-header` (turn it red).
   [gbastien]
-- Override the `plone_layout` view to redefine `renderBase` to not return `URL`
-  containing `portal_factory` as the `base href` is used to call asynchronous
-  JS functions.
+- Override the `plone_context_state` view to redefine `canonical_object_url`
+  to strip the `URL` containing `portal_factory` as this URL is used to call
+  asynchronous JS functions.
   [gbastien]
 
 2.7 (2019-01-28)

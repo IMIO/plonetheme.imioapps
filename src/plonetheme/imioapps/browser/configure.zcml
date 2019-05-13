@@ -10,11 +10,11 @@
       directory="static" />
 
     <browser:page
-        name="plone_layout"
+        name="plone_context_state"
         for="*"
         permission="zope.Public"
-        class=".overrides.ImioLayoutPolicy"
-        allowed_interface="plone.app.layout.globals.interfaces.ILayoutPolicy"
+        class=".overrides.ImioContextState"
+        allowed_interface="plone.app.layout.globals.interfaces.IContextState"
         layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
 
 </configure>
