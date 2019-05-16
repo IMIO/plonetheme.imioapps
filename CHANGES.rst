@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.8 (unreleased)
+2.8 (2019-05-16)
 ----------------
 
 - Added spinner_small.gif image and use it in the async_actions_panel div.
