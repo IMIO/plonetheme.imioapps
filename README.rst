@@ -11,10 +11,10 @@ From version 2.1, the header is fixed (always visible), to remove this, add this
 
 .. code:: css
 
-div#portal-header {
-   position: relative;
-}
+  div#portal-header {
+     position: relative;
+  }
 
-#portal-top div#emptyviewlet {
-    padding-top: 0em;
-}
+  #portal-top div#emptyviewlet {
+      padding-top: 0em;
+  }
