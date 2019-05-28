@@ -5,8 +5,11 @@ Changelog
 2.9 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Set `padding-top: 0.5em;` instead `padding-top: 1em;` for
+  `td.table_widget_value` so it is the same value as for
+  `td.table_widget_label` and label/value are correctly aligned in views
+  using it (our default dexterity view).
+  [gbastien]
 
 2.8 (2019-05-16)
 ----------------

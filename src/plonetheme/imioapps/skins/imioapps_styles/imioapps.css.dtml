@@ -838,7 +838,7 @@ dl.portlet dd.portletFooter a {
 #content td.table_widget_value {
     width: auto;
     padding-bottom: 0.5em;
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
 table.listing {
