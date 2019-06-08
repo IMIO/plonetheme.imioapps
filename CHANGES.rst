@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.9 (unreleased)
+2.9 (2019-06-08)
 ----------------
 
 - Set `padding-top: 0.5em;` instead `padding-top: 1em;` for
