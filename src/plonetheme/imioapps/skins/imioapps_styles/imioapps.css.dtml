@@ -1413,6 +1413,11 @@ a#copy_categories {
 div.qq-upload-button {
   background-color: &dtml-globalBackgroundColor;;
 }
+
+input#form-widgets-ITALCondition-tal_condition {
+  width: 99%;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

@@ -5,8 +5,8 @@ Changelog
 2.10 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Set collective.behavior.talcondition input field width to 99%.
+  [gbastien]
 
 2.9 (2019-06-08)
 ----------------
