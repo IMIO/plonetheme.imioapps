@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.10 (unreleased)
+2.10 (2019-06-28)
 -----------------
 
 - Set `collective.behavior.talcondition` input field `width` to `99%`.
