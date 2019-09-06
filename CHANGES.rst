@@ -5,8 +5,8 @@ Changelog
 2.11 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Added CSS for datagridfield rendered in a dashboard additional infos column.
+  [gbastien]
 
 2.10 (2019-06-28)
 -----------------

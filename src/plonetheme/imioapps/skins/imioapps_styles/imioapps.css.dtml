@@ -1418,6 +1418,16 @@ input#form-widgets-ITALCondition-tal_condition {
   width: 99%;
 }
 
+/* datagridfield displayed in a dashboard column (additional infos) */
+div.table-col-datagrid-header {
+  font-weight: bold;
+  float: left;
+}
+div.table-col-datagrid-value {
+  float: left;
+}
+
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
