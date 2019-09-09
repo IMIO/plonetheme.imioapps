@@ -7,6 +7,8 @@ Changelog
 
 - Added style for apButtonSelect class of actionspanel.
   [sgeulette]
+- Added CSS for datagridfield rendered in a dashboard additional infos column.
+  [gbastien]
 
 2.10 (2019-06-28)
 -----------------
