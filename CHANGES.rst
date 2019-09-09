@@ -5,8 +5,8 @@ Changelog
 2.11 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Added style for apButtonSelect class of actionspanel.
+  [sgeulette]
 
 2.10 (2019-06-28)
 -----------------

@@ -1037,6 +1037,20 @@ input::-moz-focus-outer {
     padding-left: 24px;
 }
 
+.apButtonSelect {
+    padding-right: 0px;
+}
+
+/* reduce width in dashboard column */
+#faceted_table .apButtonSelect {
+    padding-left: 10px;
+}
+
+/* enlarge option list */
+.apButtonSelect option {
+    display: table-column;
+}
+
 .apButtonAction_cut {
     background-image: url('&dtml-portal_url;/cut_icon.png');
 }
