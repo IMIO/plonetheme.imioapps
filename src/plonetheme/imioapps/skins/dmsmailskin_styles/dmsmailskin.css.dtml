@@ -57,6 +57,15 @@ table.listing th, .stx table th {
     vertical-align: top;
 }
 
+/* makes viewlet_workflowstate displays correctly on the right of byline */
+.template-view #content #plone-document-byline {
+   display: inline-block
+}
+.viewlet_workflowstate {
+    float: right;
+    display: inline-block;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
