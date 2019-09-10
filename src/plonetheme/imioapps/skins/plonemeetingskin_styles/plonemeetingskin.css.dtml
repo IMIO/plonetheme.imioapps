@@ -274,6 +274,21 @@ body:not(.userrole-manager):not(.userrole-meetingmanager) a#fieldsetlegend-scan 
     display: none;
 }
 
+/* makes viewlet_workflowstate displays correctly on the right of byline */
+div#viewlet-below-content-title {
+   height: 1em;
+}
+div#plone-document-byline {
+  float: left;
+}
+div.viewlet_workflowstate {
+    float: right;
+}
+
+body.template-versions_history_form[class*="portaltype-meetingadvice"] #content div.viewlet_workflowstate {
+    display: none;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

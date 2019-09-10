@@ -33,6 +33,7 @@ setup(name='plonetheme.imioapps',
       zip_safe=False,
       install_requires=[
           'collective.messagesviewlet',
+          'imio.helpers',
           'setuptools',
           # -*- Extra requirements: -*-
       ],

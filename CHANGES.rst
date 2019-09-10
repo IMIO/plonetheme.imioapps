@@ -9,6 +9,8 @@ Changelog
   [sgeulette]
 - Added CSS for datagridfield rendered in a dashboard additional infos column.
   [gbastien]
+- Added workflowstate viewlet
+  [sgeulette]
 
 2.10 (2019-06-28)
 -----------------
