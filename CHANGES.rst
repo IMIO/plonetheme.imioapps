@@ -11,6 +11,8 @@ Changelog
   [gbastien]
 - Added workflowstate viewlet
   [sgeulette]
+- Added css for apButtonAction_edit.
+  [sgeulette]
 
 2.10 (2019-06-28)
 -----------------

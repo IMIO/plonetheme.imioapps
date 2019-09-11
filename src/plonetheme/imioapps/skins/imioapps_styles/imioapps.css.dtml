@@ -1071,6 +1071,9 @@ input::-moz-focus-outer {
     background-image: url('&dtml-portal_url;/rename_icon.gif');
 }
 
+.apButtonAction_edit {
+   background-image: url('&dtml-portal_url;/edit.png');
+}
 .apButtonAction_update_categorized_elements {
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
