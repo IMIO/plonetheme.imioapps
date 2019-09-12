@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.11 (unreleased)
+2.11 (2019-09-12)
 -----------------
 
 - Added style for apButtonSelect class of actionspanel.
