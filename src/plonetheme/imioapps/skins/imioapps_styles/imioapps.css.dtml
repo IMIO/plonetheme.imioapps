@@ -1444,6 +1444,54 @@ div.table-col-datagrid-value {
   float: left;
 }
 
+/* task states */
+.viewlet_workflowstate .state-created {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: red;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 2px solid red;
+}
+
+.viewlet_workflowstate .state-to_assign {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: blueviolet;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 2px solid blueviolet;
+}
+
+.viewlet_workflowstate .state-to_do {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: blue;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 2px solid blue;
+}
+
+.viewlet_workflowstate .state-in_progress {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: green;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 2px solid green;
+}
+
+.viewlet_workflowstate .state-realized {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: darkgrey;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 2px solid darkgrey;
+}
+
+.viewlet_workflowstate .state-closed {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: dimgrey;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 2px solid dimgrey;
+}
 
 /* </dtml-with> */
 
