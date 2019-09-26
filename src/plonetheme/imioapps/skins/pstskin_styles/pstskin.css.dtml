@@ -20,6 +20,17 @@
 #content h1.documentFirstHeading, #content h1.org {
     clear: both;
 }
+
+/* makes viewlet_workflowstate displays correctly on the right of byline */
+.template-view #content #plone-document-byline, .template-item_view #content #plone-document-byline,
+.template-document_view #content #plone-document-byline, .template-dg-templates-listing #content #plone-document-byline {
+   display: inline-block
+}
+.viewlet_workflowstate {
+    float: right;
+    display: inline-block;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
