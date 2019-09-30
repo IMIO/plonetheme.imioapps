@@ -58,8 +58,11 @@ table.listing th, .stx table th {
 }
 
 /* makes viewlet_workflowstate displays correctly on the right of byline */
-.template-view #content #plone-document-byline {
-   display: inline-block
+.template-view #content #plone-document-byline, .template-item_view #content #plone-document-byline,
+.template-document_view #content #plone-document-byline, .template-dg-templates-listing #content #plone-document-byline,
+.template-folder_tabular_view #content #plone-document-byline, .template-folder_listing #content #plone-document-byline,
+.template-documentviewer #content #plone-document-byline {
+    display: inline-block
 }
 .viewlet_workflowstate {
     float: right;
