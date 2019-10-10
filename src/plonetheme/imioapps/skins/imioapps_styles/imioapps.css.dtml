@@ -1444,53 +1444,45 @@ div.table-col-datagrid-value {
   float: left;
 }
 
+/* display workflow state with background color */
+.viewlet_workflowstate span[class^='state-'] {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 1.5px solid;
+    background-color: black;
+    border-color: black;
+}
+
 /* task states */
-.viewlet_workflowstate .state-created {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+.viewlet_workflowstate span.state-created {
     background-color: red;
-    padding: 0 0.5em;
-    color: white !important;
-    border: 2px solid red;
+    border-color: red;
 }
 
-.viewlet_workflowstate .state-to_assign {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+.viewlet_workflowstate span.state-to_assign {
     background-color: blueviolet;
-    padding: 0 0.5em;
-    color: white !important;
-    border: 2px solid blueviolet;
+    border-color: blueviolet;
 }
 
-.viewlet_workflowstate .state-to_do {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+.viewlet_workflowstate span.state-to_do {
     background-color: blue;
-    padding: 0 0.5em;
-    color: white !important;
-    border: 2px solid blue;
+    border-color: blue;
 }
 
-.viewlet_workflowstate .state-in_progress {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+.viewlet_workflowstate span.state-in_progress {
     background-color: green;
-    padding: 0 0.5em;
-    color: white !important;
-    border: 2px solid green;
+    border-color: green;
 }
 
-.viewlet_workflowstate .state-realized {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+.viewlet_workflowstate span.state-realized {
     background-color: darkgrey;
-    padding: 0 0.5em;
-    color: white !important;
-    border: 2px solid darkgrey;
+    border-color: darkgrey;
 }
 
-.viewlet_workflowstate .state-closed {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+.viewlet_workflowstate span.state-closed {
     background-color: dimgrey;
-    padding: 0 0.5em;
-    color: white !important;
-    border: 2px solid dimgrey;
+    border-color: dimgrey;
 }
 
 /* </dtml-with> */
