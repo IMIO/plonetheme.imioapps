@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.12 (unreleased)
+2.12 (2019-10-14)
 -----------------
 
 - Use common CSS for workflowstate viewlet.
