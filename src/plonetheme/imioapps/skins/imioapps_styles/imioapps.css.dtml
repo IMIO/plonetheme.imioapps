@@ -721,7 +721,8 @@ dl.portlet a:link, dl.portlet a:visited {
 }
 
 #content a:link, dl.portlet a:link, a:link,
-#content a:visited, dl.portlet a:visited, a:visited {
+#content a:visited, dl.portlet a:visited, a:visited,
+#content a.pretty_link span.pretty_link_content:hover {
     color: &dtml-linkColor;;
     border: 0;
 }

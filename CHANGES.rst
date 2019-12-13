@@ -5,8 +5,9 @@ Changelog
 2.13 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- As state color is defined on `<span>` with `imio.prettylink`,
+  define `linkColor` on hover.
+  [gbastien]
 
 2.12 (2019-10-14)
 -----------------
