@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.13 (unreleased)
+2.13 (2020-01-10)
 -----------------
 
 - As state color is defined on `<span>` with `imio.prettylink`,
