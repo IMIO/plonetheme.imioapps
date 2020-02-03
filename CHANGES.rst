@@ -5,8 +5,8 @@ Changelog
 2.14 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- plonemeetingskin : added icon for 'wait advices' WF action panel button.
+  [gbastien]
 
 2.13 (2020-01-10)
 -----------------

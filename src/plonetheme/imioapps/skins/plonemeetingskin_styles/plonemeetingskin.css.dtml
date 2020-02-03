@@ -157,6 +157,12 @@ input.apButtonWF_backToValidated {
     background-position: 3px 3px;
     background-image: url('&dtml-portal_url;/backToValidatedForInput.png');
 }
+/* add a icon to every wf actions corresponding to a 'wait_advices' */
+input[class*="apButtonWF_wait_advices_from_"] {
+    background-position: 3px 3px;
+    padding-left: 20px;
+    background-image: url('&dtml-portal_url;/wait_advices_from.png');
+}
 
 /* use important for it to work on the meetingfolder_view */
 .ploneMeetingSelectItemUnselected {
