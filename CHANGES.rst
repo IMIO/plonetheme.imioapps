@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.14 (unreleased)
+2.14 (2020-02-06)
 -----------------
 
 - plonemeetingskin : added icon for 'wait advices' WF action panel button.
