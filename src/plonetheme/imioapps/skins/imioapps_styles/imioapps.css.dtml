@@ -893,6 +893,7 @@ table.listing tbody tr.even td {
  * because as CKeditor is displayed in an iframe, percent font-size is applied twice */
 body#content.cke_editable {
    font-size: &dtml-fontBaseSize;;
+   margin: 0;
 }
 
 legend {

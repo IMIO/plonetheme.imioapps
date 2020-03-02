@@ -5,8 +5,8 @@ Changelog
 2.15 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Avoid too much padding top and left in CKeditor edit zone.
+  [gbastien]
 
 2.14 (2020-02-06)
 -----------------
