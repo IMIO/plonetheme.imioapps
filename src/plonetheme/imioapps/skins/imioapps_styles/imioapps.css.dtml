@@ -993,6 +993,11 @@ span.cke_skin_kama {
     width: 100%;
 }
 
+/* hide the CKEditor's spellchecking advertisement */
+#wsc_img_banner {
+    display: none;
+}
+
 /* specifically do not display the file type icon in folder-listing because another icon representing the file mimetype is already displayed */
 #folder-listing .contenttype-file,
 .portletNavigationTree .contenttype-file,
