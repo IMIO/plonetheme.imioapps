@@ -7,6 +7,7 @@ Changelog
 
 - Avoid too much padding top and left in CKeditor edit zone.
   [gbastien]
+- Added a new CSS rule to hide CKEditor's spellchecking ad [aduchene]
 
 2.14 (2020-02-06)
 -----------------
