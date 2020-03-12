@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.15 (unreleased)
+2.15 (2020-03-12)
 -----------------
 
 - Avoid too much padding top and left in CKeditor edit zone.
