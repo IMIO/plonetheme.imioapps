@@ -1,0 +1,9 @@
+<a id="imioapp-help"
+   title="Home"
+   accesskey="1"
+   tal:define="help_url python: view.help_url"
+   tal:attributes="href help_url"
+   tal:condition="help_url"
+   i18n:domain="plone">
+   <img src="help.png" alt=""/>
+</a>
