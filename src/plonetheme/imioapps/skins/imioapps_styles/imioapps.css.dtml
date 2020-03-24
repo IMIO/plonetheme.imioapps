@@ -1492,6 +1492,12 @@ div.table-col-datagrid-value {
     border-color: dimgrey;
 }
 
+#imioapp-help {
+    clear: none;
+    float: right;
+    margin: -2.3em 5.3em 0;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

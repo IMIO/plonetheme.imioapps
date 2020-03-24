@@ -11,6 +11,7 @@
     <include file="profiles.zcml" />
     <include file="skins.zcml" />
     <include package=".browser" />
+    <include package=".migration" />
 
     <!-- Zope 3 browser layer, this is needed so the skins are correctly considered as IDefaultPloneLayer skins -->
     <interface

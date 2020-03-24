@@ -22,6 +22,7 @@
 
 from plone.app.layout.viewlets import ViewletBase
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+from plone import api
 from imio.helpers.content import get_state_infos
 
 
@@ -32,3 +33,13 @@ class WorkflowState(ViewletBase):
         return get_state_infos(self.context)
 
     index = ViewPageTemplateFile("templates/viewlet_workflowstate.pt")
+
+
+class HelpViewlet(ViewletBase):
+    index = ViewPageTemplateFile('templates/help.pt')
+
+    def update(self):
+        super(HelpViewlet, self).update()
+        self.help_url = api.portal.get_registry_record(
+            'plonetheme.imioapps.interfaces.IHelp.url'
+        ) or ''

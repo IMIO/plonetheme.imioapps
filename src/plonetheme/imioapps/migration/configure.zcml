@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone">
+
+    <gs:upgradeStep
+        title="Upgrade plonetheme.imioapps to 2.16"
+        description="plonetheme.imioapps upgrade step"
+        source="*"
+        destination="2.16"
+        handler=".migrate_to_216.migrate"
+        profile="plonetheme.imioapps:default" />
+</configure>

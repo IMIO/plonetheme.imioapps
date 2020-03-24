@@ -17,4 +17,12 @@
         allowed_interface="plone.app.layout.globals.interfaces.IContextState"
         layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
 
+    <!-- site header help icon -->
+    <browser:viewlet
+        name="plonetheme.imioapps.help"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.HelpViewlet"
+        permission="zope2.View"
+        />
+
 </configure>

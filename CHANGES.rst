@@ -5,8 +5,7 @@ Changelog
 2.16 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Add configurable help icon on the site header [sdelcourt]
 
 2.15 (2020-03-12)
 -----------------
