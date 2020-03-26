@@ -11,6 +11,6 @@
             </element>
     </value>
   </record>
-  <records interface="plonetheme.imioapps.interfaces.IHelp">
+  <records interface="plonetheme.imioapps.interfaces.IPlonethemeImioappsSettings">
   </records>
 </registry>

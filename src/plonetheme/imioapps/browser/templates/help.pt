@@ -1,6 +1,6 @@
 <a id="imioapp-help"
-   title="Home"
-   accesskey="1"
+   title="Help"
+   accesskey="H"
    tal:define="help_url python: view.help_url"
    tal:attributes="href help_url"
    tal:condition="help_url"
