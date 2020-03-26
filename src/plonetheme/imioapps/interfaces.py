@@ -18,5 +18,6 @@ class IPlonethemeImioappsSettings(Interface):
     help_url = schema.ASCIILine(
         title=_(u"Help icon url"),
         description=_(u"Set the url of the help icon here"),
-        default=''
+        default='',
+        required=False,
     )
