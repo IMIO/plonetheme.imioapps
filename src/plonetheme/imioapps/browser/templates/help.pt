@@ -5,5 +5,5 @@
    tal:attributes="href help_url"
    tal:condition="help_url"
    i18n:domain="plone">
-   <img src="help.png" alt=""/>
+   <img tal:attributes="src string:${view/portal_url}/help.png" alt=""/>
 </a>

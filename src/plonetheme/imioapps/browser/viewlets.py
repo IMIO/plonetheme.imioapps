@@ -47,5 +47,4 @@ class HelpViewlet(ViewletBase):
     def update(self):
         super(HelpViewlet, self).update()
         self.help_url = api.portal.get_registry_record(
-            'plonetheme.imioapps.interfaces.IPlonethemeImioappsSettings.help_url'
-        ) or ''
+            'plonetheme.imioapps.interfaces.IPlonethemeImioappsSettings.help_url', default='')

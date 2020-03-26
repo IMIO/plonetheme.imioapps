@@ -1,9 +1,9 @@
+# -*- coding: utf-8 -*-
+
 from collective.messagesviewlet.interfaces import ICollectiveMessagesviewletLayer
-
 from plonetheme.imioapps import PloneMessageFactory as _
-
-from zope.interface import Interface
 from zope import schema
+from zope.interface import Interface
 
 
 class IThemeSpecific(ICollectiveMessagesviewletLayer):
