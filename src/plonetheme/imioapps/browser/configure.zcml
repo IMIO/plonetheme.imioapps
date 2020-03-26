@@ -22,7 +22,7 @@
         layer="plonetheme.imioapps.interfaces.IThemeSpecific"
         name="empty-viewlet"
         manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-        class="plonetheme.imioapps.viewlets.EmptyViewlet"
+        class=".viewlets.EmptyViewlet"
         permission="zope2.View" />
 
     <browser:viewlet
