@@ -11,7 +11,6 @@
     <include file="profiles.zcml" />
     <include file="skins.zcml" />
     <include package=".browser" />
-    <include package=".migration" />
 
     <!-- Zope 3 browser layer, this is needed so the skins are correctly considered as IDefaultPloneLayer skins -->
     <interface
@@ -34,21 +33,5 @@
         type="zope.publisher.interfaces.browser.IBrowserSkinType"
         name="pstskin"
         />
-
-    <browser:viewlet
-        for="*"
-        layer="plonetheme.imioapps.interfaces.IThemeSpecific"
-        name="empty-viewlet"
-        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-        class="plonetheme.imioapps.viewlets.EmptyViewlet"
-        permission="zope2.View" />
-
-    <browser:viewlet
-        for="*"
-        layer="plonetheme.imioapps.interfaces.IThemeSpecific"
-        name="message-viewlet"
-        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-        class="collective.messagesviewlet.browser.messagesviewlet.MessagesViewlet"
-        permission="zope2.View" />
 
 </configure>

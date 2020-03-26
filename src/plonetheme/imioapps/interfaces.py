@@ -13,9 +13,9 @@ class IThemeSpecific(ICollectiveMessagesviewletLayer):
     """
 
 
-class IHelp(Interface):
+class IPlonethemeImioappsSettings(Interface):
     """ """
-    url = schema.ASCIILine(
+    help_url = schema.ASCIILine(
         title=_(u"Help icon url"),
         description=_(u"Set the url of the help icon here"),
         default=''

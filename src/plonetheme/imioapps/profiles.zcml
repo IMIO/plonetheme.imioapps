@@ -105,4 +105,14 @@
            import_steps="jsregistry" />
     </genericsetup:upgradeSteps>
 
+    <genericsetup:upgradeSteps
+       source="2300"
+       destination="2400"
+       profile="plonetheme.imioapps:default">
+       <genericsetup:upgradeDepends
+           title="Reapply registry.xml to add HelpUrl record"
+           description=""
+           import_steps="plone.app.registry" />
+    </genericsetup:upgradeSteps>
+
 </configure>

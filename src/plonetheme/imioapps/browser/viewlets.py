@@ -20,10 +20,16 @@
 # 02110-1301, USA.
 #
 
+from imio.helpers.content import get_state_infos
+from plone import api
 from plone.app.layout.viewlets import ViewletBase
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-from plone import api
-from imio.helpers.content import get_state_infos
+
+
+class EmptyViewlet(ViewletBase):
+    """This will display an empty viewlet, it is used to be able to define CSS
+       arbitrary between existing viewlets."""
+    render = ViewPageTemplateFile('./templates/empty.pt')
 
 
 class WorkflowState(ViewletBase):
@@ -41,5 +47,5 @@ class HelpViewlet(ViewletBase):
     def update(self):
         super(HelpViewlet, self).update()
         self.help_url = api.portal.get_registry_record(
-            'plonetheme.imioapps.interfaces.IHelp.url'
+            'plonetheme.imioapps.interfaces.IPlonethemeImioappsSettings.help_url'
         ) or ''
