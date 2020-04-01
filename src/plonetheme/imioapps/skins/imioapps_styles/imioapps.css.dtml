@@ -994,7 +994,7 @@ span.cke_skin_kama {
 }
 
 /* hide the CKEditor's spellchecking advertisement */
-#wsc_img_banner {
+div#wsc_img_banner {
     display: none;
 }
 
