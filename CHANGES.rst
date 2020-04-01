@@ -7,6 +7,8 @@ Changelog
 
 - Added configurable help icon on the site header
   [sdelcourt]
+- More precise CSS selector to hide CKEditor's spellchecking ad.
+  [gbastien]
 
 2.15 (2020-03-12)
 -----------------
