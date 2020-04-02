@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.16 (unreleased)
+2.16 (2020-04-02)
 -----------------
 
 - Added configurable help icon on the site header
