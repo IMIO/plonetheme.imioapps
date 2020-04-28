@@ -5,8 +5,9 @@ Changelog
 2.17 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- plonemeetingskin : moved rules with logic to hide something
+  back to plonemeting.css
+  [gbastien]
 
 2.16 (2020-04-02)
 -----------------
