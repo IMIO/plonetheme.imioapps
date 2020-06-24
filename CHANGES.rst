@@ -8,6 +8,9 @@ Changelog
 - plonemeetingskin : moved rules with logic to hide something
   back to plonemeting.css
   [gbastien]
+- Make sure tooltipster tooltip arrow is displayed correctly
+  (stay sticked to the tooltipster) when zooming in the internet browser.
+  [gbastien]
 
 2.16 (2020-04-02)
 -----------------
