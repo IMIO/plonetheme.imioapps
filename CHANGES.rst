@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.17 (unreleased)
+2.17 (2020-06-24)
 -----------------
 
 - plonemeetingskin : moved rules with logic to hide something
