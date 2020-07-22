@@ -1456,14 +1456,6 @@ div.table-col-datagrid-value {
   line-height: 1em;
 }
 
-/* datagridfield displayed in dashboard */
-div.type-datagridfield {
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    float: left;
-}
-
 /* display workflow state with background color */
 .viewlet_workflowstate span[class^='state-'] {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
