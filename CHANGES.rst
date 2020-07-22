@@ -5,8 +5,8 @@ Changelog
 2.18 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- imioapps : style the `PloneGroupUsersGroupsColumn` column.
+  [gbastien]
 
 2.17 (2020-06-24)
 -----------------

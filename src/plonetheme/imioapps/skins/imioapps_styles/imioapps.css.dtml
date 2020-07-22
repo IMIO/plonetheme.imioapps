@@ -1447,9 +1447,21 @@ input#form-widgets-ITALCondition-tal_condition {
 div.table-col-datagrid-header {
   font-weight: bold;
   float: left;
+  font-size: 90%;
+  line-height: 1em;
 }
 div.table-col-datagrid-value {
   float: left;
+  font-size: 90%;
+  line-height: 1em;
+}
+
+/* datagridfield displayed in dashboard */
+div.type-datagridfield {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    float: left;
 }
 
 /* display workflow state with background color */
