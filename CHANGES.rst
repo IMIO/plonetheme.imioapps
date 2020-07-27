@@ -7,6 +7,9 @@ Changelog
 
 - imioapps : style the `PloneGroupUsersGroupsColumn` column.
   [gbastien]
+- plonemeetingskin : make sure very large images are not
+  exceeding the screen.
+  [gbastien]
 
 2.17 (2020-06-24)
 -----------------
