@@ -208,17 +208,8 @@ input[class*="apButtonWF_wait_advices_from_"] {
     padding-left: 20px !important;
 }
 
-/* special handling of table showing advices */
-dd.actionMenuContentAX even {
-    background-color: transparent;
-}
-
 #content div#faceted-results td.td_cell_advices legend {
     margin-left: -0.6em;
-}
-
-.contentActionsAX {
-    font-size: 90%;
 }
 
 .pageNameDescr {

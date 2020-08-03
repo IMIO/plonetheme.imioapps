@@ -10,6 +10,9 @@ Changelog
 - plonemeetingskin : make sure very large images are not
   exceeding the screen.
   [gbastien]
+- plonemeetingskin : removed useless styles about `actionMenuAX`
+  that was replaced by `tooltipster`.
+  [gbastien]
 
 2.17 (2020-06-24)
 -----------------
