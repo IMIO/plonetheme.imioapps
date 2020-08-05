@@ -154,7 +154,6 @@ div#faceted-form input.searchButton {
     padding-right: 5px;
     height: 20px;
     width: 10px;
-    cursor: pointer;
     margin-right: 2px;
 }
 
@@ -669,6 +668,21 @@ input.context, input.submit-widget, button.context {
     color: &dtml-buttonTextColor;;
 }
 
+input[type="submit"] {
+    cursor: pointer;
+}
+
+/* redefine focus outline, especially for FF
+   do not use outline has we use border-radius */
+input[type="submit"].apButton:focus,
+input[type="submit"].standalone:focus,
+input[type="submit"].destructive:focus,
+input[type="submit"].submit-widget:focus,
+input[type="submit"].context:focus {
+    outline: 0;
+    box-shadow: 0px 0px 2px 1px grey;
+}
+
 .ptButton {
     color: black;
     margin-right:5px !important;
@@ -1031,7 +1045,6 @@ input::-moz-focus-outer {
     height: 2em;
     color: &dtml-buttonTextColor;;
     margin: 0 2px 0 0;
-    cursor: pointer;
 }
 
 .apButtonWF {
