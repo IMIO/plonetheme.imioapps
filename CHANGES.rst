@@ -13,7 +13,7 @@ Changelog
 - plonemeetingskin : removed useless styles about `actionMenuAX`
   that was replaced by `tooltipster`.
   [gbastien]
-- imioapps : make sure input submit use `cursor:pointer`, moreover
+- imioapps : make sure input submit/button use `cursor:pointer`, moreover
   fix Firefox disappearance of `outline` when an `input submit` is clicked,
   replace it with a `box-shadow` as we use `border-radius`.
   [gbastien]

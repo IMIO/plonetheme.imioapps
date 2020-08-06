@@ -668,17 +668,18 @@ input.context, input.submit-widget, button.context {
     color: &dtml-buttonTextColor;;
 }
 
-input[type="submit"] {
+input[type="submit"],
+input[type="button"] {
     cursor: pointer;
 }
 
 /* redefine focus outline, especially for FF
    do not use outline has we use border-radius */
-input[type="submit"].apButton:focus,
-input[type="submit"].standalone:focus,
-input[type="submit"].destructive:focus,
-input[type="submit"].submit-widget:focus,
-input[type="submit"].context:focus {
+input[type="button"].apButton:focus, input[type="submit"].apButton:focus,
+input[type="button"].standalone:focus, input[type="submit"].standalone:focus,
+input[type="button"].destructive:focus, input[type="submit"].destructive:focus,
+input[type="button"].submit-widget:focus, input[type="submit"].submit-widget:focus,
+input[type="button"].context:focus, input[type="submit"].context:focus {
     outline: 0;
     box-shadow: 0px 0px 2px 1px grey;
 }
