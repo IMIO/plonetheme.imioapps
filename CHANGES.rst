@@ -17,6 +17,8 @@ Changelog
   fix Firefox disappearance of `outline` when an `input submit` is clicked,
   replace it with a `box-shadow` as we use `border-radius`.
   [gbastien]
+- imioapps : remove multiple definition for `#content legend padding`.
+  [gbastien]
 
 2.17 (2020-06-24)
 -----------------

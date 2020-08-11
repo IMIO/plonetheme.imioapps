@@ -1220,10 +1220,6 @@ acronym, abbr {
     height: 18px;
 }
 
-#content legend{
-    padding: 0.1em 0.5em 0.3em 0.5em;
-}
-
 #portal-columns #content .widget-fieldset legend {
 }
 
