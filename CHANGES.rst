@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.18 (unreleased)
+2.18 (2020-08-18)
 -----------------
 
 - imioapps : style the `PloneGroupUsersGroupsColumn` column.
