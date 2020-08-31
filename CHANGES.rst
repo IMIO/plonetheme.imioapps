@@ -5,8 +5,9 @@ Changelog
 2.19 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Fix input text/passowrd and textarea background-color so default styles
+  applied by Firefox are overrided (Firefox 80+).
+  [gbastien]
 
 2.18 (2020-08-18)
 -----------------
