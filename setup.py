@@ -17,6 +17,7 @@ setup(name='plonetheme.imioapps',
       classifiers=[
           "Environment :: Web Environment",
           "Framework :: Plone",
+          "License :: OSI Approved :: GNU General Public License (GPL)",
           "Operating System :: OS Independent",
           "Programming Language :: Python",
           "Programming Language :: Python :: 2.6",
