@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.19 (unreleased)
+2.19 (2020-09-01)
 -----------------
 
 - Fix input text/passowrd and textarea background-color so default styles
