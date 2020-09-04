@@ -25,7 +25,7 @@
 
 /* reduce content-core line-height */
 #content-core {
-    line-height: 1em;
+    line-height: 1.15em;
 }
 
 /* make line-height of displayed table higher when used in an overlay, this is usefull when displaying advice details */
