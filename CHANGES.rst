@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.20 (unreleased)
+2.20 (2020-09-07)
 -----------------
 
 - plonemeetingskin : increase base line-height as font-size was increased.
