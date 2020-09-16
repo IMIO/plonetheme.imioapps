@@ -5,8 +5,9 @@ Changelog
 2.21 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- imioapps : skin data displayed in `PrettyLinkWithAdditionalInfosColumn` column,
+  add some margin between data.
+  [gbastien]
 
 2.20 (2020-09-07)
 -----------------

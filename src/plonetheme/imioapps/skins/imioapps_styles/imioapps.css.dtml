@@ -1518,6 +1518,11 @@ div.table-col-datagrid-value {
     margin: -2.3em 5.3em 0;
 }
 
+/* additional infos column */
+div.additional-infos > div {
+    margin-top: 0.35em;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
