@@ -2,7 +2,13 @@ Changelog
 =========
 
 
-2.21 (unreleased)
+2.22 (unreleased)
+-----------------
+
+- Nothing changed yet.
+
+
+2.21 (2020-10-07)
 -----------------
 
 - imioapps : skin data displayed in `PrettyLinkWithAdditionalInfosColumn` column,
