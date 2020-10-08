@@ -982,7 +982,8 @@ div.overlay div#content {
 
 /* increase width of displayed overlay popups */
 div.overlay-iframe, div.overlay-ajax {
-    width: 80% !important;
+    max-width: 80% !important;
+    width: auto;
 }
 /* center content in overlays and take as much place as possible */
 .pb-ajax #portal-column-content {
