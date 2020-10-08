@@ -5,16 +5,14 @@ Changelog
 2.22 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- imioapps : use width:auto for overlay popups.
+  [gbastien]
 
 2.21 (2020-10-07)
 -----------------
 
 - imioapps : skin data displayed in `PrettyLinkWithAdditionalInfosColumn` column,
   add some margin between data.
-  [gbastien]
-- imioapps : use width:auto for overlay popups.
   [gbastien]
 
 2.20 (2020-09-07)
