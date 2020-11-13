@@ -5,7 +5,8 @@ Changelog
 2.22 (unreleased)
 -----------------
 
-- imioapps : use width:auto for overlay popups.
+- imioapps : use `width:auto` for overlay popups and set `max-height: 80%`
+  to avoid vertical scroll as much as possible.
   [gbastien]
 
 2.21 (2020-10-07)
