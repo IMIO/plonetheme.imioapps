@@ -86,6 +86,11 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
     font-size: 14px;
 }
 
+/* search button in referencebrowserwidget */
+div.overlaycontent input.searchButton {
+  font-size: 20px;
+}
+
 /* the 'add reference' button while using referencebrowserwidget */
 .searchButton.addreference {
     font-size: 90%;
@@ -695,9 +700,6 @@ input[type="button"].context:focus, input[type="submit"].context:focus {
 }
 
 div.listingBar a {
-    border: 1px solid #CCCCCC !important;
-}
-div.listingBar a {
     border: 0.1em solid #CCCCCC;
     display: inline-block;
     padding: 0.25em 0.5em;
@@ -707,6 +709,7 @@ div.listingBar a.next {
 }
 
 #content div.listingBar a:hover,
+div.overlay div.listingBar a:hover,
 div.listingBar a:hover {
     background-color: &dtml-navBackgroundColor;;
     border-color: #CCCCCC;
