@@ -10,6 +10,8 @@ Changelog
   [gbastien]
 - imioapps : fix `referencebrowserwidget` batching hover and search button size.
   [gbastien]
+- imioapps : make the `hover` on pretty links work again.
+  [gbastien]
 
 2.21 (2020-10-07)
 -----------------

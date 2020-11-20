@@ -743,18 +743,22 @@ dl.portlet a:link, dl.portlet a:visited {
     display:block;
 }
 
-#content a:link, dl.portlet a:link, a:link,
-#content a:visited, dl.portlet a:visited, a:visited,
-#content a.pretty_link span.pretty_link_content:hover {
+#content a:link,
+dl.portlet a:link,
+a:link,
+#content a:visited,
+dl.portlet a:visited,
+a:visited {
     color: &dtml-linkColor;;
     border: 0;
 }
 
-#content a:visited, dl.portlet a:visited {
-}
-
 /* need to use !important here under because used in public.css... */
-#content a:hover, dl.portlet a:hover, div.overlay a:hover, div.tooltipster-content a:hover {
+#content a:hover,
+dl.portlet a:hover,
+div.overlay a:hover,
+div.tooltipster-content a:hover,
+#content a.pretty_link span.pretty_link_content:hover {
     color: &dtml-linkHoverColor; !important;
     text-decoration: none;
 }
