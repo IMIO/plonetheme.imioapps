@@ -844,7 +844,8 @@ dl.portlet dd.portletFooter a {
     border: 0px;
 }
 
-/* cache la derniere ligne */
+/* cache la derniere ligne ou si la classe no-border est appliquée */
+.no-style-table tr.no-border,
 .no-style-table tr:last-child {
     border-bottom: 0;
 }

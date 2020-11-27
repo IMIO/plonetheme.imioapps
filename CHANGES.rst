@@ -12,6 +12,9 @@ Changelog
   [gbastien]
 - imioapps : make the `hover` on pretty links work again.
   [gbastien]
+- Specifically do not add bottom border on `<tr>` of `<table>` using
+  `no-style-table` when class `no-border` is applied on `<tr>` tag.
+  [gbastien]
 
 2.21 (2020-10-07)
 -----------------
