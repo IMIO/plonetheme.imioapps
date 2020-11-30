@@ -982,10 +982,16 @@ div.overlay div#content {
     font-size: 120%;
 }
 
-/* force displaying a scroll if popup is heighter than 600 px */
+/* force displaying a scroll if popup is heighter than 800 px */
 .pb-ajax, .pb-image, .overlay iframe {
-    max-height: 80%;
+    max-height: 800px;
     border-radius: 5px;
+}
+/* when CKeditor is opened in a overlay avoid applying overlay related styles to it */
+iframe.cke_wysiwyg_frame {
+    max-height: none;
+    border-radius: 0px;
+    border: 0px;
 }
 
 /* increase width of displayed overlay popups */
@@ -993,6 +999,7 @@ div.overlay-iframe, div.overlay-ajax {
     max-width: 80% !important;
     width: auto;
 }
+
 /* center content in overlays and take as much place as possible */
 .pb-ajax #portal-column-content {
     margin-left: -100%;

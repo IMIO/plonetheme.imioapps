@@ -5,7 +5,7 @@ Changelog
 2.22 (unreleased)
 -----------------
 
-- imioapps : use `width:auto` for overlay popups and set `max-height: 80%`
+- imioapps : use `width:auto` for overlay popups and set `max-height: 800px`
   to avoid vertical scroll as much as possible.
   [gbastien]
 - imioapps : fix `referencebrowserwidget` batching hover and search button size.
