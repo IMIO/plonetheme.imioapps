@@ -51,6 +51,7 @@ textarea {
     background-color: white;
     padding: 2px;
     font-size: 110%;
+    border: 1px solid lightgrey;
 }
 
 /* line-height from 2em to 1.5em in elements displayed in the navtree portlet */
