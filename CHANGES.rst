@@ -18,6 +18,11 @@ Changelog
 - imioapps : in styles defined to avoid using Firefox default (see version 2.19),
   set a lighter border for input/textarea/...
   [gbastien]
+- imioapps : make sure the ajax spinner is displayed hover overlays.
+  [gbastien]
+- imioapps : make the checkboxes displayed in dashboard `CheckBoxColumn`
+  column easier to click.
+  [gbastien]
 
 2.21 (2020-10-07)
 -----------------

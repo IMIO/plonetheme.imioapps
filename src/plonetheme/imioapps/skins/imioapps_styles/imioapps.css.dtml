@@ -1203,11 +1203,11 @@ acronym, abbr {
     text-align: left;
 }
 
-/* a bit upper */
+/* a bit upper and displayed hover overlays */
 #ajax-spinner {
     position: fixed;
-    top: 40%;
-    z-index: 25;
+    top: 30%;
+    z-index: 12000;
 }
 
 #content .no-style-table.discreet legend {
@@ -1538,6 +1538,22 @@ div.table-col-datagrid-value {
 /* additional infos column */
 div.additional-infos > div {
     margin-top: 0.35em;
+}
+
+/* easier way to select checkbox in dashboards */
+table.listing th.th_header_select_row {
+  /* make select all checkbox centerer */
+  padding-left: 0.3em;
+}
+table.listing td.select_item_checkbox {
+  height: 100%;
+  padding: 0;
+}
+label.select-item-label {
+    height: 100%;
+    width: 100%;
+    padding-top: 0.25em;
+    display: inline-block;
 }
 
 /* </dtml-with> */
