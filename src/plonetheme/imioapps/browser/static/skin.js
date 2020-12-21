@@ -6,8 +6,13 @@ function init_plonetheme_imioapps() {
 
 // as header is fixed, we need to compute emptyviewlet heights dynamically
 // in case header is two lines high
+// generate CSS for the faceted table header as stikcy need to know top departure
 function resizeHeader() {
-    $("#emptyviewlet").height($("#portal-header").height());
+    portal_header_height = $("#portal-header").height();
+    $("#emptyviewlet").height(portal_header_height);
+    var sheet = document.createElement('style');
+    sheet.innerHTML = "table.faceted-table-results th {top: " + portal_header_height + "px;}";
+    document.body.appendChild(sheet);
 }
 $(window).resize(resizeHeader);
 

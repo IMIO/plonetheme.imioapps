@@ -23,6 +23,8 @@ Changelog
 - imioapps : make the checkboxes displayed in dashboard `CheckBoxColumn`
   column easier to click.
   [gbastien]
+- imioapps : make the faceted result table header sticky.
+  [gbastien]
 
 2.21 (2020-10-07)
 -----------------
