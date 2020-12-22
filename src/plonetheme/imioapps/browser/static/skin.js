@@ -4,9 +4,9 @@ function init_plonetheme_imioapps() {
     highlight_test();
 }
 
-// as header is fixed, we need to compute emptyviewlet heights dynamically
+// as header is fixed, we need to compute emptyviewlet height dynamically
 // in case header is two lines high
-// generate CSS for the faceted table header as stikcy need to know top departure
+// generate CSS for the faceted table header as sticky behavior needs a fixed "top" value in px
 function resizeHeader() {
     portal_header_height = $("#portal-header").height();
     $("#emptyviewlet").height(portal_header_height);
