@@ -1549,6 +1549,11 @@ table.listing td.select_item_checkbox {
   height: 100%;
   padding: 0;
 }
+/* only for Chrome, for a container in a <td> to take full height,
+   the parent must be set height: inherit; */
+body.using-chrome table.listing tr[class][class] td.select_item_checkbox {
+   height: inherit;
+}
 label.select-item-label {
     height: 100%;
     width: 100%;

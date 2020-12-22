@@ -23,6 +23,10 @@ Changelog
 - imioapps : make the checkboxes displayed in dashboard `CheckBoxColumn`
   column easier to click.
   [gbastien]
+- imioapps : add a specific CSS class on body using JS function when brower is
+  using `Chrome/Chromium/Safari` (`using-chrome`) or
+  when it is using `Firefox` (`using-firefox`).
+  [gbastien]
 - imioapps : make the faceted result table header sticky.
   [gbastien]
 
