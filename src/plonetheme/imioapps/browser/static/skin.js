@@ -1,7 +1,7 @@
 // function launched when empty viewlet is loaded (before complete document ready)
-function init_plonetheme_imioapps() {
+function initPlonethemeImioapps() {
     resizeHeader();
-    highlight_test();
+    highlightTest();
 }
 
 // as header is fixed, we need to compute emptyviewlet height dynamically
@@ -17,7 +17,7 @@ function resizeHeader() {
 $(window).resize(resizeHeader);
 
 // when using a imio-test instance, highlight header
-function highlight_test() {
+function highlightTest() {
     var url = $("link[rel='canonical']").attr('href');
     if (url.includes('imio-test')) {
         $("div#portal-header")[0].style.background = "#d00";
