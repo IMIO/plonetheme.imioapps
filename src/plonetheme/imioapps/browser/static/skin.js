@@ -1,18 +1,23 @@
 // function launched when empty viewlet is loaded (before complete document ready)
-function init_plonetheme_imioapps() {
+function initPlonethemeImioapps() {
     resizeHeader();
-    highlight_test();
+    highlightTest();
 }
 
-// as header is fixed, we need to compute emptyviewlet heights dynamically
+// as header is fixed, we need to compute emptyviewlet height dynamically
 // in case header is two lines high
+// generate CSS for the faceted table header as sticky behavior needs a fixed "top" value in px
 function resizeHeader() {
-    $("#emptyviewlet").height($("#portal-header").height());
+    portal_header_height = $("#portal-header").height();
+    $("#emptyviewlet").height(portal_header_height);
+    var sheet = document.createElement('style');
+    sheet.innerHTML = "table.faceted-table-results th {top: " + portal_header_height + "px;}";
+    document.body.appendChild(sheet);
 }
 $(window).resize(resizeHeader);
 
 // when using a imio-test instance, highlight header
-function highlight_test() {
+function highlightTest() {
     var url = $("link[rel='canonical']").attr('href');
     if (url.includes('imio-test')) {
         $("div#portal-header")[0].style.background = "#d00";

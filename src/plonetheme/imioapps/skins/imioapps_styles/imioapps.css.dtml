@@ -1561,6 +1561,16 @@ label.select-item-label {
     display: inline-block;
 }
 
+/* this makes faceted table header sticky */
+#content table.faceted-table-results {
+   position: relative;
+}
+table.faceted-table-results th {
+   position: sticky;
+   /* top: 45px; is computed by skin.js */;
+   z-index: 45;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

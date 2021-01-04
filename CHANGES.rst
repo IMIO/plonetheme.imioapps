@@ -27,6 +27,8 @@ Changelog
   using `Chrome/Chromium/Safari` (`using-chrome`) or
   when it is using `Firefox` (`using-firefox`).
   [gbastien]
+- imioapps : make the faceted result table header sticky.
+  [gbastien]
 
 2.21 (2020-10-07)
 -----------------
