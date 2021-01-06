@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.22 (unreleased)
+2.22 (2021-01-06)
 -----------------
 
 - imioapps : use `width:auto` for overlay popups and set `max-height: 800px`
