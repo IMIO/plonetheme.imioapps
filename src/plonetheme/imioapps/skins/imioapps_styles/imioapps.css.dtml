@@ -679,7 +679,9 @@ input.context, input.submit-widget, button.context {
     color: &dtml-buttonTextColor;;
 }
 
+button,
 input[type="submit"],
+input[type="checkbox"],
 input[type="button"] {
     cursor: pointer;
 }
