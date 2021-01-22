@@ -1578,7 +1578,7 @@ table.faceted-table-results th {
     height: 16px;
     width: 16px;
 }
-.template-overview-controlpanel ul.configlets img {
+.template-overview-controlpanel ul.configlets img, #portlet-prefs .configlets li img {
     max-height: 16px;
     max-width: 16px;
 }
