@@ -1573,6 +1573,16 @@ table.faceted-table-results th {
    z-index: 45;
 }
 
+/* from documentgenerator for plone 4 */
+.svg-icon {
+    height: 16px;
+    width: 16px;
+}
+.template-overview-controlpanel ul.configlets img {
+    max-height: 16px;
+    max-width: 16px;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
