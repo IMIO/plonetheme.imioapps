@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - Resized svg documentgenerator icons
   [sgeulette]
+- Avoid tooltipster of more than 80% width.
+  [gbastien]
 
 2.22 (2021-01-06)
 -----------------
