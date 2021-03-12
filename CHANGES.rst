@@ -11,6 +11,8 @@ Changelog
   [sgeulette]
 - Avoid tooltipster of more than 80% width.
   [gbastien]
+- Move urban css and icons to plonetheme.imioapps.
+  [sdelcourt]
 
 2.22 (2021-01-06)
 -----------------
