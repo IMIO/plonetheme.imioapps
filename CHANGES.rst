@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.23 (unreleased)
+2.23 (2021-03-12)
 -----------------
 
 - Display `cursor: pointer;` when hovering a button or a checkbox.
