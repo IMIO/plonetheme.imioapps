@@ -39,6 +39,15 @@
       />
 
   <genericsetup:registerProfile
+      name="urbanskin"
+      title="urbanskin"
+      directory="profiles/urbanskin"
+      description="Extension profile for urbanskin Product."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      />
+
+  <genericsetup:registerProfile
       name="uninstall"
       title="plonetheme.imioapps uninstallation"
       directory="profiles/uninstall"

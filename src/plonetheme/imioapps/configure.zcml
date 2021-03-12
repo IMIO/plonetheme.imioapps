@@ -33,5 +33,10 @@
         type="zope.publisher.interfaces.browser.IBrowserSkinType"
         name="pstskin"
         />
+    <interface
+        interface=".interfaces.IThemeSpecific"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="urbanskin"
+        />
 
 </configure>

@@ -20,5 +20,9 @@
  name="pstskin_images"/>
  <cmf:registerDirectory
  name="pstskin_styles"/>
+ <cmf:registerDirectory
+ name="urbanskin_styles"/>
+ <cmf:registerDirectory
+ name="urbanskin_images"/>
 
 </configure>
