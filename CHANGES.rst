@@ -5,8 +5,9 @@ Changelog
 2.24 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Fixed problems with too high `tooltipster` overflowing the screen,
+  fixed a `max-height` so we have a vertical scroll when necessary.
+  [gbastien]
 
 2.23 (2021-03-12)
 -----------------
