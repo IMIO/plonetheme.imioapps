@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.24 (unreleased)
+2.24 (2021-04-21)
 -----------------
 
 - Fixed problems with too high `tooltipster` overflowing the screen,
