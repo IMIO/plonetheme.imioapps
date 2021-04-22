@@ -5,8 +5,10 @@ Changelog
 2.25 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- imioapps : harmonize input border color with `select2` input (a bit darker).
+  [gbastien]
+- plonemeetingskin : remove defined height for `viewlet-below-content-title`.
+  [gbastien]
 
 2.24 (2021-04-21)
 -----------------
@@ -16,10 +18,6 @@ Changelog
   [gbastien]
 - Changed ia.docs footer viewlets
   [sgeulette]
-- imioapps : harmonize input border color with `select2` input (a bit darker).
-  [gbastien]
-- plonemeetingskin : remove defined height for `viewlet-below-content-title`.
-  [gbastien]
 
 2.23 (2021-03-12)
 -----------------
