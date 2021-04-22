@@ -274,10 +274,6 @@ dd.portletCell.pmLink.even {
     background-color: #f4f4f4;
 }
 
-/* makes viewlet_workflowstate displays correctly on the right of byline */
-div#viewlet-below-content-title {
-   height: 1em;
-}
 div#plone-document-byline {
   float: left;
 }
