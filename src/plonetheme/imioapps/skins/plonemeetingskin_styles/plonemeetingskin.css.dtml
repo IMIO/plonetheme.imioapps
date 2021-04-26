@@ -274,13 +274,6 @@ dd.portletCell.pmLink.even {
     background-color: #f4f4f4;
 }
 
-div#plone-document-byline {
-  float: left;
-}
-div.viewlet_workflowstate {
-    float: right;
-}
-
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
