@@ -2,7 +2,15 @@ Changelog
 =========
 
 
-2.24 (unreleased)
+2.25 (unreleased)
+-----------------
+
+- imioapps : harmonize input border color with `select2` input (a bit darker).
+  [gbastien]
+- plonemeetingskin : remove defined height for `viewlet-below-content-title`.
+  [gbastien]
+
+2.24 (2021-04-21)
 -----------------
 
 - Fixed problems with too high `tooltipster` overflowing the screen,
