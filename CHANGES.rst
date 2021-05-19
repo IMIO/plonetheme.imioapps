@@ -9,6 +9,8 @@ Changelog
   [gbastien]
 - plonemeetingskin : remove defined height for `viewlet-below-content-title`.
   [gbastien]
+- imioapps : added delete icon on delete batch action button.
+  [gbastien]
 
 2.24 (2021-04-21)
 -----------------
