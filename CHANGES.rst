@@ -11,6 +11,8 @@ Changelog
   [gbastien]
 - imioapps : added delete icon on delete batch action button.
   [gbastien]
+- Limit `select_row` column with as much as possible.
+  [gbastien]
 
 2.24 (2021-04-21)
 -----------------

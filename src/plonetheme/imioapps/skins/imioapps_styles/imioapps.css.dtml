@@ -1554,9 +1554,10 @@ div.additional-infos > div {
 }
 
 /* easier way to select checkbox in dashboards */
-table.listing th.th_header_select_row {
-  /* make select all checkbox centerer */
-  padding-left: 0.3em;
+table.listing th.th_header_select_row,
+table.listing td.td_cell_select_row {
+  width: 1%;
+  padding: 0.3em;
 }
 table.listing td.select_item_checkbox {
   height: 100%;
