@@ -9,7 +9,8 @@ Changelog
   [gbastien]
 - plonemeetingskin : remove defined height for `viewlet-below-content-title`.
   [gbastien]
-- imioapps : added delete icon on delete batch action button.
+- imioapps : added delete icon on delete batch action button and
+  download icon on download annexes batch action button.
   [gbastien]
 - Limit `select_row` column with as much as possible.
   [gbastien]

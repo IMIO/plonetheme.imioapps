@@ -1082,6 +1082,9 @@ input::-moz-focus-outer {
 input#delete-batch-action-but {
     background-image: url('&dtml-portal_url;/delete_icon.png');
 }
+input#download-annexes-batch-action-but {
+    background-image: url('&dtml-portal_url;/download_icon.png');
+}
 
 .apButtonWF {
     color: white;
