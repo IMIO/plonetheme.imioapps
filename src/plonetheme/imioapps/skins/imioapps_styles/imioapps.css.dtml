@@ -422,7 +422,7 @@ ul.configlets img {
 }
 
 .field {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 #portal-columns .discreet {

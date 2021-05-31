@@ -19,7 +19,7 @@
 #category {
     color: ButtonText;
     font-size: inherit;
-    margin-bottom: inherit;
+    margin-bottom: 0;
     text-align: inherit;
 }
 

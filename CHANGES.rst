@@ -14,6 +14,8 @@ Changelog
   [gbastien]
 - Limit `select_row` column with as much as possible.
   [gbastien]
+- imioapps : increased a bit padding bottom between fields on edit forms.
+  [gbastien]
 
 2.24 (2021-04-21)
 -----------------
