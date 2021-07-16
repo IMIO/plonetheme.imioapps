@@ -5,8 +5,9 @@ Changelog
 2.26 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- imioapps : avoid empty blank space at bottom of tooltipster by using
+  `height:auto` on tooltispter container.
+  [gbastien]
 
 2.25 (2021-07-16)
 -----------------
