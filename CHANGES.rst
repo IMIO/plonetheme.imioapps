@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.25 (unreleased)
+2.25 (2021-07-16)
 -----------------
 
 - imioapps : harmonize input border color with `select2` input (a bit darker).
