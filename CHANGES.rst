@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.26 (unreleased)
+2.26 (2021-07-16)
 -----------------
 
 - imioapps : avoid empty blank space at bottom of tooltipster by using
