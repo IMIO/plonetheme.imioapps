@@ -1407,6 +1407,9 @@ img {
 #content span.option label span {
     font-weight: normal;
 }
+#content div.ArchetypesMultiSelectionValue {
+    line-height: 1.25em;
+}
 #content label.horizontal,
 #content label.formQuestion {
     font-weight: bold;

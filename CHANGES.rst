@@ -5,8 +5,8 @@ Changelog
 2.27 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Added some space between input of an AT multiselection widget.
+  [gbastien]
 
 2.26 (2021-07-16)
 -----------------
