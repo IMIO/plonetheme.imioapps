@@ -1603,6 +1603,13 @@ table.faceted-table-results th {
     max-width: 16px;
 }
 
+#content-core ul.formTabs li a:not(.selected) {
+    border: solid #aaa;
+    border-width: 1px 1px 0 1px;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+} /* Added border on content fieldsets in config or items */
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

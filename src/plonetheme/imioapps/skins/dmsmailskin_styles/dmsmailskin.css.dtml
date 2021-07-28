@@ -57,13 +57,6 @@ table.listing th, .stx table th {
     vertical-align: top;
 }
 
-body.portaltype-plone-site #content-core li.formTab a:not(.selected) {
-    border: solid #aaa;
-    border-width: 1px 1px 0 1px;
-    border-top-right-radius: 0.5em;
-    border-top-left-radius: 0.5em;
-}
-
 /* makes viewlet_workflowstate displays correctly on the right of byline */
 .template-view #content #plone-document-byline, .template-item_view #content #plone-document-byline,
 .template-document_view #content #plone-document-byline, .template-dg-templates-listing #content #plone-document-byline,

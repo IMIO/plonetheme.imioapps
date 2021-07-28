@@ -7,7 +7,7 @@ Changelog
 
 - Added some space between input of an AT multiselection widget.
   [gbastien]
-- Added borders on configuration views tabs to distinguish them clearlier.
+- Added borders on fieldset tabs to distinguish them clearlier.
   [sgeulette]
 
 2.26 (2021-07-16)
