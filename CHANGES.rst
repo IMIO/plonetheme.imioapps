@@ -9,6 +9,9 @@ Changelog
   [gbastien]
 - Added borders on fieldset tabs to distinguish them clearlier.
   [sgeulette]
+- Removed icons used to manage "More/Less filters" on the faceted search,
+  replace it with an "Advanced search" link.
+  [gbastien]
 
 2.26 (2021-07-16)
 -----------------
