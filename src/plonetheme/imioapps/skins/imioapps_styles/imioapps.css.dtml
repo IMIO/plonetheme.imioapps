@@ -124,26 +124,6 @@ div.faceted-operator label {
     display: none;
 }
 
-body #visual-portal-wrapper #content .faceted-sections-buttons-more,
-body #visual-portal-wrapper #content .faceted-sections-buttons-less{
-    background-repeat: no-repeat;;
-    color:transparent;
-    position:absolute;
-}
-
-body #visual-portal-wrapper #content .faceted-sections-buttons-more{
-    background-image: url(&dtml-portal_url;/filtre_add.png);
-}
-
-body #visual-portal-wrapper #content .faceted-sections-buttons-less{
-    background-image: url(&dtml-portal_url;/filtre_sous.png);
-}
-
-body #visual-portal-wrapper #content .faceted-sections-buttons-more:hover,
-body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
-    color:transparent !important;
-}
-
 #faceted-top-column {
     padding-right: 27px;
 }
@@ -1281,6 +1261,7 @@ acronym, abbr {
 }
 
 #content-core #faceted-form .faceted-sections-buttons {
+    top: -20px;
     right: 25px;
     padding-top: 0;
 }
