@@ -1266,6 +1266,22 @@ acronym, abbr {
     padding-top: 0;
 }
 
+/* skin the advanced search link in faceted search */
+div.faceted-sections-buttons a {
+    font-weight: normal;
+}
+div.faceted-sections-buttons a::before {
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.25em;
+    font-weight: bold;
+}
+a.faceted-sections-buttons-more::before {
+    content: "\f00e";
+}
+a.faceted-sections-buttons-less::before {
+    content: "\f010";
+}
+
 div#faceted-form {
     position: relative;
 }

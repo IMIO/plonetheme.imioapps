@@ -124,4 +124,13 @@
            import_steps="plone.app.registry" />
     </genericsetup:upgradeSteps>
 
+    <genericsetup:upgradeStep
+        title="Install collective.fontawesome dependency"
+        description=""
+        source="2400"
+        destination="2500"
+        handler="plonetheme.imioapps.upgrades.installCollectiveFontawesome"
+        profile="plonetheme.imioapps:default">
+    </genericsetup:upgradeStep>
+
 </configure>
