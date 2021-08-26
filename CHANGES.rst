@@ -13,6 +13,10 @@ Changelog
   replace it with an "Advanced search" link and a "Search" icon.
   We rely on collective.fontawesome for the "Search" icon.
   [gbastien]
+- Removed styles about `enableFormTabbing` displayed on view, this interacts
+  when editing an element in an overlay (because parent frame is a view)
+  and does not seem used anywhere?
+  [gbastien]
 
 2.26 (2021-07-16)
 -----------------

@@ -1123,14 +1123,6 @@ input#download-annexes-batch-action-but {
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
-/* manage styles of formTabbing, display border and avoid too large margin when displayed on a view */
-.template-view #content .enableFormTabbing,
-.template-base_view #content .enableFormTabbing {
-    border-color: #DDDDDD;
-    border-style: none solid solid !important;
-    border-width: 4px !important;
-    margin-top: -1em;
-}
 #content dd.formPanel {
     margin-left: 0.5em;
     margin-right: 0.5em;
