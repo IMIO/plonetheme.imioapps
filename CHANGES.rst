@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.27 (unreleased)
+2.27 (2021-08-27)
 -----------------
 
 - Added some space between input of an AT multiselection widget.
