@@ -124,26 +124,6 @@ div.faceted-operator label {
     display: none;
 }
 
-body #visual-portal-wrapper #content .faceted-sections-buttons-more,
-body #visual-portal-wrapper #content .faceted-sections-buttons-less{
-    background-repeat: no-repeat;;
-    color:transparent;
-    position:absolute;
-}
-
-body #visual-portal-wrapper #content .faceted-sections-buttons-more{
-    background-image: url(&dtml-portal_url;/filtre_add.png);
-}
-
-body #visual-portal-wrapper #content .faceted-sections-buttons-less{
-    background-image: url(&dtml-portal_url;/filtre_sous.png);
-}
-
-body #visual-portal-wrapper #content .faceted-sections-buttons-more:hover,
-body #visual-portal-wrapper #content .faceted-sections-buttons-less:hover{
-    color:transparent !important;
-}
-
 #faceted-top-column {
     padding-right: 27px;
 }
@@ -422,7 +402,7 @@ ul.configlets img {
 }
 
 .field {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 #portal-columns .discreet {
@@ -769,6 +749,8 @@ div.tooltipster-content a:hover,
 /* avoid tooltipster taking 100% width */
 .tooltipster-base {
     max-width: 80%;
+    /* avoid extra blank space at bottom of the tooltipster sometimes... */
+    height: auto !important;
 }
 
 /* tooltipster content is light grey by default, makes it a bit darker... */
@@ -1079,6 +1061,13 @@ input::-moz-focus-outer {
     margin: 0 2px 0 0;
 }
 
+input#delete-batch-action-but {
+    background-image: url('&dtml-portal_url;/delete_icon.png');
+}
+input#download-annexes-batch-action-but {
+    background-image: url('&dtml-portal_url;/download_icon.png');
+}
+
 .apButtonWF {
     color: white;
     background-color: &dtml-globalBackgroundColor;;
@@ -1134,14 +1123,6 @@ input::-moz-focus-outer {
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
-/* manage styles of formTabbing, display border and avoid too large margin when displayed on a view */
-.template-view #content .enableFormTabbing,
-.template-base_view #content .enableFormTabbing {
-    border-color: #DDDDDD;
-    border-style: none solid solid !important;
-    border-width: 4px !important;
-    margin-top: -1em;
-}
 #content dd.formPanel {
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -1272,8 +1253,25 @@ acronym, abbr {
 }
 
 #content-core #faceted-form .faceted-sections-buttons {
+    top: -20px;
     right: 25px;
     padding-top: 0;
+}
+
+/* skin the advanced search link in faceted search */
+div.faceted-sections-buttons a {
+    font-weight: normal;
+}
+div.faceted-sections-buttons a::before {
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.25em;
+    font-weight: bold;
+}
+a.faceted-sections-buttons-more::before {
+    content: "\f00e";
+}
+a.faceted-sections-buttons-less::before {
+    content: "\f010";
 }
 
 div#faceted-form {
@@ -1397,6 +1395,9 @@ img {
 #content div.ArchetypesMultiSelectionValue label,
 #content span.option label span {
     font-weight: normal;
+}
+#content div.ArchetypesMultiSelectionValue {
+    line-height: 1.25em;
 }
 #content label.horizontal,
 #content label.formQuestion {
@@ -1550,9 +1551,10 @@ div.additional-infos > div {
 }
 
 /* easier way to select checkbox in dashboards */
-table.listing th.th_header_select_row {
-  /* make select all checkbox centerer */
-  padding-left: 0.3em;
+table.listing th.th_header_select_row,
+table.listing td.td_cell_select_row {
+  width: 1%;
+  padding: 0.3em;
 }
 table.listing td.select_item_checkbox {
   height: 100%;
@@ -1589,6 +1591,13 @@ table.faceted-table-results th {
     max-height: 16px;
     max-width: 16px;
 }
+
+#content-core ul.formTabs li a:not(.selected) {
+    border: solid #aaa;
+    border-width: 1px 1px 0 1px;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+} /* Added border on content fieldsets in config or items */
 
 /* </dtml-with> */
 

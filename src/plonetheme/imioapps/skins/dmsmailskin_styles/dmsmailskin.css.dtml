@@ -69,6 +69,10 @@ table.listing th, .stx table th {
     display: inline-block;
 }
 
+#portal-header #portal-searchbox {
+    margin: 0.6em 1em 0;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

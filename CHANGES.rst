@@ -2,12 +2,48 @@ Changelog
 =========
 
 
-2.25 (unreleased)
+2.28 (unreleased)
+-----------------
+
+- Nothing changed yet.
+
+
+2.27 (2021-08-27)
+-----------------
+
+- Added some space between input of an AT multiselection widget.
+  [gbastien]
+- Added borders on fieldset tabs to distinguish them clearlier.
+  [sgeulette]
+- Removed icons used to manage "More/Less filters" on the faceted search,
+  replace it with an "Advanced search" link and a "Search" icon.
+  We rely on collective.fontawesome for the "Search" icon.
+  [gbastien]
+- Removed styles about `enableFormTabbing` displayed on view, this interacts
+  when editing an element in an overlay (because parent frame is a view)
+  and does not seem used anywhere?
+  [gbastien]
+
+2.26 (2021-07-16)
+-----------------
+
+- imioapps : avoid empty blank space at bottom of tooltipster by using
+  `height:auto` on tooltispter container.
+  [gbastien]
+
+2.25 (2021-07-16)
 -----------------
 
 - imioapps : harmonize input border color with `select2` input (a bit darker).
   [gbastien]
 - plonemeetingskin : remove defined height for `viewlet-below-content-title`.
+  [gbastien]
+- imioapps : added delete icon on delete batch action button and
+  download icon on download annexes batch action button.
+  [gbastien]
+- Limit `select_row` column with as much as possible.
+  [gbastien]
+- imioapps : increased a bit padding bottom between fields on edit forms.
   [gbastien]
 
 2.24 (2021-04-21)
