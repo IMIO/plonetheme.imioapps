@@ -1583,7 +1583,8 @@ table.faceted-table-results th {
 }
 
 /* from documentgenerator for plone 4 */
-.svg-icon {
+.svg-icon,
+label[class^="contenttype-"] img {
     height: 16px;
     width: 16px;
 }

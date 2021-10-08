@@ -5,8 +5,8 @@ Changelog
 2.28 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Set size of svg content icon in `folder_factories`.
+  [gbastien]
 
 2.27 (2021-08-27)
 -----------------
