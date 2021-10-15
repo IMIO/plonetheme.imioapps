@@ -1181,6 +1181,8 @@ acronym, abbr {
     cursor: help;
     text-decoration: none;
     border-bottom: 1px dotted;
+    /* make space between text and border harmonious */
+    display: inline-block;
 }
 
 #content dl.collapsible {
