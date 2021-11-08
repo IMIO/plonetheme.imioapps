@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.29 (unreleased)
+2.29 (2021-11-08)
 -----------------
 
 - Make abbr/acronym tag display better (space between text and dotted border).
