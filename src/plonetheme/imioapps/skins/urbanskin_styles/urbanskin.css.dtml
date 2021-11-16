@@ -440,13 +440,13 @@ span.option {
 
 /*Login page */
 /*login button */
-input.context, input.submit-widget, button.context {
+/*input.context, input.submit-widget, button.context {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #4682B4;
     border: 2px solid #4682B4;
     color: #FFFFFF;
-}
+}*/
 
 /*Acceuil */
 
