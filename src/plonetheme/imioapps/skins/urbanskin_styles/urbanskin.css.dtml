@@ -441,8 +441,8 @@ span.option {
 /*Login page */
 /*login button */
 /*input.context, input.submit-widget, button.context {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.313em;
+    padding-bottom: 0.313em;
     background-color: #4682B4;
     border: 2px solid #4682B4;
     color: #FFFFFF;
@@ -451,8 +451,12 @@ span.option {
 /*Acceuil */
 
 
-/*Récapitulatif*/
-/*Etat du dossier*/
+/*Récapitulatif dossier page*/
+/*Etat du dossier (aussi pour états dans événements du dossier)*/
+
+.urban_state_in_progress {
+    background-color: #4682B4;
+}
 
 .urban_state_deposit, .urban_state_folder_creation {
     background-color: grey;
