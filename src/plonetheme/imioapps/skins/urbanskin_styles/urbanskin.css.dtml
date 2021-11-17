@@ -462,7 +462,7 @@ span.option {
 /*Etat du dossier (aussi pour états dans événements du dossier)*/
 
 .urban_state_in_progress {
-    background-color: #4682B4;
+    background-color: green;
 }
 
 .urban_state_deposit, .urban_state_folder_creation {
