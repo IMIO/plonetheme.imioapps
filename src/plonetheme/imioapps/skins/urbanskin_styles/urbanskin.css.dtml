@@ -550,4 +550,14 @@ span.option {
     border-width: 1px;
 }
 
+/* Add "Back" button border */
+.action-bar-text .no_underline
+{
+    color: #205c90 !important;
+    border: solid !important;
+    border-width: 1px !important;
+    border-radius: 25px;
+    padding: 2px 5px;
+}
+
 /* </dtml-with> */
