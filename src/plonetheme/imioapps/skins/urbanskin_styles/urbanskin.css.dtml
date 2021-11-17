@@ -126,6 +126,10 @@ table.listing tbody tr span.manual_parcel {
 .icons-on .contenttype-ticket {background: no-repeat transparent url(Ticket.png);}
 .icons-on .contenttype-portionout {background-image: url(PortionOut.png);}
 .icons-on .contenttype-proprietary {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
+.icons-on .contenttype-plaintiff {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
+.icons-on .contenttype-corprorationplaintiff {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
+.icons-on .contenttype-tenant {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
+.icons-on .apButtonAction_urban_duplicate_licence {background: no-repeat transparent 0px -1px url(duplicate_licence.png);}
 .icons-on .contenttype-street {background: no-repeat transparent 0px -1944px url(urban-sprite.png);}
 .icons-on .contenttype-urbancertificateone {background: no-repeat transparent url(UrbanCertificateOne.png);}
 .icons-on .contenttype-urbancertificatetwo {background: no-repeat transparent url(UrbanCertificateTwo.png);}
@@ -461,7 +465,7 @@ span.option {
 /*Récapitulatif dossier page*/
 /*Etat du dossier (aussi pour états dans événements du dossier)*/
 
-.urban_state_in_progress, .urban_state_closed{
+.urban_state_in_progress, .urban_state_closed, .urban_state_creation{
     background-color: #4682B4;
 }
 
@@ -559,5 +563,14 @@ span.option {
     border-radius: 25px;
     padding: 2px 5px;
 }
+
+#portal-breadcrumbs{
+    font-size:1.3em;
+}
+
+.documentFirstHeading img{
+    vertical-align: baseline;
+}
+
 
 /* </dtml-with> */
