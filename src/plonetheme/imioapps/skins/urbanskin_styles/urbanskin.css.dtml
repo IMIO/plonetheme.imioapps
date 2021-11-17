@@ -461,11 +461,11 @@ span.option {
 /*Récapitulatif dossier page*/
 /*Etat du dossier (aussi pour états dans événements du dossier)*/
 
-.urban_state_in_progress {
+.urban_state_in_progress, .urban_state_closed{
     background-color: #4682B4;
 }
 
-.urban_state_deposit, .urban_state_folder_creation {
+.urban_state_deposit, .urban_state_folder_creation, .urban_state_retired{
     background-color: grey;
 }
 
@@ -493,7 +493,7 @@ span.option {
     background-color: #ea6619;
 }
 
-.urban_state_complete, .urban_state_authorized{
+.urban_state_complete, .urban_state_authorized, .urban_state_accepted{
     background-color: green;
 }
 
