@@ -294,8 +294,18 @@ ul.urban-list{
 }
 
 dl.portlet.portletWidgetCollection div.widget-portlet li {
-    line-height: 1.3em;
+    line-height: 1.7em;
 }
+
+#portal-column-one{
+    width:17%;
+}
+
+#portal-column-content.width-3\:4{
+    width:82%;
+    padding-left: 32px;
+}
+
 
 #urbain220-generation-view {
     padding-right: 1em;
@@ -384,9 +394,6 @@ div.parcel-action{
     float: left;
 }
 
-#faceted-form .faceted-sections-buttons {
-    position: relative;
-}
 
 .clear {
     clear: both;
@@ -512,6 +519,35 @@ span.option {
 
 .urban_state_Cancelled{
     background-color: red;
+}
+
+/* Enhance Plone default edit bar (fluo green by default) */
+#edit-bar{
+    background-color: #42576c;
+    border-color: #42576c;
+}
+
+#edit-bar #content-views{
+    background-color: #42576c;
+}
+
+#edit-bar #contentActionMenus{
+    background-color: #42576c;
+}
+
+#edit-bar #content-views #contentActionMenus{
+    background-color: #42576c;
+}
+
+#contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd{
+    background-color: #42576c;
+    border-color: #42576c;
+}
+
+/* Licence add button border */
+.category li .urban-add-icon{
+    border-style: solid;
+    border-width: 1px;
 }
 
 /* </dtml-with> */
