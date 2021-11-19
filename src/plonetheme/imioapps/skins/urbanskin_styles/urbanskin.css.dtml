@@ -473,47 +473,68 @@ span.option {
 /*Etat du dossier (aussi pour états dans événements du dossier)*/
 
 .urban_state_in_progress, .urban_state_closed, .urban_state_creation{
-    background-color: #4682B4;
+    color: #4682B4;
+    background-color: #FFFFFF;
 }
 
 .urban_state_deposit, .urban_state_folder_creation, .urban_state_retired{
-    background-color: grey;
+    color: grey;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_validating_address{
-    background-color: grey;
+    color: grey;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_waiting_address, .urban_state_public_investigation, .urban_state_technical_analysis_post_investigation, .urban_state_display_in_progress{
-    background-color: orange;
+    color: orange;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_procedure_choice, .urban_state_college_council_passage {
-    background-color: purple;
+    color: purple;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_incomplete{
-    background-color: black;
+    color: black;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_checking_completion{
-    background-color: #ea6619;
+    color: #ea6619;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_validating_completion, .urban_state_technical_analysis_validation{
-    background-color: #ea6619;
+    color: #ea6619;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_complete, .urban_state_authorized, .urban_state_accepted{
-    background-color: green;
+    color: green;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_acceptable{
-    background-color: green;
+    color: green;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_acceptable_with_conditions{
-    background-color: green;
+    color: green;
+    background-color: #FFFFFF;
+
 }
 
 .state-acceptable_with_conditions {
@@ -521,15 +542,21 @@ span.option {
 }
 
 .urban_state_inacceptable, .urban_state_refused, .urban_state_abandoned{
-    background-color: red;
+    color: red;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_Passed{
-    background-color: #75ad0a;
+    color: #75ad0a;
+    background-color: #FFFFFF;
+
 }
 
 .urban_state_Cancelled{
-    background-color: red;
+    color: red;
+    background-color: #FFFFFF;
+
 }
 
 /* Enhance Plone default edit bar (fluo green by default) */
@@ -580,6 +607,11 @@ span.option {
     vertical-align: baseline;
 }
 
+/*Recapitulatif page*/
+/*action bar*/
+/*workflow buttons*/
+
+/*Parcel search form page*/
 /* align slash and "Bis" input field for parcel search form */
 .template-searchparcels .odd td:nth-child(4){
     width:92px;
