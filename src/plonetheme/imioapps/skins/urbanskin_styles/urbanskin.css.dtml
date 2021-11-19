@@ -5,11 +5,6 @@
 /* <dtml-with base_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-input[type=button], input[type=submit], button.context {
-     background-position: 3px 3px;
-     box-shadow: 1px 1px 3px grey;
-}
-
 #content, #portal-columns, div.portletAssignments {
 line-height: 1.5em;
 }
