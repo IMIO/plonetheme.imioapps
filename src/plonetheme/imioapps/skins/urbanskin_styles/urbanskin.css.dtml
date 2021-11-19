@@ -583,6 +583,11 @@ span.option {
     border-width: 1px;
 }
 
+.category li .urban-add-icon:hover, .category li .urban-add-icon:focus{
+    background: #9ad0ff;
+    color: #9ad0ff;
+}
+
 /* Add "Back" button border */
 .action-bar-text .no_underline
 {
@@ -625,6 +630,11 @@ span.option {
 td form input[name=add_parcel]{
     border-style: solid;
     border-width: 1px;
+}
+
+td form input[name=add_parcel]:hover, td form input[name=add_parcel]:focus{
+    background: #9ad0ff;
+    color: #9ad0ff;
 }
 
 /* </dtml-with> */
