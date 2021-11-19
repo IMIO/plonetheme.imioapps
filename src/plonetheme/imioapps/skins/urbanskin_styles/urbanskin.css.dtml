@@ -637,4 +637,17 @@ td form input[name=add_parcel]:hover, td form input[name=add_parcel]:focus{
     color: #9ad0ff;
 }
 
+.template-map #content legend, .template-map #portal-columns #content .widget-fieldset legend{
+    background-color: #e7e7e7;
+    border-radius: 0 0 6px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #222222;
+    padding: 3px 9px;
+    margin-left: 0px;
+    position: initial;
+    top: 12px;
+    height: 18px;
+}
+
 /* </dtml-with> */
