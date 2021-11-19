@@ -301,6 +301,10 @@ dl.portlet.portletWidgetCollection div.widget-portlet li {
     line-height: 1.7em;
 }
 
+#visual-portal-wrapper .portletItem ul.urban-list li{
+    line-height: 1.7em;
+}
+
 #portal-column-one{
     width:17%;
 }
@@ -589,6 +593,7 @@ span.option {
     border-width: 1px !important;
     border-radius: 25px;
     padding: 2px 5px;
+    font-size: initial;
 }
 
 #portal-breadcrumbs{
@@ -602,5 +607,26 @@ span.option {
 /*Recapitulatif page*/
 /*action bar*/
 /*workflow buttons*/
+
+/*Parcel search form page*/
+/* align slash and "Bis" input field for parcel search form */
+.template-searchparcels .odd td:nth-child(4){
+    width:92px;
+    display:inline-block;
+}
+
+.template-searchparcels #content div div fieldset {
+    width: 800px;
+}
+
+#parcel_owner {
+    width: 320px;
+}
+
+/* Licence add button border */
+td form input[name=add_parcel]{
+    border-style: solid;
+    border-width: 1px;
+}
 
 /* </dtml-with> */
