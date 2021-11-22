@@ -637,6 +637,7 @@ td form input[name=add_parcel]:hover, td form input[name=add_parcel]:focus{
     color: #9ad0ff;
 }
 
+/* licence map tab layout */
 .template-map #content legend, .template-map #portal-columns #content .widget-fieldset legend{
     background-color: #e7e7e7;
     border-radius: 0 0 6px;
@@ -649,5 +650,10 @@ td form input[name=add_parcel]:hover, td form input[name=add_parcel]:focus{
     top: 12px;
     height: 18px;
 }
+
+.template-map #content fieldset{
+    padding-top: 1.0em;
+}
+/* end */
 
 /* </dtml-with> */
