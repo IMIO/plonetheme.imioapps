@@ -656,4 +656,8 @@ td form input[name=add_parcel]:hover, td form input[name=add_parcel]:focus{
 }
 /* end */
 
+table.faceted-table-results th {
+   z-index: auto;
+}
+
 /* </dtml-with> */
