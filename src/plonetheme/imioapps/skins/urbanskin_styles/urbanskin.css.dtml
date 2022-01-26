@@ -304,12 +304,12 @@ dl.portlet.portletWidgetCollection div.widget-portlet li {
 }
 
 #portal-column-one{
-    width:17%;
+    width:18%;
 }
 
 #portal-column-content.width-3\:4{
-    width:82%;
-    padding-left: 32px;
+    width:81%;
+    padding-left: 50px;
 }
 
 
