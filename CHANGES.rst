@@ -5,7 +5,8 @@ Changelog
 2.30 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- If current URL contains `preprod`, highlight `portal-header` (turn it red).
+  [jjaumotte]
 
 
 2.29 (2021-11-08)
