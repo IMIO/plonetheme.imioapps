@@ -339,6 +339,8 @@ td div.parcel-action {
     padding: 0.4em;
     padding-left: 1em;
     margin-bottom: 0.4em;
+    display: flex;
+    flex-direction: row;
 }
 
 .action-bar .apButton{
@@ -347,7 +349,6 @@ td div.parcel-action {
 
 .action-bar-text{
     font-weight:bold;
-    float: left;
     padding-right: 2em;
     padding-top: 0.25em;
 }
@@ -368,9 +369,9 @@ td div.parcel-action {
 /* Style notarydivision workflow states */
 .urban_actions{
     font-weight:bold;
-    float: right;
-    padding-right: 2em;
     height: 0em;
+    margin-left: auto;
+    padding-right: 2em;
 }
 [class^=urban_state]{
     border-radius: 0.5em;
