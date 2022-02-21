@@ -1181,6 +1181,8 @@ acronym, abbr {
     cursor: help;
     text-decoration: none;
     border-bottom: 1px dotted;
+    /* make space between text and border harmonious */
+    display: inline-block;
 }
 
 #content dl.collapsible {
@@ -1583,7 +1585,8 @@ table.faceted-table-results th {
 }
 
 /* from documentgenerator for plone 4 */
-.svg-icon {
+.svg-icon,
+label[class^="contenttype-"] img {
     height: 16px;
     width: 16px;
 }
