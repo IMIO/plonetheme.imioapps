@@ -7,7 +7,8 @@ Changelog
 
 - If current URL contains `preprod`, highlight `portal-header` (turn it red).
   [jjaumotte]
-
+- Reduce size of `h1 title`, in view mode as well as in edit mode (input).
+  [gbastien]
 
 2.29 (2021-11-08)
 -----------------
