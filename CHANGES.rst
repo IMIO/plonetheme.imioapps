@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.30 (unreleased)
+2.30 (2022-03-07)
 -----------------
 
 - If current URL contains `preprod`, highlight `portal-header` (turn it red).
