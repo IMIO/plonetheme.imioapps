@@ -5,8 +5,8 @@ Changelog
 2.31 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Added some margin under a tooltipster so it is never sticked to the screen edge.
+  [gbastien]
 
 2.30 (2022-03-07)
 -----------------
