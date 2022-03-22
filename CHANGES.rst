@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.32 (unreleased)
+2.32 (2022-03-22)
 -----------------
 
 - Fix, add margin under a `tooltipster` only if it is not displayed `top`
