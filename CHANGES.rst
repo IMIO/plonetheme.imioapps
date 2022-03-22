@@ -5,8 +5,9 @@ Changelog
 2.32 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Fix, add margin under a `tooltipster` only if it is not displayed `top`
+  or there is space between tooltipster and origin.
+  [gbastien]
 
 2.31 (2022-03-22)
 -----------------
