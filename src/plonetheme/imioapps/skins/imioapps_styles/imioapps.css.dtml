@@ -773,6 +773,10 @@ div.tooltipster-content a:hover,
 .tooltipster-base.tooltipster-sidetip.tooltipster-shadow:not(.tooltipster-top) .tooltipster-box {
   margin-bottom: 0.5em;
 }
+/* add some margin right only if tooltipster is not displayed "left" */
+.tooltipster-base.tooltipster-sidetip.tooltipster-shadow:not(.tooltipster-left) .tooltipster-box {
+  margin-right: 0.5em;
+}
 
 /* limit padding left and right when using tooltipster */
 div.tooltipster-sidetip .tooltipster-content {
