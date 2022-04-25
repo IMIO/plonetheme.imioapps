@@ -7,6 +7,10 @@ Changelog
 
 - Added some margin at right of a tooltipster so it is never sticked to the screen edge.
   [gbastien]
+- Make sure very long words are splitted, this is necessary for Firefox where
+  a very long word (or a sentence made of words separated by `-` withtout `blank`)
+  was not splitted, making a long horizontal scroll appear.
+  [gbastien]
 
 2.32 (2022-03-22)
 -----------------

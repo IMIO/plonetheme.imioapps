@@ -1449,7 +1449,12 @@ body.template-manage-viewlets div#portal-header {
 /* make sure link-tooltip have border-bottom in dashboard table.listing
    because base.css use a border-bottom: 0 !important... */
 table.listing a.link-tooltip .pretty_link_content {
-  border-bottom: 1px dotted;
+    border-bottom: 1px dotted;
+}
+/* fix for pretty_link displayed in firefox, a very long word
+   (or list of references separated by "-") is not splitted... */
+.pretty_link_content {
+    word-break: break-word;
 }
 
 /* add contact link at bottom of organization view */
