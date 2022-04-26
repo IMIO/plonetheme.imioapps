@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.33 (unreleased)
+2.33 (2022-04-26)
 -----------------
 
 - Added some margin at right of a tooltipster so it is never sticked to the screen edge.
