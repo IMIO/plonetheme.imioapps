@@ -164,6 +164,7 @@ else:
         full_title, display_title, display_description = None, None, None
 
     write('''<li class="LSRow">''')
+    # XXX changed by plonetheme.imioapps
     # remove "*" and " AND " from searchterms, searchterms are quoted
     searchterms = searchterms.rstrip('%2A').replace("+AND+", " ")
     searchquery = '/@@search?SearchableText=%s&path=%s' % (searchterms, params['path'])
@@ -172,7 +173,8 @@ else:
             ts.translate(label_advanced_search, context=REQUEST)))
     write('''</li>''')
 
-    # XXX begin change by Products.PloneMeeting, do not show a 'show all results', use advanced search, commented entire "if"
+    # XXX changed by plonetheme.imioapps, do not show a 'show all results',
+    # use advanced search, commented entire "if"
     #if len(results) > limit:
     #    # add a more... row
     #    write('''<li class="LSRow">''')
@@ -182,7 +184,6 @@ else:
     #                         searchquery,
     #                         ts.translate(label_show_all, context=REQUEST)))
     #    write('''</li>''')
-    # XXX end change by Products.PloneMeeting
 
     write('''</ul>''')
     write('''</div>''')
