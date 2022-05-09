@@ -5,8 +5,14 @@ Changelog
 2.34 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Fixed the default Plone `@@search`:
 
+  - Hide the wildcard search madness, do not display a `*`, every searches are
+    done wildcard like it is the case in dashboards;
+  - Only display link to `Advanced search` in the livesearch response,
+    hide the `Show all results`.
+
+  [gbastien]
 
 2.33 (2022-04-26)
 -----------------

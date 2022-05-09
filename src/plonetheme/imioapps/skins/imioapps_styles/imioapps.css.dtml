@@ -152,6 +152,8 @@ div#faceted-form input.searchButton {
     background: none repeat scroll 0 0 transparent;
     margin: -7px 0 0 -12em;
     right: auto;
+    /* make sure portal tabs behind are not displayed "thru" the popup title */
+    z-index: 1;
 }
 
 #LSResult fieldset {

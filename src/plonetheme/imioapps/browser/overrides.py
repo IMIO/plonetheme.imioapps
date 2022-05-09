@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from plone.app.layout.globals.context import ContextState
+from plone.app.search.browser import Search
 
 
 class ImioContextState(ContextState):
@@ -13,3 +14,16 @@ class ImioContextState(ContextState):
             portal_factory_index = url.index('portal_factory')
             url = url[:portal_factory_index]
         return url
+
+
+class ImioSearch(Search):
+    """Manage the "*" automatically to hide this from users and
+       to be coherent with dashboards."""
+
+    def filter_query(self, query):
+        query = super(ImioSearch, self).filter_query(query)
+        text = query.get('SearchableText', '')
+        if not text.endswith('*'):
+            text = text + '*'
+        query['SearchableText'] = text
+        return query

@@ -40,4 +40,22 @@
         allowed_interface="plone.app.layout.globals.interfaces.IContextState"
         layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
 
+    <!-- Override @@search -->
+    <configure package="plone.app.search">
+        <browser:page
+            name="search"
+            class="plonetheme.imioapps.browser.overrides.ImioSearch"
+            permission="zope2.View"
+            for="*"
+            template="search.pt"
+            layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
+        <browser:page
+            name="updated_search"
+            class="plonetheme.imioapps.browser.overrides.ImioSearch"
+            permission="zope2.View"
+            for="Products.CMFCore.interfaces.IFolderish"
+            template="updated_search.pt"
+            layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
+    </configure>
+
 </configure>
