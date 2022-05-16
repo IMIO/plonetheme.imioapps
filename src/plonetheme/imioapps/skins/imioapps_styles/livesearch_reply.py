@@ -96,7 +96,7 @@ RESPONSE.setHeader('Content-Type', 'text/xml;charset=utf-8')
 legend_livesearch = _('legend_livesearch', default='LiveSearch &#8595;')
 label_no_results_found = _('label_no_results_found',
                            default='No matching results found.')
-label_advanced_search = _('label_advanced_search',
+label_advanced_search = _('label_advanced_search_full_results',
                           default='Advanced Search&#8230;')
 label_show_all = _('label_show_all', default='Show all items')
 
@@ -168,7 +168,7 @@ else:
     # remove "*" and " AND " from searchterms, searchterms are quoted
     searchterms = searchterms.rstrip('%2A').replace("+AND+", " ")
     searchquery = '/@@search?SearchableText=%s&path=%s' % (searchterms, params['path'])
-    write('<a href="%s" class="advancedsearchlink advanced-search">%s</a>' %
+    write('<br /><a href="%s" class="advancedsearchlink advanced-search"><b>%s</b></a><br />' %
            (portal_url + searchquery,
             ts.translate(label_advanced_search, context=REQUEST)))
     write('''</li>''')

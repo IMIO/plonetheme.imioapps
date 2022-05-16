@@ -17,3 +17,7 @@ msgstr ""
 #: plone.app.layout/plone/app/layout/viewlets/searchbox.pt:42
 msgid "label_searchbox_currentfolder_only"
 msgstr ""
+
+#. Default: "Advances search and show full results"
+msgid "label_advanced_search_full_results"
+msgstr ""

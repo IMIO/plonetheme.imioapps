@@ -171,7 +171,7 @@ div#faceted-form input.searchButton {
 
 .LSRow a {
     display: block;
-    padding: 2px 0 2px 24px;
+    padding: 2px 0 2px 8px;
 }
 
 .LSRow a:hover {
