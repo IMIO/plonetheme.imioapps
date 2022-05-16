@@ -20,3 +20,6 @@ msgstr ""
 msgid "label_searchbox_currentfolder_only"
 msgstr "Localement"
 
+#. Default: "Advances search and show full results"
+msgid "label_advanced_search_full_results"
+msgstr "Recherche avancée, avec tous les résultats"
