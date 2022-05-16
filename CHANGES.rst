@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.34 (unreleased)
+2.34 (2022-05-16)
 -----------------
 
 - Fixed the default Plone `@@search`:
