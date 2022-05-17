@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.35 (unreleased)
+2.35 (2022-05-17)
 -----------------
 
 - Completed CSS for `livesearch`, make it looks correctly in Chrome too.
