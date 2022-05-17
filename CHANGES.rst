@@ -5,8 +5,8 @@ Changelog
 2.35 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Completed CSS for `livesearch`, make it looks correctly in Chrome too.
+  [gbastien]
 
 2.34 (2022-05-16)
 -----------------

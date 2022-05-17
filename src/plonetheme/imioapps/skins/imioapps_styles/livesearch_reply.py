@@ -158,7 +158,7 @@ else:
 
         # need to quote it, to avoid injection of html containing javascript
         # and other evil stuff
-        display_description = html_quote(display_description) or '&nbsp;'
+        display_description = html_quote(display_description) or ''
         write('''<div class="LSDescr">%s</div>''' % (display_description))
         write('''</li>''')
         full_title, display_title, display_description = None, None, None
@@ -168,7 +168,7 @@ else:
     # remove "*" and " AND " from searchterms, searchterms are quoted
     searchterms = searchterms.rstrip('%2A').replace("+AND+", " ")
     searchquery = '/@@search?SearchableText=%s&path=%s' % (searchterms, params['path'])
-    write('<br /><a href="%s" class="advancedsearchlink advanced-search"><b>%s</b></a><br />' %
+    write('<a href="%s" class="advancedsearchlink advanced-search"><b>%s</b></a>' %
            (portal_url + searchquery,
             ts.translate(label_advanced_search, context=REQUEST)))
     write('''</li>''')

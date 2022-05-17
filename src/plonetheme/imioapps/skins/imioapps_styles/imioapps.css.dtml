@@ -158,24 +158,38 @@ div#faceted-form input.searchButton {
 
 #LSResult fieldset {
     background-color: white;
+    padding-top: 0.5em;
+}
+
+/* in Chrome livesearch results have too much top margin... */
+body.using-chrome #LSResult fieldset {
+    margin-top: 0;
 }
 
 .LSRow, #LSNothingFound {
     padding: 1px 1em;
 }
 
-.LSRow img{
+.LSRow img {
     float: left;
     padding-left: 4px;
+    padding-top: 2px;
 }
 
 .LSRow a {
     display: block;
-    padding: 2px 0 2px 8px;
+    padding: 2px 0 2px 24px;
 }
 
 .LSRow a:hover {
     background-color: #EDEDED;
+}
+
+.LSRow a.advancedsearchlink {
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 #livesearchLegend {
