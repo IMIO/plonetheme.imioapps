@@ -5,8 +5,8 @@ Changelog
 2.36 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Do not force an height for img or it hides broken images.
+  [gbastien]
 
 2.35 (2022-05-17)
 -----------------
