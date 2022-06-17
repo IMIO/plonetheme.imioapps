@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.36 (unreleased)
+2.36 (2022-06-17)
 -----------------
 
 - Do not force an height for img or it hides broken images.
