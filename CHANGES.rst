@@ -5,8 +5,9 @@ Changelog
 2.37 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- CSS for `generationlinks` from `collective.documentgenerator` now that templates
+  are grouped by title, the title is no more clickable so make the icon larger.
+  [gbastien]
 
 2.36 (2022-06-17)
 -----------------

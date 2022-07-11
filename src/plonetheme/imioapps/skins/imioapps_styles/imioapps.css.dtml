@@ -1619,10 +1619,14 @@ table.faceted-table-results th {
 }
 
 /* from documentgenerator for plone 4 */
-.svg-icon,
-label[class^="contenttype-"] img {
-    height: 16px;
-    width: 16px;
+span.template-link-before-link img {
+    height: 20px;
+    width: 20px;
+}
+span.template-link-before-link img:hover {
+    width: 28px;
+    height: 28px;
+    margin: -1px;
 }
 .template-overview-controlpanel ul.configlets img, #portlet-prefs .configlets li img {
     max-height: 16px;
