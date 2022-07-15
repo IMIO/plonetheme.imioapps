@@ -1627,6 +1627,10 @@ span.template-link-before-link acronym {
     display: inline-block;
     width: 28px;
 }
+/* do not use inline-block for pod templates displayed in dashboards */
+div#faceted-results span.template-link-before-link a {
+    display: initial;
+}
 span.template-link-before-link img {
     height: 20px;
     width: 20px;
