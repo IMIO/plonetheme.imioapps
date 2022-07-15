@@ -6,7 +6,8 @@ Changelog
 -----------------
 
 - CSS for `generationlinks` from `collective.documentgenerator` now that templates
-  are grouped by title, the title is no more clickable so make the icon larger.
+  are grouped by title, the title is no more clickable so make the icon larger,
+  make the icons look like buttons.
   [gbastien]
 
 2.36 (2022-06-17)

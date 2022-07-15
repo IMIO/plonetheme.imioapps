@@ -1619,14 +1619,27 @@ table.faceted-table-results th {
 }
 
 /* from documentgenerator for plone 4 */
+#content li.template-link {
+    margin-bottom: 0px;
+}
+span.template-link-before-link a,
+span.template-link-before-link acronym {
+    display: inline-block;
+    width: 28px;
+}
 span.template-link-before-link img {
     height: 20px;
     width: 20px;
+    border: 1px solid #ccc;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    padding: 2px;
 }
 span.template-link-before-link img:hover {
     width: 28px;
     height: 28px;
     margin: -1px;
+    padding: 2px;
 }
 .template-overview-controlpanel ul.configlets img, #portlet-prefs .configlets li img {
     max-height: 16px;
