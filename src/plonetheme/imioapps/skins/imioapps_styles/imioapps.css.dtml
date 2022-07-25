@@ -1627,6 +1627,24 @@ span.template-link-before-link acronym {
     display: inline-block;
     width: 28px;
 }
+
+span.template-link-title:after {
+    content: " \f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    color: #205c90;
+    margin-left: 2px;
+    margin-right: 1px;
+    font-size: 18px;
+    width: 4px;
+    display: inline-block;
+    vertical-align: inherit;
+    opacity: 0.3;
+}
+span.template-link-title:hover::after {
+    opacity: 1;
+}
+
 /* do not use inline-block for pod templates displayed in dashboards */
 div#faceted-results span.template-link-before-link a {
     display: initial;
