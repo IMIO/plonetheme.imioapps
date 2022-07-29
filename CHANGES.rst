@@ -9,6 +9,8 @@ Changelog
   are grouped by title, the title is no more clickable so make the icon larger,
   make the icons look like buttons.
   [gbastien]
+- On hover of `prettylink` in `#portal-column-one`, apply same styles as in `#content`.
+  [gbastien]
 
 2.36 (2022-06-17)
 -----------------

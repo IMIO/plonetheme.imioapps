@@ -761,6 +761,7 @@ a:visited {
 dl.portlet a:hover,
 div.overlay a:hover,
 div.tooltipster-content a:hover,
+#portal-column-one a.pretty_link span.pretty_link_content:hover,
 #content a.pretty_link span.pretty_link_content:hover {
     color: &dtml-linkHoverColor; !important;
     text-decoration: none;
