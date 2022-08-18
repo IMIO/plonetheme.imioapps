@@ -11,6 +11,10 @@ Changelog
   [gbastien]
 - On hover of `prettylink` in `#portal-column-one`, apply same styles as in `#content`.
   [gbastien]
+- Removed rule `vertical-align: bottom;` for `#content input`.
+  [gbastien]
+- Fixed contenttype icon `max-width` to 16px, necessary when the img is a svg.
+  [gbastien]
 
 2.36 (2022-06-17)
 -----------------

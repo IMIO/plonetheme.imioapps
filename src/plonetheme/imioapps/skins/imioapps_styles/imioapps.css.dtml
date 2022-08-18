@@ -386,8 +386,9 @@ div.formControls {
     border-bottom: 0 !important;
 }
 
-#content input {
-    vertical-align: bottom;
+/* make sure content icon is fixed to 16px, necessary when using a svg */
+label[class^="contenttype-"] img {
+    max-width: 16px;
 }
 
 #visual-portal-wrapper{
