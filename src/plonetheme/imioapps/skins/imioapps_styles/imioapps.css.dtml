@@ -1664,6 +1664,7 @@ span.template-link-before-link img:hover {
     height: 28px;
     margin: -1px;
     padding: 2px;
+    border-color: #aaa;
 }
 .template-overview-controlpanel ul.configlets img, #portlet-prefs .configlets li img {
     max-height: 16px;
