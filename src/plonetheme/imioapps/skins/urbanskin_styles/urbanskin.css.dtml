@@ -91,6 +91,10 @@ table.listing tbody tr span.manual_parcel {
     background: none repeat scroll 0 0 cyan;
 }
 
+table.faceted-table-results th {
+   z-index: auto;
+}
+
 .icons-on .contenttype-applicant {background-image: url(Applicant.png);}
 .icons-on .contenttype-architect {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
 .icons-on .contenttype-buildlicence {background: no-repeat transparent url(BuildLicence.png);}
