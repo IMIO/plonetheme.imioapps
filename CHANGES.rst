@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.37 (unreleased)
+2.37 (2022-08-26)
 -----------------
 
 - CSS for `generationlinks` from `collective.documentgenerator` now that templates
