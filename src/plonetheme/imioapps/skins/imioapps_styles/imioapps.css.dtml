@@ -862,6 +862,10 @@ dl.portlet dd.portletFooter a {
     border-bottom: 1px solid #EFEFEF;
 }
 
+.no-style-table tr.hide-bottom-border {
+    border-bottom: 0px;
+}
+
 #content table.no-style-table td {
     vertical-align: top;
     border: 0px;

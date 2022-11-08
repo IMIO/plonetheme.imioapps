@@ -5,8 +5,9 @@ Changelog
 2.38 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Added `.no-style-table tr.hide-bottom-border` that will remove
+  the bottom border when displaying fields in a table.
+  [gbastien]
 
 2.37 (2022-08-26)
 -----------------
