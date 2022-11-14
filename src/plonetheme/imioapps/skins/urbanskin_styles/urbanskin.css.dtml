@@ -185,6 +185,10 @@ a.datagridwidget-add-button, a.datagridwidget-add-button:hover {
     width: 150px;
 }
 
+#datagridwidget-table-textDefaultValues .datagridwidget-column-1 {
+    width: 25%;
+}
+
 #datagridwidget-table-workLocations,
 #datagridwidget-table-manualParcels,
 #datagridwidget-table-manualOldParcels,
