@@ -189,6 +189,13 @@ a.datagridwidget-add-button, a.datagridwidget-add-button:hover {
     width: 25%;
 }
 
+#formfield-form-widgets-textDefaultValues .cell-1 {
+    width: 25%;
+}
+#formfield-form-widgets-textDefaultValues .textarea-widget {
+    height: 20em;
+}
+
 #datagridwidget-table-workLocations,
 #datagridwidget-table-manualParcels,
 #datagridwidget-table-manualOldParcels,
