@@ -63,8 +63,8 @@ body.cke_editable img,
 div.pmMoreInfo img,
 #content div[id^='hook_'] img {
     max-width: 100%;
-    /* would hide broken images */
-    /* height: auto !important; */
+    /* does this hide broken images? */
+    height: auto !important;
 }
 
 /* do not fix height or title of topics can not be displayed on 2 lines */
