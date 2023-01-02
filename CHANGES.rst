@@ -12,6 +12,9 @@ Changelog
   [gbastien]
 - Style results displayed in `referencebrowserwidget`.
   [gbastien]
+- Adapted override of `collective.messagesviewet` viewlet manager as base class
+  and definition were changed since integration of global/local messages.
+  [gbastien]
 
 2.37 (2022-08-26)
 -----------------

@@ -9,13 +9,16 @@
       name="plonetheme.imioapps"
       directory="static" />
 
-    <browser:viewlet
-        for="*"
-        layer="plonetheme.imioapps.interfaces.IThemeSpecific"
-        name="message-viewlet"
-        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-        class="collective.messagesviewlet.browser.messagesviewlet.MessagesViewlet"
-        permission="zope2.View" />
+    <configure package="collective.messagesviewlet.browser">
+        <browser:viewlet
+            for="*"
+            layer="plonetheme.imioapps.interfaces.IThemeSpecific"
+            name="message-viewlet"
+            manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+            class="collective.messagesviewlet.browser.messagesviewlet.GlobalMessagesViewlet"
+            template="messagesviewlet.pt"
+            permission="zope2.View" />
+    </configure>
 
     <browser:viewlet
         for="*"
