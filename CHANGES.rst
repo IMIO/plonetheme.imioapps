@@ -10,6 +10,8 @@ Changelog
   [gbastien]
 - Avoid large image breaking the advice tooltipster.
   [gbastien]
+- Style results displayed in `referencebrowserwidget`.
+  [gbastien]
 
 2.37 (2022-08-26)
 -----------------

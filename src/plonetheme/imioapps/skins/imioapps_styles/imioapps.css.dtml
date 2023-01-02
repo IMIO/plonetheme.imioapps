@@ -101,6 +101,27 @@ div.overlaycontent input.searchButton {
     padding-bottom: 3px;
 }
 
+/* display result not bold in referencebrowserwidget */
+/* make sure icon top when item title too long */
+table#atrbResultsTable td {
+    vertical-align: top;
+}
+/* larger input */
+table#atrbResultsTable input {
+    width: 16px;
+    height: 16px;
+}
+/* image/item title alignment */
+table#atrbResultsTable img {
+    vertical-align: baseline;
+}
+/* do not dispplay label in bold */
+table#atrbResultsTable label {
+    font-weight: normal;
+    margin-bottom: 0;
+    display: inline;
+}
+
 .searchSection {
     display:inline;
 }
