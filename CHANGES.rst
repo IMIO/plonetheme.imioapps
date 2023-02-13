@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.38 (unreleased)
+2.38 (2023-02-13)
 -----------------
 
 - Added `.no-style-table tr.hide-bottom-border` that will remove
