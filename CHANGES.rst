@@ -5,8 +5,8 @@ Changelog
 2.39 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Fixed css to align multi select2 widget to the left.
+  [sgeulette]
 
 2.38 (2023-02-13)
 -----------------

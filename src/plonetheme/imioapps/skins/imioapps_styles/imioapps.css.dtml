@@ -1707,6 +1707,11 @@ span.template-link-before-link img:hover {
     border-top-left-radius: 0.5em;
 }
 
+/* Align field at the left */
+#content ul.select2-choices {
+    margin-left: 0;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
