@@ -21,6 +21,8 @@ Changelog
 - Adapted override of `collective.messagesviewet` viewlet manager as base class
   and definition were changed since integration of global/local messages.
   [gbastien]
+- Make `ftw.labels` configuration label edit overlay larger.
+  [gbastien]
 
 2.37 (2022-08-26)
 -----------------

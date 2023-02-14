@@ -1050,6 +1050,8 @@ iframe.cke_wysiwyg_frame {
 div.overlay-iframe, div.overlay-ajax {
     max-width: 80% !important;
     width: auto;
+    /* ftw.labels label edit overlay is fixed to 235px which is too small */
+    min-width: 400px;
 }
 
 /* center content in overlays and take as much place as possible */
