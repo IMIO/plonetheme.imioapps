@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.39 (unreleased)
+2.39 (2023-03-29)
 -----------------
 
 - Fixed css to align multi select2 widget to the left.
