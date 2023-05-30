@@ -74,6 +74,10 @@ color: black !important;
 color: red !important;
 }
 
+.state-need_parceloutlicence {
+color: red !important;
+}
+
 .icons-on #visual-portal-wrapper table.listing td {
     line-height: 1.4em;
 }

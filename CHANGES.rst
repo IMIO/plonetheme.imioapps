@@ -5,7 +5,8 @@ Changelog
 2.40 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Add a red color to the denied status of divisions
+  [fngaha]
 
 
 2.39 (2023-03-29)
