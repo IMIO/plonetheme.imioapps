@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.40 (unreleased)
+2.40 (2023-06-15)
 -----------------
 
 - Add a red color to the denied status of divisions
