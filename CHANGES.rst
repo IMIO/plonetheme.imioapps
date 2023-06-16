@@ -13,7 +13,8 @@ Changelog
 
 - Add a red color to the denied status of divisions
   [fngaha]
-
+- Style table header the same way for HTML tables and DX/AT datagrid fields.
+  [gbastien]
 
 2.39 (2023-03-29)
 -----------------

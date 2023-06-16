@@ -931,13 +931,16 @@ table tr th {
     background-color: &dtml-tableHeaderBackgroundColor;;
 }
 
-table.listing th, .stx table th {
+table.listing th, .stx table th,
+.datagridwidget-table-view .header {
     color: &dtml-tableHeaderTextColor;;
     background-color: &dtml-tableHeaderBackgroundColor;;
     color: &dtml-tableHeaderTextColor;;
     vertical-align: middle;
     text-align: left;
     padding: 0.3em 0.3em 0.3em 0.6em;
+    font-size: 1em;
+    word-break: normal;
 }
 
 table.listing td {
