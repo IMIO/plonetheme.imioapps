@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.41 (unreleased)
+2.41 (2023-06-27)
 -----------------
 
 - Style table header the same way for HTML tables and DX/AT datagrid fields.
