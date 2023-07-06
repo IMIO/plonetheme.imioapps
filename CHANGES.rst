@@ -5,8 +5,9 @@ Changelog
 2.42 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- `get_state_infos` was moved from `imio.helpers.content` to
+  `imio.helpers.workflow`, adapted import accordingly.
+  [gbastien]
 
 2.41 (2023-06-27)
 -----------------

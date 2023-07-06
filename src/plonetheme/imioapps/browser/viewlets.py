@@ -20,7 +20,7 @@
 # 02110-1301, USA.
 #
 
-from imio.helpers.content import get_state_infos
+from imio.helpers.workflow import get_state_infos
 from plone import api
 from plone.app.layout.viewlets import ViewletBase
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
