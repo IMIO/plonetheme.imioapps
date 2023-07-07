@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.42 (unreleased)
+2.42 (2023-07-07)
 -----------------
 
 - `get_state_infos` was moved from `imio.helpers.content` to
