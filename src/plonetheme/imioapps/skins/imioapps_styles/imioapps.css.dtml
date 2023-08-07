@@ -795,10 +795,6 @@ div.tooltipster-content a:hover,
     /* avoid extra blank space at bottom of the tooltipster sometimes... */
     height: auto !important;
 }
-.tooltipster-base img {
-    max-width: 100%;
-    height: auto !important;
-}
 
 /* tooltipster content is light grey by default, makes it a bit darker... */
 .tooltipster-base.tooltipster-sidetip.tooltipster-shadow .tooltipster-content {

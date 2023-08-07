@@ -5,8 +5,9 @@ Changelog
 2.43 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Removed styling rule for `.tooltipster-base img` as image `height/width`
+  is now forced to `16px` in `collective.iconifiedcategory`.
+  [gbastien]
 
 2.42 (2023-07-07)
 -----------------
