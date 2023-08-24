@@ -458,5 +458,8 @@ span.option {
     padding-bottom: 0.4em;
 }
 
+.faceted-autocomplete-widget {
+  width: 236px;
+}
 
 /* </dtml-with> */

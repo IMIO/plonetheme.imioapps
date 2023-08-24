@@ -5,6 +5,9 @@ Changelog
 2.43 (unreleased)
 -----------------
 
+- Fix faceted autocomplete widget width in urban [URB-2866]
+  [jchandelle]
+
 - Removed styling rule for `.tooltipster-base img` as image `height/width`
   is now forced to `16px` in `collective.iconifiedcategory`.
   [gbastien]
