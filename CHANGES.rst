@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.43 (unreleased)
+2.43 (2023-08-24)
 -----------------
 
 - Fix document generation actions on dashboard for urban [URB-2863]
