@@ -462,4 +462,9 @@ span.option {
   width: 236px;
 }
 
+body.template-facetednavigation_view.portaltype-folder div#faceted-results #viewlet-top-above-nav div#doc-generation-view {
+  position: relative;
+  margin-top: 0px;
+}
+
 /* </dtml-with> */
