@@ -1028,8 +1028,9 @@ h1, h2 {
 div.overlay {
     font-size: 90%;
 }
-/* increase the content of overlays */
-div.overlay div#content {
+/* increase the content of overlays and for <h1> */
+div.overlay div#content,
+div.overlay div#content h1 {
     font-size: 120%;
 }
 

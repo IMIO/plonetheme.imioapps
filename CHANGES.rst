@@ -5,8 +5,9 @@ Changelog
 2.44 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Now that element's title (pretty link) is displayed in `@@historyview`,
+  display `h1` in overlay the same size it is display out of an overlay.
+  [gbastien]
 
 2.43 (2023-08-24)
 -----------------
