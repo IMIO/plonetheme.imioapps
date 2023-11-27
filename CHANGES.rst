@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.44 (unreleased)
+2.44 (2023-11-27)
 -----------------
 
 - Now that element's title (pretty link) is displayed in `@@historyview`,
