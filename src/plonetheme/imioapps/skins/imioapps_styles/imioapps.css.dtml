@@ -382,10 +382,6 @@ div.position-0 {
     font-size: 120%;
 }
 
-.pb-ajax h2 {
-    border-bottom: 1px solid &dtml-globalBorderColor;;
-}
-
 .managePortletsFallback {
     color: &dtml-linkColor; !important;
 }
@@ -1028,9 +1024,12 @@ h1, h2 {
 div.overlay {
     font-size: 90%;
 }
-/* increase the content of overlays and for <h1> */
-div.overlay div#content,
-div.overlay div#content h1 {
+/* increase the content of overlays */
+div.overlay div#content {
+    font-size: 120%;
+}
+/* decrease size of h1 displayed in history overlay */
+div#content-history div#content h1 {
     font-size: 120%;
 }
 
