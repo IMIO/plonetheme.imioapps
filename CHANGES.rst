@@ -5,8 +5,8 @@ Changelog
 2.47 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Add justice contact icon
+  [ndemonte]
 
 2.46 (2024-03-01)
 -----------------
