@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.45 (unreleased)
+2.45 (2024-01-02)
 -----------------
 
 - Fixed change introduced in release `2.44` with tag `h1` in overlays that
