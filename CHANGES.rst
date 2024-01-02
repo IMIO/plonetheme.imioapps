@@ -7,7 +7,7 @@ Changelog
 
 - Fixed change introduced in release `2.44` with tag `h1` in overlays that
   was impacting other overlays.
-  Moreover removed border bottom of History title in history overlay.
+  Moreover removed border bottom of `History` title in history overlay.
   [gbastien]
 
 2.44 (2023-11-27)
