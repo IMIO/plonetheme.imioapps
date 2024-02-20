@@ -1177,9 +1177,15 @@ input#download-annexes-batch-action-but {
 .apButtonAction_edit {
    background-image: url('&dtml-portal_url;/edit.png');
 }
+
+.apButtonAction_download {
+   background-image: url('&dtml-portal_url;/download_icon.png');
+}
+
 .apButtonAction_update_categorized_elements {
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
+
 .apButtonAction_update_and_sort_categorized_elements {
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }

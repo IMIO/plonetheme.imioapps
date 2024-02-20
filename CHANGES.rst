@@ -5,8 +5,8 @@ Changelog
 2.46 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Added .apButtonAction_download background image.
+  [sgeulette]
 
 2.45 (2024-01-02)
 -----------------
