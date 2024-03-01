@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.46 (unreleased)
+2.46 (2024-03-01)
 -----------------
 
 - Added .apButtonAction_download background image.
