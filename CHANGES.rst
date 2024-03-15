@@ -5,6 +5,8 @@ Changelog
 2.47 (unreleased)
 -----------------
 
+- URB-3007. Make caduc and abandoned workflow state grey in urban
+  [jchandelle]
 - Add justice contact icon
   [ndemonte]
 
