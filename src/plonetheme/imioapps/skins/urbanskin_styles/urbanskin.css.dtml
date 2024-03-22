@@ -123,6 +123,7 @@ table.faceted-table-results th {
 .icons-on .contenttype-envclassbordering {background: no-repeat transparent url(EnvClassBordering.png);}
 .icons-on .contenttype-foldermanager {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
 .icons-on .contenttype-geometrician {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
+.icons-on .contenttype-justicecontact {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
 .icons-on .contenttype-inquiry {background-image: url(Inquiry.png);}
 .icons-on .contenttype-notary {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
 .icons-on .contenttype-notaryletter {background: no-repeat transparent url(NotaryLetter.png);}
