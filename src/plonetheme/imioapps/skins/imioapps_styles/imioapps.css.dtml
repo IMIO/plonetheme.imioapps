@@ -1190,6 +1190,11 @@ input#download-annexes-batch-action-but {
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
+div#batch-actions input#concatenate-annexes-batch-action-but.batch-action-icon-but {
+    background-image: url("++resource++collective.documentgenerator/pdf.svg");
+    background-size: 16px;
+}
+
 #content dd.formPanel {
     margin-left: 0.5em;
     margin-right: 0.5em;

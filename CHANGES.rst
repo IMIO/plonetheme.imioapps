@@ -9,6 +9,8 @@ Changelog
   [jchandelle]
 - Add justice contact icon
   [ndemonte]
+- Added style for `concatenate-annexes` batch action button icon.
+  [gbastien]
 
 2.46 (2024-03-01)
 -----------------
