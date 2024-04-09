@@ -11,6 +11,9 @@ Changelog
   [ndemonte]
 - Added style for `concatenate-annexes` batch action button icon.
   [gbastien]
+- Avoid `'NoneType' object has no attribute 'get'` in `ImioSearch.filter_query`
+  if `query` is `None`.
+  [gbastien]
 
 2.46 (2024-03-01)
 -----------------

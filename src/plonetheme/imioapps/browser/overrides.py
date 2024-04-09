@@ -21,7 +21,8 @@ class ImioSearch(Search):
        to be coherent with dashboards."""
 
     def filter_query(self, query):
-        query = super(ImioSearch, self).filter_query(query)
+        # query may sometimes be None
+        query = super(ImioSearch, self).filter_query(query) or {}
         text = query.get('SearchableText', '')
         if not text.endswith('*'):
             text = text + '*'
