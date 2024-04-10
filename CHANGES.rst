@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.47 (unreleased)
+2.47 (2024-04-10)
 -----------------
 
 - URB-3007. Make caduc and abandoned workflow state grey in urban
