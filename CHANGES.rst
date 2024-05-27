@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.48 (unreleased)
+2.48 (2024-05-27)
 -----------------
 
 - Be more defensive when changing header color to red for test instances
