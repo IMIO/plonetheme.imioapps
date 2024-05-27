@@ -5,8 +5,9 @@ Changelog
 2.48 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Be more defensive when changing header color to red for test instances
+  to avoid elements containing imio-test in id url being wrongly skinned.
+  [gbastien]
 
 2.47 (2024-04-10)
 -----------------

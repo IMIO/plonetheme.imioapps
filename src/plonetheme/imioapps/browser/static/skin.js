@@ -19,7 +19,7 @@ $(window).resize(resizeHeader);
 // when using a imio-test instance, highlight header
 function highlightTest() {
     var url = $("link[rel='canonical']").attr('href');
-    if (url.includes('imio-test') || url.includes('preprod')) {
+    if (url.includes('.imio-test.be')) {
         $("div#portal-header")[0].style.background = "#d00";
     }
 }
