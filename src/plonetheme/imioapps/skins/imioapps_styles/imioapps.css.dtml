@@ -792,6 +792,11 @@ div.tooltipster-content a:hover,
     height: auto !important;
 }
 
+/* scroll when too large */
+.tooltipster-base .tooltipster-box {
+    overflow-y: auto;
+}
+
 /* tooltipster content is light grey by default, makes it a bit darker... */
 .tooltipster-base.tooltipster-sidetip.tooltipster-shadow .tooltipster-content {
     color: &dtml-discreetColor;;

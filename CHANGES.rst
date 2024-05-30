@@ -5,8 +5,8 @@ Changelog
 2.49 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Use horizontal scroll when tooltipster is too large.
+  [gbastien]
 
 2.48 (2024-05-27)
 -----------------
