@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from plone.app.layout.globals.context import ContextState
-from plone.app.search.browser import Search
+from Products.CMFPlone.browser.search import Search
 
 
 class ImioContextState(ContextState):

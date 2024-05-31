@@ -44,20 +44,13 @@
         layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
 
     <!-- Override @@search -->
-    <configure package="plone.app.search">
+    <configure package="Products.CMFPlone.browser">
         <browser:page
             name="search"
             class="plonetheme.imioapps.browser.overrides.ImioSearch"
             permission="zope2.View"
             for="*"
-            template="search.pt"
-            layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
-        <browser:page
-            name="updated_search"
-            class="plonetheme.imioapps.browser.overrides.ImioSearch"
-            permission="zope2.View"
-            for="Products.CMFCore.interfaces.IFolderish"
-            template="updated_search.pt"
+            template="templates/search.pt"
             layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
     </configure>
 
