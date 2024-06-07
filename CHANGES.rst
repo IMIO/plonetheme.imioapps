@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.49 (unreleased)
+2.49 (2024-06-07)
 -----------------
 
 - Use horizontal scroll when tooltipster is too large.
