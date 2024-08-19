@@ -5,8 +5,10 @@ Changelog
 2.50 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Fixed faceted dashboard header height to avoid 1px blank space between
+  global header and dashboard table header when scrolling
+  (sticky dashboard table header).
+  [gbastien]
 
 2.49 (2024-06-07)
 -----------------
