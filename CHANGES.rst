@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.50 (unreleased)
+2.50 (2024-09-25)
 -----------------
 
 - Fixed faceted dashboard header height to avoid 1px blank space between
