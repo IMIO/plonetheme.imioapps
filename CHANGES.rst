@@ -5,8 +5,9 @@ Changelog
 2.51 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- If current URL contains `imio-acceptation`,
+  highlight `portal-header` (turn it red).
+  [gbastien]
 
 2.50 (2024-09-25)
 -----------------

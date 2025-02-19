@@ -16,10 +16,10 @@ function resizeHeader() {
 }
 $(window).resize(resizeHeader);
 
-// when using a imio-test instance, highlight header
+// when using a imio-test/imio-acceptation instance, highlight header in red
 function highlightTest() {
     var url = $("link[rel='canonical']").attr('href');
-    if (url.includes('.imio-test.be')) {
+    if (url.includes('.imio-test.be') || url.includes('.imio-acceptation.be')) {
         $("div#portal-header")[0].style.background = "#d00";
     }
 }
