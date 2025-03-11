@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.51 (unreleased)
+2.51 (2025-03-11)
 -----------------
 
 - If current URL contains `imio-acceptation`,
