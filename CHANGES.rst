@@ -5,7 +5,8 @@ Changelog
 2.52 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- SUP-44304. Change current state style in urban.
+  [jchandelle]
 
 
 2.51 (2025-03-11)
