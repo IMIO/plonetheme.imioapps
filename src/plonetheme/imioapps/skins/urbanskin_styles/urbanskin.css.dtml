@@ -134,6 +134,7 @@ table.faceted-table-results th {
 .icons-on .contenttype-explosivespossession {background: no-repeat transparent url(ExplosivesPossession.png);}
 .icons-on .contenttype-roaddecree {background: no-repeat transparent url(RoadDecree.png);}
 .icons-on .contenttype-inspection {background: no-repeat transparent url(Inspection.png);}
+.icons-on .contenttype-emptybuilding {background: no-repeat transparent url(EmptyBuilding.png);}
 .icons-on .contenttype-ticket {background: no-repeat transparent url(Ticket.png);}
 .icons-on .contenttype-portionout {background-image: url(PortionOut.png);}
 .icons-on .contenttype-proprietary {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
