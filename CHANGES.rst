@@ -5,6 +5,8 @@ Changelog
 2.52 (unreleased)
 -----------------
 
+- URBBDC-3142: Add icon for EmptyBuildings procedure.
+  [aduchene]
 - SUP-44304. Change current state style in urban.
   [jchandelle]
 
