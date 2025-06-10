@@ -401,7 +401,8 @@ td div.parcel-action {
     padding: 0.2em;
     padding-left: 0.7em;
     padding-right: 0.7em;
-    color: white;
+    color: #375b7e;
+    background: white;
 }
 
 div.parcel-action{
