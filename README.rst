@@ -1,5 +1,5 @@
 ====================
-ploneteme.imioapps
+plonetheme.imioapps
 ====================
 
 Site theme shared between imio's applications.
@@ -20,7 +20,7 @@ From version 2.1, the header is fixed (always visible), to remove this, add this
   }
 
 
-Dashboard table stikcy header :
+Dashboard table sticky header :
 -------------------------------
 
 From version 2.22, the tablea header is stikcy (will be sticked to the page header when scrolling down),
