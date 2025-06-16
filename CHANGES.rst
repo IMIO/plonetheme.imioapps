@@ -9,7 +9,8 @@ Changelog
   [aduchene]
 - SUP-44304. Change current state style in urban.
   [jchandelle]
-
+- Fixed edit bar height some times smaller than buttons.
+  [gbastien]
 
 2.51 (2025-03-11)
 -----------------
