@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.52 (unreleased)
+2.52 (2025-06-25)
 -----------------
 
 - URBBDC-3142: Add icon for EmptyBuildings procedure.
