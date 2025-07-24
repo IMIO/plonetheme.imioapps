@@ -5,8 +5,8 @@ Changelog
 2.53 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- URBBDC-3142: Change icon for Housing procedure.
+  [aduchene]
 
 2.52 (2025-06-25)
 -----------------
