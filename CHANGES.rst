@@ -6,7 +6,8 @@ Changelog
 -----------------
 
 - URBBDC-3142: Change icon for Housing procedure.
-  [aduchene]
+  [aduchene, WBoudabous]
+
 
 2.52 (2025-06-25)
 -----------------
