@@ -28,10 +28,14 @@ margin-top: -2.5em;
 .state-in_progress,
 .state-draft,
 .state-decision_in_progress,
-.state-creation,
+.state-administrative_answer,
 .state-waiting_opinion,
 .state-opinion_validation {
 color: #EA6619 !important;
+}
+
+.state-analysis {
+    color: #c800ff !important;
 }
 
 .state-enabled {
@@ -54,6 +58,7 @@ color: green !important;
 color: green !important;
 }
 
+.state-ended,
 .state-acceptable {
 color: green !important;
 }
