@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.53 (unreleased)
+2.53 (2025-08-21)
 -----------------
 
 - URBBDC-3142: Change icon for Housing procedure.
