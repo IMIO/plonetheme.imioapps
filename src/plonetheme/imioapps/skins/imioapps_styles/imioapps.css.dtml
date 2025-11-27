@@ -156,7 +156,7 @@ div.faceted-operator label {
 .LSBox .searchButton,
 div#faceted-form input.searchButton {
     background-color: transparent;
-    background-image: url(&dtml-portal_url;/search_button_icon.png);
+    background-image: url('&dtml-portal_url;/search_button_icon.png');
     background-repeat: no-repeat;
     background-position: left top;
     border: 0 solid &dtml-globalBorderColor;;
@@ -409,7 +409,7 @@ label[class^="contenttype-"] img {
 }
 
 #visual-portal-wrapper{
-    background: url("&dtml-portal_url;/header-bg.gif") repeat-x scroll 0 0 transparent;
+    background: url('&dtml-portal_url;/header-bg.gif') repeat-x scroll 0 0 transparent;
 }
 
 /* styles du foldercontents concernant la couleur des liens pour gerer
@@ -672,7 +672,7 @@ input#form-buttons-cancel {
     border-radius: 5px;
     background-repeat: no-repeat;
     background-color: orange;
-    background-image: url("&dtml-portal_url;/exclamation.gif");
+    background-image: url('&dtml-portal_url;/exclamation.gif');
     background-position: 4px 4px;
     border: 1px solid grey;
     padding-left: 12px;
@@ -795,6 +795,12 @@ div.tooltipster-content a:hover,
 /* scroll when too large */
 .tooltipster-base .tooltipster-box {
     overflow-y: auto;
+}
+
+/* make sure large images do not add horizontal scroll */
+div.tooltipster-box img {
+    max-width: 100%;
+    height: auto !important;
 }
 
 /* tooltipster content is light grey by default, makes it a bit darker... */
@@ -1196,7 +1202,7 @@ input#download-annexes-batch-action-but {
 }
 
 div#batch-actions input#concatenate-annexes-batch-action-but.batch-action-icon-but {
-    background-image: url("++resource++collective.documentgenerator/pdf.svg");
+    background-image: url('&dtml-portal_url;/++resource++collective.documentgenerator/pdf.svg');
     background-size: 16px;
 }
 
@@ -1439,7 +1445,7 @@ iframe{
 }
 
 [id="searchbox_currentfolder_only"] + label::before {
-    content:url(&dtml-portal_url;/search_local.png);
+    content:url('&dtml-portal_url;/search_local.png');
     display:inline-block;
     float: right;
     margin-right: -2em;
@@ -1448,7 +1454,7 @@ iframe{
 }
 
 [id="searchbox_currentfolder_only"]:checked + label::before {
-    content:url(&dtml-portal_url;/search_local_check.png);
+    content:url('&dtml-portal_url;/search_local_check.png');
 }
 
 /* title portelt column-one */
