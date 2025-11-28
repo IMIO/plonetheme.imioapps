@@ -449,7 +449,7 @@ ul.configlets img {
 }
 
 #content fieldset {
-    background-color: &dtml-evenRowBackgroundColor;;
+    background-color: &dtml-oddRowBackgroundColor;;
     border:1px solid &dtml-tableHeaderBackgroundColor;;
     margin: 0em 0em 0em;
     padding-top: 1.3em;
@@ -593,7 +593,7 @@ dl.portlet {
 }
 
 #portal-column-one, #portal-column-two {
-    background-color: &dtml-evenRowBackgroundColor;;
+    background-color: &dtml-oddRowBackgroundColor;;
     border-bottom:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
 }
 #portal-column-one {
@@ -653,7 +653,7 @@ div.portletAssignments .managedPortlet.blockedPortlet .portletHeader a {
 /* add some space between 'manage portlets' link and last portlet above */
 div.managePortletsLink, div.managePortletsLink a, a.managePortletsFallback {
     margin-top: 0.5em;
-    background-color: &dtml-evenRowBackgroundColor;;
+    background-color: &dtml-oddRowBackgroundColor;;
     font-weight: bold;
     color: &dtml-linkColor;;
 }
@@ -955,12 +955,12 @@ table.listing td {
 
 table.listing tbody tr.odd td,
 table.listing tfoot tr td {
-    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
+    background: none repeat scroll 0 0 &dtml-oddRowBackgroundColor;;
     border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
 }
 
 table.listing tbody tr.even td {
-    background: none repeat scroll 0 0 #f4f4f4;
+    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
     border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor; &dtml-backgroundFieldset;;
     border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
     border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-backgroundFieldset;;

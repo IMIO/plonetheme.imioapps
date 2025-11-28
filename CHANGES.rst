@@ -7,6 +7,9 @@ Changelog
 
 - Make sure large images do not add horizontal scroll in tooltipsters.
   [gbastien]
+- Fixed not used and mismatch use of `evenRowBackgroundColor` and
+  `oddRowBackgroundColor`.
+  [gbastien]
 
 2.53 (2025-08-21)
 -----------------
