@@ -5,7 +5,8 @@ Changelog
 2.55 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- SUP-36249 Change state color for inspection in urban
+  [jchandelle
 
 
 2.54 (2025-12-01)
