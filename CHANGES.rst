@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.54 (unreleased)
+2.54 (2025-12-01)
 -----------------
 
 - Make sure large images do not add horizontal scroll in tooltipsters.
