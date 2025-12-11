@@ -5,7 +5,8 @@ Changelog
 2.55 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Add missing CKEditor style from liege
+  [jchandelle]
 
 
 2.54 (2025-12-01)
