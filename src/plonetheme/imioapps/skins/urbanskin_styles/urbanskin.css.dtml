@@ -472,4 +472,14 @@ body.template-facetednavigation_view.portaltype-folder div#faceted-results #view
   margin-top: 0px;
 }
 
+/* CKEditor style */
+
+.highlight-red {
+    color: red;
+}
+
+.highlight-yellow {
+    background-color: yellow;
+}
+
 /* </dtml-with> */
