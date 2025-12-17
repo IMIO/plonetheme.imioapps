@@ -7,7 +7,9 @@ Changelog
 
 - Add missing CKEditor style from liege
   [jchandelle]
-
+- Fixed `skin.js` that was not setting correct CSS `top` value for faceted table
+  sticky behavior, the faceted table header was no more sticky.
+  [gbastien]
 
 2.54 (2025-12-01)
 -----------------
