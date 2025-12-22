@@ -11,6 +11,10 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
+div#content div#login-forgotten-password {
+    padding-top: 2em;
+}
+
 div#content div#login-forgotten-password a,
 div#content div#login-forgotten-password strong,
 div#login-forgotten-password a,

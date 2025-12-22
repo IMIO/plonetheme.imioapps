@@ -10,6 +10,8 @@ Changelog
 - Fixed `skin.js` that was not setting correct CSS `top` value for faceted table
   sticky behavior, the faceted table header was no more sticky.
   [gbastien]
+- Added some padding top before `Forgot password?` sentence on login form.
+  [gbastien]
 
 2.54 (2025-12-01)
 -----------------
