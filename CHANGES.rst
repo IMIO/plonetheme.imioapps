@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.55 (unreleased)
+2.55 (2025-12-22)
 -----------------
 
 - Add missing CKEditor style from liege
