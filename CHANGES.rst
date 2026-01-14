@@ -5,7 +5,8 @@ Changelog
 2.56 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- SUP-49910: Fix missing icon
+  [jchandelle]
 
 
 2.55 (2025-12-22)
