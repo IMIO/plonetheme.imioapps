@@ -101,6 +101,20 @@ table.faceted-table-results th {
    z-index: auto;
 }
 
+.icons-on .xml-icon {
+    display: inline-block;
+    padding-left: 20px;
+    background: no-repeat transparent url(xml.png);
+    padding-block-end: 5px;
+}
+
+.icons-on .contact-icon {
+    display: inline-block;
+    padding-left: 20px;
+    background: no-repeat transparent url(Contact.png);
+    background-position-y: 5px;
+}
+
 .icons-on .contenttype-applicant {background-image: url(Applicant.png);}
 .icons-on .contenttype-architect {background: no-repeat transparent 0px -213px url(urban-sprite.png);}
 .icons-on .contenttype-buildlicence {background: no-repeat transparent url(BuildLicence.png);}
