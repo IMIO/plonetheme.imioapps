@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.56 (unreleased)
+2.56 (2026-01-23)
 -----------------
 
 - SUP-36249 Change state color for inspection in urban
