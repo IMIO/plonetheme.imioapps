@@ -5,6 +5,8 @@ Changelog
 2.56 (unreleased)
 -----------------
 
+- SUP-36249 Change state color for inspection in urban
+  [jchandelle
 - SUP-49910: Fix missing icon
   [jchandelle]
 
