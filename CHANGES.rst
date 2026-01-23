@@ -2,12 +2,51 @@ Changelog
 =========
 
 
-2.52 (unreleased)
+2.56 (unreleased)
 -----------------
 
 - SUP-36249 Change state color for inspection in urban
   [jchandelle
+- SUP-49910: Fix missing icon
+  [jchandelle]
 
+
+2.55 (2025-12-22)
+-----------------
+
+- Add missing CKEditor style from liege
+  [jchandelle]
+- Fixed `skin.js` that was not setting correct CSS `top` value for faceted table
+  sticky behavior, the faceted table header was no more sticky.
+  [gbastien]
+- Added some padding top before `Forgot password?` sentence on login form.
+  [gbastien]
+
+2.54 (2025-12-01)
+-----------------
+
+- Make sure large images do not add horizontal scroll in tooltipsters.
+  [gbastien]
+- Fixed not used and mismatch use of `evenRowBackgroundColor` and
+  `oddRowBackgroundColor`.
+  [gbastien]
+
+2.53 (2025-08-21)
+-----------------
+
+- URBBDC-3142: Change icon for Housing procedure.
+  [aduchene, WBoudabous]
+
+
+2.52 (2025-06-25)
+-----------------
+
+- URBBDC-3142: Add icon for EmptyBuildings procedure.
+  [aduchene]
+- SUP-44304. Change current state style in urban.
+  [jchandelle]
+- Fixed edit bar height some times smaller than buttons.
+  [gbastien]
 
 2.51 (2025-03-11)
 -----------------

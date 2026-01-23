@@ -11,6 +11,10 @@
 /* <dtml-with imioapps_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
+div#content div#login-forgotten-password {
+    padding-top: 2em;
+}
+
 div#content div#login-forgotten-password a,
 div#content div#login-forgotten-password strong,
 div#login-forgotten-password a,
@@ -156,7 +160,7 @@ div.faceted-operator label {
 .LSBox .searchButton,
 div#faceted-form input.searchButton {
     background-color: transparent;
-    background-image: url(&dtml-portal_url;/search_button_icon.png);
+    background-image: url('&dtml-portal_url;/search_button_icon.png');
     background-repeat: no-repeat;
     background-position: left top;
     border: 0 solid &dtml-globalBorderColor;;
@@ -360,8 +364,8 @@ div.position-0 {
 #content-views a, #content li.formTab a {
     padding-left: 0.5em;
     padding-right: 0.5em;
-    /* to be removed when we will use plonetheme.sunburst 1.4.4 */
-    line-height: 26px;
+    /* same value as for edit-bar height */
+    line-height: 2em;
 }
 
 #form-container input{
@@ -409,7 +413,7 @@ label[class^="contenttype-"] img {
 }
 
 #visual-portal-wrapper{
-    background: url("&dtml-portal_url;/header-bg.gif") repeat-x scroll 0 0 transparent;
+    background: url('&dtml-portal_url;/header-bg.gif') repeat-x scroll 0 0 transparent;
 }
 
 /* styles du foldercontents concernant la couleur des liens pour gerer
@@ -449,7 +453,7 @@ ul.configlets img {
 }
 
 #content fieldset {
-    background-color: &dtml-evenRowBackgroundColor;;
+    background-color: &dtml-oddRowBackgroundColor;;
     border:1px solid &dtml-tableHeaderBackgroundColor;;
     margin: 0em 0em 0em;
     padding-top: 1.3em;
@@ -593,7 +597,7 @@ dl.portlet {
 }
 
 #portal-column-one, #portal-column-two {
-    background-color: &dtml-evenRowBackgroundColor;;
+    background-color: &dtml-oddRowBackgroundColor;;
     border-bottom:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
 }
 #portal-column-one {
@@ -653,7 +657,7 @@ div.portletAssignments .managedPortlet.blockedPortlet .portletHeader a {
 /* add some space between 'manage portlets' link and last portlet above */
 div.managePortletsLink, div.managePortletsLink a, a.managePortletsFallback {
     margin-top: 0.5em;
-    background-color: &dtml-evenRowBackgroundColor;;
+    background-color: &dtml-oddRowBackgroundColor;;
     font-weight: bold;
     color: &dtml-linkColor;;
 }
@@ -672,7 +676,7 @@ input#form-buttons-cancel {
     border-radius: 5px;
     background-repeat: no-repeat;
     background-color: orange;
-    background-image: url("&dtml-portal_url;/exclamation.gif");
+    background-image: url('&dtml-portal_url;/exclamation.gif');
     background-position: 4px 4px;
     border: 1px solid grey;
     padding-left: 12px;
@@ -795,6 +799,12 @@ div.tooltipster-content a:hover,
 /* scroll when too large */
 .tooltipster-base .tooltipster-box {
     overflow-y: auto;
+}
+
+/* make sure large images do not add horizontal scroll */
+div.tooltipster-box img {
+    max-width: 100%;
+    height: auto !important;
 }
 
 /* tooltipster content is light grey by default, makes it a bit darker... */
@@ -949,12 +959,12 @@ table.listing td {
 
 table.listing tbody tr.odd td,
 table.listing tfoot tr td {
-    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
+    background: none repeat scroll 0 0 &dtml-oddRowBackgroundColor;;
     border-right: 1px solid &dtml-tableHeaderBackgroundColor;;
 }
 
 table.listing tbody tr.even td {
-    background: none repeat scroll 0 0 #f4f4f4;
+    background: none repeat scroll 0 0 &dtml-evenRowBackgroundColor;;
     border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor; &dtml-backgroundFieldset;;
     border-right:&dtml-borderWidth; &dtml-borderStyle; &dtml-tableHeaderBackgroundColor;;
     border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-backgroundFieldset;;
@@ -1196,7 +1206,7 @@ input#download-annexes-batch-action-but {
 }
 
 div#batch-actions input#concatenate-annexes-batch-action-but.batch-action-icon-but {
-    background-image: url("++resource++collective.documentgenerator/pdf.svg");
+    background-image: url('&dtml-portal_url;/++resource++collective.documentgenerator/pdf.svg');
     background-size: 16px;
 }
 
@@ -1439,7 +1449,7 @@ iframe{
 }
 
 [id="searchbox_currentfolder_only"] + label::before {
-    content:url(&dtml-portal_url;/search_local.png);
+    content:url('&dtml-portal_url;/search_local.png');
     display:inline-block;
     float: right;
     margin-right: -2em;
@@ -1448,7 +1458,7 @@ iframe{
 }
 
 [id="searchbox_currentfolder_only"]:checked + label::before {
-    content:url(&dtml-portal_url;/search_local_check.png);
+    content:url('&dtml-portal_url;/search_local_check.png');
 }
 
 /* title portelt column-one */

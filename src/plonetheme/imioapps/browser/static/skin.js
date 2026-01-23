@@ -11,7 +11,7 @@ function resizeHeader() {
     portal_header_height = $("#portal-header").height();
     $("#emptyviewlet").height(portal_header_height);
     var sheet = document.createElement('style');
-    sheet.innerHTML = "table.faceted-table-results th {top: " + portal_header_height - 1 + "px;}";
+    sheet.innerHTML = "table.faceted-table-results th {top: " + (portal_header_height - 1) + "px;}";
     document.body.appendChild(sheet);
 }
 $(window).resize(resizeHeader);
