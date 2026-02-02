@@ -1739,6 +1739,93 @@ span.template-link-before-link img:hover {
     margin-left: 0;
 }
 
+/* imio.esign */
+table.sessions-table {
+    margin-top: 1em;
+    width: 100%;
+}
+th.th_header_sessions_documents {
+    width: 500px;
+}
+th.th_header_sessions_actions {
+    width: 60px;
+}
+.collapsible.active:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f146";
+}
+.apButtonAction_add_to_esign_session:before {
+    font-family: "Font Awesome 5 Free";
+    value: "\f146";
+}
+
+/* specific CSS for button */
+/* size auto fit */
+button.apButton {
+    width: max-content;
+}
+/* remove padding left as we use ::before to use a FA icon */
+button.apButtonAction.apButtonAction_add_to_esign_session,
+button.apButtonAction.apButtonAction_remove_from_esign_session {
+    padding-left: 0px;
+}
+button.apButtonAction_add_to_esign_session::before,
+button.apButtonAction_remove_from_esign_session::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f5b7";
+    padding-left: 5px;
+    padding-right: 0.3em;
+}
+button.apButtonAction_add_to_esign_session::before {
+    color: green;
+}
+button.apButtonAction_remove_from_esign_session::before {
+    color: red;
+}
+
+/* collapsible */
+/* general and next sibling
+   when collapsible does not have the active class, it means it is closed */
+div.collapsible:not([class*='active']) + div.collapsible-content {
+   display: none;
+}
+.collapsible {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+.collapsible.active, .collapsible:hover {
+    background-color: transparent;
+}
+.collapsible:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0fe";
+    color: grey;
+    font-weight: bold;
+}
+.collapsible.active:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f146";
+}
+/* collapsible-content */
+.collapsible-content {
+    /*max-height: 0;*/
+    /*overflow: hidden;*/
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 0.5em;
+}
+.collapsible-inner-content {
+    padding: 0.3em;
+    background-color: &dtml-oddRowBackgroundColor;;
+    border:1px solid &dtml-tableHeaderBackgroundColor;;
+}
+.collapsible-content.collapsed-on-load {
+    max-height: inherit;
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */

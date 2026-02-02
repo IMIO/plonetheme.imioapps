@@ -5,8 +5,10 @@ Changelog
 2.57 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Added `collapsible` related styles.
+  [gbastien]
+- Added `imio.esign` related styles.
+  [gbastien]
 
 2.56 (2026-01-23)
 -----------------
