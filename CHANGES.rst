@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.57 (unreleased)
+2.57 (2026-02-06)
 -----------------
 
 - Added `collapsible` related styles.
