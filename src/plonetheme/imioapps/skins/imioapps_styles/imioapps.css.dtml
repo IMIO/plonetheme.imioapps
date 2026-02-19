@@ -1758,7 +1758,16 @@ th.th_header_sessions_actions {
     font-family: "Font Awesome 5 Free";
     value: "\f146";
 }
-
+/* state title icon in sessions and viewlet */
+td.state-column span {
+  cursor: help;
+}
+td.state-column span.state-title {
+  margin-right: 1em;
+}
+span.state-title {
+    cursor: help;
+}
 /* specific CSS for button */
 /* size auto fit */
 button.apButton {

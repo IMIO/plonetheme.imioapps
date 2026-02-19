@@ -5,8 +5,8 @@ Changelog
 2.58 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Some more syles related to `imio.esign`.
+  [gbastien]
 
 2.57 (2026-02-06)
 -----------------
