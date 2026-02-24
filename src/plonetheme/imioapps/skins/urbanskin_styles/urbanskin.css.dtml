@@ -129,6 +129,7 @@ table.faceted-table-results th {
 .icons-on .contenttype-codt_commerciallicence {background: no-repeat transparent url(CODT_CommercialLicence.png);}
 .icons-on .contenttype-codt_integratedlicence {background: no-repeat transparent url(CODT_IntegratedLicence.png);}
 .icons-on .contenttype-codt_uniquelicence {background: no-repeat transparent url(CODT_UniqueLicence.png);}
+.icons-on .contenttype-codt_uniqueborderinglicence {background: no-repeat transparent url(CODT_UniqueBorderingLicence.png);}
 .icons-on .contenttype-codt_urbancertificateone {background: no-repeat transparent url(CODT_UrbanCertificateOne.png);}
 .icons-on .contenttype-codt_urbancertificatetwo {background: no-repeat transparent url(CODT_UrbanCertificateTwo.png);}
 .icons-on .contenttype-codt_notaryletter {background: no-repeat transparent url(CODT_NotaryLetter.png);}
