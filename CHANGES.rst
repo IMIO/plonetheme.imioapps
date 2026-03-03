@@ -2,10 +2,10 @@ Changelog
 =========
 
 
-2.58 (unreleased)
+2.58 (2026-03-03)
 -----------------
 
-- Some more syles related to `imio.esign`.
+- Some more styles related to `imio.esign`.
   [gbastien]
 
 2.57 (2026-02-06)
