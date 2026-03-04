@@ -5,8 +5,8 @@ Changelog
 2.59 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Style for eseal column (imio.esign).
+  [sgeulette]
 
 2.58 (2026-03-03)
 -----------------

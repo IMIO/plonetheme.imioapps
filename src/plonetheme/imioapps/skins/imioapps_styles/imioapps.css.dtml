@@ -1750,6 +1750,14 @@ th.th_header_sessions_documents {
 th.th_header_sessions_actions {
     width: 60px;
 }
+.template-parapheo td.seal-column {
+    text-align: center;
+}
+.template-parapheo td.seal-column img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+}
 .collapsible.active:before {
     font-family: "Font Awesome 5 Free";
     content: "\f146";
@@ -1758,6 +1766,7 @@ th.th_header_sessions_actions {
     font-family: "Font Awesome 5 Free";
     value: "\f146";
 }
+
 /* state title icon in sessions and viewlet */
 td.state-column span {
   cursor: help;
