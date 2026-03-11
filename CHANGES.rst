@@ -7,6 +7,8 @@ Changelog
 
 - Style for eseal column (imio.esign).
   [sgeulette]
+- Added styles for collapsible viewlet (odd/even when several sessions).
+  [gbastien]
 
 2.58 (2026-03-03)
 -----------------

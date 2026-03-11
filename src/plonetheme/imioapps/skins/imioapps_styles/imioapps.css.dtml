@@ -1744,6 +1744,12 @@ table.sessions-table {
     margin-top: 1em;
     width: 100%;
 }
+div.session-info-container.odd {
+    background-color: &dtml-oddRowBackgroundColor;;
+}
+div.session-info-container.even {
+    background-color: &dtml-evenRowBackgroundColor;;
+}
 th.th_header_sessions_documents {
     width: 500px;
 }
