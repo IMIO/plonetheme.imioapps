@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.59 (unreleased)
+2.59 (2026-03-16)
 -----------------
 
 - Style for eseal column (imio.esign).

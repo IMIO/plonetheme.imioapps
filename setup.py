@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.59.dev0'
+version = '2.59'
 
 long_description = (
     open('README.rst').read()
