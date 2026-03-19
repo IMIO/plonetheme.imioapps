@@ -1768,9 +1768,13 @@ th.th_header_sessions_actions {
     font-family: "Font Awesome 5 Free";
     content: "\f146";
 }
-.apButtonAction_add_to_esign_session:before {
-    font-family: "Font Awesome 5 Free";
-    value: "\f146";
+.apButtonAction_remove_from_esign_session {
+    background-image: url('&dtml-portal_url;/++resource++imio.esign/remove_from_esign_session.png');
+    background-size: 16px;
+}
+.apButtonAction_remove_item_from_esign_session {
+    background-image: url('&dtml-portal_url;/++resource++imio.esign/remove_from_item_esign_session.png');
+    background-size: 16px;
 }
 
 /* state title icon in sessions and viewlet */
@@ -1788,7 +1792,7 @@ span.state-title {
 button.apButton {
     width: max-content;
 }
-/* remove padding left as we use ::before to use a FA icon */
+/* remove padding left as we use ::before to use a FA icon
 button.apButtonAction.apButtonAction_add_to_esign_session,
 button.apButtonAction.apButtonAction_remove_from_esign_session {
     padding-left: 0px;
@@ -1806,7 +1810,7 @@ button.apButtonAction_add_to_esign_session::before {
 }
 button.apButtonAction_remove_from_esign_session::before {
     color: red;
-}
+} */
 
 /* collapsible */
 /* general and next sibling
