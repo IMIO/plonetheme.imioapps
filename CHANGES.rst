@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.60 (unreleased)
+2.60 (2026-03-24)
 -----------------
 
 - Applied odd/even on files displayed in collapsible of the sessions view.
