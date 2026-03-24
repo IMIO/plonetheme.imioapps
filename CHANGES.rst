@@ -5,8 +5,8 @@ Changelog
 2.60 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Applied odd/even on files displayed in collapsible of the sessions view.
+  [gbastien]
 
 2.59 (2026-03-16)
 -----------------

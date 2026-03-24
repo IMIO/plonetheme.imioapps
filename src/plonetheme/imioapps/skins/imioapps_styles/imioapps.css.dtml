@@ -1776,6 +1776,19 @@ th.th_header_sessions_actions {
     background-image: url('&dtml-portal_url;/++resource++imio.esign/remove_from_item_esign_session.png');
     background-size: 16px;
 }
+/* esign sessions table, align number list number to top when link is on several lines */
+table.sessions-table td.documents-column ol a.pretty_link {
+    display: inline;
+}
+/* odd/even on files of a session */
+table.sessions-table td.documents-column li.odd {
+    background-color: &dtml-oddRowBackgroundColor;;
+    padding: 0.25em;
+}
+table.sessions-table td.documents-column li.even {
+    background-color: &dtml-evenRowBackgroundColor;;
+    padding: 0.25em;
+}
 
 /* state title icon in sessions and viewlet */
 td.state-column span {
