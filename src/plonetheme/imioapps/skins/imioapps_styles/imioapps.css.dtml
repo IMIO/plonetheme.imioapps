@@ -1751,7 +1751,7 @@ div.session-info-container.even {
     background-color: &dtml-evenRowBackgroundColor;;
 }
 th.th_header_sessions_documents {
-    width: 500px;
+    min-width: 700px;
 }
 th.th_header_sessions_actions {
     width: 60px;
@@ -1790,15 +1790,14 @@ table.sessions-table td.documents-column li.even {
     padding: 0.25em;
 }
 
-/* state title icon in sessions and viewlet */
-td.state-column span {
-  cursor: help;
-}
-td.state-column span.state-title {
-  margin-right: 1em;
-}
+/* display ? and make sure (?) icon is sticked on the same line */
 span.state-title {
     cursor: help;
+    display: inline-block;
+    width: max-content;
+}
+span.state-title-draft {
+    color: red;
 }
 /* specific CSS for button */
 /* size auto fit */

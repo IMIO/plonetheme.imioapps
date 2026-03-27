@@ -5,8 +5,8 @@ Changelog
 2.61 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Style `imio.esign` sessions table and highlight `draft` session.
+  [gbastien]
 
 2.60 (2026-03-24)
 -----------------
