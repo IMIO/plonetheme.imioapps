@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.61 (unreleased)
+2.61 (2026-03-27)
 -----------------
 
 - Style `imio.esign` sessions table and highlight `draft` session.
