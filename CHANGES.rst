@@ -5,8 +5,8 @@ Changelog
 2.62 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- `plonemeetingskin`: styles for insert barcode batch action button.
+  [gbastien]
 
 2.61 (2026-03-27)
 -----------------

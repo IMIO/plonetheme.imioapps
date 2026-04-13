@@ -275,6 +275,10 @@ dd.portletCell.pmLink.even {
     background-color: #f4f4f4;
 }
 
+input#insert-barcode-batch-action-but {
+    background-image: url('&dtml-portal_url;/++resource++imio.zamqp.pm/barcode.png');
+}
+
 /* </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
