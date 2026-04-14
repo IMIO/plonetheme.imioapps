@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.62 (unreleased)
+2.62 (2026-04-14)
 -----------------
 
 - `plonemeetingskin`: styles for insert barcode batch action button.
