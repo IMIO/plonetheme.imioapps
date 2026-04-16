@@ -5,7 +5,8 @@ Changelog
 2.63 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- SUP-51123 Change state color for authorized and refused
+  [jchandelle]
 
 
 2.62 (2026-04-14)
