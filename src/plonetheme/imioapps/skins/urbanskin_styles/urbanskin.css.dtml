@@ -161,9 +161,17 @@ table.faceted-table-results th {
 .icons-on .contenttype-street {background: no-repeat transparent 0px -1944px url(urban-sprite.png);}
 .icons-on .contenttype-urbancertificateone {background: no-repeat transparent url(UrbanCertificateOne.png);}
 .icons-on .contenttype-urbancertificatetwo {background: no-repeat transparent url(UrbanCertificateTwo.png);}
-.icons-on .contenttype-urbanevent {background-image: url(UrbanEvent.png);}
 .icons-on .contenttype-urbaneventinquiry {background: no-repeat transparent 0px -2590px url(urban-sprite.png);}
 .icons-on .contenttype-urbaneventopinionrequest {background: no-repeat transparent 0px -2590px url(urban-sprite.png);}
+.icons-on .contenttype-urbanevent,
+.icons-on .contenttype-urbaneventcollege,
+.icons-on .contenttype-urbaneventmayor,
+.icons-on .contenttype-urbaneventacknowledgment,
+.icons-on .contenttype-urbaneventnotificationcollege,
+.icons-on .contenttype-urbaneventannouncement
+{
+    background-image: url(UrbanEvent.png);
+}
 
 .icons-on [class*='contenttype-'] {
     display: inline-block;
