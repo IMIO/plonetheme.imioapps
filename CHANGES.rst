@@ -5,7 +5,8 @@ Changelog
 2.63 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- SUP-51607: Add the event icon for every event types
+  [mpeeters]
 
 
 2.62 (2026-04-14)
