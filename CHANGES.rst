@@ -8,6 +8,8 @@ Changelog
 - SUP-51607: Add the event icon for every event types
   [mpeeters]
 
+- SUP-51123 Change state color for authorized and refused
+  [jchandelle]
 
 2.62 (2026-04-14)
 -----------------

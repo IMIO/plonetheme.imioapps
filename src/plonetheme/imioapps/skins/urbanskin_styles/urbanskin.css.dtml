@@ -433,6 +433,16 @@ td div.parcel-action {
     background: white;
 }
 
+.urban_state_authorized{
+    background-color: green;
+    color: white
+}
+
+.urban_state_refused{
+    background-color: red;
+    color: white
+}
+
 div.parcel-action{
     float: left;
 }
