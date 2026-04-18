@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.63 (unreleased)
+2.63 (2026-04-18)
 -----------------
 
 - SUP-51607: Add the event icon for every event types
