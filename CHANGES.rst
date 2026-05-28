@@ -5,8 +5,8 @@ Changelog
 2.64 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- PARAF-445: Add style for the 'draft_full' state.
+  [sgeulette]
 
 2.63 (2026-04-18)
 -----------------

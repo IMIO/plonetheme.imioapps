@@ -1796,7 +1796,7 @@ span.state-title {
     display: inline-block;
     width: max-content;
 }
-span.state-title-draft {
+span.state-title-draft, span.state-title-draft_full {
     color: red;
 }
 /* specific CSS for button */
