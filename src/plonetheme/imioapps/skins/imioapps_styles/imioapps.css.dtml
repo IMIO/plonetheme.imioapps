@@ -1791,7 +1791,8 @@ table.sessions-table td.documents-column li.even {
 }
 
 /* display ? and make sure (?) icon is sticked on the same line */
-span.state-title {
+span.state-title,
+span.fa-question-circle {
     cursor: help;
     display: inline-block;
     width: max-content;

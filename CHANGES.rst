@@ -7,6 +7,8 @@ Changelog
 
 - PARAF-445: Add style for the 'draft_full' state.
   [sgeulette]
+- Use help cursor for `question-circle icon` in  `@@parapheo` quick look column.
+  [gbastien]
 
 2.63 (2026-04-18)
 -----------------
