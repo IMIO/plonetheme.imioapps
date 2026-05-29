@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.64 (unreleased)
+2.64 (2026-05-29)
 -----------------
 
 - PARAF-445: Add style for the 'draft_full' state.
