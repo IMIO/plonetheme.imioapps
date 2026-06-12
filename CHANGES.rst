@@ -5,8 +5,8 @@ Changelog
 2.65 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- PARAF-476: added styles for `span.signer-not-signed` and `span.signer-signed`.
+  [gbastien]
 
 2.64 (2026-05-29)
 -----------------

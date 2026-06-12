@@ -1797,6 +1797,15 @@ span.fa-question-circle {
     display: inline-block;
     width: max-content;
 }
+
+span.signer-not-signed {
+    color: red;
+    font-weight: normal;
+}
+span.signer-signed {
+    color: green;
+}
+
 span.state-title-draft, span.state-title-draft_full {
     color: red;
 }
