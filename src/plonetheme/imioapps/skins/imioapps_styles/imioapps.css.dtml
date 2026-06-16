@@ -1799,11 +1799,14 @@ span.fa-question-circle {
 }
 
 span.signer-not-signed {
-    color: red;
+    color: grey;
     font-weight: normal;
 }
 span.signer-signed {
-    color: green;
+    color: #75ad0a;
+}
+span.signer-refused {
+    color: red;
 }
 
 span.state-title-draft, span.state-title-draft_full {
