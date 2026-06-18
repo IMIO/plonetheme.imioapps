@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.65 (unreleased)
+2.65 (2026-06-18)
 -----------------
 
 - PARAF-476: added styles for `span.signer-not-signed`, `span.signer-signed`
