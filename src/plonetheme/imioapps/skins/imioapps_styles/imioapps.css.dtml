@@ -1812,6 +1812,13 @@ span.signer-refused {
 span.state-title-draft, span.state-title-draft_full {
     color: red;
 }
+span.state-title-refused, span.state-title-errored {
+    color: orange;
+}
+span.state-title-finalized {
+    color: grey;
+}
+
 /* specific CSS for button */
 /* size auto fit */
 button.apButton {
