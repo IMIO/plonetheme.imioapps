@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.66 (unreleased)
+2.66 (2026-08-24)
 -----------------
 
 - Color state of esign session in `orange` when `errored` or `refused` and
