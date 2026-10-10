@@ -7,14 +7,15 @@ import plonetheme.imioapps
 
 PLONETHEME_IMIOAPPS = PloneWithPackageLayer(
     zcml_package=plonetheme.imioapps,
-    zcml_filename='testing.zcml',
-    gs_profile_id='plonetheme.imioapps:testing',
-    name="PLONETHEME_IMIOAPPS")
+    zcml_filename="testing.zcml",
+    gs_profile_id="plonetheme.imioapps:testing",
+    name="PLONETHEME_IMIOAPPS",
+)
 
 PLONETHEME_IMIOAPPS_INTEGRATION = IntegrationTesting(
-    bases=(PLONETHEME_IMIOAPPS, ),
-    name="PLONETHEME_IMIOAPPS_INTEGRATION")
+    bases=(PLONETHEME_IMIOAPPS,), name="PLONETHEME_IMIOAPPS_INTEGRATION"
+)
 
 PLONETHEME_IMIOAPPS_FUNCTIONAL = FunctionalTesting(
-    bases=(PLONETHEME_IMIOAPPS, ),
-    name="PLONETHEME_IMIOAPPS_FUNCTIONAL")
+    bases=(PLONETHEME_IMIOAPPS,), name="PLONETHEME_IMIOAPPS_FUNCTIONAL"
+)

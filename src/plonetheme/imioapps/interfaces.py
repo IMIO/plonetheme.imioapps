@@ -8,16 +8,17 @@ from zope.interface import Interface
 
 class IThemeSpecific(ICollectiveMessagesviewletLayer):
     """Marker interface that defines a Zope browser layer.
-       Make it inherits from the collective.messagesviewlet layer so we are able
-       to easily redefine the collective.messagesviewlet viewlet.
+    Make it inherits from the collective.messagesviewlet layer so we are able
+    to easily redefine the collective.messagesviewlet viewlet.
     """
 
 
 class IPlonethemeImioappsSettings(Interface):
     """ """
+
     help_url = schema.ASCIILine(
-        title=_(u"Help icon url"),
-        description=_(u"Set the url of the help icon here"),
-        default='',
+        title=_("Help icon url"),
+        description=_("Set the url of the help icon here"),
+        default="",
         required=False,
     )

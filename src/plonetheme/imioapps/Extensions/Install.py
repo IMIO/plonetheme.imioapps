@@ -23,16 +23,16 @@
 #
 
 __author__ = """Gauthier BASTIEN <gauthier.bastien@imio.be>, Stéphan Geulette <stephan.geulette@imio.be>"""
-__docformat__ = 'plaintext'
+__docformat__ = "plaintext"
 
 from Products.CMFCore.utils import getToolByName
 
 
 def uninstall(self, reinstall=False):
     """
-        Uninstall step needed to call uninstall profile !
+    Uninstall step needed to call uninstall profile !
     """
     if not reinstall:
-        setup_tool = getToolByName(self, 'portal_setup')
-        setup_tool.runAllImportStepsFromProfile('profile-plonetheme.imioapps:uninstall')
+        setup_tool = getToolByName(self, "portal_setup")
+        setup_tool.runAllImportStepsFromProfile("profile-plonetheme.imioapps:uninstall")
     return "Ran all uninstall steps."
