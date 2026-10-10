@@ -1,9 +1,7 @@
-import unittest2 as unittest
-
+from plonetheme.imioapps.testing import PLONETHEME_IMIOAPPS_INTEGRATION
 from Products.CMFCore.utils import getToolByName
 
-from plonetheme.imioapps.testing import\
-    PLONETHEME_IMIOAPPS_INTEGRATION
+import unittest2 as unittest
 
 
 class TestExample(unittest.TestCase):
