@@ -1,0 +1,6 @@
+[report]
+include =
+    src/plonetheme/*
+omit =
+    */test*
+    src/plonetheme/__init__.py
