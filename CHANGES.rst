@@ -2,10 +2,14 @@ Changelog
 =========
 
 
-2.67 (unreleased)
------------------
+3.0.0 (unreleased)
+------------------
 
-- Nothing changed yet.
+- Migrated to Plone 6.2 (Classic UI), dropped Plone 4 and Python 2 support:
+  browser layer, `registry.xml` bundles of static CSS converted from DTML, sticky header in CSS,
+  logo/favicon in the registry, no more upgrade steps, `collective.fontawesome` dependency removed,
+  based on the work started by @laulaz on `python3`.
+  [laulaz, chris-adam]
 
 
 2.66 (2026-08-24)

@@ -7,16 +7,14 @@ Site theme shared between imio's applications.
 Fixed header :
 --------------
 
-From version 2.1, the header is fixed (always visible), to remove this, add this to a ploneCustom.css :
+From version 2.1, the header is fixed (always visible), to remove this, add this to the custom CSS
+of the theming control panel (Plone 6) :
 
 .. code:: css
 
-  div#portal-header {
+  #content-header,
+  #mainnavigation-wrapper {
      position: relative;
-  }
-
-  #portal-top div#emptyviewlet {
-      padding-top: 0em;
   }
 
 
@@ -24,7 +22,7 @@ Dashboard table sticky header :
 -------------------------------
 
 From version 2.22, the tablea header is stikcy (will be sticked to the page header when scrolling down),
-to remove this, add this to a ploneCustom.css :
+to remove this, add this to the custom CSS of the theming control panel :
 
 .. code:: css
 

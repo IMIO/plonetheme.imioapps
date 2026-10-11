@@ -1,16 +1,15 @@
+<?xml version="1.0"?>
 <registry>
-  <record interface="Products.ResourceRegistries.interfaces.settings.IResourceRegistriesSettings"
-          field="resourceBundlesForThemes">
-    <value purge="true">
-      <element key="(default)" purge="true">
-        <element>jquery</element>
-        <element>default</element>
-        <element>jqueryui</element>
-        <element>faceted-view</element>
-        <element>faceted-edit</element>
-      </element>
-    </value>
-  </record>
   <records interface="plonetheme.imioapps.interfaces.IPlonethemeImioappsSettings">
+  </records>
+  <!-- depends "all": rendered after the Diazo theme CSS, so the theme rules win over Barceloneta -->
+  <records prefix="plone.bundles/plonetheme.imioapps"
+           interface="plone.base.interfaces.resources.IBundleRegistry">
+    <value key="enabled">True</value>
+    <value key="depends">all</value>
+    <value key="csscompilation">++plone++plonetheme.imioapps/imioapps.css</value>
+    <value key="jscompilation">++plone++plonetheme.imioapps/skin.js</value>
+    <value key="load_async">False</value>
+    <value key="load_defer">True</value>
   </records>
 </registry>

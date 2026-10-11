@@ -1,19 +1,13 @@
 <?xml version="1.0"?>
-<object name="portal_skins" allow_any="False" cookie_persistence="False"
-   default_skin="imioapps">
+<object name="portal_skins">
 
  <object name="imioapps_images"
     meta_type="Filesystem Directory View"
     directory="plonetheme.imioapps:skins/imioapps_images"/>
- <object name="imioapps_styles"
-    meta_type="Filesystem Directory View"
-    directory="plonetheme.imioapps:skins/imioapps_styles"/>
 
- <skin-path name="imioapps" based-on="Sunburst Theme">
-   <layer name="imioapps_images"
-          insert-after="custom"/>
-   <layer name="imioapps_styles"
-          insert-after="imioapps_images"/>
+ <!-- images used by dependents as portal_url/spinner_small.gif, portal_url/help.png... -->
+ <skin-path name="Plone Default">
+   <layer name="imioapps_images" insert-after="custom"/>
  </skin-path>
 
 </object>

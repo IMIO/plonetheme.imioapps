@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<portlets>
+  <!-- Plone 6 footer: the colophon and site actions are portlets (the Plone 4 viewlets are hidden by Plone) -->
+  <assignment remove="True" category="context" key="/" manager="plone.footerportlets"
+              name="actions" type="portlets.Actions" />
+  <assignment remove="True" category="context" key="/" manager="plone.footerportlets"
+              name="colophon" type="portlets.Classic" />
+</portlets>
