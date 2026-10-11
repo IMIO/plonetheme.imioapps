@@ -1,3 +1,8 @@
+.. image:: https://github.com/IMIO/plonetheme.imioapps/actions/workflows/main.yml/badge.svg
+    :target: https://github.com/IMIO/plonetheme.imioapps/actions/workflows/main.yml
+.. image:: https://coveralls.io/repos/github/IMIO/plonetheme.imioapps/badge.svg
+    :target: https://coveralls.io/github/IMIO/plonetheme.imioapps
+
 ====================
 plonetheme.imioapps
 ====================
