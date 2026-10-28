@@ -74,3 +74,13 @@ class TestDmsmailskinCss(StaticTestCase):
             ".template-view label .required:after, #fieldset-versions legend { display: none; }",
             css,
         )
+
+
+class TestPlonemeetingskinCss(StaticTestCase):
+    def test_plonemeetingskin_css(self):
+        css = self.css("plonemeetingskin.css")
+        # images of the portal root, quoted once (no quote inside an unquoted url())
+        self.assertIn("background-image: url('../copy_icon.png');", css)
+        self.assertIn("background: url('../contenttypes-sprite.png') no-repeat", css)
+        self.assertNotIn("url(../'", css)
+        self.assertNotIn('url(../"', css)

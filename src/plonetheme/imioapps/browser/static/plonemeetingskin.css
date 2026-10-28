@@ -102,23 +102,23 @@ color:#436976 !important;
 }
 
 .apButtonAction_duplicate, .apButtonAction_copyitem {
-    background-image: url(../'../copy_icon.png');
+    background-image: url('../copy_icon.png');
 }
 
 .apButtonAction_duplicate_and_keep_link {
-    background-image: url(../'../duplicate_and_keep_link.gif');
+    background-image: url('../duplicate_and_keep_link.gif');
 }
 
 .apButtonAction_deleteWholeMeeting {
-    background-image: url(../'../delete_many.gif');
+    background-image: url('../delete_many.gif');
 }
 
 .apButtonAction_update_item_references {
-    background-image: url(../'../++resource++collective.eeafaceted.z3ctable/refresh.gif');
+    background-image: url('../++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
 .apButtonAction_reorder_items {
-    background-image: url(../'../reorder.png');
+    background-image: url('../reorder.png');
 }
 
 div#batch-actions {
@@ -126,39 +126,39 @@ div#batch-actions {
   margin-bottom: 0.5em;
 }
 div#batch-actions input#store-items-template-as-annex-batch-action-but.batch-action-icon-but {
-    background-image: url(../"../store_as_annex.png");
+    background-image: url('../store_as_annex.png');
 }
 
 .apButtonAction_documentviewer_convert {
-    background-image: url(../'../documentviewer_convert.png');
+    background-image: url('../documentviewer_convert.png');
 }
 
 /* icon displayed on the 'send to other mc' button displayed on the item view */
 input[class*="apButtonAction_clone_to_other_mc_"] {
-    background-image: url(../'../clone_to_other_mc.png');
+    background-image: url('../clone_to_other_mc.png');
 }
 
 /* icon added to the button while using imio.pm.wsclient */
 .apButtonAction_plonemeeting_wsclient_action_1 {
-    background-image: url(../'../++resource++imio.pm.wsclient.images/send_to_plonemeeting.png');
+    background-image: url('../++resource++imio.pm.wsclient.images/send_to_plonemeeting.png');
 }
 
 /* add a icon to every wf actions corresponding to a 'backTo' */
 input[class*="apButtonWF_backTo"] {
     background-position: 3px 3px;
     padding-left: 20px;
-    background-image: url(../'../backTo.png');
+    background-image: url('../backTo.png');
 }
 /* special case for the backToValidated that removes the item from a meeting */
 input.apButtonWF_backToValidated {
     background-position: 3px 3px;
-    background-image: url(../'../backToValidatedForInput.png');
+    background-image: url('../backToValidatedForInput.png');
 }
 /* add a icon to every wf actions corresponding to a 'wait_advices' */
 input[class*="apButtonWF_wait_advices_from_"] {
     background-position: 3px 3px;
     padding-left: 20px;
-    background-image: url(../'../wait_advices_from.png');
+    background-image: url('../wait_advices_from.png');
 }
 
 /* use important for it to work on the meetingfolder_view */
@@ -173,15 +173,15 @@ input[class*="apButtonWF_wait_advices_from_"] {
     line-height: 1.2em !important;
 }
 .icons-imaged-dropdown.contenttype-file {
-    background: url(../"../contenttypes-sprite.png") no-repeat scroll 0 -432px transparent;
+    background: url('../contenttypes-sprite.png') no-repeat scroll 0 -432px transparent;
 }
 .icons-imaged-dropdown.contenttype-folder {
-    background: url(../"../contenttypes-sprite.png") no-repeat scroll 0 -648px transparent;
+    background: url('../contenttypes-sprite.png') no-repeat scroll 0 -648px transparent;
 }
 
 /* as we generate the portal_type, skin every elements containings xxx */
 /*.icons-on [class*="contenttype-meeting"] {
-    background: url(../"../pm-contenttypes-sprite.png") no-repeat scroll 0 0px transparent;
+    background: url('../pm-contenttypes-sprite.png') no-repeat scroll 0 0px transparent;
     display: inline;
     line-height: 1.2em;
     padding-left: 20px !important;
@@ -192,7 +192,7 @@ input[class*="apButtonWF_wait_advices_from_"] {
 .icons-on .contenttype-meetinggroup,
 .icons-on .contenttype-meetinguser,
 .icons-on .contenttype-toolplonemeeting {
-    background: url(../"../pm-contenttypes-sprite.png") no-repeat scroll 0 -216px transparent;
+    background: url('../pm-contenttypes-sprite.png') no-repeat scroll 0 -216px transparent;
     display: inline;
     line-height: 1.2em;
     padding-left: 20px !important;
@@ -264,5 +264,5 @@ dd.portletCell.pmLink.even {
 }
 
 input#insert-barcode-batch-action-but {
-    background-image: url(../'../++resource++imio.zamqp.pm/barcode.png');
+    background-image: url('../++resource++imio.zamqp.pm/barcode.png');
 }
