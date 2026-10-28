@@ -4,29 +4,28 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="plonetheme.imioapps">
 
-    <!-- Publish static files -->
-    <browser:resourceDirectory
-      name="plonetheme.imioapps"
-      directory="static" />
+    <!-- zope2.View -->
+    <include package="Products.CMFCore" file="permissions.zcml" />
 
+    <!-- ++plone++plonetheme.imioapps/... (bundles in profiles/*/registry.xml) -->
+    <plone:static
+        name="plonetheme.imioapps"
+        directory="static"
+        type="plone"
+        />
+
+    <!-- global messages out of the sticky header, above the content (Barceloneta's Diazo rules drop
+         plone.portaltop): the original in plone.portalheader is hidden by profiles/default/viewlets.xml -->
     <configure package="collective.messagesviewlet.browser">
         <browser:viewlet
             for="*"
             layer="plonetheme.imioapps.interfaces.IThemeSpecific"
             name="message-viewlet"
-            manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+            manager="plone.app.layout.viewlets.interfaces.IAboveContent"
             class="collective.messagesviewlet.browser.messagesviewlet.GlobalMessagesViewlet"
             template="messagesviewlet.pt"
             permission="zope2.View" />
     </configure>
-
-    <browser:viewlet
-        for="*"
-        layer="plonetheme.imioapps.interfaces.IThemeSpecific"
-        name="empty-viewlet"
-        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-        class=".viewlets.EmptyViewlet"
-        permission="zope2.View" />
 
     <browser:viewlet
         name="plonetheme.imioapps.help"
@@ -34,31 +33,5 @@
         class=".viewlets.HelpViewlet"
         permission="zope2.View"
         />
-
-    <browser:page
-        name="plone_context_state"
-        for="*"
-        permission="zope.Public"
-        class=".overrides.ImioContextState"
-        allowed_interface="plone.app.layout.globals.interfaces.IContextState"
-        layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
-
-    <!-- Override @@search -->
-    <configure package="plone.app.search">
-        <browser:page
-            name="search"
-            class="plonetheme.imioapps.browser.overrides.ImioSearch"
-            permission="zope2.View"
-            for="*"
-            template="search.pt"
-            layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
-        <browser:page
-            name="updated_search"
-            class="plonetheme.imioapps.browser.overrides.ImioSearch"
-            permission="zope2.View"
-            for="Products.CMFCore.interfaces.IFolderish"
-            template="updated_search.pt"
-            layer="plonetheme.imioapps.interfaces.IThemeSpecific" />
-    </configure>
 
 </configure>

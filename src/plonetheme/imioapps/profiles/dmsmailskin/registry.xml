@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<registry>
+  <!-- "_dmsmailskin" sorts after "plonetheme.imioapps": rendered after imioapps.css -->
+  <records prefix="plone.bundles/plonetheme.imioapps_dmsmailskin"
+           interface="plone.base.interfaces.resources.IBundleRegistry">
+    <value key="enabled">True</value>
+    <value key="depends">all</value>
+    <value key="csscompilation">++plone++plonetheme.imioapps/dmsmailskin.css</value>
+    <value key="load_async">False</value>
+    <value key="load_defer">False</value>
+  </records>
+</registry>

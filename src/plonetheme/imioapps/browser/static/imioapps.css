@@ -1,0 +1,1032 @@
+/* plonetheme.imioapps: theme for the IMIO applications on Plone 6 Classic UI (Barceloneta).
+ * Converted from the Plone 4 imioapps.css.dtml (imioapps_properties values inlined):
+ * the Sunburst chrome rules are dropped, see MIGRATION.md "Known issues".
+ * Urls: the bundle is served at portal_url/++plone++plonetheme.imioapps/, so "../" is the portal root
+ * (skin images of the imioapps_images layer, ++plone++bootstrap-icons, ++resource++...).
+ */
+
+:root {
+    --imioapps-header-bg: white;
+    --imioapps-nav-bg: #34495e;
+}
+
+body {
+    color: black;
+    font-family: Arial, FreeSans, sans-serif;
+}
+
+/* reduce space under paragraphs to 0.5em */
+#content p, #content table, #content dl {
+    margin-bottom: 0.5em;
+}
+
+.faceted-lock-overlay {
+  background: grey;
+}
+
+/* when faceted operator AND/OR is shown on a faceted widget */
+div.faceted-operator {
+    float: right;
+}
+/* hide label 'correspondance' */
+div.faceted-operator label {
+    display: none;
+}
+
+#faceted-top-column {
+    padding-right: 27px;
+}
+
+div#faceted-form input.searchButton {
+    background-color: transparent;
+    background-image: url('../search_button_icon.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    border: 0 solid #496A93;
+    color: transparent;
+    font-size: 15px;
+    padding-left: 18px;
+    padding-right: 5px;
+    height: 20px;
+    width: 10px;
+    margin-right: 2px;
+}
+
+/* Header always visible: Barceloneta's header and navigation bar stick at the top,
+   skin.js computes --imioapps-header-height (top of the navigation bar) and
+   --imioapps-sticky-height (top of the sticky dashboard table header) */
+#content-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: var(--imioapps-header-bg);
+    /* full width background behind the .container */
+    box-shadow: 0 0 0 100vmax var(--imioapps-header-bg);
+    clip-path: inset(0 -100vmax);
+}
+#mainnavigation-wrapper {
+    position: sticky;
+    top: var(--imioapps-header-height, 0px);
+    z-index: 50;
+    box-shadow: 0 0 5px gray;
+}
+.navbar-barceloneta {
+    --bs-navbar-background: var(--imioapps-nav-bg);
+}
+/* imio-test / imio-acceptation instances (skin.js) */
+body.imioapps-test-instance {
+    --imioapps-header-bg: #d00;
+    --imioapps-nav-bg: #d00;
+}
+
+/* the "Home" tab is not displayed */
+#portal-globalnav > li.index_html {
+    display: none;
+}
+
+#imioapp-help {
+    margin: 0 0.5em;
+}
+
+h1 {
+    border-bottom: 1px solid #436976;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* add some space above the description */
+#content .documentDescription, #content #description, #content > header > p.lead {
+    padding-bottom: 1em;
+}
+
+/* some space under the history */
+#content #viewlet-below-content-title {
+    padding-bottom: 0.5em;
+}
+
+#content-history table {
+    font-size: 90%;
+}
+
+#form-container input{
+    min-width: 8em;
+}
+
+/* title H1 (Plone 6 @@title: "#content > header > h1") */
+#content h1.documentFirstHeading,
+#content > header > h1 {
+    border:none;
+    color: #205c90;
+    font-weight: normal;
+    line-height: 1em;
+    margin-bottom: 0.3em;
+    margin-top: 0em;
+}
+
+#content input#form-widgets-title {
+    font-size: 120%;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+div.formControls {
+    margin-left: 0;
+}
+
+/* make sure content icon is fixed to 16px, necessary when using a svg */
+label[class^="contenttype-"] img {
+    max-width: 16px;
+}
+
+.formQuestion {
+    font-weight: bold;
+}
+
+.formQuestion.label {
+    display: block;
+}
+
+.field {
+    margin-bottom: 1em;
+}
+
+#portal-column-content .discreet {
+    color: #4A494F;
+    font-size: 90%;
+}
+
+#content fieldset {
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    margin: 0;
+    padding-top: 1.3em;
+    padding-bottom: 0.5em;
+    line-height: 1.25em;
+}
+
+/* the submit-widget comes from z3c.form forms */
+input.standalone,
+input.destructive,
+input.submit-widget.standalone,
+input#form-buttons-cancel {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-color: orange;
+    background-image: url('../exclamation.gif');
+    background-position: 4px 4px;
+    border: 1px solid grey;
+    padding-left: 12px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    font-size: 90%;
+    height: 2em;
+    color: #213C68;
+}
+
+/* the submit-widget comes from z3c.form forms */
+
+input.context, input.submit-widget {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-color: #EDEDED;
+    border: 1px solid #375b7e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    font-size: 90%;
+    height: 2em;
+    color: #213C68;
+}
+
+button,
+input[type="submit"],
+input[type="checkbox"],
+input[type="button"] {
+    cursor: pointer;
+}
+
+/* redefine focus outline, especially for FF
+   do not use outline has we use border-radius */
+input[type="button"].apButton:focus, input[type="submit"].apButton:focus,
+input[type="button"].standalone:focus, input[type="submit"].standalone:focus,
+input[type="button"].destructive:focus, input[type="submit"].destructive:focus,
+input[type="button"].submit-widget:focus, input[type="submit"].submit-widget:focus,
+input[type="button"].context:focus, input[type="submit"].context:focus {
+    outline: 0;
+    box-shadow: 0px 0px 2px 1px grey;
+}
+
+.ptButton {
+    color: black;
+    margin-right:5px !important;
+}
+
+/* links of the content and portlets (Barceloneta keeps its colours in the header, navigation and footer) */
+#portal-column-content a:link,
+#portal-column-content a:visited,
+#portal-column-one a:link,
+#portal-column-one a:visited,
+#portal-column-two a:link,
+#portal-column-two a:visited {
+    color: #205c90;
+    border: 0;
+}
+
+#content a:hover,
+div.tooltipster-content a:hover,
+#portal-column-one a.pretty_link span.pretty_link_content:hover,
+#content a.pretty_link span.pretty_link_content:hover {
+    color: #1F4065;
+    text-decoration: none;
+}
+
+/* avoid tooltipster taking 100% width */
+.tooltipster-base {
+    max-width: 80%;
+    /* avoid extra blank space at bottom of the tooltipster sometimes... */
+    height: auto !important;
+}
+
+/* scroll when too large */
+.tooltipster-base .tooltipster-box {
+    overflow-y: auto;
+}
+
+/* make sure large images do not add horizontal scroll */
+div.tooltipster-box img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* tooltipster content is light grey by default, makes it a bit darker... */
+.tooltipster-base.tooltipster-sidetip.tooltipster-shadow .tooltipster-content {
+    color: #4A494F;
+}
+/* shadow a bit more */
+/* fix max-height to avoid problems with very high tooltipster overflowing the screen */
+.tooltipster-base.tooltipster-sidetip.tooltipster-shadow .tooltipster-box {
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+  margin-top: 5px;
+  max-height: 800px;
+}
+
+/* add some margin bottom only if tooltipster is not displayed "top" */
+.tooltipster-base.tooltipster-sidetip.tooltipster-shadow:not(.tooltipster-top) .tooltipster-box {
+  margin-bottom: 0.5em;
+}
+/* add some margin right only if tooltipster is not displayed "left" */
+.tooltipster-base.tooltipster-sidetip.tooltipster-shadow:not(.tooltipster-left) .tooltipster-box {
+  margin-right: 0.5em;
+}
+
+/* limit padding left and right when using tooltipster */
+div.tooltipster-sidetip .tooltipster-content {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+/* when using #content in tooltipster-content, remove all margin except bottom */
+div.tooltipster-content #content {
+  margin: 0em 0em 1em 0em;
+}
+
+#portal-breadcrumbs a {
+    color: #205c90;
+}
+
+/* table styles */
+.no-style-table {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.no-style-table tr {
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.no-style-table tr.hide-bottom-border {
+    border-bottom: 0px;
+}
+
+#content table.no-style-table td {
+    vertical-align: top;
+    border: 0px;
+}
+
+/* cache la derniere ligne ou si la classe no-border est appliquée */
+.no-style-table tr.no-border,
+.no-style-table tr:last-child {
+    border-bottom: 0;
+}
+
+/* si on affiche une table avec la classe 'listing' dans une table avec 'no-style-table',
+   certaines bordures ne sont pas affichées, les afficher... */
+.no-style-table table.listing tr td {
+    border: 1px solid #e7e7e7;
+}
+
+/* classes used while displaying widgets on a view */
+#content td.table_widget_label {
+    width: 250px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+#content td.table_widget_label label {
+    font-weight: bold;
+}
+#content td.table_widget_value {
+    width: auto;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+table.listing {
+    border-right: 1px solid #ddd;
+}
+
+table tr th {
+    background-color: #e7e7e7;
+}
+
+table.listing th, .stx table th,
+.datagridwidget-table-view .header {
+    color: #4A494F;
+    background-color: #e7e7e7;
+    color: #4A494F;
+    vertical-align: middle;
+    text-align: left;
+    padding: 0.3em 0.3em 0.3em 0.6em;
+    font-size: 1em;
+    word-break: normal;
+}
+
+table.listing td {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+table.listing tbody tr.odd td,
+table.listing tfoot tr td {
+    background: none repeat scroll 0 0 white;
+    border-right: 1px solid #e7e7e7;
+}
+
+table.listing tbody tr.even td {
+    background: none repeat scroll 0 0 #f4f4f4;
+    border-bottom: 1px solid #e7e7e7;
+    border-right:1px solid #e7e7e7;
+    border-top: 1px solid #f2f2f2;
+}
+
+/* the table listing elements in folder_contents */
+#content #listing-table {
+    margin-bottom: 1em !important;
+    margin-top: 1em !important;
+}
+
+legend {
+    color: #4A494F;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.historyByLine {
+    border-radius: 0;
+}
+
+h1, h2 {
+    letter-spacing: 0em;
+}
+
+SPAN.formHelp {
+    display: block;
+    color: #4A494F;
+    font-weight: normal;
+}
+
+/* remove extra padding-left added by Firefox to the input text */
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+    padding-left: 0;
+}
+
+/* buttons coming from imio.actionspanel or collective.eeafaceted.batchactions */
+.apButton, input.button.batch-action-but {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-color: #EDEDED;
+    border: 1px solid #375b7e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    font-size: 90%;
+    height: 2em;
+    color: #213C68;
+    margin: 0 2px 0 0;
+}
+
+/* Plone 4 icons (gone in Plone 6) replaced by Plone 6 Bootstrap icons */
+input#delete-batch-action-but,
+.apButtonAction_delete {
+    background-image: url('../++plone++bootstrap-icons/trash.svg');
+}
+input#download-annexes-batch-action-but,
+.apButtonAction_download {
+    background-image: url('../++plone++bootstrap-icons/download.svg');
+}
+.apButtonAction_cut {
+    background-image: url('../++plone++bootstrap-icons/scissors.svg');
+}
+.apButtonAction_copy {
+    background-image: url('../++plone++bootstrap-icons/clipboard-plus.svg');
+}
+.apButtonAction_paste {
+    background-image: url('../++plone++bootstrap-icons/clipboard.svg');
+}
+.apButtonAction_rename {
+    background-image: url('../++plone++bootstrap-icons/arrow-left-right.svg');
+}
+.apButtonAction_edit {
+    background-image: url('../++plone++bootstrap-icons/pencil.svg');
+}
+input#delete-batch-action-but,
+input#download-annexes-batch-action-but,
+.apButtonAction_delete,
+.apButtonAction_download,
+.apButtonAction_cut,
+.apButtonAction_copy,
+.apButtonAction_paste,
+.apButtonAction_rename,
+.apButtonAction_edit {
+    background-size: 16px;
+}
+
+.apButtonWF {
+    color: white;
+    background-color: #375b7e;
+}
+
+.apButtonAction {
+    color: #213C68;
+    background-position: 5px 3px;
+    padding-left: 24px;
+}
+
+.apButtonSelect {
+    padding-right: 0px;
+}
+
+/* reduce width in dashboard column */
+#faceted_table .apButtonSelect {
+    padding-left: 10px;
+}
+
+/* enlarge option list */
+.apButtonSelect option {
+    display: table-column;
+}
+
+.apButtonAction_update_categorized_elements {
+    background-image: url('../++resource++collective.eeafaceted.z3ctable/refresh.gif');
+}
+
+.apButtonAction_update_and_sort_categorized_elements {
+    background-image: url('../++resource++collective.eeafaceted.z3ctable/refresh.gif');
+}
+
+div#batch-actions input#concatenate-annexes-batch-action-but.batch-action-icon-but {
+    background-image: url('../++resource++collective.documentgenerator/pdf.svg');
+    background-size: 16px;
+}
+
+/* make empty datagrid fields more viewable */
+table[id^="datagridwidget-table"] {
+    background-color: #e7e7e7;
+    border: 1px solid #808080;
+    margin-bottom: 0.5em !important;
+}
+
+/* manage datagridfield TH when in edit mode, hightlight title and italic description, avoid title/description to be too close from each other */
+.datagridwidget-table-edit TH span {
+    font-weight: bold;
+    margin: 0.2em;
+    display: block;
+}
+.datagridwidget-table-edit TH span.formHelp {
+    font-weight: normal;
+    font-style: italic;
+}
+.datagridwidget-table-edit TH  {
+    vertical-align: top;
+}
+
+/* align z3cform datagridfield TD to top */
+td.datagridwidget-cell,
+td.datagridwidget-manipulator {
+    vertical-align: top;
+}
+/* add separation under z3cform datagrid field rows because it does not use oddeven... */
+tr.datagridwidget-row {
+    border-bottom: 1px solid #DDD;
+}
+
+/* remove text-decoration that adds a dotted border by default in Firefox and set it for every browers */
+acronym, abbr {
+    cursor: help;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    /* make space between text and border harmonious */
+    display: inline-block;
+}
+
+#content .no-style-table.discreet legend {
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+    padding-top: 0;
+}
+
+.collapsibleHeader.discreet > b{
+    display: inline-block;
+    padding: 0.75em 0;
+}
+
+/* legend and fieldest */
+#content legend {
+    background-color: #e7e7e7;
+    border-color: #f2f2f2;
+    border-radius: 0 0 6px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: #222222;
+    padding: 3px 9px;
+    margin-left: -15px;
+/* décallage <legend> */
+    position: relative;
+    top: 12px;
+    height: 18px;
+}
+
+/* display results in a 100% width table so passing from one page of the batch to another is pretty,
+   add also margin-bottom to not stick with bottom listingBar */
+#content table.faceted-table-results {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+/* width of advanced faceted filters */
+#faceted-form div#top-area fieldset.widget-fieldset {
+    width: 175px;
+}
+
+#faceted-form fieldset.widget-fieldset{
+    padding-left: 1em;
+    padding-top: 1.3em;
+}
+
+#content-core #faceted-form .faceted-sections-buttons {
+    top: -20px;
+    right: 25px;
+    padding-top: 0;
+}
+
+/* skin the advanced search link in faceted search */
+div.faceted-sections-buttons a {
+    font-weight: normal;
+}
+
+div.faceted-sections-buttons a::before {
+    padding-right: 0.25em;
+    vertical-align: middle;
+}
+a.faceted-sections-buttons-more::before {
+    content: url('../++plone++bootstrap-icons/zoom-in.svg');
+}
+a.faceted-sections-buttons-less::before {
+    content: url('../++plone++bootstrap-icons/zoom-out.svg');
+}
+
+div#faceted-form {
+    position: relative;
+}
+
+#content legend + p,
+#content fieldset.widget-fieldset ul  {
+    clear: both;
+}
+
+#content .widget-fieldset legend {
+    background-color: #f2f2f2;
+    border:none;
+    margin-left: 0em;
+    padding:0;
+}
+
+.portletTodo .portletCell,
+.portletTodo .portletSection,
+.portletWidgetCollection div.widget-portlet div.title {
+    padding-left: 1em;
+}
+
+.portletTodo .portletSection,
+.portletWidgetCollection div.title {
+    padding-top: 0.3em;
+}
+
+div#top---advanced---widgets {
+    background-color: transparent;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+#content div#top---advanced---widgets .widget-fieldset > form {
+    margin-left: -0.8em;
+}
+
+.widget-fieldset {
+    margin-left: 0 !important;
+}
+
+/* limit space between checkbox and label in a faceted widget */
+.widget-fieldset ul li label {
+    padding-left: 0.3em;
+}
+
+iframe{
+    padding-bottom:1em;
+}
+
+/* Arrow for next and preview */
+#querynextprev-navigation {
+    float: right;
+}
+#query-nextprev-prev{
+    padding-right: 1em;
+}
+#query-nextprev-next{
+    padding-right: 1em;
+}
+#query-nextprev-prev::before {
+    content: "<<";
+    padding-right: 0.5em;
+}
+#query-nextprev-next::after {
+    content: ">>";
+    padding-left: 0.5em;
+}
+
+/* Correction of collective.contact.facetednav */
+.template-facetednavigation_view #content-core #faceted-results {
+    padding-left: 0;
+}
+
+/* title portelt column-one */
+.portletTodo dd.portletSection a:link, .portletTodo dd.portletSection a:visited {
+    color: #222222;
+}
+/* make sure broken images are shown in FF */
+img {
+    -moz-force-broken-image-icon: 1;
+}
+
+/* display default faceted widgets (not advanced) the same height */
+#center-top-area fieldset {
+    min-height: 32px;
+}
+
+/* add minimal margin-top to viewlet containing especially actionspanel buttons */
+#content > div#viewlet-below-content-body {
+    margin-top: 0.5em;
+}
+
+/* remove bold on label used in multiselection lists */
+#content span.option label span {
+    font-weight: normal;
+}
+
+#content label.horizontal,
+#content label.formQuestion {
+    font-weight: bold;
+}
+
+/* tooltip for collective.contact.core */
+.tooltip.pb-ajax {
+    margin-top: 1em;
+    padding: 1em;
+    /* fix width */
+    width: 600px;
+    /* less shadow */
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    /* too much content in tooltip */
+    overflow: auto;
+}
+/* make sure link-tooltip have border-bottom in dashboard table.listing
+   because base.css use a border-bottom: 0 !important... */
+table.listing a.link-tooltip .pretty_link_content {
+    border-bottom: 1px dotted;
+}
+/* fix for pretty_link displayed in firefox, a very long word
+   (or list of references separated by "-") is not splitted... */
+.pretty_link_content {
+    word-break: break-word;
+}
+
+/* add contact link at bottom of organization view */
+a.addnewcontactfromorganization.link-overlay {
+    display:block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* z3c.form validation error message */
+div.error div.error {
+    padding: 0.25em;
+    margin: 0;
+    font-size: 110%;
+}
+
+/* spinner when displaying actionspanel asynch */
+div#async_actions_panel {
+  display: inline-block;
+}
+
+/* quickupload with collective.iconifiedcategory, copy content category button */
+a#copy_categories {
+  background-color: #375b7e;
+}
+/* quickupload with collective.iconifiedcategory, browse button */
+div.qq-upload-button {
+  background-color: #375b7e;
+}
+
+input#form-widgets-ITALCondition-tal_condition {
+  width: 99%;
+}
+
+/* datagridfield displayed in a dashboard column (additional infos) */
+div.table-col-datagrid-header {
+  font-weight: bold;
+  float: left;
+  font-size: 90%;
+  line-height: 1em;
+}
+div.table-col-datagrid-value {
+  float: left;
+  font-size: 90%;
+  line-height: 1em;
+}
+
+/* display workflow state with background color */
+.viewlet_workflowstate span[class^='state-'] {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0 0.5em;
+    color: white !important;
+    border: 1.5px solid;
+    background-color: black;
+    border-color: black;
+}
+
+/* task states */
+.viewlet_workflowstate span.state-created {
+    background-color: red;
+    border-color: red;
+}
+
+.viewlet_workflowstate span.state-to_assign {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.viewlet_workflowstate span.state-to_do {
+    background-color: blue;
+    border-color: blue;
+}
+
+.viewlet_workflowstate span.state-in_progress {
+    background-color: green;
+    border-color: green;
+}
+
+.viewlet_workflowstate span.state-realized {
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+
+.viewlet_workflowstate span.state-closed {
+    background-color: dimgrey;
+    border-color: dimgrey;
+}
+
+/* additional infos column */
+div.additional-infos > div {
+    margin-top: 0.35em;
+}
+
+/* easier way to select checkbox in dashboards */
+table.listing th.th_header_select_row,
+table.listing td.td_cell_select_row {
+  width: 1%;
+  padding: 0.3em;
+}
+table.listing td.select_item_checkbox {
+  height: 100%;
+  padding: 0;
+}
+/* only for Chrome, for a container in a <td> to take full height,
+   the parent must be set height: inherit; */
+body.using-chrome table.listing tr[class][class] td.select_item_checkbox {
+   height: inherit;
+}
+label.select-item-label {
+    height: 100%;
+    width: 100%;
+    padding-top: 0.25em;
+    display: inline-block;
+}
+
+/* this makes faceted table header sticky, below the sticky header */
+#content table.faceted-table-results {
+   position: relative;
+}
+table.faceted-table-results th {
+   position: sticky;
+   top: calc(var(--imioapps-sticky-height, 0px) - 1px);
+   z-index: 45;
+}
+
+/* from documentgenerator for plone 4 */
+#content li.template-link {
+    margin-bottom: 0px;
+}
+span.template-link-before-link a,
+span.template-link-before-link acronym {
+    display: inline-block;
+    width: 28px;
+}
+
+span.template-link-title:after {
+    content: url('../++plone++bootstrap-icons/chevron-right.svg');
+    margin-left: 3px;
+    display: inline-block;
+    vertical-align: bottom;
+    opacity: 0.3;
+}
+
+span.template-link-title:hover::after {
+    opacity: 1;
+}
+
+/* do not use inline-block for pod templates displayed in dashboards */
+div#faceted-results span.template-link-before-link a {
+    display: initial;
+}
+span.template-link-before-link img {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ccc;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    padding: 2px;
+}
+span.template-link-before-link img:hover {
+    width: 28px;
+    height: 28px;
+    margin: -1px;
+    padding: 2px;
+    border-color: #aaa;
+}
+
+/* Align field at the left */
+#content ul.select2-choices {
+    margin-left: 0;
+}
+
+/* imio.esign */
+table.sessions-table {
+    margin-top: 1em;
+    width: 100%;
+}
+div.session-info-container.odd {
+    background-color: white;
+}
+div.session-info-container.even {
+    background-color: #f4f4f4;
+}
+th.th_header_sessions_documents {
+    min-width: 700px;
+}
+th.th_header_sessions_actions {
+    width: 60px;
+}
+.template-parapheo td.seal-column {
+    text-align: center;
+}
+.template-parapheo td.seal-column img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+}
+
+.apButtonAction_remove_from_esign_session {
+    background-image: url('../++resource++imio.esign/remove_from_esign_session.png');
+    background-size: 16px;
+}
+.apButtonAction_remove_item_from_esign_session {
+    background-image: url('../++resource++imio.esign/remove_from_item_esign_session.png');
+    background-size: 16px;
+}
+/* esign sessions table, align number list number to top when link is on several lines */
+table.sessions-table td.documents-column ol a.pretty_link {
+    display: inline;
+}
+/* odd/even on files of a session */
+table.sessions-table td.documents-column li.odd {
+    background-color: white;
+    padding: 0.25em;
+}
+table.sessions-table td.documents-column li.even {
+    background-color: #f4f4f4;
+    padding: 0.25em;
+}
+
+/* display ? and make sure (?) icon is sticked on the same line */
+span.state-title,
+span.fa-question-circle {
+    cursor: help;
+    display: inline-block;
+    width: max-content;
+}
+
+span.signer-not-signed {
+    color: grey;
+    font-weight: normal;
+}
+span.signer-signed {
+    color: #75ad0a;
+}
+span.signer-refused {
+    color: red;
+}
+
+span.state-title-draft, span.state-title-draft_full {
+    color: red;
+}
+span.state-title-refused, span.state-title-errored {
+    color: orange;
+}
+span.state-title-finalized {
+    color: grey;
+}
+
+/* specific CSS for button */
+/* size auto fit */
+button.apButton {
+    width: max-content;
+}
+
+/* collapsible */
+/* general and next sibling
+   when collapsible does not have the active class, it means it is closed */
+
+div.collapsible:not([class*='active']) + div.collapsible-content {
+   display: none;
+}
+.collapsible {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+.collapsible.active, .collapsible:hover {
+    background-color: transparent;
+}
+
+.collapsible:before {
+    content: url('../++plone++bootstrap-icons/plus-square.svg');
+    vertical-align: middle;
+    padding-right: 0.25em;
+}
+.collapsible.active:before {
+    content: url('../++plone++bootstrap-icons/dash-square.svg');
+}
+
+/* collapsible-content */
+.collapsible-content {
+    /*max-height: 0;*/
+    /*overflow: hidden;*/
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 0.5em;
+}
+.collapsible-inner-content {
+    padding: 0.3em;
+    background-color: white;
+    border:1px solid #e7e7e7;
+}
+.collapsible-content.collapsed-on-load {
+    max-height: inherit;
+}

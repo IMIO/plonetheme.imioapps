@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2015 by Imio.be
 #
@@ -26,14 +25,8 @@ from plone.app.layout.viewlets import ViewletBase
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
 
-class EmptyViewlet(ViewletBase):
-    """This will display an empty viewlet, it is used to be able to define CSS
-       arbitrary between existing viewlets."""
-    render = ViewPageTemplateFile('./templates/empty.pt')
-
-
 class WorkflowState(ViewletBase):
-    '''This viewlet displays the workflow state.'''
+    """This viewlet displays the workflow state."""
 
     def state_infos(self):
         return get_state_infos(self.context)
@@ -42,9 +35,11 @@ class WorkflowState(ViewletBase):
 
 
 class HelpViewlet(ViewletBase):
-    index = ViewPageTemplateFile('templates/help.pt')
+    index = ViewPageTemplateFile("templates/help.pt")
 
     def update(self):
-        super(HelpViewlet, self).update()
+        super().update()
         self.help_url = api.portal.get_registry_record(
-            'plonetheme.imioapps.interfaces.IPlonethemeImioappsSettings.help_url', default='')
+            "plonetheme.imioapps.interfaces.IPlonethemeImioappsSettings.help_url",
+            default="",
+        )

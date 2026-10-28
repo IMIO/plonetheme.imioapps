@@ -1,0 +1,52 @@
+/* dmsmailskin (iA.Docs): converted from the Plone 4 dmsmailskin.css.dtml, reviewed against the Plone 6 markup */
+
+/* no required markers on views */
+.template-view label .required:after,
+#fieldset-versions legend {
+    display: none;
+}
+
+.datagridwidget-table-view {
+    border: 1px solid lightgrey;
+    margin-top: 2px;
+}
+
+.datagridwidget-table-view .header {
+    padding: 2px 2px 2px 5px;
+}
+
+.datagridwidget-cell {
+    padding: 1px 1px 1px 5px;
+    width: 50%;
+}
+
+#plone-contentmenu-add-to-default-page {
+    display: none !important;
+}
+
+.section-incoming-mail #content h1.documentFirstHeading,
+.section-incoming-mail #content > header > h1 {
+    margin-top: 0.5em;
+}
+
+#fieldset-versions > fieldset {
+    background-color: white;
+    border: 0 none;
+    padding: 0.03em 0 0 0.5em;
+}
+
+table.listing th, .stx table th {
+    vertical-align: top;
+}
+
+/* makes viewlet_workflowstate displays correctly on the right of byline */
+.template-view #content #section-byline, .template-item_view #content #section-byline,
+.template-document_view #content #section-byline, .template-dg-templates-listing #content #section-byline,
+.template-folder_tabular_view #content #section-byline, .template-folder_listing #content #section-byline,
+.template-documentviewer #content #section-byline {
+    display: inline-block;
+}
+.viewlet_workflowstate {
+    float: right;
+    display: inline-block;
+}

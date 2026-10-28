@@ -1,37 +1,47 @@
-// function launched when empty viewlet is loaded (before complete document ready)
-function initPlonethemeImioapps() {
-    resizeHeader();
-    highlightTest();
-}
+// plonetheme.imioapps: browser body classes, red header on the test instances and
+// heights of the sticky header for the sticky dashboard table header (see imioapps.css).
+(function () {
+    "use strict";
 
-// as header is fixed, we need to compute emptyviewlet height dynamically
-// in case header is two lines high
-// generate CSS for the faceted table header as sticky behavior needs a fixed "top" value in px
-function resizeHeader() {
-    portal_header_height = $("#portal-header").height();
-    $("#emptyviewlet").height(portal_header_height);
-    var sheet = document.createElement('style');
-    sheet.innerHTML = "table.faceted-table-results th {top: " + (portal_header_height - 1) + "px;}";
-    document.body.appendChild(sheet);
-}
-$(window).resize(resizeHeader);
-
-// when using a imio-test/imio-acceptation instance, highlight header in red
-function highlightTest() {
-    var url = $("link[rel='canonical']").attr('href');
-    if (url.includes('.imio-test.be') || url.includes('.imio-acceptation.be')) {
-        $("div#portal-header")[0].style.background = "#d00";
+    function stickyHeights() {
+        var header = document.getElementById("content-header");
+        var nav = document.getElementById("mainnavigation-wrapper");
+        var headerHeight = header ? header.offsetHeight : 0;
+        var style = document.documentElement.style;
+        style.setProperty("--imioapps-header-height", headerHeight + "px");
+        style.setProperty(
+            "--imioapps-sticky-height",
+            headerHeight + (nav ? nav.offsetHeight : 0) + "px"
+        );
     }
-}
 
-var isChrome = /chrom/.test(navigator.userAgent.toLowerCase());
-var isFirefox = /firefox/.test(navigator.userAgent.toLowerCase());
+    function init() {
+        var ua = navigator.userAgent.toLowerCase();
+        if (/chrom/.test(ua)) {
+            document.body.classList.add("using-chrome");
+        }
+        if (/firefox/.test(ua)) {
+            document.body.classList.add("using-firefox");
+        }
+        var canonical = document.querySelector("link[rel='canonical']");
+        var url = canonical ? canonical.href : "";
+        if (url.includes(".imio-test.be") || url.includes(".imio-acceptation.be")) {
+            document.body.classList.add("imioapps-test-instance");
+        }
+        stickyHeights();
+        // header height changes with the logo loading, the window width...
+        var observer = new ResizeObserver(stickyHeights);
+        ["content-header", "mainnavigation-wrapper"].forEach(function (id) {
+            var element = document.getElementById(id);
+            if (element) {
+                observer.observe(element);
+            }
+        });
+    }
 
-$(document).ready(function () {
-    if (isChrome) {
-        document.body.classList.add('using-chrome');
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+    } else {
+        init();
     }
-    if (isFirefox) {
-        document.body.classList.add('using-firefox');
-    }
-});
+})();
