@@ -5,7 +5,10 @@ Changelog
 2.67 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Use same icon as `download-annexes-batch-action` for the
+  `download-elements-annexes-batch-action` (download annexes of selected elements
+  as a Zip file from a dashboard).
+  [gbastien]
 
 
 2.66 (2026-08-24)
