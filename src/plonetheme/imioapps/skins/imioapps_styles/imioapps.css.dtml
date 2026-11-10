@@ -1140,7 +1140,8 @@ input::-moz-focus-outer {
 input#delete-batch-action-but {
     background-image: url('&dtml-portal_url;/delete_icon.png');
 }
-input#download-annexes-batch-action-but {
+input#download-annexes-batch-action-but,
+input#download-elements-annexes-batch-action-but {
     background-image: url('&dtml-portal_url;/download_icon.png');
 }
 
@@ -1487,6 +1488,44 @@ img {
 }
 #content div.ArchetypesMultiSelectionValue {
     line-height: 1.25em;
+}
+/* skin imio.annex orderable checkbox widget (orderable_checkbox_widget) */
+div.orderable_checkbox_widget div.checkbox_widget_select_all {
+   background-color: #EEEEEE;
+   margin-left: 0;
+   padding: 0.25em;
+   color: #444444;
+   margin-top: 0.25em;
+}
+div.orderable_checkbox_widget div.orderable-checkbox-description {
+    margin-left: 3em;
+}
+div.orderable_checkbox_widget input.checkbox-widget {
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+}
+/* with draggable activate */
+div.orderable_checkbox_widget span.draggable+input.checkbox-widget {
+    margin-left: 2em;
+}
+/* options are displayed as block so the odd/even background takes the whole width,
+   make contained draggable span take 100% height, necessary when having a descr */
+div.orderable_checkbox_widget span.option {
+    display: block;
+    position: relative;
+}
+div.orderable_checkbox_widget span.option.odd {
+    background-color: &dtml-oddRowBackgroundColor;;
+}
+div.orderable_checkbox_widget span.option.even {
+    background-color: &dtml-evenRowBackgroundColor;;
+}
+div.orderable_checkbox_widget span.option label {
+    display: inline;
+}
+div.orderable_checkbox_widget span.draggable {
+    position: absolute;
+    height: 100%;
 }
 #content label.horizontal,
 #content label.formQuestion {
