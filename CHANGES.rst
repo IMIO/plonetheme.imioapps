@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.67 (unreleased)
+2.67 (2026-11-16)
 -----------------
 
 - Use same icon as `download-annexes-batch-action` for the
