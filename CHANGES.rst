@@ -14,7 +14,6 @@ Changelog
   the options.
   [gbastien]
 
-
 2.66 (2026-08-24)
 -----------------
 
