@@ -5,7 +5,7 @@ Changelog
 2.68 (unreleased)
 -----------------
 
-- Do not add the `backTo` icon to the `backTo_validated_from_waiting_advices`
+- `plonemeetingskin`: do not add the `backTo` icon to the `backTo_validated_from_waiting_advices`
   WF action button as it is actually validating the item.
   [gbastien]
 
