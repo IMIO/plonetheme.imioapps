@@ -5,7 +5,9 @@ Changelog
 2.68 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Do not add the `backTo` icon to the `backTo_validated_from_waiting_advices`
+  WF action button as it is actually validating the item.
+  [gbastien]
 
 
 2.67 (2026-11-16)

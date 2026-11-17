@@ -155,8 +155,9 @@ input[class*="apButtonAction_clone_to_other_mc_"] {
     background-image: url('&dtml-portal_url;/++resource++imio.pm.wsclient.images/send_to_plonemeeting.png');
 }
 
-/* add a icon to every wf actions corresponding to a 'backTo' */
-input[class*="apButtonWF_backTo"] {
+/* add a icon to every wf actions corresponding to a 'backTo'
+   except 'backTo_validated_from_waiting_advices' that is actually validating the item */
+input[class*="apButtonWF_backTo"]:not(.apButtonWF_backTo_validated_from_waiting_advices) {
     background-position: 3px 3px;
     padding-left: 20px;
     background-image: url('&dtml-portal_url;/backTo.png');
