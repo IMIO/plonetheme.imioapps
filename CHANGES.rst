@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.68 (unreleased)
+2.68 (2026-11-17)
 -----------------
 
 - `plonemeetingskin`: do not add the `backTo` icon to the `backTo_validated_from_waiting_advices`
