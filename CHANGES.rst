@@ -10,6 +10,8 @@ Changelog
   logo/favicon in the registry, no more upgrade steps, `collective.fontawesome` dependency removed,
   based on the work started by @laulaz on `python3`.
   [laulaz, chris-adam]
+- Dropped support for Plone versions below 6.2.
+  [chris-adam]
 
 
 2.66 (2026-08-24)
