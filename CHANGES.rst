@@ -5,7 +5,9 @@ Changelog
 2.69 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Highlight with a light yellow background the label (`label.horizontal`)
+  of a field targeted by an anchor (`#form-widgets-x` or `#formfield-form-widgets-x`).
+  [gbastien]
 
 
 2.68 (2026-11-17)

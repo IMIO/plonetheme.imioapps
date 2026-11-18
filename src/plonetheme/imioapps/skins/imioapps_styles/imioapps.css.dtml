@@ -1531,6 +1531,15 @@ div.orderable_checkbox_widget span.draggable {
 #content label.formQuestion {
     font-weight: bold;
 }
+/* highlight the label of a field targeted by an anchor, the anchor may target
+   the field wrapper (#formfield-form-widgets-x) or the widget (#form-widgets-x),
+   separate rules so a browser not supporting :has still applies the first one */
+div.field:target > label.horizontal {
+    background-color: #ffb;
+}
+div.field:has(:target) > label.horizontal {
+    background-color: #ffb;
+}
 
 /* display the scayt popup correctly */
 #scayt_banner li {
