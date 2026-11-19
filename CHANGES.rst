@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.69 (unreleased)
+2.69 (2026-11-19)
 -----------------
 
 - Highlight with a light yellow background the label (`label.horizontal`)
