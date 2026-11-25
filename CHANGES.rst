@@ -5,7 +5,9 @@ Changelog
 2.70 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Renamed `concatenate-annexes-batch-action` button icon style to
+  `export-pdf-batch-action` as the batch action was renamed in `imio.annex`.
+  [gbastien]
 
 
 2.69 (2026-11-19)

@@ -1206,7 +1206,7 @@ input#download-elements-annexes-batch-action-but {
     background-image: url('&dtml-portal_url;/++resource++collective.eeafaceted.z3ctable/refresh.gif');
 }
 
-div#batch-actions input#concatenate-annexes-batch-action-but.batch-action-icon-but {
+div#batch-actions input#export-pdf-batch-action-but.batch-action-icon-but {
     background-image: url('&dtml-portal_url;/++resource++collective.documentgenerator/pdf.svg');
     background-size: 16px;
 }
