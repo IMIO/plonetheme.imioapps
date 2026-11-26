@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.70 (unreleased)
+2.70 (2026-11-26)
 -----------------
 
 - Renamed `concatenate-annexes-batch-action` button icon style to
