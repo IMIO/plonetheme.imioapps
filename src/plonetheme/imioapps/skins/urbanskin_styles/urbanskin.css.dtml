@@ -134,8 +134,10 @@ table.faceted-table-results th {
 .icons-on .contenttype-codt_urbancertificatetwo {background: no-repeat transparent url(CODT_UrbanCertificateTwo.png);}
 .icons-on .contenttype-codt_notaryletter {background: no-repeat transparent url(CODT_NotaryLetter.png);}
 .icons-on .contenttype-article127 {background: no-repeat transparent url(Article127.png);}
+.icons-on .contenttype-article65 {background: no-repeat transparent url(Article65.png);}
 .icons-on .contenttype-declaration {background: no-repeat transparent url(Declaration.png);}
 .icons-on .contenttype-miscdemand {background: no-repeat transparent url(MiscDemand.png);}
+.icons-on .contenttype-miscdemandenvironment {background: no-repeat transparent url(MiscDemandEnvironment.png);}
 .icons-on .contenttype-preliminarynotice {background: no-repeat transparent url(PreliminaryNotice.png);}
 .icons-on .contenttype-patrimonycertificate {background: no-repeat transparent url(PatrimonyCertificate.png);}
 .icons-on .contenttype-division {background: no-repeat transparent url(Division.png);}

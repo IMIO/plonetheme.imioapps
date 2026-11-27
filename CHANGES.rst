@@ -5,7 +5,8 @@ Changelog
 2.71 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- URB-3780: Add icons for Article 65 and Misc Demand Environment
+  [daggelpop]
 
 
 2.70 (2026-11-26)
